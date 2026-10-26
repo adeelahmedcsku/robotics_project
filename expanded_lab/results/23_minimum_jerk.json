@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "duration": 0.25,
+      "excursion": 0.4
+    },
+    "metrics": {
+      "peak_speed_rad_s": 3.0,
+      "peak_acceleration_rad_s2": 36.950347008000016,
+      "peak_jerk_rad_s3": 1536.0,
+      "final_position_rad": 0.4,
+      "speed_limit_margin_rad_s": -2.5
+    },
+    "derivation": [
+      "Move through delta=0.4 rad over duration T=0.25 s.",
+      "Evaluate the polynomial and its first three derivatives at 1001 normalized positions.",
+      "Peak speed is 3.000000 rad/s.",
+      "Peak acceleration is 36.950347 rad/s^2; peak jerk is 1536.000000 rad/s^3.",
+      "Against an illustrative 0.5 rad/s speed envelope, margin is -2.500000 rad/s."
+    ],
+    "notes": [
+      "The speed envelope is a teaching assumption and must not be substituted for a released actuator limit.",
+      "Zero endpoint velocity and acceleration do not ensure the controller can supply the required intermediate torque."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "duration": 0.5,
+      "excursion": 0.4
+    },
+    "metrics": {
+      "peak_speed_rad_s": 1.5,
+      "peak_acceleration_rad_s2": 9.237586752000004,
+      "peak_jerk_rad_s3": 192.0,
+      "final_position_rad": 0.4,
+      "speed_limit_margin_rad_s": -1.0
+    },
+    "derivation": [
+      "Move through delta=0.4 rad over duration T=0.5 s.",
+      "Evaluate the polynomial and its first three derivatives at 1001 normalized positions.",
+      "Peak speed is 1.500000 rad/s.",
+      "Peak acceleration is 9.237587 rad/s^2; peak jerk is 192.000000 rad/s^3.",
+      "Against an illustrative 0.5 rad/s speed envelope, margin is -1.000000 rad/s."
+    ],
+    "notes": [
+      "The speed envelope is a teaching assumption and must not be substituted for a released actuator limit.",
+      "Zero endpoint velocity and acceleration do not ensure the controller can supply the required intermediate torque."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "duration": 1.0,
+      "excursion": 0.4
+    },
+    "metrics": {
+      "peak_speed_rad_s": 0.75,
+      "peak_acceleration_rad_s2": 2.309396688000001,
+      "peak_jerk_rad_s3": 24.0,
+      "final_position_rad": 0.4,
+      "speed_limit_margin_rad_s": -0.25
+    },
+    "derivation": [
+      "Move through delta=0.4 rad over duration T=1 s.",
+      "Evaluate the polynomial and its first three derivatives at 1001 normalized positions.",
+      "Peak speed is 0.750000 rad/s.",
+      "Peak acceleration is 2.309397 rad/s^2; peak jerk is 24.000000 rad/s^3.",
+      "Against an illustrative 0.5 rad/s speed envelope, margin is -0.250000 rad/s."
+    ],
+    "notes": [
+      "The speed envelope is a teaching assumption and must not be substituted for a released actuator limit.",
+      "Zero endpoint velocity and acceleration do not ensure the controller can supply the required intermediate torque."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "duration": 2.0,
+      "excursion": 0.4
+    },
+    "metrics": {
+      "peak_speed_rad_s": 0.375,
+      "peak_acceleration_rad_s2": 0.5773491720000002,
+      "peak_jerk_rad_s3": 3.0,
+      "final_position_rad": 0.4,
+      "speed_limit_margin_rad_s": 0.125
+    },
+    "derivation": [
+      "Move through delta=0.4 rad over duration T=2 s.",
+      "Evaluate the polynomial and its first three derivatives at 1001 normalized positions.",
+      "Peak speed is 0.375000 rad/s.",
+      "Peak acceleration is 0.577349 rad/s^2; peak jerk is 3.000000 rad/s^3.",
+      "Against an illustrative 0.5 rad/s speed envelope, margin is 0.125000 rad/s."
+    ],
+    "notes": [
+      "The speed envelope is a teaching assumption and must not be substituted for a released actuator limit.",
+      "Zero endpoint velocity and acceleration do not ensure the controller can supply the required intermediate torque."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "duration": 3.0,
+      "excursion": 0.4
+    },
+    "metrics": {
+      "peak_speed_rad_s": 0.25,
+      "peak_acceleration_rad_s2": 0.25659963200000013,
+      "peak_jerk_rad_s3": 0.8888888888888888,
+      "final_position_rad": 0.4,
+      "speed_limit_margin_rad_s": 0.25
+    },
+    "derivation": [
+      "Move through delta=0.4 rad over duration T=3 s.",
+      "Evaluate the polynomial and its first three derivatives at 1001 normalized positions.",
+      "Peak speed is 0.250000 rad/s.",
+      "Peak acceleration is 0.256600 rad/s^2; peak jerk is 0.888889 rad/s^3.",
+      "Against an illustrative 0.5 rad/s speed envelope, margin is 0.250000 rad/s."
+    ],
+    "notes": [
+      "The speed envelope is a teaching assumption and must not be substituted for a released actuator limit.",
+      "Zero endpoint velocity and acceleration do not ensure the controller can supply the required intermediate torque."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "duration": 5.0,
+      "excursion": 0.4
+    },
+    "metrics": {
+      "peak_speed_rad_s": 0.15,
+      "peak_acceleration_rad_s2": 0.09237586752000004,
+      "peak_jerk_rad_s3": 0.192,
+      "final_position_rad": 0.4,
+      "speed_limit_margin_rad_s": 0.35
+    },
+    "derivation": [
+      "Move through delta=0.4 rad over duration T=5 s.",
+      "Evaluate the polynomial and its first three derivatives at 1001 normalized positions.",
+      "Peak speed is 0.150000 rad/s.",
+      "Peak acceleration is 0.092376 rad/s^2; peak jerk is 0.192000 rad/s^3.",
+      "Against an illustrative 0.5 rad/s speed envelope, margin is 0.350000 rad/s."
+    ],
+    "notes": [
+      "The speed envelope is a teaching assumption and must not be substituted for a released actuator limit.",
+      "Zero endpoint velocity and acceleration do not ensure the controller can supply the required intermediate torque."
+    ]
+  }
+]

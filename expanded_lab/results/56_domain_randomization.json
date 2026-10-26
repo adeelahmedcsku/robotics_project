@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "range_fraction": 0.01
+    },
+    "metrics": {
+      "mass_std_kg": 0.016233537476339703,
+      "consistent_inertia_std_kg_m2": 0.0010940004367893602,
+      "mass_inertia_correlation": 0.8919604966014326,
+      "independent_implied_length_rmse_m": 0.0028699259656846062,
+      "maximum_consistent_inertia_kg_m2": 0.06242462472746226
+    },
+    "derivation": [
+      "Sample density and length scales within +/-1 percent.",
+      "Derive mass and inertia from the same physical dimensions rather than unrelated ranges.",
+      "Mass standard deviation is 0.016234 kg and inertia standard deviation is 0.001094 kg*m^2.",
+      "Mass/inertia sample correlation is 0.891960.",
+      "Independent inertia sampling implies a rod-length RMSE of 0.002870 m relative to the actual sampled length."
+    ],
+    "notes": [
+      "The chosen manufacturing model is still simplified; real uncertainty may arise from payload, assembly and calibration rather than density changes.",
+      "Randomization ranges need identification evidence and held-out evaluation, not just an intuition that more variation is safer."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "range_fraction": 0.025
+    },
+    "metrics": {
+      "mass_std_kg": 0.04058686982102578,
+      "consistent_inertia_std_kg_m2": 0.0027359255806559298,
+      "mass_inertia_correlation": 0.8919841467849404,
+      "independent_implied_length_rmse_m": 0.007175358943690546,
+      "maximum_consistent_inertia_kg_m2": 0.06619842356966547
+    },
+    "derivation": [
+      "Sample density and length scales within +/-2.5 percent.",
+      "Derive mass and inertia from the same physical dimensions rather than unrelated ranges.",
+      "Mass standard deviation is 0.040587 kg and inertia standard deviation is 0.002736 kg*m^2.",
+      "Mass/inertia sample correlation is 0.891984.",
+      "Independent inertia sampling implies a rod-length RMSE of 0.007175 m relative to the actual sampled length."
+    ],
+    "notes": [
+      "The chosen manufacturing model is still simplified; real uncertainty may arise from payload, assembly and calibration rather than density changes.",
+      "Randomization ranges need identification evidence and held-out evaluation, not just an intuition that more variation is safer."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "range_fraction": 0.05
+    },
+    "metrics": {
+      "mass_std_kg": 0.08119077345757408,
+      "consistent_inertia_std_kg_m2": 0.005477887550494763,
+      "mass_inertia_correlation": 0.8920434767961508,
+      "independent_implied_length_rmse_m": 0.014356035020062476,
+      "maximum_consistent_inertia_kg_m2": 0.07286513485204386
+    },
+    "derivation": [
+      "Sample density and length scales within +/-5 percent.",
+      "Derive mass and inertia from the same physical dimensions rather than unrelated ranges.",
+      "Mass standard deviation is 0.081191 kg and inertia standard deviation is 0.005478 kg*m^2.",
+      "Mass/inertia sample correlation is 0.892043.",
+      "Independent inertia sampling implies a rod-length RMSE of 0.014356 m relative to the actual sampled length."
+    ],
+    "notes": [
+      "The chosen manufacturing model is still simplified; real uncertainty may arise from payload, assembly and calibration rather than density changes.",
+      "Randomization ranges need identification evidence and held-out evaluation, not just an intuition that more variation is safer."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "range_fraction": 0.1
+    },
+    "metrics": {
+      "mass_std_kg": 0.1625017362022807,
+      "consistent_inertia_std_kg_m2": 0.01100210857369561,
+      "mass_inertia_correlation": 0.8922342519277017,
+      "independent_implied_length_rmse_m": 0.028759878963266327,
+      "maximum_consistent_inertia_kg_m2": 0.0876960218282525
+    },
+    "derivation": [
+      "Sample density and length scales within +/-10 percent.",
+      "Derive mass and inertia from the same physical dimensions rather than unrelated ranges.",
+      "Mass standard deviation is 0.162502 kg and inertia standard deviation is 0.011002 kg*m^2.",
+      "Mass/inertia sample correlation is 0.892234.",
+      "Independent inertia sampling implies a rod-length RMSE of 0.028760 m relative to the actual sampled length."
+    ],
+    "notes": [
+      "The chosen manufacturing model is still simplified; real uncertainty may arise from payload, assembly and calibration rather than density changes.",
+      "Randomization ranges need identification evidence and held-out evaluation, not just an intuition that more variation is safer."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "range_fraction": 0.2
+    },
+    "metrics": {
+      "mass_std_kg": 0.3258993539160103,
+      "consistent_inertia_std_kg_m2": 0.022367747769534336,
+      "mass_inertia_correlation": 0.8928722249380877,
+      "independent_implied_length_rmse_m": 0.05793276877276512,
+      "maximum_consistent_inertia_kg_m2": 0.1240267743896928
+    },
+    "derivation": [
+      "Sample density and length scales within +/-20 percent.",
+      "Derive mass and inertia from the same physical dimensions rather than unrelated ranges.",
+      "Mass standard deviation is 0.325899 kg and inertia standard deviation is 0.022368 kg*m^2.",
+      "Mass/inertia sample correlation is 0.892872.",
+      "Independent inertia sampling implies a rod-length RMSE of 0.057933 m relative to the actual sampled length."
+    ],
+    "notes": [
+      "The chosen manufacturing model is still simplified; real uncertainty may arise from payload, assembly and calibration rather than density changes.",
+      "Randomization ranges need identification evidence and held-out evaluation, not just an intuition that more variation is safer."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "range_fraction": 0.3
+    },
+    "metrics": {
+      "mass_std_kg": 0.4910169826114976,
+      "consistent_inertia_std_kg_m2": 0.03445634619216099,
+      "mass_inertia_correlation": 0.8937634758322959,
+      "independent_implied_length_rmse_m": 0.08801483486895129,
+      "maximum_consistent_inertia_kg_m2": 0.17062402230029391
+    },
+    "derivation": [
+      "Sample density and length scales within +/-30 percent.",
+      "Derive mass and inertia from the same physical dimensions rather than unrelated ranges.",
+      "Mass standard deviation is 0.491017 kg and inertia standard deviation is 0.034456 kg*m^2.",
+      "Mass/inertia sample correlation is 0.893763.",
+      "Independent inertia sampling implies a rod-length RMSE of 0.088015 m relative to the actual sampled length."
+    ],
+    "notes": [
+      "The chosen manufacturing model is still simplified; real uncertainty may arise from payload, assembly and calibration rather than density changes.",
+      "Randomization ranges need identification evidence and held-out evaluation, not just an intuition that more variation is safer."
+    ]
+  }
+]

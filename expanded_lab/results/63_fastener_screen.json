@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "radius": 0.015,
+      "axial_force": 400.0,
+      "moment": 5.0
+    },
+    "metrics": {
+      "maximum_bolt_load_N": 266.66666666666663,
+      "minimum_bolt_load_N": -66.66666666666666,
+      "nominal_max_tensile_stress_MPa": 33.33333333333333,
+      "bolt_circle_radius_m": 0.015,
+      "recovered_total_force_N": 400.0
+    },
+    "derivation": [
+      "Four ideal bolts lie on radius 0.015 m with y coordinates [0.0, 0.015, 1.8369701987210296e-18, -0.015] m.",
+      "Apply direct axial force 400 N and bending moment 5 Nm.",
+      "The simplified bolt loads are [100.0, 266.66666666666663, 100.00000000000001, -66.66666666666666] N.",
+      "Maximum load 266.666667 N divided by assumed area 8 mm^2 gives 33.333333 MPa.",
+      "Summed axial force recovers 400.000000 N as a consistency check."
+    ],
+    "notes": [
+      "Negative calculated load indicates the simple tension-only interpretation needs joint contact/separation analysis.",
+      "No allowable stress, bolt grade, preload or tightening torque is specified; this is not a structural approval."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "radius": 0.02,
+      "axial_force": 400.0,
+      "moment": 5.0
+    },
+    "metrics": {
+      "maximum_bolt_load_N": 225.0,
+      "minimum_bolt_load_N": -25.0,
+      "nominal_max_tensile_stress_MPa": 28.125,
+      "bolt_circle_radius_m": 0.02,
+      "recovered_total_force_N": 400.0
+    },
+    "derivation": [
+      "Four ideal bolts lie on radius 0.02 m with y coordinates [0.0, 0.02, 2.4492935982947064e-18, -0.02] m.",
+      "Apply direct axial force 400 N and bending moment 5 Nm.",
+      "The simplified bolt loads are [100.0, 225.0, 100.00000000000001, -25.0] N.",
+      "Maximum load 225.000000 N divided by assumed area 8 mm^2 gives 28.125000 MPa.",
+      "Summed axial force recovers 400.000000 N as a consistency check."
+    ],
+    "notes": [
+      "Negative calculated load indicates the simple tension-only interpretation needs joint contact/separation analysis.",
+      "No allowable stress, bolt grade, preload or tightening torque is specified; this is not a structural approval."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "radius": 0.025,
+      "axial_force": 400.0,
+      "moment": 5.0
+    },
+    "metrics": {
+      "maximum_bolt_load_N": 200.0,
+      "minimum_bolt_load_N": 1.4210854715202004e-14,
+      "nominal_max_tensile_stress_MPa": 25.0,
+      "bolt_circle_radius_m": 0.025,
+      "recovered_total_force_N": 400.0
+    },
+    "derivation": [
+      "Four ideal bolts lie on radius 0.025 m with y coordinates [0.0, 0.025, 3.061616997868383e-18, -0.025] m.",
+      "Apply direct axial force 400 N and bending moment 5 Nm.",
+      "The simplified bolt loads are [100.0, 200.0, 100.00000000000001, 1.4210854715202004e-14] N.",
+      "Maximum load 200.000000 N divided by assumed area 8 mm^2 gives 25.000000 MPa.",
+      "Summed axial force recovers 400.000000 N as a consistency check."
+    ],
+    "notes": [
+      "Negative calculated load indicates the simple tension-only interpretation needs joint contact/separation analysis.",
+      "No allowable stress, bolt grade, preload or tightening torque is specified; this is not a structural approval."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "radius": 0.03,
+      "axial_force": 400.0,
+      "moment": 5.0
+    },
+    "metrics": {
+      "maximum_bolt_load_N": 183.33333333333331,
+      "minimum_bolt_load_N": 16.66666666666667,
+      "nominal_max_tensile_stress_MPa": 22.916666666666664,
+      "bolt_circle_radius_m": 0.03,
+      "recovered_total_force_N": 400.0
+    },
+    "derivation": [
+      "Four ideal bolts lie on radius 0.03 m with y coordinates [0.0, 0.03, 3.673940397442059e-18, -0.03] m.",
+      "Apply direct axial force 400 N and bending moment 5 Nm.",
+      "The simplified bolt loads are [100.0, 183.33333333333331, 100.00000000000001, 16.66666666666667] N.",
+      "Maximum load 183.333333 N divided by assumed area 8 mm^2 gives 22.916667 MPa.",
+      "Summed axial force recovers 400.000000 N as a consistency check."
+    ],
+    "notes": [
+      "Negative calculated load indicates the simple tension-only interpretation needs joint contact/separation analysis.",
+      "No allowable stress, bolt grade, preload or tightening torque is specified; this is not a structural approval."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "radius": 0.04,
+      "axial_force": 400.0,
+      "moment": 5.0
+    },
+    "metrics": {
+      "maximum_bolt_load_N": 162.5,
+      "minimum_bolt_load_N": 37.5,
+      "nominal_max_tensile_stress_MPa": 20.3125,
+      "bolt_circle_radius_m": 0.04,
+      "recovered_total_force_N": 400.0
+    },
+    "derivation": [
+      "Four ideal bolts lie on radius 0.04 m with y coordinates [0.0, 0.04, 4.898587196589413e-18, -0.04] m.",
+      "Apply direct axial force 400 N and bending moment 5 Nm.",
+      "The simplified bolt loads are [100.0, 162.5, 100.00000000000001, 37.5] N.",
+      "Maximum load 162.500000 N divided by assumed area 8 mm^2 gives 20.312500 MPa.",
+      "Summed axial force recovers 400.000000 N as a consistency check."
+    ],
+    "notes": [
+      "Negative calculated load indicates the simple tension-only interpretation needs joint contact/separation analysis.",
+      "No allowable stress, bolt grade, preload or tightening torque is specified; this is not a structural approval."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "radius": 0.05,
+      "axial_force": 400.0,
+      "moment": 5.0
+    },
+    "metrics": {
+      "maximum_bolt_load_N": 150.0,
+      "minimum_bolt_load_N": 50.00000000000001,
+      "nominal_max_tensile_stress_MPa": 18.75,
+      "bolt_circle_radius_m": 0.05,
+      "recovered_total_force_N": 400.0
+    },
+    "derivation": [
+      "Four ideal bolts lie on radius 0.05 m with y coordinates [0.0, 0.05, 6.123233995736766e-18, -0.05] m.",
+      "Apply direct axial force 400 N and bending moment 5 Nm.",
+      "The simplified bolt loads are [100.0, 150.0, 100.0, 50.00000000000001] N.",
+      "Maximum load 150.000000 N divided by assumed area 8 mm^2 gives 18.750000 MPa.",
+      "Summed axial force recovers 400.000000 N as a consistency check."
+    ],
+    "notes": [
+      "Negative calculated load indicates the simple tension-only interpretation needs joint contact/separation analysis.",
+      "No allowable stress, bolt grade, preload or tightening torque is specified; this is not a structural approval."
+    ]
+  }
+]

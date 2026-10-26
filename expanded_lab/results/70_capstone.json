@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "dropout_start": 0.5
+    },
+    "metrics": {
+      "final_position_rad": 0.039503967967335255,
+      "peak_applied_torque_Nm": 0.02219542207807608,
+      "tracking_rmse_rad": 0.036683600863758936,
+      "fault_latched": 1.0,
+      "fault_time_s": 0.6
+    },
+    "derivation": [
+      "The synthetic object observation enables only a predefined 0.1 rad peak supported-style gesture.",
+      "Command refresh stops at t=0.5 s; timeout is 0.1 s.",
+      "A stale command latches FAULT and removes torque authority in this unloaded numerical plant.",
+      "Final state is FAULT; fault time is 0.6.",
+      "Peak torque is 0.022195 Nm; final position is 0.039504 rad and RMSE is 0.036684 rad."
+    ],
+    "notes": [
+      "Zero torque after a fault is suitable only for this explicitly unloaded damped synthetic plant; a loaded physical robot needs a reviewed support/stop strategy.",
+      "No automatic healthy-message transition leaves the fault state, and no physical bus is opened."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "dropout_start": 1.0
+    },
+    "metrics": {
+      "final_position_rad": 0.09063787444104725,
+      "peak_applied_torque_Nm": 0.022676504959066673,
+      "tracking_rmse_rad": 0.056630148374552346,
+      "fault_latched": 1.0,
+      "fault_time_s": 1.098
+    },
+    "derivation": [
+      "The synthetic object observation enables only a predefined 0.1 rad peak supported-style gesture.",
+      "Command refresh stops at t=1 s; timeout is 0.1 s.",
+      "A stale command latches FAULT and removes torque authority in this unloaded numerical plant.",
+      "Final state is FAULT; fault time is 1.098.",
+      "Peak torque is 0.022677 Nm; final position is 0.090638 rad and RMSE is 0.056630 rad."
+    ],
+    "notes": [
+      "Zero torque after a fault is suitable only for this explicitly unloaded damped synthetic plant; a loaded physical robot needs a reviewed support/stop strategy.",
+      "No automatic healthy-message transition leaves the fault state, and no physical bus is opened."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "dropout_start": 1.5
+    },
+    "metrics": {
+      "final_position_rad": 0.10140148071620136,
+      "peak_applied_torque_Nm": 0.022676504959066673,
+      "tracking_rmse_rad": 0.06385487546660233,
+      "fault_latched": 1.0,
+      "fault_time_s": 1.598
+    },
+    "derivation": [
+      "The synthetic object observation enables only a predefined 0.1 rad peak supported-style gesture.",
+      "Command refresh stops at t=1.5 s; timeout is 0.1 s.",
+      "A stale command latches FAULT and removes torque authority in this unloaded numerical plant.",
+      "Final state is FAULT; fault time is 1.598.",
+      "Peak torque is 0.022677 Nm; final position is 0.101401 rad and RMSE is 0.063855 rad."
+    ],
+    "notes": [
+      "Zero torque after a fault is suitable only for this explicitly unloaded damped synthetic plant; a loaded physical robot needs a reviewed support/stop strategy.",
+      "No automatic healthy-message transition leaves the fault state, and no physical bus is opened."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "dropout_start": 2.0
+    },
+    "metrics": {
+      "final_position_rad": 0.060551326510895065,
+      "peak_applied_torque_Nm": 0.022676504959066673,
+      "tracking_rmse_rad": 0.03767867892162441,
+      "fault_latched": 1.0,
+      "fault_time_s": 2.1
+    },
+    "derivation": [
+      "The synthetic object observation enables only a predefined 0.1 rad peak supported-style gesture.",
+      "Command refresh stops at t=2 s; timeout is 0.1 s.",
+      "A stale command latches FAULT and removes torque authority in this unloaded numerical plant.",
+      "Final state is FAULT; fault time is 2.1.",
+      "Peak torque is 0.022677 Nm; final position is 0.060551 rad and RMSE is 0.037679 rad."
+    ],
+    "notes": [
+      "Zero torque after a fault is suitable only for this explicitly unloaded damped synthetic plant; a loaded physical robot needs a reviewed support/stop strategy.",
+      "No automatic healthy-message transition leaves the fault state, and no physical bus is opened."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "dropout_start": 3.0
+    },
+    "metrics": {
+      "final_position_rad": -0.0020517820645835428,
+      "peak_applied_torque_Nm": 0.022710766007992697,
+      "tracking_rmse_rad": 0.010747210735716934,
+      "fault_latched": 1.0,
+      "fault_time_s": 3.1
+    },
+    "derivation": [
+      "The synthetic object observation enables only a predefined 0.1 rad peak supported-style gesture.",
+      "Command refresh stops at t=3 s; timeout is 0.1 s.",
+      "A stale command latches FAULT and removes torque authority in this unloaded numerical plant.",
+      "Final state is FAULT; fault time is 3.1.",
+      "Peak torque is 0.022711 Nm; final position is -0.002052 rad and RMSE is 0.010747 rad."
+    ],
+    "notes": [
+      "Zero torque after a fault is suitable only for this explicitly unloaded damped synthetic plant; a loaded physical robot needs a reviewed support/stop strategy.",
+      "No automatic healthy-message transition leaves the fault state, and no physical bus is opened."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "dropout_start": 5.0
+    },
+    "metrics": {
+      "final_position_rad": 2.053901509655302e-06,
+      "peak_applied_torque_Nm": 0.022710766007992697,
+      "tracking_rmse_rad": 0.01072770863523413,
+      "fault_latched": 0.0,
+      "fault_time_s": -1.0
+    },
+    "derivation": [
+      "The synthetic object observation enables only a predefined 0.1 rad peak supported-style gesture.",
+      "Command refresh stops at t=5 s; timeout is 0.1 s.",
+      "A stale command latches FAULT and removes torque authority in this unloaded numerical plant.",
+      "Final state is EXECUTE; fault time is None.",
+      "Peak torque is 0.022711 Nm; final position is 0.000002 rad and RMSE is 0.010728 rad."
+    ],
+    "notes": [
+      "Zero torque after a fault is suitable only for this explicitly unloaded damped synthetic plant; a loaded physical robot needs a reviewed support/stop strategy.",
+      "No automatic healthy-message transition leaves the fault state, and no physical bus is opened."
+    ]
+  }
+]

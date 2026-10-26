@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "slip_speed": 0.0
+    },
+    "metrics": {
+      "constrained_rmse_m_s": 0.0030865228090705063,
+      "unconstrained_rmse_m_s": 0.06902091064477137,
+      "slip_interval_bias_m_s": 0.003090598129738548,
+      "final_constrained_error_m_s": 0.0050971485593622684
+    },
+    "derivation": [
+      "The synthetic foot/body velocity is 0 m/s during a two-second slip interval.",
+      "Acceleration measurement includes +0.02 m/s^2 bias and 0.01 m/s^2 noise.",
+      "Every 0.2 s, impose a strong zero-velocity pseudo-measurement regardless of actual slip.",
+      "Constrained RMSE is 0.003087 m/s; unconstrained RMSE is 0.069021 m/s.",
+      "Mean bias during slip is 0.003091 m/s."
+    ],
+    "notes": [
+      "Zero-velocity constraints can reduce drift in valid stationary intervals and create systematic error during slip.",
+      "Use contact confidence, slip indicators and innovation checks rather than permanently enforcing the constraint."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "slip_speed": 0.01
+    },
+    "metrics": {
+      "constrained_rmse_m_s": 0.0045983525185098835,
+      "unconstrained_rmse_m_s": 0.06901644840667757,
+      "slip_interval_bias_m_s": -0.006684401895861451,
+      "final_constrained_error_m_s": 0.005097147535362373
+    },
+    "derivation": [
+      "The synthetic foot/body velocity is 0.01 m/s during a two-second slip interval.",
+      "Acceleration measurement includes +0.02 m/s^2 bias and 0.01 m/s^2 noise.",
+      "Every 0.2 s, impose a strong zero-velocity pseudo-measurement regardless of actual slip.",
+      "Constrained RMSE is 0.004598 m/s; unconstrained RMSE is 0.069016 m/s.",
+      "Mean bias during slip is -0.006684 m/s."
+    ],
+    "notes": [
+      "Zero-velocity constraints can reduce drift in valid stationary intervals and create systematic error during slip.",
+      "Use contact confidence, slip indicators and innovation checks rather than permanently enforcing the constraint."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "slip_speed": 0.03
+    },
+    "metrics": {
+      "constrained_rmse_m_s": 0.015412590923307915,
+      "unconstrained_rmse_m_s": 0.06901114576318622,
+      "slip_interval_bias_m_s": -0.02623440194706145,
+      "final_constrained_error_m_s": 0.0050971454873625826
+    },
+    "derivation": [
+      "The synthetic foot/body velocity is 0.03 m/s during a two-second slip interval.",
+      "Acceleration measurement includes +0.02 m/s^2 bias and 0.01 m/s^2 noise.",
+      "Every 0.2 s, impose a strong zero-velocity pseudo-measurement regardless of actual slip.",
+      "Constrained RMSE is 0.015413 m/s; unconstrained RMSE is 0.069011 m/s.",
+      "Mean bias during slip is -0.026234 m/s."
+    ],
+    "notes": [
+      "Zero-velocity constraints can reduce drift in valid stationary intervals and create systematic error during slip.",
+      "Use contact confidence, slip indicators and innovation checks rather than permanently enforcing the constraint."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "slip_speed": 0.05
+    },
+    "metrics": {
+      "constrained_rmse_m_s": 0.026674081588890383,
+      "unconstrained_rmse_m_s": 0.06901067305200369,
+      "slip_interval_bias_m_s": -0.045784401998261455,
+      "final_constrained_error_m_s": 0.005097143439362792
+    },
+    "derivation": [
+      "The synthetic foot/body velocity is 0.05 m/s during a two-second slip interval.",
+      "Acceleration measurement includes +0.02 m/s^2 bias and 0.01 m/s^2 noise.",
+      "Every 0.2 s, impose a strong zero-velocity pseudo-measurement regardless of actual slip.",
+      "Constrained RMSE is 0.026674 m/s; unconstrained RMSE is 0.069011 m/s.",
+      "Mean bias during slip is -0.045784 m/s."
+    ],
+    "notes": [
+      "Zero-velocity constraints can reduce drift in valid stationary intervals and create systematic error during slip.",
+      "Use contact confidence, slip indicators and innovation checks rather than permanently enforcing the constraint."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "slip_speed": 0.1
+    },
+    "metrics": {
+      "constrained_rmse_m_s": 0.054983714522126,
+      "unconstrained_rmse_m_s": 0.06903062038410397,
+      "slip_interval_bias_m_s": -0.09465940212626146,
+      "final_constrained_error_m_s": 0.005097138319363317
+    },
+    "derivation": [
+      "The synthetic foot/body velocity is 0.1 m/s during a two-second slip interval.",
+      "Acceleration measurement includes +0.02 m/s^2 bias and 0.01 m/s^2 noise.",
+      "Every 0.2 s, impose a strong zero-velocity pseudo-measurement regardless of actual slip.",
+      "Constrained RMSE is 0.054984 m/s; unconstrained RMSE is 0.069031 m/s.",
+      "Mean bias during slip is -0.094659 m/s."
+    ],
+    "notes": [
+      "Zero-velocity constraints can reduce drift in valid stationary intervals and create systematic error during slip.",
+      "Use contact confidence, slip indicators and innovation checks rather than permanently enforcing the constraint."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "slip_speed": 0.2
+    },
+    "metrics": {
+      "constrained_rmse_m_s": 0.1116950312958029,
+      "unconstrained_rmse_m_s": 0.06916092582999198,
+      "slip_interval_bias_m_s": -0.19240940238226145,
+      "final_constrained_error_m_s": 0.005097128079364366
+    },
+    "derivation": [
+      "The synthetic foot/body velocity is 0.2 m/s during a two-second slip interval.",
+      "Acceleration measurement includes +0.02 m/s^2 bias and 0.01 m/s^2 noise.",
+      "Every 0.2 s, impose a strong zero-velocity pseudo-measurement regardless of actual slip.",
+      "Constrained RMSE is 0.111695 m/s; unconstrained RMSE is 0.069161 m/s.",
+      "Mean bias during slip is -0.192409 m/s."
+    ],
+    "notes": [
+      "Zero-velocity constraints can reduce drift in valid stationary intervals and create systematic error during slip.",
+      "Use contact confidence, slip indicators and innovation checks rather than permanently enforcing the constraint."
+    ]
+  }
+]

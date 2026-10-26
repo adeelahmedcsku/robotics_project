@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "calibration_seconds": 0.1
+    },
+    "metrics": {
+      "estimated_bias_rad_s": 0.01487279128110094,
+      "bias_error_rad_s": -0.00012720871889906026,
+      "raw_final_angle_error_rad": 0.1461563291460879,
+      "corrected_final_angle_error_rad": -0.0025715836649227164,
+      "corrected_angle_rmse_rad": 0.0009074436764355092
+    },
+    "derivation": [
+      "Collect 10 stationary samples at 100 Hz.",
+      "True injected bias is 0.015 rad/s; estimated bias is 0.01487279 rad/s.",
+      "Integrate a 0.2 rad/s motion for 10 s.",
+      "Raw final attitude error is 0.14615633 rad.",
+      "After bias correction, final error is -0.00257158 rad."
+    ],
+    "notes": [
+      "This calibration assumes zero true angular velocity and constant bias during both intervals.",
+      "Longer averaging reduces random estimation error but cannot remove a temperature-dependent bias change."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "calibration_seconds": 0.25
+    },
+    "metrics": {
+      "estimated_bias_rad_s": 0.013486091942265204,
+      "bias_error_rad_s": -0.0015139080577347957,
+      "raw_final_angle_error_rad": 0.146393233239561,
+      "corrected_final_angle_error_rad": 0.01153231381690678,
+      "corrected_angle_rmse_rad": 0.008239442128618497
+    },
+    "derivation": [
+      "Collect 25 stationary samples at 100 Hz.",
+      "True injected bias is 0.015 rad/s; estimated bias is 0.01348609 rad/s.",
+      "Integrate a 0.2 rad/s motion for 10 s.",
+      "Raw final attitude error is 0.14639323 rad.",
+      "After bias correction, final error is 0.01153231 rad."
+    ],
+    "notes": [
+      "This calibration assumes zero true angular velocity and constant bias during both intervals.",
+      "Longer averaging reduces random estimation error but cannot remove a temperature-dependent bias change."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "calibration_seconds": 0.5
+    },
+    "metrics": {
+      "estimated_bias_rad_s": 0.014817120849076094,
+      "bias_error_rad_s": -0.0001828791509239057,
+      "raw_final_angle_error_rad": 0.14579471395011345,
+      "corrected_final_angle_error_rad": -0.0023764945406445914,
+      "corrected_angle_rmse_rad": 0.0010368077621928117
+    },
+    "derivation": [
+      "Collect 50 stationary samples at 100 Hz.",
+      "True injected bias is 0.015 rad/s; estimated bias is 0.01481712 rad/s.",
+      "Integrate a 0.2 rad/s motion for 10 s.",
+      "Raw final attitude error is 0.14579471 rad.",
+      "After bias correction, final error is -0.00237649 rad."
+    ],
+    "notes": [
+      "This calibration assumes zero true angular velocity and constant bias during both intervals.",
+      "Longer averaging reduces random estimation error but cannot remove a temperature-dependent bias change."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "calibration_seconds": 1.0
+    },
+    "metrics": {
+      "estimated_bias_rad_s": 0.013539860936086135,
+      "bias_error_rad_s": -0.0014601390639138647,
+      "raw_final_angle_error_rad": 0.1477646950009126,
+      "corrected_final_angle_error_rad": 0.012366085640051816,
+      "corrected_angle_rmse_rad": 0.00850043738735639
+    },
+    "derivation": [
+      "Collect 100 stationary samples at 100 Hz.",
+      "True injected bias is 0.015 rad/s; estimated bias is 0.01353986 rad/s.",
+      "Integrate a 0.2 rad/s motion for 10 s.",
+      "Raw final attitude error is 0.14776470 rad.",
+      "After bias correction, final error is 0.01236609 rad."
+    ],
+    "notes": [
+      "This calibration assumes zero true angular velocity and constant bias during both intervals.",
+      "Longer averaging reduces random estimation error but cannot remove a temperature-dependent bias change."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "calibration_seconds": 2.0
+    },
+    "metrics": {
+      "estimated_bias_rad_s": 0.014465474835787369,
+      "bias_error_rad_s": -0.0005345251642126306,
+      "raw_final_angle_error_rad": 0.14646226483620528,
+      "corrected_final_angle_error_rad": 0.0018075164783322162,
+      "corrected_angle_rmse_rad": 0.0026315749983847384
+    },
+    "derivation": [
+      "Collect 200 stationary samples at 100 Hz.",
+      "True injected bias is 0.015 rad/s; estimated bias is 0.01446547 rad/s.",
+      "Integrate a 0.2 rad/s motion for 10 s.",
+      "Raw final attitude error is 0.14646226 rad.",
+      "After bias correction, final error is 0.00180752 rad."
+    ],
+    "notes": [
+      "This calibration assumes zero true angular velocity and constant bias during both intervals.",
+      "Longer averaging reduces random estimation error but cannot remove a temperature-dependent bias change."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "calibration_seconds": 5.0
+    },
+    "metrics": {
+      "estimated_bias_rad_s": 0.014984626226206983,
+      "bias_error_rad_s": -1.537377379301659e-05,
+      "raw_final_angle_error_rad": 0.14713982946399695,
+      "corrected_final_angle_error_rad": -0.0027064327980721448,
+      "corrected_angle_rmse_rad": 0.0028348961668092426
+    },
+    "derivation": [
+      "Collect 500 stationary samples at 100 Hz.",
+      "True injected bias is 0.015 rad/s; estimated bias is 0.01498463 rad/s.",
+      "Integrate a 0.2 rad/s motion for 10 s.",
+      "Raw final attitude error is 0.14713983 rad.",
+      "After bias correction, final error is -0.00270643 rad."
+    ],
+    "notes": [
+      "This calibration assumes zero true angular velocity and constant bias during both intervals.",
+      "Longer averaging reduces random estimation error but cannot remove a temperature-dependent bias change."
+    ]
+  }
+]

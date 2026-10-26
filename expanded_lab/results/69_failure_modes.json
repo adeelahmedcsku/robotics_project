@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "sensor_fault_detection": 0.0
+    },
+    "metrics": {
+      "observed_detection_fraction": 0.575,
+      "expected_weighted_detection": 0.575,
+      "expected_undetected_fraction": 0.42500000000000004,
+      "undetected_fault_count": 850.0,
+      "sensor_bias_detection_assumption": 0.0
+    },
+    "derivation": [
+      "Inject 2000 synthetic faults with category counts {'stale': 568, 'range': 410, 'sensor_bias': 598, 'power_loss': 424}.",
+      "Assumed category detection probabilities are [0.99, 0.99, 0.0, 0.4].",
+      "Weighted expected detection is 0.575000.",
+      "The seeded campaign observes detection fraction 0.575000.",
+      "Expected residual undetected fraction is 0.425000 under the chosen artificial mixture."
+    ],
+    "notes": [
+      "The category mixture and detection probabilities are invented experiment inputs and cannot establish a physical safety integrity level.",
+      "Detection alone is incomplete: the protective response, common-cause failures and consequences must also be evaluated."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "sensor_fault_detection": 0.25
+    },
+    "metrics": {
+      "observed_detection_fraction": 0.6485,
+      "expected_weighted_detection": 0.6499999999999999,
+      "expected_undetected_fraction": 0.3500000000000001,
+      "undetected_fault_count": 703.0,
+      "sensor_bias_detection_assumption": 0.25
+    },
+    "derivation": [
+      "Inject 2000 synthetic faults with category counts {'stale': 568, 'range': 410, 'sensor_bias': 598, 'power_loss': 424}.",
+      "Assumed category detection probabilities are [0.99, 0.99, 0.25, 0.4].",
+      "Weighted expected detection is 0.650000.",
+      "The seeded campaign observes detection fraction 0.648500.",
+      "Expected residual undetected fraction is 0.350000 under the chosen artificial mixture."
+    ],
+    "notes": [
+      "The category mixture and detection probabilities are invented experiment inputs and cannot establish a physical safety integrity level.",
+      "Detection alone is incomplete: the protective response, common-cause failures and consequences must also be evaluated."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "sensor_fault_detection": 0.5
+    },
+    "metrics": {
+      "observed_detection_fraction": 0.715,
+      "expected_weighted_detection": 0.7250000000000001,
+      "expected_undetected_fraction": 0.2749999999999999,
+      "undetected_fault_count": 570.0,
+      "sensor_bias_detection_assumption": 0.5
+    },
+    "derivation": [
+      "Inject 2000 synthetic faults with category counts {'stale': 568, 'range': 410, 'sensor_bias': 598, 'power_loss': 424}.",
+      "Assumed category detection probabilities are [0.99, 0.99, 0.5, 0.4].",
+      "Weighted expected detection is 0.725000.",
+      "The seeded campaign observes detection fraction 0.715000.",
+      "Expected residual undetected fraction is 0.275000 under the chosen artificial mixture."
+    ],
+    "notes": [
+      "The category mixture and detection probabilities are invented experiment inputs and cannot establish a physical safety integrity level.",
+      "Detection alone is incomplete: the protective response, common-cause failures and consequences must also be evaluated."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "sensor_fault_detection": 0.75
+    },
+    "metrics": {
+      "observed_detection_fraction": 0.7945,
+      "expected_weighted_detection": 0.8,
+      "expected_undetected_fraction": 0.19999999999999996,
+      "undetected_fault_count": 411.0,
+      "sensor_bias_detection_assumption": 0.75
+    },
+    "derivation": [
+      "Inject 2000 synthetic faults with category counts {'stale': 568, 'range': 410, 'sensor_bias': 598, 'power_loss': 424}.",
+      "Assumed category detection probabilities are [0.99, 0.99, 0.75, 0.4].",
+      "Weighted expected detection is 0.800000.",
+      "The seeded campaign observes detection fraction 0.794500.",
+      "Expected residual undetected fraction is 0.200000 under the chosen artificial mixture."
+    ],
+    "notes": [
+      "The category mixture and detection probabilities are invented experiment inputs and cannot establish a physical safety integrity level.",
+      "Detection alone is incomplete: the protective response, common-cause failures and consequences must also be evaluated."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "sensor_fault_detection": 0.9
+    },
+    "metrics": {
+      "observed_detection_fraction": 0.8435,
+      "expected_weighted_detection": 0.845,
+      "expected_undetected_fraction": 0.15500000000000003,
+      "undetected_fault_count": 313.0,
+      "sensor_bias_detection_assumption": 0.9
+    },
+    "derivation": [
+      "Inject 2000 synthetic faults with category counts {'stale': 568, 'range': 410, 'sensor_bias': 598, 'power_loss': 424}.",
+      "Assumed category detection probabilities are [0.99, 0.99, 0.9, 0.4].",
+      "Weighted expected detection is 0.845000.",
+      "The seeded campaign observes detection fraction 0.843500.",
+      "Expected residual undetected fraction is 0.155000 under the chosen artificial mixture."
+    ],
+    "notes": [
+      "The category mixture and detection probabilities are invented experiment inputs and cannot establish a physical safety integrity level.",
+      "Detection alone is incomplete: the protective response, common-cause failures and consequences must also be evaluated."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "sensor_fault_detection": 0.99
+    },
+    "metrics": {
+      "observed_detection_fraction": 0.87,
+      "expected_weighted_detection": 0.8720000000000001,
+      "expected_undetected_fraction": 0.1279999999999999,
+      "undetected_fault_count": 260.0,
+      "sensor_bias_detection_assumption": 0.99
+    },
+    "derivation": [
+      "Inject 2000 synthetic faults with category counts {'stale': 568, 'range': 410, 'sensor_bias': 598, 'power_loss': 424}.",
+      "Assumed category detection probabilities are [0.99, 0.99, 0.99, 0.4].",
+      "Weighted expected detection is 0.872000.",
+      "The seeded campaign observes detection fraction 0.870000.",
+      "Expected residual undetected fraction is 0.128000 under the chosen artificial mixture."
+    ],
+    "notes": [
+      "The category mixture and detection probabilities are invented experiment inputs and cannot establish a physical safety integrity level.",
+      "Detection alone is incomplete: the protective response, common-cause failures and consequences must also be evaluated."
+    ]
+  }
+]

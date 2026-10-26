@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "dropout_seconds": 0.0
+    },
+    "metrics": {
+      "velocity_rmse_m_s": 0.04689865595721712,
+      "dropout_velocity_rmse_m_s": 0.0,
+      "final_velocity_m_s": 0.2072896144269841,
+      "final_position_std_m": 0.002924936615771027,
+      "final_velocity_std_m_s": 0.009352276567051718
+    },
+    "derivation": [
+      "Use a two-state position/velocity model with dt=0.02 s.",
+      "Drop measurements from t=2 s to t=2 s.",
+      "Predict through missing samples without applying fabricated corrections.",
+      "Whole-run speed RMSE is 0.046899 m/s.",
+      "Dropout speed RMSE is 0.000000 m/s; final speed estimate is 0.207290 m/s."
+    ],
+    "notes": [
+      "The true motion contains a small acceleration that is not exactly constant velocity.",
+      "The filter state and covariance are expressed in one dimension; full robot base estimation requires orientation and contact models."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "dropout_seconds": 0.1
+    },
+    "metrics": {
+      "velocity_rmse_m_s": 0.04690583874080257,
+      "dropout_velocity_rmse_m_s": 0.01198000136352964,
+      "final_velocity_m_s": 0.20729009073854263,
+      "final_position_std_m": 0.0029249366261928037,
+      "final_velocity_std_m_s": 0.009352276616805903
+    },
+    "derivation": [
+      "Use a two-state position/velocity model with dt=0.02 s.",
+      "Drop measurements from t=2 s to t=2.1 s.",
+      "Predict through missing samples without applying fabricated corrections.",
+      "Whole-run speed RMSE is 0.046906 m/s.",
+      "Dropout speed RMSE is 0.011980 m/s; final speed estimate is 0.207290 m/s."
+    ],
+    "notes": [
+      "The true motion contains a small acceleration that is not exactly constant velocity.",
+      "The filter state and covariance are expressed in one dimension; full robot base estimation requires orientation and contact models."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "dropout_seconds": 0.25
+    },
+    "metrics": {
+      "velocity_rmse_m_s": 0.046938119634156526,
+      "dropout_velocity_rmse_m_s": 0.013401186971055724,
+      "final_velocity_m_s": 0.20729137909189604,
+      "final_position_std_m": 0.0029249366491467567,
+      "final_velocity_std_m_s": 0.009352276806806094
+    },
+    "derivation": [
+      "Use a two-state position/velocity model with dt=0.02 s.",
+      "Drop measurements from t=2 s to t=2.25 s.",
+      "Predict through missing samples without applying fabricated corrections.",
+      "Whole-run speed RMSE is 0.046938 m/s.",
+      "Dropout speed RMSE is 0.013401 m/s; final speed estimate is 0.207291 m/s."
+    ],
+    "notes": [
+      "The true motion contains a small acceleration that is not exactly constant velocity.",
+      "The filter state and covariance are expressed in one dimension; full robot base estimation requires orientation and contact models."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "dropout_seconds": 0.5
+    },
+    "metrics": {
+      "velocity_rmse_m_s": 0.047024952434652156,
+      "dropout_velocity_rmse_m_s": 0.015373782055808444,
+      "final_velocity_m_s": 0.2072902137021639,
+      "final_position_std_m": 0.0029249366735427554,
+      "final_velocity_std_m_s": 0.009352277551132677
+    },
+    "derivation": [
+      "Use a two-state position/velocity model with dt=0.02 s.",
+      "Drop measurements from t=2 s to t=2.5 s.",
+      "Predict through missing samples without applying fabricated corrections.",
+      "Whole-run speed RMSE is 0.047025 m/s.",
+      "Dropout speed RMSE is 0.015374 m/s; final speed estimate is 0.207290 m/s."
+    ],
+    "notes": [
+      "The true motion contains a small acceleration that is not exactly constant velocity.",
+      "The filter state and covariance are expressed in one dimension; full robot base estimation requires orientation and contact models."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "dropout_seconds": 1.0
+    },
+    "metrics": {
+      "velocity_rmse_m_s": 0.04738354745208557,
+      "dropout_velocity_rmse_m_s": 0.01850473405478456,
+      "final_velocity_m_s": 0.20728620311525714,
+      "final_position_std_m": 0.0029249384604415757,
+      "final_velocity_std_m_s": 0.009352279296076292
+    },
+    "derivation": [
+      "Use a two-state position/velocity model with dt=0.02 s.",
+      "Drop measurements from t=2 s to t=3 s.",
+      "Predict through missing samples without applying fabricated corrections.",
+      "Whole-run speed RMSE is 0.047384 m/s.",
+      "Dropout speed RMSE is 0.018505 m/s; final speed estimate is 0.207286 m/s."
+    ],
+    "notes": [
+      "The true motion contains a small acceleration that is not exactly constant velocity.",
+      "The filter state and covariance are expressed in one dimension; full robot base estimation requires orientation and contact models."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "dropout_seconds": 2.0
+    },
+    "metrics": {
+      "velocity_rmse_m_s": 0.0480486176939643,
+      "dropout_velocity_rmse_m_s": 0.019820278472464425,
+      "final_velocity_m_s": 0.2073517678779478,
+      "final_position_std_m": 0.002925198847134259,
+      "final_velocity_std_m_s": 0.0093544253665133
+    },
+    "derivation": [
+      "Use a two-state position/velocity model with dt=0.02 s.",
+      "Drop measurements from t=2 s to t=4 s.",
+      "Predict through missing samples without applying fabricated corrections.",
+      "Whole-run speed RMSE is 0.048049 m/s.",
+      "Dropout speed RMSE is 0.019820 m/s; final speed estimate is 0.207352 m/s."
+    ],
+    "notes": [
+      "The true motion contains a small acceleration that is not exactly constant velocity.",
+      "The filter state and covariance are expressed in one dimension; full robot base estimation requires orientation and contact models."
+    ]
+  }
+]

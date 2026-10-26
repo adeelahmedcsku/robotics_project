@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "time_constant": 0.05
+    },
+    "metrics": {
+      "alpha": 0.8333333333333333,
+      "total_rmse_rad": 0.052700319470515684,
+      "clean_rmse_rad": 0.006325254270408848,
+      "contamination_peak_error_rad": 0.16137188622170817,
+      "final_error_rad": -0.0009440755204563611
+    },
+    "derivation": [
+      "Time constant 0.05 s with dt=0.01 s gives alpha=0.83333333.",
+      "True roll is a 0.15 rad, 0.3 Hz sinusoid; gyro bias is 0.01 rad/s.",
+      "Contaminate the accelerometer roll proxy by +0.15 rad between three and four seconds.",
+      "Whole-record RMSE is 0.052700 rad; clean-segment RMSE is 0.006325 rad.",
+      "Peak error during contamination is 0.161372 rad."
+    ],
+    "notes": [
+      "The synthetic accelerometer-angle disturbance represents a limitation of gravity-based attitude correction during motion.",
+      "A production estimator needs measurement validity checks and a consistent three-dimensional orientation representation."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "time_constant": 0.1
+    },
+    "metrics": {
+      "alpha": 0.9090909090909092,
+      "total_rmse_rad": 0.05129665603253841,
+      "clean_rmse_rad": 0.0047827021668367595,
+      "contamination_peak_error_rad": 0.1579463856717322,
+      "final_error_rad": -0.000867798074716819
+    },
+    "derivation": [
+      "Time constant 0.1 s with dt=0.01 s gives alpha=0.90909091.",
+      "True roll is a 0.15 rad, 0.3 Hz sinusoid; gyro bias is 0.01 rad/s.",
+      "Contaminate the accelerometer roll proxy by +0.15 rad between three and four seconds.",
+      "Whole-record RMSE is 0.051297 rad; clean-segment RMSE is 0.004783 rad.",
+      "Peak error during contamination is 0.157946 rad."
+    ],
+    "notes": [
+      "The synthetic accelerometer-angle disturbance represents a limitation of gravity-based attitude correction during motion.",
+      "A production estimator needs measurement validity checks and a consistent three-dimensional orientation representation."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "time_constant": 0.25
+    },
+    "metrics": {
+      "alpha": 0.9615384615384615,
+      "total_rmse_rad": 0.04755823932610137,
+      "clean_rmse_rad": 0.00412304328975833,
+      "contamination_peak_error_rad": 0.15254579353538505,
+      "final_error_rad": -0.0005130716940100477
+    },
+    "derivation": [
+      "Time constant 0.25 s with dt=0.01 s gives alpha=0.96153846.",
+      "True roll is a 0.15 rad, 0.3 Hz sinusoid; gyro bias is 0.01 rad/s.",
+      "Contaminate the accelerometer roll proxy by +0.15 rad between three and four seconds.",
+      "Whole-record RMSE is 0.047558 rad; clean-segment RMSE is 0.004123 rad.",
+      "Peak error during contamination is 0.152546 rad."
+    ],
+    "notes": [
+      "The synthetic accelerometer-angle disturbance represents a limitation of gravity-based attitude correction during motion.",
+      "A production estimator needs measurement validity checks and a consistent three-dimensional orientation representation."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "time_constant": 0.5
+    },
+    "metrics": {
+      "alpha": 0.9803921568627451,
+      "total_rmse_rad": 0.04292610483120552,
+      "clean_rmse_rad": 0.007909843547055529,
+      "contamination_peak_error_rad": 0.13563466595768223,
+      "final_error_rad": 0.002015788416428188
+    },
+    "derivation": [
+      "Time constant 0.5 s with dt=0.01 s gives alpha=0.98039216.",
+      "True roll is a 0.15 rad, 0.3 Hz sinusoid; gyro bias is 0.01 rad/s.",
+      "Contaminate the accelerometer roll proxy by +0.15 rad between three and four seconds.",
+      "Whole-record RMSE is 0.042926 rad; clean-segment RMSE is 0.007910 rad.",
+      "Peak error during contamination is 0.135635 rad."
+    ],
+    "notes": [
+      "The synthetic accelerometer-angle disturbance represents a limitation of gravity-based attitude correction during motion.",
+      "A production estimator needs measurement validity checks and a consistent three-dimensional orientation representation."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "time_constant": 1.0
+    },
+    "metrics": {
+      "alpha": 0.9900990099009901,
+      "total_rmse_rad": 0.03899949321908277,
+      "clean_rmse_rad": 0.017609068534427775,
+      "contamination_peak_error_rad": 0.10528095121218531,
+      "final_error_rad": 0.009076461676816222
+    },
+    "derivation": [
+      "Time constant 1 s with dt=0.01 s gives alpha=0.99009901.",
+      "True roll is a 0.15 rad, 0.3 Hz sinusoid; gyro bias is 0.01 rad/s.",
+      "Contaminate the accelerometer roll proxy by +0.15 rad between three and four seconds.",
+      "Whole-record RMSE is 0.038999 rad; clean-segment RMSE is 0.017609 rad.",
+      "Peak error during contamination is 0.105281 rad."
+    ],
+    "notes": [
+      "The synthetic accelerometer-angle disturbance represents a limitation of gravity-based attitude correction during motion.",
+      "A production estimator needs measurement validity checks and a consistent three-dimensional orientation representation."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "time_constant": 2.0
+    },
+    "metrics": {
+      "alpha": 0.9950248756218907,
+      "total_rmse_rad": 0.03870177209490091,
+      "clean_rmse_rad": 0.02874565470617637,
+      "contamination_peak_error_rad": 0.07719957715787704,
+      "final_error_rad": 0.025426352402480826
+    },
+    "derivation": [
+      "Time constant 2 s with dt=0.01 s gives alpha=0.99502488.",
+      "True roll is a 0.15 rad, 0.3 Hz sinusoid; gyro bias is 0.01 rad/s.",
+      "Contaminate the accelerometer roll proxy by +0.15 rad between three and four seconds.",
+      "Whole-record RMSE is 0.038702 rad; clean-segment RMSE is 0.028746 rad.",
+      "Peak error during contamination is 0.077200 rad."
+    ],
+    "notes": [
+      "The synthetic accelerometer-angle disturbance represents a limitation of gravity-based attitude correction during motion.",
+      "A production estimator needs measurement validity checks and a consistent three-dimensional orientation representation."
+    ]
+  }
+]

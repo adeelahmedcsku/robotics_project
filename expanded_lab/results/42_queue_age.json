@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "consumer_period": 0.005
+    },
+    "metrics": {
+      "fifo_mean_age_s": 0.0,
+      "fifo_max_age_s": 0.0,
+      "latest_mean_age_s": 0.002500000000000001,
+      "latest_max_age_s": 0.005000000000000782,
+      "fifo_backlog_count": 0.0,
+      "replaced_arrivals_count": 0.0
+    },
+    "derivation": [
+      "The producer emits state every 0.01 s.",
+      "The consumer processes one item every 0.005 s.",
+      "FIFO retains 0 pending messages after the five-second run.",
+      "FIFO maximum age is 0.000000 s; latest-value maximum age is 0.005000 s.",
+      "Latest-value replacement intentionally skips at least 0 intermediate arrivals in this schedule."
+    ],
+    "notes": [
+      "A trajectory is not always replaceable by its last point; choose semantics appropriate to the command type.",
+      "The simulation concerns queue policy only and does not reproduce packet loss, DDS discovery or actual ROS middleware timing."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "consumer_period": 0.01
+    },
+    "metrics": {
+      "fifo_mean_age_s": 0.0,
+      "fifo_max_age_s": 0.0,
+      "latest_mean_age_s": 0.0,
+      "latest_max_age_s": 0.0,
+      "fifo_backlog_count": 0.0,
+      "replaced_arrivals_count": 0.0
+    },
+    "derivation": [
+      "The producer emits state every 0.01 s.",
+      "The consumer processes one item every 0.01 s.",
+      "FIFO retains 0 pending messages after the five-second run.",
+      "FIFO maximum age is 0.000000 s; latest-value maximum age is 0.000000 s.",
+      "Latest-value replacement intentionally skips at least 0 intermediate arrivals in this schedule."
+    ],
+    "notes": [
+      "A trajectory is not always replaceable by its last point; choose semantics appropriate to the command type.",
+      "The simulation concerns queue policy only and does not reproduce packet loss, DDS discovery or actual ROS middleware timing."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "consumer_period": 0.015
+    },
+    "metrics": {
+      "fifo_mean_age_s": 0.8324999999999998,
+      "fifo_max_age_s": 1.665,
+      "latest_mean_age_s": 0.0024999999999998548,
+      "latest_max_age_s": 0.0050000000000001155,
+      "fifo_backlog_count": 166.0,
+      "replaced_arrivals_count": 166.0
+    },
+    "derivation": [
+      "The producer emits state every 0.01 s.",
+      "The consumer processes one item every 0.015 s.",
+      "FIFO retains 166 pending messages after the five-second run.",
+      "FIFO maximum age is 1.665000 s; latest-value maximum age is 0.005000 s.",
+      "Latest-value replacement intentionally skips at least 166 intermediate arrivals in this schedule."
+    ],
+    "notes": [
+      "A trajectory is not always replaceable by its last point; choose semantics appropriate to the command type.",
+      "The simulation concerns queue policy only and does not reproduce packet loss, DDS discovery or actual ROS middleware timing."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "consumer_period": 0.02
+    },
+    "metrics": {
+      "fifo_mean_age_s": 1.245,
+      "fifo_max_age_s": 2.49,
+      "latest_mean_age_s": 0.0,
+      "latest_max_age_s": 0.0,
+      "fifo_backlog_count": 249.0,
+      "replaced_arrivals_count": 249.0
+    },
+    "derivation": [
+      "The producer emits state every 0.01 s.",
+      "The consumer processes one item every 0.02 s.",
+      "FIFO retains 249 pending messages after the five-second run.",
+      "FIFO maximum age is 2.490000 s; latest-value maximum age is 0.000000 s.",
+      "Latest-value replacement intentionally skips at least 249 intermediate arrivals in this schedule."
+    ],
+    "notes": [
+      "A trajectory is not always replaceable by its last point; choose semantics appropriate to the command type.",
+      "The simulation concerns queue policy only and does not reproduce packet loss, DDS discovery or actual ROS middleware timing."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "consumer_period": 0.05
+    },
+    "metrics": {
+      "fifo_mean_age_s": 1.9800000000000002,
+      "fifo_max_age_s": 3.96,
+      "latest_mean_age_s": 6.522560269672795e-17,
+      "latest_max_age_s": 8.881784197001252e-16,
+      "fifo_backlog_count": 396.0,
+      "replaced_arrivals_count": 396.0
+    },
+    "derivation": [
+      "The producer emits state every 0.01 s.",
+      "The consumer processes one item every 0.05 s.",
+      "FIFO retains 396 pending messages after the five-second run.",
+      "FIFO maximum age is 3.960000 s; latest-value maximum age is 0.000000 s.",
+      "Latest-value replacement intentionally skips at least 396 intermediate arrivals in this schedule."
+    ],
+    "notes": [
+      "A trajectory is not always replaceable by its last point; choose semantics appropriate to the command type.",
+      "The simulation concerns queue policy only and does not reproduce packet loss, DDS discovery or actual ROS middleware timing."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "consumer_period": 0.1
+    },
+    "metrics": {
+      "fifo_mean_age_s": 2.205,
+      "fifo_max_age_s": 4.41,
+      "latest_mean_age_s": 8.326672684688674e-17,
+      "latest_max_age_s": 8.881784197001252e-16,
+      "fifo_backlog_count": 441.0,
+      "replaced_arrivals_count": 441.0
+    },
+    "derivation": [
+      "The producer emits state every 0.01 s.",
+      "The consumer processes one item every 0.1 s.",
+      "FIFO retains 441 pending messages after the five-second run.",
+      "FIFO maximum age is 4.410000 s; latest-value maximum age is 0.000000 s.",
+      "Latest-value replacement intentionally skips at least 441 intermediate arrivals in this schedule."
+    ],
+    "notes": [
+      "A trajectory is not always replaceable by its last point; choose semantics appropriate to the command type.",
+      "The simulation concerns queue policy only and does not reproduce packet loss, DDS discovery or actual ROS middleware timing."
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "amplitude": -0.05
+    },
+    "metrics": {
+      "approved_requests": 1.0,
+      "rejected_requests": 3.0,
+      "requested_amplitude_rad": -0.05,
+      "primary_request_approved": 0.0,
+      "inactive_request_approved": 0.0
+    },
+    "derivation": [
+      "The planner requests supported_wave amplitude -0.05 rad.",
+      "The allowlist contains observe and supported_wave only.",
+      "Decisions for normal, unknown, stale and observation requests are [(False, 'amplitude'), (False, 'unknown_skill'), (False, 'stale'), (True, 'approved')].",
+      "Approved 1 requests and rejected 3.",
+      "The same request with readiness false is rejected as not_ready."
+    ],
+    "notes": [
+      "Approval is permission to start a bounded skill; it is not proof the physical task completed.",
+      "The executor still needs cancellation, tracking checks, timeout and a reviewed stop response."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "amplitude": 0.0
+    },
+    "metrics": {
+      "approved_requests": 2.0,
+      "rejected_requests": 2.0,
+      "requested_amplitude_rad": 0.0,
+      "primary_request_approved": 1.0,
+      "inactive_request_approved": 0.0
+    },
+    "derivation": [
+      "The planner requests supported_wave amplitude 0 rad.",
+      "The allowlist contains observe and supported_wave only.",
+      "Decisions for normal, unknown, stale and observation requests are [(True, 'approved'), (False, 'unknown_skill'), (False, 'stale'), (True, 'approved')].",
+      "Approved 2 requests and rejected 2.",
+      "The same request with readiness false is rejected as not_ready."
+    ],
+    "notes": [
+      "Approval is permission to start a bounded skill; it is not proof the physical task completed.",
+      "The executor still needs cancellation, tracking checks, timeout and a reviewed stop response."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "amplitude": 0.025
+    },
+    "metrics": {
+      "approved_requests": 2.0,
+      "rejected_requests": 2.0,
+      "requested_amplitude_rad": 0.025,
+      "primary_request_approved": 1.0,
+      "inactive_request_approved": 0.0
+    },
+    "derivation": [
+      "The planner requests supported_wave amplitude 0.025 rad.",
+      "The allowlist contains observe and supported_wave only.",
+      "Decisions for normal, unknown, stale and observation requests are [(True, 'approved'), (False, 'unknown_skill'), (False, 'stale'), (True, 'approved')].",
+      "Approved 2 requests and rejected 2.",
+      "The same request with readiness false is rejected as not_ready."
+    ],
+    "notes": [
+      "Approval is permission to start a bounded skill; it is not proof the physical task completed.",
+      "The executor still needs cancellation, tracking checks, timeout and a reviewed stop response."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "amplitude": 0.05
+    },
+    "metrics": {
+      "approved_requests": 2.0,
+      "rejected_requests": 2.0,
+      "requested_amplitude_rad": 0.05,
+      "primary_request_approved": 1.0,
+      "inactive_request_approved": 0.0
+    },
+    "derivation": [
+      "The planner requests supported_wave amplitude 0.05 rad.",
+      "The allowlist contains observe and supported_wave only.",
+      "Decisions for normal, unknown, stale and observation requests are [(True, 'approved'), (False, 'unknown_skill'), (False, 'stale'), (True, 'approved')].",
+      "Approved 2 requests and rejected 2.",
+      "The same request with readiness false is rejected as not_ready."
+    ],
+    "notes": [
+      "Approval is permission to start a bounded skill; it is not proof the physical task completed.",
+      "The executor still needs cancellation, tracking checks, timeout and a reviewed stop response."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "amplitude": 0.1
+    },
+    "metrics": {
+      "approved_requests": 2.0,
+      "rejected_requests": 2.0,
+      "requested_amplitude_rad": 0.1,
+      "primary_request_approved": 1.0,
+      "inactive_request_approved": 0.0
+    },
+    "derivation": [
+      "The planner requests supported_wave amplitude 0.1 rad.",
+      "The allowlist contains observe and supported_wave only.",
+      "Decisions for normal, unknown, stale and observation requests are [(True, 'approved'), (False, 'unknown_skill'), (False, 'stale'), (True, 'approved')].",
+      "Approved 2 requests and rejected 2.",
+      "The same request with readiness false is rejected as not_ready."
+    ],
+    "notes": [
+      "Approval is permission to start a bounded skill; it is not proof the physical task completed.",
+      "The executor still needs cancellation, tracking checks, timeout and a reviewed stop response."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "amplitude": 0.2
+    },
+    "metrics": {
+      "approved_requests": 1.0,
+      "rejected_requests": 3.0,
+      "requested_amplitude_rad": 0.2,
+      "primary_request_approved": 0.0,
+      "inactive_request_approved": 0.0
+    },
+    "derivation": [
+      "The planner requests supported_wave amplitude 0.2 rad.",
+      "The allowlist contains observe and supported_wave only.",
+      "Decisions for normal, unknown, stale and observation requests are [(False, 'amplitude'), (False, 'unknown_skill'), (False, 'stale'), (True, 'approved')].",
+      "Approved 1 requests and rejected 3.",
+      "The same request with readiness false is rejected as not_ready."
+    ],
+    "notes": [
+      "Approval is permission to start a bounded skill; it is not proof the physical task completed.",
+      "The executor still needs cancellation, tracking checks, timeout and a reviewed stop response."
+    ]
+  }
+]

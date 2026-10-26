@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "payload_mass": 0.0,
+      "payload_x": 0.3
+    },
+    "metrics": {
+      "total_mass_kg": 7.0,
+      "com_x_m": 0.014285714285714287,
+      "com_z_m": 0.3428571428571429,
+      "gravity_pitch_moment_Nm": 0.9810000000000001,
+      "weight_N": 68.67
+    },
+    "derivation": [
+      "Total mass is 4+2+1+0 = 7.000000 kg.",
+      "The payload lies at x=0.3 m in the shared frame.",
+      "Sum mass times position, then divide by total: COM=[0.014285714285714287, 0.0, 0.3428571428571429] m.",
+      "Sum each gravity moment to obtain pitch moment 0.981000 Nm.",
+      "Applying total weight at the COM reproduces the same moment, providing an independent check."
+    ],
+    "notes": [
+      "This static point-mass model does not represent distributed inertia or dynamic contact stability.",
+      "The horizontal COM displacement from the origin is 0.014286 m; compare it with a measured support margin."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "payload_mass": 0.25,
+      "payload_x": 0.3
+    },
+    "metrics": {
+      "total_mass_kg": 7.25,
+      "com_x_m": 0.02413793103448276,
+      "com_z_m": 0.34827586206896555,
+      "gravity_pitch_moment_Nm": 1.7167500000000002,
+      "weight_N": 71.1225
+    },
+    "derivation": [
+      "Total mass is 4+2+1+0.25 = 7.250000 kg.",
+      "The payload lies at x=0.3 m in the shared frame.",
+      "Sum mass times position, then divide by total: COM=[0.02413793103448276, 0.0, 0.34827586206896555] m.",
+      "Sum each gravity moment to obtain pitch moment 1.716750 Nm.",
+      "Applying total weight at the COM reproduces the same moment, providing an independent check."
+    ],
+    "notes": [
+      "This static point-mass model does not represent distributed inertia or dynamic contact stability.",
+      "The horizontal COM displacement from the origin is 0.024138 m; compare it with a measured support margin."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "payload_mass": 0.5,
+      "payload_x": 0.3
+    },
+    "metrics": {
+      "total_mass_kg": 7.5,
+      "com_x_m": 0.03333333333333333,
+      "com_z_m": 0.3533333333333334,
+      "gravity_pitch_moment_Nm": 2.4525,
+      "weight_N": 73.575
+    },
+    "derivation": [
+      "Total mass is 4+2+1+0.5 = 7.500000 kg.",
+      "The payload lies at x=0.3 m in the shared frame.",
+      "Sum mass times position, then divide by total: COM=[0.03333333333333333, 0.0, 0.3533333333333334] m.",
+      "Sum each gravity moment to obtain pitch moment 2.452500 Nm.",
+      "Applying total weight at the COM reproduces the same moment, providing an independent check."
+    ],
+    "notes": [
+      "This static point-mass model does not represent distributed inertia or dynamic contact stability.",
+      "The horizontal COM displacement from the origin is 0.033333 m; compare it with a measured support margin."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "payload_mass": 1.0,
+      "payload_x": 0.3
+    },
+    "metrics": {
+      "total_mass_kg": 8.0,
+      "com_x_m": 0.05,
+      "com_z_m": 0.36250000000000004,
+      "gravity_pitch_moment_Nm": 3.9240000000000004,
+      "weight_N": 78.48
+    },
+    "derivation": [
+      "Total mass is 4+2+1+1 = 8.000000 kg.",
+      "The payload lies at x=0.3 m in the shared frame.",
+      "Sum mass times position, then divide by total: COM=[0.05, 0.0, 0.36250000000000004] m.",
+      "Sum each gravity moment to obtain pitch moment 3.924000 Nm.",
+      "Applying total weight at the COM reproduces the same moment, providing an independent check."
+    ],
+    "notes": [
+      "This static point-mass model does not represent distributed inertia or dynamic contact stability.",
+      "The horizontal COM displacement from the origin is 0.050000 m; compare it with a measured support margin."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "payload_mass": 2.0,
+      "payload_x": 0.3
+    },
+    "metrics": {
+      "total_mass_kg": 9.0,
+      "com_x_m": 0.07777777777777778,
+      "com_z_m": 0.3777777777777778,
+      "gravity_pitch_moment_Nm": 6.867,
+      "weight_N": 88.29
+    },
+    "derivation": [
+      "Total mass is 4+2+1+2 = 9.000000 kg.",
+      "The payload lies at x=0.3 m in the shared frame.",
+      "Sum mass times position, then divide by total: COM=[0.07777777777777778, 0.0, 0.3777777777777778] m.",
+      "Sum each gravity moment to obtain pitch moment 6.867000 Nm.",
+      "Applying total weight at the COM reproduces the same moment, providing an independent check."
+    ],
+    "notes": [
+      "This static point-mass model does not represent distributed inertia or dynamic contact stability.",
+      "The horizontal COM displacement from the origin is 0.077778 m; compare it with a measured support margin."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "payload_mass": 4.0,
+      "payload_x": 0.3
+    },
+    "metrics": {
+      "total_mass_kg": 11.0,
+      "com_x_m": 0.11818181818181818,
+      "com_z_m": 0.4,
+      "gravity_pitch_moment_Nm": 12.753,
+      "weight_N": 107.91000000000001
+    },
+    "derivation": [
+      "Total mass is 4+2+1+4 = 11.000000 kg.",
+      "The payload lies at x=0.3 m in the shared frame.",
+      "Sum mass times position, then divide by total: COM=[0.11818181818181818, 0.0, 0.4] m.",
+      "Sum each gravity moment to obtain pitch moment 12.753000 Nm.",
+      "Applying total weight at the COM reproduces the same moment, providing an independent check."
+    ],
+    "notes": [
+      "This static point-mass model does not represent distributed inertia or dynamic contact stability.",
+      "The horizontal COM displacement from the origin is 0.118182 m; compare it with a measured support margin."
+    ]
+  }
+]

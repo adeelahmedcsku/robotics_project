@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "samples": 40,
+      "noise": 0.005,
+      "span": 0.01
+    },
+    "metrics": {
+      "scale_error": -0.12639436112854474,
+      "offset_error_rad": -0.0004090571532034161,
+      "residual_rmse_rad": 0.0041654494092913715,
+      "design_condition": 168.92775191144187,
+      "scale_std_estimate": 0.11414872590866385
+    },
+    "derivation": [
+      "Collect 40 reference positions spanning [-0.01,0.01] rad.",
+      "True scale and offset are [1.04, 0.025]; inject noise sigma=0.005 rad.",
+      "Least-squares estimate is [0.9136056388714553, 0.024590942846796585].",
+      "Residual degrees of freedom are 38; variance estimate is 1.826418e-05.",
+      "The design matrix condition is 168.927752; estimated scale uncertainty is 0.114149."
+    ],
+    "notes": [
+      "The identification range is 0.02 rad; narrowing it weakens scale estimation even if the offset remains observable.",
+      "Covariance assumes the linear noise model and does not account for backlash, systematic reference error or temperature drift."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "samples": 40,
+      "noise": 0.005,
+      "span": 0.025
+    },
+    "metrics": {
+      "scale_error": -0.0505577444514177,
+      "offset_error_rad": -0.0004090571532034161,
+      "residual_rmse_rad": 0.0041654494092913715,
+      "design_condition": 67.57110076457676,
+      "scale_std_estimate": 0.04565949036346553
+    },
+    "derivation": [
+      "Collect 40 reference positions spanning [-0.025,0.025] rad.",
+      "True scale and offset are [1.04, 0.025]; inject noise sigma=0.005 rad.",
+      "Least-squares estimate is [0.9894422555485823, 0.024590942846796585].",
+      "Residual degrees of freedom are 38; variance estimate is 1.826418e-05.",
+      "The design matrix condition is 67.571101; estimated scale uncertainty is 0.045659."
+    ],
+    "notes": [
+      "The identification range is 0.05 rad; narrowing it weakens scale estimation even if the offset remains observable.",
+      "Covariance assumes the linear noise model and does not account for backlash, systematic reference error or temperature drift."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "samples": 40,
+      "noise": 0.005,
+      "span": 0.05
+    },
+    "metrics": {
+      "scale_error": -0.025278872225708904,
+      "offset_error_rad": -0.0004090571532034161,
+      "residual_rmse_rad": 0.0041654494092913715,
+      "design_condition": 33.78555038228838,
+      "scale_std_estimate": 0.022829745181732766
+    },
+    "derivation": [
+      "Collect 40 reference positions spanning [-0.05,0.05] rad.",
+      "True scale and offset are [1.04, 0.025]; inject noise sigma=0.005 rad.",
+      "Least-squares estimate is [1.0147211277742911, 0.024590942846796585].",
+      "Residual degrees of freedom are 38; variance estimate is 1.826418e-05.",
+      "The design matrix condition is 33.785550; estimated scale uncertainty is 0.022830."
+    ],
+    "notes": [
+      "The identification range is 0.1 rad; narrowing it weakens scale estimation even if the offset remains observable.",
+      "Covariance assumes the linear noise model and does not account for backlash, systematic reference error or temperature drift."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "samples": 40,
+      "noise": 0.005,
+      "span": 0.1
+    },
+    "metrics": {
+      "scale_error": -0.012639436112854563,
+      "offset_error_rad": -0.0004090571532034161,
+      "residual_rmse_rad": 0.004165449409291372,
+      "design_condition": 16.89277519114419,
+      "scale_std_estimate": 0.011414872590866385
+    },
+    "derivation": [
+      "Collect 40 reference positions spanning [-0.1,0.1] rad.",
+      "True scale and offset are [1.04, 0.025]; inject noise sigma=0.005 rad.",
+      "Least-squares estimate is [1.0273605638871455, 0.024590942846796585].",
+      "Residual degrees of freedom are 38; variance estimate is 1.826418e-05.",
+      "The design matrix condition is 16.892775; estimated scale uncertainty is 0.011415."
+    ],
+    "notes": [
+      "The identification range is 0.2 rad; narrowing it weakens scale estimation even if the offset remains observable.",
+      "Covariance assumes the linear noise model and does not account for backlash, systematic reference error or temperature drift."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "samples": 40,
+      "noise": 0.005,
+      "span": 0.5
+    },
+    "metrics": {
+      "scale_error": -0.0025278872225706905,
+      "offset_error_rad": -0.00040905715320341957,
+      "residual_rmse_rad": 0.004165449409291372,
+      "design_condition": 3.378555038228838,
+      "scale_std_estimate": 0.0022829745181732774
+    },
+    "derivation": [
+      "Collect 40 reference positions spanning [-0.5,0.5] rad.",
+      "True scale and offset are [1.04, 0.025]; inject noise sigma=0.005 rad.",
+      "Least-squares estimate is [1.0374721127774293, 0.024590942846796582].",
+      "Residual degrees of freedom are 38; variance estimate is 1.826418e-05.",
+      "The design matrix condition is 3.378555; estimated scale uncertainty is 0.002283."
+    ],
+    "notes": [
+      "The identification range is 1 rad; narrowing it weakens scale estimation even if the offset remains observable.",
+      "Covariance assumes the linear noise model and does not account for backlash, systematic reference error or temperature drift."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "samples": 40,
+      "noise": 0.005,
+      "span": 1.0
+    },
+    "metrics": {
+      "scale_error": -0.0012639436112853453,
+      "offset_error_rad": -0.00040905715320341957,
+      "residual_rmse_rad": 0.004165449409291369,
+      "design_condition": 1.689277519114418,
+      "scale_std_estimate": 0.0011414872590866378
+    },
+    "derivation": [
+      "Collect 40 reference positions spanning [-1,1] rad.",
+      "True scale and offset are [1.04, 0.025]; inject noise sigma=0.005 rad.",
+      "Least-squares estimate is [1.0387360563887147, 0.024590942846796582].",
+      "Residual degrees of freedom are 38; variance estimate is 1.826418e-05.",
+      "The design matrix condition is 1.689278; estimated scale uncertainty is 0.001141."
+    ],
+    "notes": [
+      "The identification range is 2 rad; narrowing it weakens scale estimation even if the offset remains observable.",
+      "Covariance assumes the linear noise model and does not account for backlash, systematic reference error or temperature drift."
+    ]
+  }
+]

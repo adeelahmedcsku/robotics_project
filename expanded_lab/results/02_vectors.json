@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "length": 0.2,
+      "force": 50.0,
+      "angle_deg": 0.0
+    },
+    "metrics": {
+      "axis_torque_Nm": 0.0,
+      "force_perpendicular_N": 0.0,
+      "force_magnitude_N": 50.0,
+      "lever_m": 0.2
+    },
+    "derivation": [
+      "Force components in the chosen frame: Fx=50.000000 N, Fy=0.000000 N.",
+      "The lever is (0.200000, 0, 0) m, so only Fy contributes to the z moment.",
+      "r cross F gives Mz=0.000000 Nm.",
+      "Projection onto the unit z axis gives torque 0.000000 Nm."
+    ],
+    "notes": [
+      "The effective perpendicular force is 0.000000 N, rather than the full 50 N.",
+      "Changing origin changes moment; changing coordinates consistently does not change its physical meaning."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "length": 0.2,
+      "force": 50.0,
+      "angle_deg": 15.0
+    },
+    "metrics": {
+      "axis_torque_Nm": 2.5881904510252074,
+      "force_perpendicular_N": 12.940952255126037,
+      "force_magnitude_N": 49.99999999999999,
+      "lever_m": 0.2
+    },
+    "derivation": [
+      "Force components in the chosen frame: Fx=48.296291 N, Fy=12.940952 N.",
+      "The lever is (0.200000, 0, 0) m, so only Fy contributes to the z moment.",
+      "r cross F gives Mz=2.588190 Nm.",
+      "Projection onto the unit z axis gives torque 2.588190 Nm."
+    ],
+    "notes": [
+      "The effective perpendicular force is 12.940952 N, rather than the full 50 N.",
+      "Changing origin changes moment; changing coordinates consistently does not change its physical meaning."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "length": 0.2,
+      "force": 50.0,
+      "angle_deg": 30.0
+    },
+    "metrics": {
+      "axis_torque_Nm": 5.0,
+      "force_perpendicular_N": 24.999999999999996,
+      "force_magnitude_N": 50.0,
+      "lever_m": 0.2
+    },
+    "derivation": [
+      "Force components in the chosen frame: Fx=43.301270 N, Fy=25.000000 N.",
+      "The lever is (0.200000, 0, 0) m, so only Fy contributes to the z moment.",
+      "r cross F gives Mz=5.000000 Nm.",
+      "Projection onto the unit z axis gives torque 5.000000 Nm."
+    ],
+    "notes": [
+      "The effective perpendicular force is 25.000000 N, rather than the full 50 N.",
+      "Changing origin changes moment; changing coordinates consistently does not change its physical meaning."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "length": 0.2,
+      "force": 50.0,
+      "angle_deg": 45.0
+    },
+    "metrics": {
+      "axis_torque_Nm": 7.071067811865475,
+      "force_perpendicular_N": 35.35533905932737,
+      "force_magnitude_N": 49.99999999999999,
+      "lever_m": 0.2
+    },
+    "derivation": [
+      "Force components in the chosen frame: Fx=35.355339 N, Fy=35.355339 N.",
+      "The lever is (0.200000, 0, 0) m, so only Fy contributes to the z moment.",
+      "r cross F gives Mz=7.071068 Nm.",
+      "Projection onto the unit z axis gives torque 7.071068 Nm."
+    ],
+    "notes": [
+      "The effective perpendicular force is 35.355339 N, rather than the full 50 N.",
+      "Changing origin changes moment; changing coordinates consistently does not change its physical meaning."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "length": 0.2,
+      "force": 50.0,
+      "angle_deg": 60.0
+    },
+    "metrics": {
+      "axis_torque_Nm": 8.660254037844387,
+      "force_perpendicular_N": 43.30127018922193,
+      "force_magnitude_N": 50.00000000000001,
+      "lever_m": 0.2
+    },
+    "derivation": [
+      "Force components in the chosen frame: Fx=25.000000 N, Fy=43.301270 N.",
+      "The lever is (0.200000, 0, 0) m, so only Fy contributes to the z moment.",
+      "r cross F gives Mz=8.660254 Nm.",
+      "Projection onto the unit z axis gives torque 8.660254 Nm."
+    ],
+    "notes": [
+      "The effective perpendicular force is 43.301270 N, rather than the full 50 N.",
+      "Changing origin changes moment; changing coordinates consistently does not change its physical meaning."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "length": 0.2,
+      "force": 50.0,
+      "angle_deg": 90.0
+    },
+    "metrics": {
+      "axis_torque_Nm": 10.0,
+      "force_perpendicular_N": 50.0,
+      "force_magnitude_N": 50.0,
+      "lever_m": 0.2
+    },
+    "derivation": [
+      "Force components in the chosen frame: Fx=0.000000 N, Fy=50.000000 N.",
+      "The lever is (0.200000, 0, 0) m, so only Fy contributes to the z moment.",
+      "r cross F gives Mz=10.000000 Nm.",
+      "Projection onto the unit z axis gives torque 10.000000 Nm."
+    ],
+    "notes": [
+      "The effective perpendicular force is 50.000000 N, rather than the full 50 N.",
+      "Changing origin changes moment; changing coordinates consistently does not change its physical meaning."
+    ]
+  }
+]

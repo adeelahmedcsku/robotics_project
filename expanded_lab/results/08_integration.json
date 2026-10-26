@@ -1,0 +1,164 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "dt": 0.005,
+      "decay_rate": 10.0,
+      "duration": 1.0
+    },
+    "metrics": {
+      "explicit_final": 3.505266624882867e-05,
+      "implicit_final": 5.782826812775777e-05,
+      "exact_final": 4.5399929762484854e-05,
+      "explicit_abs_error": 1.0347263513656182e-05,
+      "implicit_abs_error": 1.2428338365272918e-05,
+      "explicit_amplification": 0.95
+    },
+    "derivation": [
+      "Choose dt=0.005 s and decay rate k=10 per second.",
+      "Advance 200 steps to actual time 1.000000 s.",
+      "Explicit one-step multiplier is 0.950000; its magnitude is 0.950000.",
+      "Exact final value is 0.00004540; explicit gives 0.00003505.",
+      "Implicit final value is 0.00005783; compare absolute errors in the table."
+    ],
+    "notes": [
+      "The explicit recurrence is stable for this scalar decay.",
+      "Implicit stability does not mean high accuracy; a heavily damped numerical result can still be wrong."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "dt": 0.01,
+      "decay_rate": 10.0,
+      "duration": 1.0
+    },
+    "metrics": {
+      "explicit_final": 2.6561398887587544e-05,
+      "implicit_final": 7.25657159014814e-05,
+      "exact_final": 4.5399929762484854e-05,
+      "explicit_abs_error": 1.883853087489731e-05,
+      "implicit_abs_error": 2.7165786138996546e-05,
+      "explicit_amplification": 0.9
+    },
+    "derivation": [
+      "Choose dt=0.01 s and decay rate k=10 per second.",
+      "Advance 100 steps to actual time 1.000000 s.",
+      "Explicit one-step multiplier is 0.900000; its magnitude is 0.900000.",
+      "Exact final value is 0.00004540; explicit gives 0.00002656.",
+      "Implicit final value is 0.00007257; compare absolute errors in the table."
+    ],
+    "notes": [
+      "The explicit recurrence is stable for this scalar decay.",
+      "Implicit stability does not mean high accuracy; a heavily damped numerical result can still be wrong."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "dt": 0.02,
+      "decay_rate": 10.0,
+      "duration": 1.0
+    },
+    "metrics": {
+      "explicit_final": 1.4272476927059634e-05,
+      "implicit_final": 0.00010988481911717251,
+      "exact_final": 4.5399929762484854e-05,
+      "explicit_abs_error": 3.112745283542522e-05,
+      "implicit_abs_error": 6.448488935468765e-05,
+      "explicit_amplification": 0.8
+    },
+    "derivation": [
+      "Choose dt=0.02 s and decay rate k=10 per second.",
+      "Advance 50 steps to actual time 1.000000 s.",
+      "Explicit one-step multiplier is 0.800000; its magnitude is 0.800000.",
+      "Exact final value is 0.00004540; explicit gives 0.00001427.",
+      "Implicit final value is 0.00010988; compare absolute errors in the table."
+    ],
+    "notes": [
+      "The explicit recurrence is stable for this scalar decay.",
+      "Implicit stability does not mean high accuracy; a heavily damped numerical result can still be wrong."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "dt": 0.05,
+      "decay_rate": 10.0,
+      "duration": 1.0
+    },
+    "metrics": {
+      "explicit_final": 9.5367431640625e-07,
+      "implicit_final": 0.0003007286598217176,
+      "exact_final": 4.5399929762484854e-05,
+      "explicit_abs_error": 4.4446255446078604e-05,
+      "implicit_abs_error": 0.00025532873005923277,
+      "explicit_amplification": 0.5
+    },
+    "derivation": [
+      "Choose dt=0.05 s and decay rate k=10 per second.",
+      "Advance 20 steps to actual time 1.000000 s.",
+      "Explicit one-step multiplier is 0.500000; its magnitude is 0.500000.",
+      "Exact final value is 0.00004540; explicit gives 0.00000095.",
+      "Implicit final value is 0.00030073; compare absolute errors in the table."
+    ],
+    "notes": [
+      "The explicit recurrence is stable for this scalar decay.",
+      "Implicit stability does not mean high accuracy; a heavily damped numerical result can still be wrong."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "dt": 0.1,
+      "decay_rate": 10.0,
+      "duration": 1.0
+    },
+    "metrics": {
+      "explicit_final": 0.0,
+      "implicit_final": 0.0009765625,
+      "exact_final": 4.5399929762484854e-05,
+      "explicit_abs_error": 4.5399929762484854e-05,
+      "implicit_abs_error": 0.0009311625702375151,
+      "explicit_amplification": 0.0
+    },
+    "derivation": [
+      "Choose dt=0.1 s and decay rate k=10 per second.",
+      "Advance 10 steps to actual time 1.000000 s.",
+      "Explicit one-step multiplier is 0.000000; its magnitude is 0.000000.",
+      "Exact final value is 0.00004540; explicit gives 0.00000000.",
+      "Implicit final value is 0.00097656; compare absolute errors in the table."
+    ],
+    "notes": [
+      "The explicit recurrence is stable for this scalar decay.",
+      "Implicit stability does not mean high accuracy; a heavily damped numerical result can still be wrong."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "dt": 0.25,
+      "decay_rate": 10.0,
+      "duration": 1.0
+    },
+    "metrics": {
+      "explicit_final": 5.0625,
+      "implicit_final": 0.006663890045814244,
+      "exact_final": 4.5399929762484854e-05,
+      "explicit_abs_error": 5.062454600070238,
+      "implicit_abs_error": 0.00661849011605176,
+      "explicit_amplification": 1.5
+    },
+    "derivation": [
+      "Choose dt=0.25 s and decay rate k=10 per second.",
+      "Advance 4 steps to actual time 1.000000 s.",
+      "Explicit one-step multiplier is -1.500000; its magnitude is 1.500000.",
+      "Exact final value is 0.00004540; explicit gives 5.06250000.",
+      "Implicit final value is 0.00666389; compare absolute errors in the table."
+    ],
+    "notes": [
+      "The explicit recurrence is on or outside its stability boundary; reducing dt changes the numerical problem.",
+      "Implicit stability does not mean high accuracy; a heavily damped numerical result can still be wrong."
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "capacity": 100
+    },
+    "metrics": {
+      "retained_samples": 100.0,
+      "horizon_s": 0.19799999999999862,
+      "allocated_bytes": 2400.0,
+      "oldest_timestamp_s": 9.8,
+      "latest_timestamp_s": 9.998
+    },
+    "derivation": [
+      "Write 5000 samples at 500 Hz into capacity 100.",
+      "The allocated numerical storage is 2400 bytes.",
+      "After wrapping, retain 100 most recent samples.",
+      "Chronological snapshot runs from 9.800000 to 9.998000 s.",
+      "The retained diagnostic horizon is 0.198000 s."
+    ],
+    "notes": [
+      "Memory accounting covers the array payload, not interpreter, transport or rendering overhead.",
+      "The example is single-threaded; concurrent producers/consumers require a reviewed synchronization or lock-free design."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "capacity": 250
+    },
+    "metrics": {
+      "retained_samples": 250.0,
+      "horizon_s": 0.49799999999999933,
+      "allocated_bytes": 6000.0,
+      "oldest_timestamp_s": 9.5,
+      "latest_timestamp_s": 9.998
+    },
+    "derivation": [
+      "Write 5000 samples at 500 Hz into capacity 250.",
+      "The allocated numerical storage is 6000 bytes.",
+      "After wrapping, retain 250 most recent samples.",
+      "Chronological snapshot runs from 9.500000 to 9.998000 s.",
+      "The retained diagnostic horizon is 0.498000 s."
+    ],
+    "notes": [
+      "Memory accounting covers the array payload, not interpreter, transport or rendering overhead.",
+      "The example is single-threaded; concurrent producers/consumers require a reviewed synchronization or lock-free design."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "capacity": 500
+    },
+    "metrics": {
+      "retained_samples": 500.0,
+      "horizon_s": 0.9979999999999993,
+      "allocated_bytes": 12000.0,
+      "oldest_timestamp_s": 9.0,
+      "latest_timestamp_s": 9.998
+    },
+    "derivation": [
+      "Write 5000 samples at 500 Hz into capacity 500.",
+      "The allocated numerical storage is 12000 bytes.",
+      "After wrapping, retain 500 most recent samples.",
+      "Chronological snapshot runs from 9.000000 to 9.998000 s.",
+      "The retained diagnostic horizon is 0.998000 s."
+    ],
+    "notes": [
+      "Memory accounting covers the array payload, not interpreter, transport or rendering overhead.",
+      "The example is single-threaded; concurrent producers/consumers require a reviewed synchronization or lock-free design."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "capacity": 1000
+    },
+    "metrics": {
+      "retained_samples": 1000.0,
+      "horizon_s": 1.9979999999999993,
+      "allocated_bytes": 24000.0,
+      "oldest_timestamp_s": 8.0,
+      "latest_timestamp_s": 9.998
+    },
+    "derivation": [
+      "Write 5000 samples at 500 Hz into capacity 1000.",
+      "The allocated numerical storage is 24000 bytes.",
+      "After wrapping, retain 1000 most recent samples.",
+      "Chronological snapshot runs from 8.000000 to 9.998000 s.",
+      "The retained diagnostic horizon is 1.998000 s."
+    ],
+    "notes": [
+      "Memory accounting covers the array payload, not interpreter, transport or rendering overhead.",
+      "The example is single-threaded; concurrent producers/consumers require a reviewed synchronization or lock-free design."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "capacity": 2000
+    },
+    "metrics": {
+      "retained_samples": 2000.0,
+      "horizon_s": 3.9979999999999993,
+      "allocated_bytes": 48000.0,
+      "oldest_timestamp_s": 6.0,
+      "latest_timestamp_s": 9.998
+    },
+    "derivation": [
+      "Write 5000 samples at 500 Hz into capacity 2000.",
+      "The allocated numerical storage is 48000 bytes.",
+      "After wrapping, retain 2000 most recent samples.",
+      "Chronological snapshot runs from 6.000000 to 9.998000 s.",
+      "The retained diagnostic horizon is 3.998000 s."
+    ],
+    "notes": [
+      "Memory accounting covers the array payload, not interpreter, transport or rendering overhead.",
+      "The example is single-threaded; concurrent producers/consumers require a reviewed synchronization or lock-free design."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "capacity": 5000
+    },
+    "metrics": {
+      "retained_samples": 5000.0,
+      "horizon_s": 9.998,
+      "allocated_bytes": 120000.0,
+      "oldest_timestamp_s": 0.0,
+      "latest_timestamp_s": 9.998
+    },
+    "derivation": [
+      "Write 5000 samples at 500 Hz into capacity 5000.",
+      "The allocated numerical storage is 120000 bytes.",
+      "After wrapping, retain 5000 most recent samples.",
+      "Chronological snapshot runs from 0.000000 to 9.998000 s.",
+      "The retained diagnostic horizon is 9.998000 s."
+    ],
+    "notes": [
+      "Memory accounting covers the array payload, not interpreter, transport or rendering overhead.",
+      "The example is single-threaded; concurrent producers/consumers require a reviewed synchronization or lock-free design."
+    ]
+  }
+]

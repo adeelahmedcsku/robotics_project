@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "scale_error_factor": 0.5
+    },
+    "metrics": {
+      "action_rmse": 0.08955792828987001,
+      "maximum_absolute_action_error": 0.45855058018956285,
+      "mismatch_fraction": 1.0,
+      "mean_action_magnitude": 0.3455199667136892
+    },
+    "derivation": [
+      "Generate 1000 four-dimensional observations from a fixed seeded distribution.",
+      "The candidate preprocessing multiplies field 2 by 0.5.",
+      "Run the same tanh actor for reference and candidate pipelines.",
+      "Action RMSE is 0.08955793; maximum disagreement is 0.45855058.",
+      "Fraction exceeding 1e-5 action error is 1.000000."
+    ],
+    "notes": [
+      "The replay distribution is synthetic; physical logs and edge cases must be included before deployment.",
+      "Exact inference parity does not validate the policy behavior or the physical actuator mapping."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "scale_error_factor": 0.9
+    },
+    "metrics": {
+      "action_rmse": 0.01731353878583709,
+      "maximum_absolute_action_error": 0.09223477370000911,
+      "mismatch_fraction": 1.0,
+      "mean_action_magnitude": 0.3455199667136892
+    },
+    "derivation": [
+      "Generate 1000 four-dimensional observations from a fixed seeded distribution.",
+      "The candidate preprocessing multiplies field 2 by 0.9.",
+      "Run the same tanh actor for reference and candidate pipelines.",
+      "Action RMSE is 0.01731354; maximum disagreement is 0.09223477.",
+      "Fraction exceeding 1e-5 action error is 1.000000."
+    ],
+    "notes": [
+      "The replay distribution is synthetic; physical logs and edge cases must be included before deployment.",
+      "Exact inference parity does not validate the policy behavior or the physical actuator mapping."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "scale_error_factor": 0.99
+    },
+    "metrics": {
+      "action_rmse": 0.0017156914481603841,
+      "maximum_absolute_action_error": 0.009205240178083565,
+      "mismatch_fraction": 0.994,
+      "mean_action_magnitude": 0.3455199667136892
+    },
+    "derivation": [
+      "Generate 1000 four-dimensional observations from a fixed seeded distribution.",
+      "The candidate preprocessing multiplies field 2 by 0.99.",
+      "Run the same tanh actor for reference and candidate pipelines.",
+      "Action RMSE is 0.00171569; maximum disagreement is 0.00920524.",
+      "Fraction exceeding 1e-5 action error is 0.994000."
+    ],
+    "notes": [
+      "The replay distribution is synthetic; physical logs and edge cases must be included before deployment.",
+      "Exact inference parity does not validate the policy behavior or the physical actuator mapping."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "scale_error_factor": 1.0
+    },
+    "metrics": {
+      "action_rmse": 0.0,
+      "maximum_absolute_action_error": 0.0,
+      "mismatch_fraction": 0.0,
+      "mean_action_magnitude": 0.3455199667136892
+    },
+    "derivation": [
+      "Generate 1000 four-dimensional observations from a fixed seeded distribution.",
+      "The candidate preprocessing multiplies field 2 by 1.",
+      "Run the same tanh actor for reference and candidate pipelines.",
+      "Action RMSE is 0.00000000; maximum disagreement is 0.00000000.",
+      "Fraction exceeding 1e-5 action error is 0.000000."
+    ],
+    "notes": [
+      "The replay distribution is synthetic; physical logs and edge cases must be included before deployment.",
+      "Exact inference parity does not validate the policy behavior or the physical actuator mapping."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "scale_error_factor": 1.01
+    },
+    "metrics": {
+      "action_rmse": 0.001712118407943825,
+      "maximum_absolute_action_error": 0.009195453787607118,
+      "mismatch_fraction": 0.994,
+      "mean_action_magnitude": 0.3455199667136892
+    },
+    "derivation": [
+      "Generate 1000 four-dimensional observations from a fixed seeded distribution.",
+      "The candidate preprocessing multiplies field 2 by 1.01.",
+      "Run the same tanh actor for reference and candidate pipelines.",
+      "Action RMSE is 0.00171212; maximum disagreement is 0.00919545.",
+      "Fraction exceeding 1e-5 action error is 0.994000."
+    ],
+    "notes": [
+      "The replay distribution is synthetic; physical logs and edge cases must be included before deployment.",
+      "Exact inference parity does not validate the policy behavior or the physical actuator mapping."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "scale_error_factor": 1.1
+    },
+    "metrics": {
+      "action_rmse": 0.016956592137304854,
+      "maximum_absolute_action_error": 0.09126158525331257,
+      "mismatch_fraction": 1.0,
+      "mean_action_magnitude": 0.3455199667136892
+    },
+    "derivation": [
+      "Generate 1000 four-dimensional observations from a fixed seeded distribution.",
+      "The candidate preprocessing multiplies field 2 by 1.1.",
+      "Run the same tanh actor for reference and candidate pipelines.",
+      "Action RMSE is 0.01695659; maximum disagreement is 0.09126159.",
+      "Fraction exceeding 1e-5 action error is 1.000000."
+    ],
+    "notes": [
+      "The replay distribution is synthetic; physical logs and edge cases must be included before deployment.",
+      "Exact inference parity does not validate the policy behavior or the physical actuator mapping."
+    ]
+  }
+]

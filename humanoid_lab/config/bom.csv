@@ -1,0 +1,23 @@
+component,quantity,specification,verified_eur,supplier,compatibility,priority
+EC-A6416-P2-25,3,Exact released actuator,,Manufacturer quote required,Revision and firmware confirm,P0
+EC-A5013-H17-100,4,Exact released actuator,,Manufacturer quote required,Revision and firmware confirm,P0
+EC-A3814-H14-107,4,Exact released actuator,,Manufacturer quote required,Revision and firmware confirm,P0
+EC-A4315-P2-36,4,Exact released actuator,,Manufacturer quote required,Revision and firmware confirm,P0
+EC-A4310-P2-36,10,Exact released actuator,,Manufacturer quote required,Ankle mapping required,P0
+Frames and machined parts,1,Release-specific set,,EU fabrication quote required,CAD revision confirm,P0
+Bearings fasteners shafts couplers,1,Release-specific set,,BOM quantities required,No substitution approved,P0
+MJF printed parts,1,PA12 set,,EU bureau quote required,Material process match,P0
+Motor drivers,1,Confirm integrated versus additional,,Actuator vendor,Do not double count,P0
+Raspberry Pi 5 8GB,1,Board only,189.00,BerryBase snapshot 2026-10-25,Pi5 role verified accessories extra,P1
+Radxa CM5 and custom PCBs,1,MCB PDB head board media HAT,,Fabrication quote required,Matched release,P0
+Bench supply and distribution,1,Voltage and regen approval pending,,EU supplier quote required,Engineering review,P0
+Battery charger protection,1,Released matched set,,Vendor quote required,Defer for bench platform,P2
+Fuses contactor emergency stop,1,DC-rated engineered set,,EU supplier quote required,Rating approval pending,P0
+Microcontroller CAN interface,1,Release-specific interfaces,,EU supplier quote required,Protocol confirmation,P0
+IMU camera encoders,1,Confirm integrated sensors first,,EU supplier quote required,No double counting,P1
+Cooling cabling connectors,1,Release-specific set,,EU supplier quote required,Crimp and current review,P0
+Tools and metrology,1,Required set,,EU supplier quote required,Existing inventory credit,P0
+Support rig and barriers,1,Load-rated reviewed system,,EU fabricator quote required,Fall arrest and access review,P0
+Spare components,1,Critical spares,,Quote required,Same revisions,P1
+Shipping VAT import charges,1,Landed cost reconciliation,,Supplier quote required,Avoid VAT double count,P0
+Contingency,1,Uncommitted reserve,,Budget allowance,Not a supplier price,P0

@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "dt": 0.001,
+      "duration": 2.0,
+      "rate": 0.7
+    },
+    "metrics": {
+      "final_w": 0.7648421872844843,
+      "final_z": 0.644217687237696,
+      "angle_error_rad": 0.0,
+      "sign_equivalence_error_rad": 0.0,
+      "actual_duration_s": 2.0
+    },
+    "derivation": [
+      "One increment rotates 0.000700 rad about local z.",
+      "Apply 2000 increments, giving actual duration 2.000000 s.",
+      "The final scalar-first quaternion is [0.7648421872844843, 0.0, 0.0, 0.644217687237696].",
+      "Use the absolute dot product for sign-invariant error: 0.000000000 rad.",
+      "Compare q with -q using the same metric: 0.000000000 rad."
+    ],
+    "notes": [
+      "Constant-axis exact increments are a reference case, not a full noisy IMU estimator.",
+      "Changing the multiplication side changes whether increments are interpreted in body or world coordinates."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "dt": 0.002,
+      "duration": 2.0,
+      "rate": 0.7
+    },
+    "metrics": {
+      "final_w": 0.7648421872844865,
+      "final_z": 0.6442176872376935,
+      "angle_error_rad": 0.0,
+      "sign_equivalence_error_rad": 0.0,
+      "actual_duration_s": 2.0
+    },
+    "derivation": [
+      "One increment rotates 0.001400 rad about local z.",
+      "Apply 1000 increments, giving actual duration 2.000000 s.",
+      "The final scalar-first quaternion is [0.7648421872844865, 0.0, 0.0, 0.6442176872376935].",
+      "Use the absolute dot product for sign-invariant error: 0.000000000 rad.",
+      "Compare q with -q using the same metric: 0.000000000 rad."
+    ],
+    "notes": [
+      "Constant-axis exact increments are a reference case, not a full noisy IMU estimator.",
+      "Changing the multiplication side changes whether increments are interpreted in body or world coordinates."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "dt": 0.005,
+      "duration": 2.0,
+      "rate": 0.7
+    },
+    "metrics": {
+      "final_w": 0.7648421872844876,
+      "final_z": 0.644217687237692,
+      "angle_error_rad": 0.0,
+      "sign_equivalence_error_rad": 0.0,
+      "actual_duration_s": 2.0
+    },
+    "derivation": [
+      "One increment rotates 0.003500 rad about local z.",
+      "Apply 400 increments, giving actual duration 2.000000 s.",
+      "The final scalar-first quaternion is [0.7648421872844876, 0.0, 0.0, 0.644217687237692].",
+      "Use the absolute dot product for sign-invariant error: 0.000000000 rad.",
+      "Compare q with -q using the same metric: 0.000000000 rad."
+    ],
+    "notes": [
+      "Constant-axis exact increments are a reference case, not a full noisy IMU estimator.",
+      "Changing the multiplication side changes whether increments are interpreted in body or world coordinates."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "dt": 0.01,
+      "duration": 2.0,
+      "rate": 0.7
+    },
+    "metrics": {
+      "final_w": 0.7648421872844878,
+      "final_z": 0.6442176872376917,
+      "angle_error_rad": 0.0,
+      "sign_equivalence_error_rad": 0.0,
+      "actual_duration_s": 2.0
+    },
+    "derivation": [
+      "One increment rotates 0.007000 rad about local z.",
+      "Apply 200 increments, giving actual duration 2.000000 s.",
+      "The final scalar-first quaternion is [0.7648421872844878, 0.0, 0.0, 0.6442176872376917].",
+      "Use the absolute dot product for sign-invariant error: 0.000000000 rad.",
+      "Compare q with -q using the same metric: 0.000000000 rad."
+    ],
+    "notes": [
+      "Constant-axis exact increments are a reference case, not a full noisy IMU estimator.",
+      "Changing the multiplication side changes whether increments are interpreted in body or world coordinates."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "dt": 0.02,
+      "duration": 2.0,
+      "rate": 0.7
+    },
+    "metrics": {
+      "final_w": 0.7648421872844882,
+      "final_z": 0.6442176872376915,
+      "angle_error_rad": 0.0,
+      "sign_equivalence_error_rad": 0.0,
+      "actual_duration_s": 2.0
+    },
+    "derivation": [
+      "One increment rotates 0.014000 rad about local z.",
+      "Apply 100 increments, giving actual duration 2.000000 s.",
+      "The final scalar-first quaternion is [0.7648421872844882, 0.0, 0.0, 0.6442176872376915].",
+      "Use the absolute dot product for sign-invariant error: 0.000000000 rad.",
+      "Compare q with -q using the same metric: 0.000000000 rad."
+    ],
+    "notes": [
+      "Constant-axis exact increments are a reference case, not a full noisy IMU estimator.",
+      "Changing the multiplication side changes whether increments are interpreted in body or world coordinates."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "dt": 0.05,
+      "duration": 2.0,
+      "rate": 0.7
+    },
+    "metrics": {
+      "final_w": 0.7648421872844885,
+      "final_z": 0.6442176872376909,
+      "angle_error_rad": 0.0,
+      "sign_equivalence_error_rad": 0.0,
+      "actual_duration_s": 2.0
+    },
+    "derivation": [
+      "One increment rotates 0.035000 rad about local z.",
+      "Apply 40 increments, giving actual duration 2.000000 s.",
+      "The final scalar-first quaternion is [0.7648421872844885, 0.0, 0.0, 0.6442176872376909].",
+      "Use the absolute dot product for sign-invariant error: 0.000000000 rad.",
+      "Compare q with -q using the same metric: 0.000000000 rad."
+    ],
+    "notes": [
+      "Constant-axis exact increments are a reference case, not a full noisy IMU estimator.",
+      "Changing the multiplication side changes whether increments are interpreted in body or world coordinates."
+    ]
+  }
+]

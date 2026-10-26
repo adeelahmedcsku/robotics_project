@@ -1,0 +1,37 @@
+[
+  {
+    "seed": 0,
+    "fallen": true,
+    "time": 0.5080000000000003,
+    "displacement": 0.10994147487793167,
+    "peak_tilt_rad": 0.6007010660479778
+  },
+  {
+    "seed": 1,
+    "fallen": true,
+    "time": 0.5080000000000003,
+    "displacement": 0.11041061397431194,
+    "peak_tilt_rad": 0.6004978384783947
+  },
+  {
+    "seed": 2,
+    "fallen": true,
+    "time": 0.5080000000000003,
+    "displacement": 0.10999837585617717,
+    "peak_tilt_rad": 0.6030614025548602
+  },
+  {
+    "seed": 3,
+    "fallen": true,
+    "time": 0.5000000000000003,
+    "displacement": 0.12749828740481914,
+    "peak_tilt_rad": 0.6037955012830981
+  },
+  {
+    "seed": 4,
+    "fallen": true,
+    "time": 0.5160000000000003,
+    "displacement": 0.10299832050170594,
+    "peak_tilt_rad": 0.606598984690834
+  }
+]

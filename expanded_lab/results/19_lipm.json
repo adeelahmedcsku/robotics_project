@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "height": 0.3,
+      "horizon": 0.3
+    },
+    "metrics": {
+      "natural_rate_per_s": 5.718391382198319,
+      "final_com_x_m": 0.08091342475390911,
+      "final_speed_m_s": 0.45111674917563516,
+      "initial_capture_point_m": 0.028743717709783363,
+      "divergent_growth_factor": 5.559551361668711
+    },
+    "derivation": [
+      "At height 0.3 m, omega=sqrt(9.81/h)=5.718391 per second.",
+      "Start at x0=0.02 m and v0=0.05 m/s with ZMP zero.",
+      "Over 0.3 s, the hyperbolic solution predicts x=0.080913 m and v=0.451117 m/s.",
+      "The initial capture-point coordinate is 0.028744 m.",
+      "The divergent mode multiplies by exp(omega*T)=5.559551."
+    ],
+    "notes": [
+      "A fixed support point does not recover the displaced state in this open-loop model.",
+      "A predicted capture point outside reachable/contact-feasible support is a warning, not an invitation to command an impossible step."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "height": 0.4,
+      "horizon": 0.3
+    },
+    "metrics": {
+      "natural_rate_per_s": 4.9522722057657536,
+      "final_com_x_m": 0.06760336447054985,
+      "final_speed_m_s": 0.32368892492912776,
+      "initial_capture_point_m": 0.030096375546923043,
+      "divergent_growth_factor": 4.417975951706545
+    },
+    "derivation": [
+      "At height 0.4 m, omega=sqrt(9.81/h)=4.952272 per second.",
+      "Start at x0=0.02 m and v0=0.05 m/s with ZMP zero.",
+      "Over 0.3 s, the hyperbolic solution predicts x=0.067603 m and v=0.323689 m/s.",
+      "The initial capture-point coordinate is 0.030096 m.",
+      "The divergent mode multiplies by exp(omega*T)=4.417976."
+    ],
+    "notes": [
+      "A fixed support point does not recover the displaced state in this open-loop model.",
+      "A predicted capture point outside reachable/contact-feasible support is a warning, not an invitation to command an impossible step."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "height": 0.5,
+      "horizon": 0.3
+    },
+    "metrics": {
+      "natural_rate_per_s": 4.4294469180700204,
+      "final_com_x_m": 0.06023528453996661,
+      "final_speed_m_s": 0.2565911924849385,
+      "initial_capture_point_m": 0.03128809102464327,
+      "divergent_growth_factor": 3.7766375450880934
+    },
+    "derivation": [
+      "At height 0.5 m, omega=sqrt(9.81/h)=4.429447 per second.",
+      "Start at x0=0.02 m and v0=0.05 m/s with ZMP zero.",
+      "Over 0.3 s, the hyperbolic solution predicts x=0.060235 m and v=0.256591 m/s.",
+      "The initial capture-point coordinate is 0.031288 m.",
+      "The divergent mode multiplies by exp(omega*T)=3.776638."
+    ],
+    "notes": [
+      "A fixed support point does not recover the displaced state in this open-loop model.",
+      "A predicted capture point outside reachable/contact-feasible support is a warning, not an invitation to command an impossible step."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "height": 0.6,
+      "horizon": 0.3
+    },
+    "metrics": {
+      "natural_rate_per_s": 4.043513323831146,
+      "final_com_x_m": 0.055569391511659835,
+      "final_speed_m_s": 0.21551821596598225,
+      "initial_capture_point_m": 0.03236548417073745,
+      "divergent_growth_factor": 3.3637418398563637
+    },
+    "derivation": [
+      "At height 0.6 m, omega=sqrt(9.81/h)=4.043513 per second.",
+      "Start at x0=0.02 m and v0=0.05 m/s with ZMP zero.",
+      "Over 0.3 s, the hyperbolic solution predicts x=0.055569 m and v=0.215518 m/s.",
+      "The initial capture-point coordinate is 0.032365 m.",
+      "The divergent mode multiplies by exp(omega*T)=3.363742."
+    ],
+    "notes": [
+      "A fixed support point does not recover the displaced state in this open-loop model.",
+      "A predicted capture point outside reachable/contact-feasible support is a warning, not an invitation to command an impossible step."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "height": 0.8,
+      "horizon": 0.3
+    },
+    "metrics": {
+      "natural_rate_per_s": 3.5017852589786256,
+      "final_com_x_m": 0.05000469758677403,
+      "final_speed_m_s": 0.1680982173801441,
+      "initial_capture_point_m": 0.03427843122927064,
+      "divergent_growth_factor": 2.859182022180508
+    },
+    "derivation": [
+      "At height 0.8 m, omega=sqrt(9.81/h)=3.501785 per second.",
+      "Start at x0=0.02 m and v0=0.05 m/s with ZMP zero.",
+      "Over 0.3 s, the hyperbolic solution predicts x=0.050005 m and v=0.168098 m/s.",
+      "The initial capture-point coordinate is 0.034278 m.",
+      "The divergent mode multiplies by exp(omega*T)=2.859182."
+    ],
+    "notes": [
+      "A fixed support point does not recover the displaced state in this open-loop model.",
+      "A predicted capture point outside reachable/contact-feasible support is a warning, not an invitation to command an impossible step."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "height": 1.0,
+      "horizon": 0.3
+    },
+    "metrics": {
+      "natural_rate_per_s": 3.132091952673165,
+      "final_com_x_m": 0.046804778281507184,
+      "final_speed_m_s": 0.14165677575927696,
+      "initial_capture_point_m": 0.03596377142035252,
+      "divergent_growth_factor": 2.5590282224052046
+    },
+    "derivation": [
+      "At height 1 m, omega=sqrt(9.81/h)=3.132092 per second.",
+      "Start at x0=0.02 m and v0=0.05 m/s with ZMP zero.",
+      "Over 0.3 s, the hyperbolic solution predicts x=0.046805 m and v=0.141657 m/s.",
+      "The initial capture-point coordinate is 0.035964 m.",
+      "The divergent mode multiplies by exp(omega*T)=2.559028."
+    ],
+    "notes": [
+      "A fixed support point does not recover the displaced state in this open-loop model.",
+      "A predicted capture point outside reachable/contact-feasible support is a warning, not an invitation to command an impossible step."
+    ]
+  }
+]

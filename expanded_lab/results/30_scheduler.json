@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "period_ms": 2.0,
+      "jitter_mean_ms": 0.01
+    },
+    "metrics": {
+      "mean_completion_ms": 1.1767955346564742,
+      "p99_completion_ms": 1.558704180918518,
+      "max_completion_ms": 4.600765180914729,
+      "deadline_miss_fraction": 0.0048,
+      "minimum_observed_margin_ms": -2.6007651809147294
+    },
+    "derivation": [
+      "Generate 10000 synthetic cycles with period 2 ms.",
+      "Exponential jitter mean is 0.01 ms, plus a 0.5% long-delay mechanism.",
+      "Mean completion is 1.176796 ms.",
+      "The 99th percentile is 1.558704 ms and worst observed is 4.600765 ms.",
+      "Missed-deadline fraction is 0.004800."
+    ],
+    "notes": [
+      "Worst observed latency is not a proven worst-case bound; finite sampling can miss rarer events.",
+      "The random workload is pedagogical. Real timing claims require instrumented measurements under declared stress conditions."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "period_ms": 2.0,
+      "jitter_mean_ms": 0.05
+    },
+    "metrics": {
+      "mean_completion_ms": 1.216284579761402,
+      "p99_completion_ms": 1.6206934420428203,
+      "max_completion_ms": 4.624855262027056,
+      "deadline_miss_fraction": 0.0048,
+      "minimum_observed_margin_ms": -2.624855262027056
+    },
+    "derivation": [
+      "Generate 10000 synthetic cycles with period 2 ms.",
+      "Exponential jitter mean is 0.05 ms, plus a 0.5% long-delay mechanism.",
+      "Mean completion is 1.216285 ms.",
+      "The 99th percentile is 1.620693 ms and worst observed is 4.624855 ms.",
+      "Missed-deadline fraction is 0.004800."
+    ],
+    "notes": [
+      "Worst observed latency is not a proven worst-case bound; finite sampling can miss rarer events.",
+      "The random workload is pedagogical. Real timing claims require instrumented measurements under declared stress conditions."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "period_ms": 2.0,
+      "jitter_mean_ms": 0.1
+    },
+    "metrics": {
+      "mean_completion_ms": 1.2656458861425617,
+      "p99_completion_ms": 1.781663617795395,
+      "max_completion_ms": 4.72837515750953,
+      "deadline_miss_fraction": 0.0054,
+      "minimum_observed_margin_ms": -2.7283751575095296
+    },
+    "derivation": [
+      "Generate 10000 synthetic cycles with period 2 ms.",
+      "Exponential jitter mean is 0.1 ms, plus a 0.5% long-delay mechanism.",
+      "Mean completion is 1.265646 ms.",
+      "The 99th percentile is 1.781664 ms and worst observed is 4.728375 ms.",
+      "Missed-deadline fraction is 0.005400."
+    ],
+    "notes": [
+      "Worst observed latency is not a proven worst-case bound; finite sampling can miss rarer events.",
+      "The random workload is pedagogical. Real timing claims require instrumented measurements under declared stress conditions."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "period_ms": 2.0,
+      "jitter_mean_ms": 0.2
+    },
+    "metrics": {
+      "mean_completion_ms": 1.364368498904881,
+      "p99_completion_ms": 2.2494934378108646,
+      "max_completion_ms": 5.0499715756676125,
+      "deadline_miss_fraction": 0.0224,
+      "minimum_observed_margin_ms": -3.0499715756676125
+    },
+    "derivation": [
+      "Generate 10000 synthetic cycles with period 2 ms.",
+      "Exponential jitter mean is 0.2 ms, plus a 0.5% long-delay mechanism.",
+      "Mean completion is 1.364368 ms.",
+      "The 99th percentile is 2.249493 ms and worst observed is 5.049972 ms.",
+      "Missed-deadline fraction is 0.022400."
+    ],
+    "notes": [
+      "Worst observed latency is not a proven worst-case bound; finite sampling can miss rarer events.",
+      "The random workload is pedagogical. Real timing claims require instrumented measurements under declared stress conditions."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "period_ms": 2.0,
+      "jitter_mean_ms": 0.5
+    },
+    "metrics": {
+      "mean_completion_ms": 1.660536337191839,
+      "p99_completion_ms": 3.7769882140117796,
+      "max_completion_ms": 6.014760830141861,
+      "deadline_miss_fraction": 0.1902,
+      "minimum_observed_margin_ms": -4.014760830141861
+    },
+    "derivation": [
+      "Generate 10000 synthetic cycles with period 2 ms.",
+      "Exponential jitter mean is 0.5 ms, plus a 0.5% long-delay mechanism.",
+      "Mean completion is 1.660536 ms.",
+      "The 99th percentile is 3.776988 ms and worst observed is 6.014761 ms.",
+      "Missed-deadline fraction is 0.190200."
+    ],
+    "notes": [
+      "Worst observed latency is not a proven worst-case bound; finite sampling can miss rarer events.",
+      "The random workload is pedagogical. Real timing claims require instrumented measurements under declared stress conditions."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "period_ms": 2.0,
+      "jitter_mean_ms": 1.0
+    },
+    "metrics": {
+      "mean_completion_ms": 2.154149401003435,
+      "p99_completion_ms": 5.7739145546944854,
+      "max_completion_ms": 9.678229309585848,
+      "deadline_miss_fraction": 0.4325,
+      "minimum_observed_margin_ms": -7.6782293095858485
+    },
+    "derivation": [
+      "Generate 10000 synthetic cycles with period 2 ms.",
+      "Exponential jitter mean is 1 ms, plus a 0.5% long-delay mechanism.",
+      "Mean completion is 2.154149 ms.",
+      "The 99th percentile is 5.773915 ms and worst observed is 9.678229 ms.",
+      "Missed-deadline fraction is 0.432500."
+    ],
+    "notes": [
+      "Worst observed latency is not a proven worst-case bound; finite sampling can miss rarer events.",
+      "The random workload is pedagogical. Real timing claims require instrumented measurements under declared stress conditions."
+    ]
+  }
+]

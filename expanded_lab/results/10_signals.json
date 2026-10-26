@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "sample_rate": 20.0,
+      "signal_frequency": 35.0,
+      "duration": 2.0
+    },
+    "metrics": {
+      "nyquist_Hz": 10.0,
+      "alias_Hz": 5.0,
+      "fft_peak_Hz": 5.0,
+      "samples": 40.0,
+      "sampled_rms": 0.7071067811865476
+    },
+    "derivation": [
+      "Sample a 35 Hz sinusoid at 20 samples per second.",
+      "The sample interval is 0.050000 s and Nyquist frequency is 10.000000 Hz.",
+      "The analytical alias frequency is 5.000000 Hz.",
+      "An 40-sample FFT resolves bins spaced 0.500000 Hz; peak bin is 5.000000 Hz.",
+      "Sampled RMS is 0.707107; exact coincidences can produce misleading zeros."
+    ],
+    "notes": [
+      "The original signal cannot be uniquely recovered from these samples without extra information.",
+      "FFT leakage depends on record duration and windowing; a peak bin alone is not a precision frequency estimate."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "sample_rate": 40.0,
+      "signal_frequency": 35.0,
+      "duration": 2.0
+    },
+    "metrics": {
+      "nyquist_Hz": 20.0,
+      "alias_Hz": 5.0,
+      "fft_peak_Hz": 5.0,
+      "samples": 80.0,
+      "sampled_rms": 0.7071067811865471
+    },
+    "derivation": [
+      "Sample a 35 Hz sinusoid at 40 samples per second.",
+      "The sample interval is 0.025000 s and Nyquist frequency is 20.000000 Hz.",
+      "The analytical alias frequency is 5.000000 Hz.",
+      "An 80-sample FFT resolves bins spaced 0.500000 Hz; peak bin is 5.000000 Hz.",
+      "Sampled RMS is 0.707107; exact coincidences can produce misleading zeros."
+    ],
+    "notes": [
+      "The original signal cannot be uniquely recovered from these samples without extra information.",
+      "FFT leakage depends on record duration and windowing; a peak bin alone is not a precision frequency estimate."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "sample_rate": 60.0,
+      "signal_frequency": 35.0,
+      "duration": 2.0
+    },
+    "metrics": {
+      "nyquist_Hz": 30.0,
+      "alias_Hz": 25.0,
+      "fft_peak_Hz": 25.0,
+      "samples": 120.0,
+      "sampled_rms": 0.7071067811865478
+    },
+    "derivation": [
+      "Sample a 35 Hz sinusoid at 60 samples per second.",
+      "The sample interval is 0.016667 s and Nyquist frequency is 30.000000 Hz.",
+      "The analytical alias frequency is 25.000000 Hz.",
+      "An 120-sample FFT resolves bins spaced 0.500000 Hz; peak bin is 25.000000 Hz.",
+      "Sampled RMS is 0.707107; exact coincidences can produce misleading zeros."
+    ],
+    "notes": [
+      "The original signal cannot be uniquely recovered from these samples without extra information.",
+      "FFT leakage depends on record duration and windowing; a peak bin alone is not a precision frequency estimate."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "sample_rate": 80.0,
+      "signal_frequency": 35.0,
+      "duration": 2.0
+    },
+    "metrics": {
+      "nyquist_Hz": 40.0,
+      "alias_Hz": 35.0,
+      "fft_peak_Hz": 35.0,
+      "samples": 160.0,
+      "sampled_rms": 0.7071067811865472
+    },
+    "derivation": [
+      "Sample a 35 Hz sinusoid at 80 samples per second.",
+      "The sample interval is 0.012500 s and Nyquist frequency is 40.000000 Hz.",
+      "The analytical alias frequency is 35.000000 Hz.",
+      "An 160-sample FFT resolves bins spaced 0.500000 Hz; peak bin is 35.000000 Hz.",
+      "Sampled RMS is 0.707107; exact coincidences can produce misleading zeros."
+    ],
+    "notes": [
+      "Signal lies below Nyquist, but practical reconstruction still needs filtering assumptions.",
+      "FFT leakage depends on record duration and windowing; a peak bin alone is not a precision frequency estimate."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "sample_rate": 100.0,
+      "signal_frequency": 35.0,
+      "duration": 2.0
+    },
+    "metrics": {
+      "nyquist_Hz": 50.0,
+      "alias_Hz": 35.0,
+      "fft_peak_Hz": 35.0,
+      "samples": 200.0,
+      "sampled_rms": 0.7071067811865478
+    },
+    "derivation": [
+      "Sample a 35 Hz sinusoid at 100 samples per second.",
+      "The sample interval is 0.010000 s and Nyquist frequency is 50.000000 Hz.",
+      "The analytical alias frequency is 35.000000 Hz.",
+      "An 200-sample FFT resolves bins spaced 0.500000 Hz; peak bin is 35.000000 Hz.",
+      "Sampled RMS is 0.707107; exact coincidences can produce misleading zeros."
+    ],
+    "notes": [
+      "Signal lies below Nyquist, but practical reconstruction still needs filtering assumptions.",
+      "FFT leakage depends on record duration and windowing; a peak bin alone is not a precision frequency estimate."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "sample_rate": 200.0,
+      "signal_frequency": 35.0,
+      "duration": 2.0
+    },
+    "metrics": {
+      "nyquist_Hz": 100.0,
+      "alias_Hz": 35.0,
+      "fft_peak_Hz": 35.0,
+      "samples": 400.0,
+      "sampled_rms": 0.7071067811865476
+    },
+    "derivation": [
+      "Sample a 35 Hz sinusoid at 200 samples per second.",
+      "The sample interval is 0.005000 s and Nyquist frequency is 100.000000 Hz.",
+      "The analytical alias frequency is 35.000000 Hz.",
+      "An 400-sample FFT resolves bins spaced 0.500000 Hz; peak bin is 35.000000 Hz.",
+      "Sampled RMS is 0.707107; exact coincidences can produce misleading zeros."
+    ],
+    "notes": [
+      "Signal lies below Nyquist, but practical reconstruction still needs filtering assumptions.",
+      "FFT leakage depends on record duration and windowing; a peak bin alone is not a precision frequency estimate."
+    ]
+  }
+]

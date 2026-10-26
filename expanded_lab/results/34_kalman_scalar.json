@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "assumed_measurement_variance": 0.0001
+    },
+    "metrics": {
+      "estimate_rmse": 0.07318392395339517,
+      "reported_std": 0.007867091366813921,
+      "final_gain": 0.6180339887498949,
+      "empirical_two_sigma_coverage": 0.172
+    },
+    "derivation": [
+      "True process variance per step is 0.0001; true measurement variance is 0.01.",
+      "The filter assumes measurement variance 0.0001.",
+      "Predict variance, calculate gain, correct state, then use Joseph-form scalar covariance update.",
+      "Empirical RMSE is 0.073184; reported RMS standard deviation is 0.007867.",
+      "Two-sigma empirical coverage is 0.172000."
+    ],
+    "notes": [
+      "Coverage is a diagnostic under this synthetic model, not a universal confidence guarantee.",
+      "Underestimating measurement variance can increase trust in noisy data and make the reported covariance overconfident."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "assumed_measurement_variance": 0.001
+    },
+    "metrics": {
+      "estimate_rmse": 0.04609931444416654,
+      "reported_std": 0.01651004233385468,
+      "final_gain": 0.27015621187164246,
+      "empirical_two_sigma_coverage": 0.486
+    },
+    "derivation": [
+      "True process variance per step is 0.0001; true measurement variance is 0.01.",
+      "The filter assumes measurement variance 0.001.",
+      "Predict variance, calculate gain, correct state, then use Joseph-form scalar covariance update.",
+      "Empirical RMSE is 0.046099; reported RMS standard deviation is 0.016510.",
+      "Two-sigma empirical coverage is 0.486000."
+    ],
+    "notes": [
+      "Coverage is a diagnostic under this synthetic model, not a universal confidence guarantee.",
+      "Underestimating measurement variance can increase trust in noisy data and make the reported covariance overconfident."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "assumed_measurement_variance": 0.005
+    },
+    "metrics": {
+      "estimate_rmse": 0.03697675490242728,
+      "reported_std": 0.026037867538907328,
+      "final_gain": 0.13177446878757829,
+      "empirical_two_sigma_coverage": 0.844
+    },
+    "derivation": [
+      "True process variance per step is 0.0001; true measurement variance is 0.01.",
+      "The filter assumes measurement variance 0.005.",
+      "Predict variance, calculate gain, correct state, then use Joseph-form scalar covariance update.",
+      "Empirical RMSE is 0.036977; reported RMS standard deviation is 0.026038.",
+      "Two-sigma empirical coverage is 0.844000."
+    ],
+    "notes": [
+      "Coverage is a diagnostic under this synthetic model, not a universal confidence guarantee.",
+      "Underestimating measurement variance can increase trust in noisy data and make the reported covariance overconfident."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "assumed_measurement_variance": 0.01
+    },
+    "metrics": {
+      "estimate_rmse": 0.03607726985552535,
+      "reported_std": 0.031555526145145216,
+      "final_gain": 0.09512492197250402,
+      "empirical_two_sigma_coverage": 0.926
+    },
+    "derivation": [
+      "True process variance per step is 0.0001; true measurement variance is 0.01.",
+      "The filter assumes measurement variance 0.01.",
+      "Predict variance, calculate gain, correct state, then use Joseph-form scalar covariance update.",
+      "Empirical RMSE is 0.036077; reported RMS standard deviation is 0.031556.",
+      "Two-sigma empirical coverage is 0.926000."
+    ],
+    "notes": [
+      "Coverage is a diagnostic under this synthetic model, not a universal confidence guarantee.",
+      "Underestimating measurement variance can increase trust in noisy data and make the reported covariance overconfident."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "assumed_measurement_variance": 0.05
+    },
+    "metrics": {
+      "estimate_rmse": 0.04071650057256629,
+      "reported_std": 0.04980344734469593,
+      "final_gain": 0.04373253849269009,
+      "empirical_two_sigma_coverage": 0.978
+    },
+    "derivation": [
+      "True process variance per step is 0.0001; true measurement variance is 0.01.",
+      "The filter assumes measurement variance 0.05.",
+      "Predict variance, calculate gain, correct state, then use Joseph-form scalar covariance update.",
+      "Empirical RMSE is 0.040717; reported RMS standard deviation is 0.049803.",
+      "Two-sigma empirical coverage is 0.978000."
+    ],
+    "notes": [
+      "Coverage is a diagnostic under this synthetic model, not a universal confidence guarantee.",
+      "Underestimating measurement variance can increase trust in noisy data and make the reported covariance overconfident."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "assumed_measurement_variance": 0.1
+    },
+    "metrics": {
+      "estimate_rmse": 0.04561208628933758,
+      "reported_std": 0.06126554577998354,
+      "final_gain": 0.031126729201738083,
+      "empirical_two_sigma_coverage": 0.984
+    },
+    "derivation": [
+      "True process variance per step is 0.0001; true measurement variance is 0.01.",
+      "The filter assumes measurement variance 0.1.",
+      "Predict variance, calculate gain, correct state, then use Joseph-form scalar covariance update.",
+      "Empirical RMSE is 0.045612; reported RMS standard deviation is 0.061266.",
+      "Two-sigma empirical coverage is 0.984000."
+    ],
+    "notes": [
+      "Coverage is a diagnostic under this synthetic model, not a universal confidence guarantee.",
+      "Underestimating measurement variance can increase trust in noisy data and make the reported covariance overconfident."
+    ]
+  }
+]

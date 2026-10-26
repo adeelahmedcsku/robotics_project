@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "model_mass": 1.0
+    },
+    "metrics": {
+      "feedforward_rmse_Nm": 2.075980119733247,
+      "peak_residual_Nm": 2.4525,
+      "identified_mass_kg": 2.0001056196729645,
+      "fit_residual_rmse_Nm": 0.03442849163824939
+    },
+    "derivation": [
+      "The true static gravity coefficient is 4.905000 Nm.",
+      "The assumed model uses mass 1 kg and coefficient 2.452500 Nm.",
+      "Generate static samples over -1 to +1 rad with 0.03 Nm standard-deviation noise.",
+      "Project measurements onto cos(q), obtaining A_hat=4.905259 Nm.",
+      "The inferred mass is 2.000106 kg; feedforward mismatch RMSE is 2.075980 Nm."
+    ],
+    "notes": [
+      "The cosine model assumes a known angle convention, lever and negligible dynamic/friction torque during the measurement.",
+      "A good gravity fit does not identify inertia, backlash or transient motor limits."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "model_mass": 1.5
+    },
+    "metrics": {
+      "feedforward_rmse_Nm": 1.0379900598666236,
+      "peak_residual_Nm": 1.2262500000000003,
+      "identified_mass_kg": 2.0001056196729645,
+      "fit_residual_rmse_Nm": 0.03442849163824939
+    },
+    "derivation": [
+      "The true static gravity coefficient is 4.905000 Nm.",
+      "The assumed model uses mass 1.5 kg and coefficient 3.678750 Nm.",
+      "Generate static samples over -1 to +1 rad with 0.03 Nm standard-deviation noise.",
+      "Project measurements onto cos(q), obtaining A_hat=4.905259 Nm.",
+      "The inferred mass is 2.000106 kg; feedforward mismatch RMSE is 1.037990 Nm."
+    ],
+    "notes": [
+      "The cosine model assumes a known angle convention, lever and negligible dynamic/friction torque during the measurement.",
+      "A good gravity fit does not identify inertia, backlash or transient motor limits."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "model_mass": 1.8
+    },
+    "metrics": {
+      "feedforward_rmse_Nm": 0.41519602394664934,
+      "peak_residual_Nm": 0.49049999999999994,
+      "identified_mass_kg": 2.0001056196729645,
+      "fit_residual_rmse_Nm": 0.03442849163824939
+    },
+    "derivation": [
+      "The true static gravity coefficient is 4.905000 Nm.",
+      "The assumed model uses mass 1.8 kg and coefficient 4.414500 Nm.",
+      "Generate static samples over -1 to +1 rad with 0.03 Nm standard-deviation noise.",
+      "Project measurements onto cos(q), obtaining A_hat=4.905259 Nm.",
+      "The inferred mass is 2.000106 kg; feedforward mismatch RMSE is 0.415196 Nm."
+    ],
+    "notes": [
+      "The cosine model assumes a known angle convention, lever and negligible dynamic/friction torque during the measurement.",
+      "A good gravity fit does not identify inertia, backlash or transient motor limits."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "model_mass": 2.0
+    },
+    "metrics": {
+      "feedforward_rmse_Nm": 0.0,
+      "peak_residual_Nm": 0.0,
+      "identified_mass_kg": 2.0001056196729645,
+      "fit_residual_rmse_Nm": 0.03442849163824939
+    },
+    "derivation": [
+      "The true static gravity coefficient is 4.905000 Nm.",
+      "The assumed model uses mass 2 kg and coefficient 4.905000 Nm.",
+      "Generate static samples over -1 to +1 rad with 0.03 Nm standard-deviation noise.",
+      "Project measurements onto cos(q), obtaining A_hat=4.905259 Nm.",
+      "The inferred mass is 2.000106 kg; feedforward mismatch RMSE is 0.000000 Nm."
+    ],
+    "notes": [
+      "The cosine model assumes a known angle convention, lever and negligible dynamic/friction torque during the measurement.",
+      "A good gravity fit does not identify inertia, backlash or transient motor limits."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "model_mass": 2.2
+    },
+    "metrics": {
+      "feedforward_rmse_Nm": 0.4151960239466502,
+      "peak_residual_Nm": 0.4905000000000008,
+      "identified_mass_kg": 2.0001056196729645,
+      "fit_residual_rmse_Nm": 0.03442849163824939
+    },
+    "derivation": [
+      "The true static gravity coefficient is 4.905000 Nm.",
+      "The assumed model uses mass 2.2 kg and coefficient 5.395500 Nm.",
+      "Generate static samples over -1 to +1 rad with 0.03 Nm standard-deviation noise.",
+      "Project measurements onto cos(q), obtaining A_hat=4.905259 Nm.",
+      "The inferred mass is 2.000106 kg; feedforward mismatch RMSE is 0.415196 Nm."
+    ],
+    "notes": [
+      "The cosine model assumes a known angle convention, lever and negligible dynamic/friction torque during the measurement.",
+      "A good gravity fit does not identify inertia, backlash or transient motor limits."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "model_mass": 2.5
+    },
+    "metrics": {
+      "feedforward_rmse_Nm": 1.0379900598666236,
+      "peak_residual_Nm": 1.2262500000000003,
+      "identified_mass_kg": 2.0001056196729645,
+      "fit_residual_rmse_Nm": 0.03442849163824939
+    },
+    "derivation": [
+      "The true static gravity coefficient is 4.905000 Nm.",
+      "The assumed model uses mass 2.5 kg and coefficient 6.131250 Nm.",
+      "Generate static samples over -1 to +1 rad with 0.03 Nm standard-deviation noise.",
+      "Project measurements onto cos(q), obtaining A_hat=4.905259 Nm.",
+      "The inferred mass is 2.000106 kg; feedforward mismatch RMSE is 1.037990 Nm."
+    ],
+    "notes": [
+      "The cosine model assumes a known angle convention, lever and negligible dynamic/friction torque during the measurement.",
+      "A good gravity fit does not identify inertia, backlash or transient motor limits."
+    ]
+  }
+]

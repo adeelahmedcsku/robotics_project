@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "trials": 10,
+      "observed_fraction": 0.02
+    },
+    "metrics": {
+      "observed_failure_fraction": 0.0,
+      "wilson_lower": 0.0,
+      "wilson_upper": 0.2775327998628892,
+      "zero_failure_upper_if_applicable": 0.2588655508930523,
+      "observed_failures": 0.0
+    },
+    "derivation": [
+      "Use 10 trials and 0 observed failures.",
+      "Observed fraction is 0.00000000.",
+      "The 95% Wilson interval is [0.00000000,0.27753280].",
+      "If all 10 trials had zero failures, a one-sided 95% upper bound would be 0.25886555.",
+      "The zero-failure formula solves (1-p)^n=0.05 under the binomial independent-trial assumption."
+    ],
+    "notes": [
+      "Changing the terrain, disturbance distribution or controller release changes the population to which these intervals apply.",
+      "Repeated trials with shared initialization or correlated faults may provide less information than the independent model assumes."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "trials": 20,
+      "observed_fraction": 0.02
+    },
+    "metrics": {
+      "observed_failure_fraction": 0.0,
+      "wilson_lower": 0.0,
+      "wilson_upper": 0.16112515805281938,
+      "zero_failure_upper_if_applicable": 0.13910834066826516,
+      "observed_failures": 0.0
+    },
+    "derivation": [
+      "Use 20 trials and 0 observed failures.",
+      "Observed fraction is 0.00000000.",
+      "The 95% Wilson interval is [0.00000000,0.16112516].",
+      "If all 20 trials had zero failures, a one-sided 95% upper bound would be 0.13910834.",
+      "The zero-failure formula solves (1-p)^n=0.05 under the binomial independent-trial assumption."
+    ],
+    "notes": [
+      "Changing the terrain, disturbance distribution or controller release changes the population to which these intervals apply.",
+      "Repeated trials with shared initialization or correlated faults may provide less information than the independent model assumes."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "trials": 50,
+      "observed_fraction": 0.02
+    },
+    "metrics": {
+      "observed_failure_fraction": 0.02,
+      "wilson_lower": 0.003539259271646236,
+      "wilson_upper": 0.10495443589637815,
+      "zero_failure_upper_if_applicable": 0.058155079116972264,
+      "observed_failures": 1.0
+    },
+    "derivation": [
+      "Use 50 trials and 1 observed failures.",
+      "Observed fraction is 0.02000000.",
+      "The 95% Wilson interval is [0.00353926,0.10495444].",
+      "If all 50 trials had zero failures, a one-sided 95% upper bound would be 0.05815508.",
+      "The zero-failure formula solves (1-p)^n=0.05 under the binomial independent-trial assumption."
+    ],
+    "notes": [
+      "Changing the terrain, disturbance distribution or controller release changes the population to which these intervals apply.",
+      "Repeated trials with shared initialization or correlated faults may provide less information than the independent model assumes."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "trials": 100,
+      "observed_fraction": 0.02
+    },
+    "metrics": {
+      "observed_failure_fraction": 0.02,
+      "wilson_lower": 0.00550196755016235,
+      "wilson_upper": 0.07001179072854388,
+      "zero_failure_upper_if_applicable": 0.029513049607039932,
+      "observed_failures": 2.0
+    },
+    "derivation": [
+      "Use 100 trials and 2 observed failures.",
+      "Observed fraction is 0.02000000.",
+      "The 95% Wilson interval is [0.00550197,0.07001179].",
+      "If all 100 trials had zero failures, a one-sided 95% upper bound would be 0.02951305.",
+      "The zero-failure formula solves (1-p)^n=0.05 under the binomial independent-trial assumption."
+    ],
+    "notes": [
+      "Changing the terrain, disturbance distribution or controller release changes the population to which these intervals apply.",
+      "Repeated trials with shared initialization or correlated faults may provide less information than the independent model assumes."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "trials": 500,
+      "observed_fraction": 0.02
+    },
+    "metrics": {
+      "observed_failure_fraction": 0.02,
+      "wilson_lower": 0.010899183596210813,
+      "wilson_upper": 0.036420183246879345,
+      "zero_failure_upper_if_applicable": 0.005973551516349596,
+      "observed_failures": 10.0
+    },
+    "derivation": [
+      "Use 500 trials and 10 observed failures.",
+      "Observed fraction is 0.02000000.",
+      "The 95% Wilson interval is [0.01089918,0.03642018].",
+      "If all 500 trials had zero failures, a one-sided 95% upper bound would be 0.00597355.",
+      "The zero-failure formula solves (1-p)^n=0.05 under the binomial independent-trial assumption."
+    ],
+    "notes": [
+      "Changing the terrain, disturbance distribution or controller release changes the population to which these intervals apply.",
+      "Repeated trials with shared initialization or correlated faults may provide less information than the independent model assumes."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "trials": 1000,
+      "observed_fraction": 0.02
+    },
+    "metrics": {
+      "observed_failure_fraction": 0.02,
+      "wilson_lower": 0.012983682916415136,
+      "wilson_upper": 0.030690005229717786,
+      "zero_failure_upper_if_applicable": 0.0029912495450953314,
+      "observed_failures": 20.0
+    },
+    "derivation": [
+      "Use 1000 trials and 20 observed failures.",
+      "Observed fraction is 0.02000000.",
+      "The 95% Wilson interval is [0.01298368,0.03069001].",
+      "If all 1000 trials had zero failures, a one-sided 95% upper bound would be 0.00299125.",
+      "The zero-failure formula solves (1-p)^n=0.05 under the binomial independent-trial assumption."
+    ],
+    "notes": [
+      "Changing the terrain, disturbance distribution or controller release changes the population to which these intervals apply.",
+      "Repeated trials with shared initialization or correlated faults may provide less information than the independent model assumes."
+    ]
+  }
+]

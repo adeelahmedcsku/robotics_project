@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "speed": 0.1
+    },
+    "metrics": {
+      "kinetic_energy_J": 0.0338,
+      "momentum_norm_kg_m2_s": 0.09338094023943001,
+      "misalignment_rad": 0.17269333117445054,
+      "gyroscopic_torque_Nm": 0.011791522378386946,
+      "required_torque_Nm": 0.035528017113258654
+    },
+    "derivation": [
+      "Angular velocity is [0.1, 0.7, 0.2] rad/s.",
+      "Multiply by diagonal inertia to obtain L=[0.008, 0.08399999999999999, 0.04000000000000001] kg*m^2/s.",
+      "The quadratic energy is 0.033800 J.",
+      "Compute omega cross L: [0.011200000000000005, -0.002400000000000001, 0.0027999999999999995] Nm.",
+      "Include the acceleration term to obtain torque [0.011200000000000005, 0.0336, 0.0027999999999999995] Nm."
+    ],
+    "notes": [
+      "L and omega differ in direction by 0.172693 rad in this non-spherical body.",
+      "The calculation assumes a rigid body about its COM with a consistently expressed inertia tensor."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "speed": 0.3
+    },
+    "metrics": {
+      "kinetic_energy_J": 0.037,
+      "momentum_norm_kg_m2_s": 0.09608329719571451,
+      "misalignment_rad": 0.20961727395879456,
+      "gyroscopic_torque_Nm": 0.015742934923323543,
+      "required_torque_Nm": 0.032022492095400694
+    },
+    "derivation": [
+      "Angular velocity is [0.3, 0.7, 0.2] rad/s.",
+      "Multiply by diagonal inertia to obtain L=[0.024, 0.08399999999999999, 0.04000000000000001] kg*m^2/s.",
+      "The quadratic energy is 0.037000 J.",
+      "Compute omega cross L: [0.011200000000000005, -0.0072000000000000015, 0.008399999999999998] Nm.",
+      "Include the acceleration term to obtain torque [0.011200000000000005, 0.028799999999999996, 0.008399999999999998] Nm."
+    ],
+    "notes": [
+      "L and omega differ in direction by 0.209617 rad in this non-spherical body.",
+      "The calculation assumes a rigid body about its COM with a consistently expressed inertia tensor."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "speed": 0.7
+    },
+    "metrics": {
+      "kinetic_energy_J": 0.05299999999999999,
+      "momentum_norm_kg_m2_s": 0.10859097568398582,
+      "misalignment_rad": 0.2594833564848415,
+      "gyroscopic_torque_Nm": 0.0281396517391385,
+      "required_torque_Nm": 0.029635114307186333
+    },
+    "derivation": [
+      "Angular velocity is [0.7, 0.7, 0.2] rad/s.",
+      "Multiply by diagonal inertia to obtain L=[0.055999999999999994, 0.08399999999999999, 0.04000000000000001] kg*m^2/s.",
+      "The quadratic energy is 0.053000 J.",
+      "Compute omega cross L: [0.011200000000000005, -0.016800000000000002, 0.0196] Nm.",
+      "Include the acceleration term to obtain torque [0.011200000000000005, 0.019199999999999995, 0.0196] Nm."
+    ],
+    "notes": [
+      "L and omega differ in direction by 0.259483 rad in this non-spherical body.",
+      "The calculation assumes a rigid body about its COM with a consistently expressed inertia tensor."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "speed": 1.0
+    },
+    "metrics": {
+      "kinetic_energy_J": 0.07339999999999999,
+      "momentum_norm_kg_m2_s": 0.12270289320142373,
+      "misalignment_rad": 0.25674915647873925,
+      "gyroscopic_torque_Nm": 0.0385414063054269,
+      "required_torque_Nm": 0.032456740440161266
+    },
+    "derivation": [
+      "Angular velocity is [1.0, 0.7, 0.2] rad/s.",
+      "Multiply by diagonal inertia to obtain L=[0.08, 0.08399999999999999, 0.04000000000000001] kg*m^2/s.",
+      "The quadratic energy is 0.073400 J.",
+      "Compute omega cross L: [0.011200000000000005, -0.024000000000000007, 0.027999999999999997] Nm.",
+      "Include the acceleration term to obtain torque [0.011200000000000005, 0.01199999999999999, 0.027999999999999997] Nm."
+    ],
+    "notes": [
+      "L and omega differ in direction by 0.256749 rad in this non-spherical body.",
+      "The calculation assumes a rigid body about its COM with a consistently expressed inertia tensor."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "speed": 2.0
+    },
+    "metrics": {
+      "kinetic_energy_J": 0.19340000000000002,
+      "momentum_norm_kg_m2_s": 0.18508376482014838,
+      "misalignment_rad": 0.1905298886510072,
+      "gyroscopic_torque_Nm": 0.07460187665199852,
+      "required_torque_Nm": 0.05835614791947803
+    },
+    "derivation": [
+      "Angular velocity is [2.0, 0.7, 0.2] rad/s.",
+      "Multiply by diagonal inertia to obtain L=[0.16, 0.08399999999999999, 0.04000000000000001] kg*m^2/s.",
+      "The quadratic energy is 0.193400 J.",
+      "Compute omega cross L: [0.011200000000000005, -0.048000000000000015, 0.055999999999999994] Nm.",
+      "Include the acceleration term to obtain torque [0.011200000000000005, -0.012000000000000018, 0.055999999999999994] Nm."
+    ],
+    "notes": [
+      "L and omega differ in direction by 0.190530 rad in this non-spherical body.",
+      "The calculation assumes a rigid body about its COM with a consistently expressed inertia tensor."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "speed": 4.0
+    },
+    "metrics": {
+      "kinetic_energy_J": 0.6734,
+      "momentum_norm_kg_m2_s": 0.333250656413457,
+      "misalignment_rad": 0.1094049378608518,
+      "gyroscopic_torque_Nm": 0.1479372840091368,
+      "required_torque_Nm": 0.1275517150021904
+    },
+    "derivation": [
+      "Angular velocity is [4.0, 0.7, 0.2] rad/s.",
+      "Multiply by diagonal inertia to obtain L=[0.32, 0.08399999999999999, 0.04000000000000001] kg*m^2/s.",
+      "The quadratic energy is 0.673400 J.",
+      "Compute omega cross L: [0.011200000000000005, -0.09600000000000003, 0.11199999999999999] Nm.",
+      "Include the acceleration term to obtain torque [0.011200000000000005, -0.06000000000000003, 0.11199999999999999] Nm."
+    ],
+    "notes": [
+      "L and omega differ in direction by 0.109405 rad in this non-spherical body.",
+      "The calculation assumes a rigid body about its COM with a consistently expressed inertia tensor."
+    ]
+  }
+]

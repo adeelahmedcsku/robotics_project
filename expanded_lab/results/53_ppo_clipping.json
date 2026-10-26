@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "clip_epsilon": 0.05
+    },
+    "metrics": {
+      "policy_loss": 0.08571428571428567,
+      "unclipped_loss": -0.010714285714285707,
+      "objective_changed_fraction": 0.42857142857142855,
+      "ratio_outside_clip_fraction": 0.5714285714285714,
+      "minimum_sample_objective": -1.5
+    },
+    "derivation": [
+      "Probability ratios are [0.5, 0.8, 0.95, 1.0, 1.05, 1.2, 1.5].",
+      "Advantages are [-1.0, -0.5, 1.0, -0.2, 0.5, 1.0, -1.0]; clipping epsilon is 0.05.",
+      "Unclipped sample objectives are [-0.5, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Apply the minimum with the clipped branch to obtain [-0.95, -0.475, 0.95, -0.2, 0.525, 1.05, -1.5].",
+      "Negative mean objective gives policy loss 0.085714."
+    ],
+    "notes": [
+      "Ratio outside the clip interval is not identical to a changed surrogate contribution; advantage sign matters.",
+      "This calculation omits value loss, entropy bonus, optimizer behavior and rollout collection."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "clip_epsilon": 0.1
+    },
+    "metrics": {
+      "policy_loss": 0.06785714285714287,
+      "unclipped_loss": -0.010714285714285707,
+      "objective_changed_fraction": 0.42857142857142855,
+      "ratio_outside_clip_fraction": 0.5714285714285714,
+      "minimum_sample_objective": -1.5
+    },
+    "derivation": [
+      "Probability ratios are [0.5, 0.8, 0.95, 1.0, 1.05, 1.2, 1.5].",
+      "Advantages are [-1.0, -0.5, 1.0, -0.2, 0.5, 1.0, -1.0]; clipping epsilon is 0.1.",
+      "Unclipped sample objectives are [-0.5, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Apply the minimum with the clipped branch to obtain [-0.9, -0.45, 0.95, -0.2, 0.525, 1.1, -1.5].",
+      "Negative mean objective gives policy loss 0.067857."
+    ],
+    "notes": [
+      "Ratio outside the clip interval is not identical to a changed surrogate contribution; advantage sign matters.",
+      "This calculation omits value loss, entropy bonus, optimizer behavior and rollout collection."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "clip_epsilon": 0.15
+    },
+    "metrics": {
+      "policy_loss": 0.05000000000000001,
+      "unclipped_loss": -0.010714285714285707,
+      "objective_changed_fraction": 0.42857142857142855,
+      "ratio_outside_clip_fraction": 0.5714285714285714,
+      "minimum_sample_objective": -1.5
+    },
+    "derivation": [
+      "Probability ratios are [0.5, 0.8, 0.95, 1.0, 1.05, 1.2, 1.5].",
+      "Advantages are [-1.0, -0.5, 1.0, -0.2, 0.5, 1.0, -1.0]; clipping epsilon is 0.15.",
+      "Unclipped sample objectives are [-0.5, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Apply the minimum with the clipped branch to obtain [-0.85, -0.425, 0.95, -0.2, 0.525, 1.15, -1.5].",
+      "Negative mean objective gives policy loss 0.050000."
+    ],
+    "notes": [
+      "Ratio outside the clip interval is not identical to a changed surrogate contribution; advantage sign matters.",
+      "This calculation omits value loss, entropy bonus, optimizer behavior and rollout collection."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "clip_epsilon": 0.2
+    },
+    "metrics": {
+      "policy_loss": 0.03214285714285719,
+      "unclipped_loss": -0.010714285714285707,
+      "objective_changed_fraction": 0.14285714285714285,
+      "ratio_outside_clip_fraction": 0.2857142857142857,
+      "minimum_sample_objective": -1.5
+    },
+    "derivation": [
+      "Probability ratios are [0.5, 0.8, 0.95, 1.0, 1.05, 1.2, 1.5].",
+      "Advantages are [-1.0, -0.5, 1.0, -0.2, 0.5, 1.0, -1.0]; clipping epsilon is 0.2.",
+      "Unclipped sample objectives are [-0.5, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Apply the minimum with the clipped branch to obtain [-0.8, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Negative mean objective gives policy loss 0.032143."
+    ],
+    "notes": [
+      "Ratio outside the clip interval is not identical to a changed surrogate contribution; advantage sign matters.",
+      "This calculation omits value loss, entropy bonus, optimizer behavior and rollout collection."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "clip_epsilon": 0.3
+    },
+    "metrics": {
+      "policy_loss": 0.017857142857142887,
+      "unclipped_loss": -0.010714285714285707,
+      "objective_changed_fraction": 0.14285714285714285,
+      "ratio_outside_clip_fraction": 0.2857142857142857,
+      "minimum_sample_objective": -1.5
+    },
+    "derivation": [
+      "Probability ratios are [0.5, 0.8, 0.95, 1.0, 1.05, 1.2, 1.5].",
+      "Advantages are [-1.0, -0.5, 1.0, -0.2, 0.5, 1.0, -1.0]; clipping epsilon is 0.3.",
+      "Unclipped sample objectives are [-0.5, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Apply the minimum with the clipped branch to obtain [-0.7, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Negative mean objective gives policy loss 0.017857."
+    ],
+    "notes": [
+      "Ratio outside the clip interval is not identical to a changed surrogate contribution; advantage sign matters.",
+      "This calculation omits value loss, entropy bonus, optimizer behavior and rollout collection."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "clip_epsilon": 0.4
+    },
+    "metrics": {
+      "policy_loss": 0.0035714285714285904,
+      "unclipped_loss": -0.010714285714285707,
+      "objective_changed_fraction": 0.14285714285714285,
+      "ratio_outside_clip_fraction": 0.2857142857142857,
+      "minimum_sample_objective": -1.5
+    },
+    "derivation": [
+      "Probability ratios are [0.5, 0.8, 0.95, 1.0, 1.05, 1.2, 1.5].",
+      "Advantages are [-1.0, -0.5, 1.0, -0.2, 0.5, 1.0, -1.0]; clipping epsilon is 0.4.",
+      "Unclipped sample objectives are [-0.5, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Apply the minimum with the clipped branch to obtain [-0.6, -0.4, 0.95, -0.2, 0.525, 1.2, -1.5].",
+      "Negative mean objective gives policy loss 0.003571."
+    ],
+    "notes": [
+      "Ratio outside the clip interval is not identical to a changed surrogate contribution; advantage sign matters.",
+      "This calculation omits value loss, entropy bonus, optimizer behavior and rollout collection."
+    ]
+  }
+]

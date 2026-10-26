@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "voltage": 24.0,
+      "resistance": 1.0,
+      "capacitance": 0.002
+    },
+    "metrics": {
+      "initial_current_A": 24.0,
+      "time_constant_s": 0.002,
+      "charge_95_percent_time_s": 0.0059914645471079815,
+      "stored_energy_J": 0.5760000000000001,
+      "initial_resistor_power_W": 576.0
+    },
+    "derivation": [
+      "Use illustrative source V=24 V, R=1 ohm and C=0.002 F.",
+      "Initial ideal charging current is 24.000000 A.",
+      "The RC time constant is 0.002000 s and 95% charge time is 0.005991 s.",
+      "Capacitor stored energy at full voltage is 0.576000 J.",
+      "Initial resistor power is 576.000000 W and decays with charging."
+    ],
+    "notes": [
+      "Stored energy can remain after source disconnection; a physical discharge/isolation procedure must verify it.",
+      "Resistor pulse energy, switching ratings, failure modes and supply behavior are not established by the ideal RC equation."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "voltage": 24.0,
+      "resistance": 2.0,
+      "capacitance": 0.002
+    },
+    "metrics": {
+      "initial_current_A": 12.0,
+      "time_constant_s": 0.004,
+      "charge_95_percent_time_s": 0.011982929094215963,
+      "stored_energy_J": 0.5760000000000001,
+      "initial_resistor_power_W": 288.0
+    },
+    "derivation": [
+      "Use illustrative source V=24 V, R=2 ohm and C=0.002 F.",
+      "Initial ideal charging current is 12.000000 A.",
+      "The RC time constant is 0.004000 s and 95% charge time is 0.011983 s.",
+      "Capacitor stored energy at full voltage is 0.576000 J.",
+      "Initial resistor power is 288.000000 W and decays with charging."
+    ],
+    "notes": [
+      "Stored energy can remain after source disconnection; a physical discharge/isolation procedure must verify it.",
+      "Resistor pulse energy, switching ratings, failure modes and supply behavior are not established by the ideal RC equation."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "voltage": 24.0,
+      "resistance": 5.0,
+      "capacitance": 0.002
+    },
+    "metrics": {
+      "initial_current_A": 4.8,
+      "time_constant_s": 0.01,
+      "charge_95_percent_time_s": 0.029957322735539908,
+      "stored_energy_J": 0.5760000000000001,
+      "initial_resistor_power_W": 115.2
+    },
+    "derivation": [
+      "Use illustrative source V=24 V, R=5 ohm and C=0.002 F.",
+      "Initial ideal charging current is 4.800000 A.",
+      "The RC time constant is 0.010000 s and 95% charge time is 0.029957 s.",
+      "Capacitor stored energy at full voltage is 0.576000 J.",
+      "Initial resistor power is 115.200000 W and decays with charging."
+    ],
+    "notes": [
+      "Stored energy can remain after source disconnection; a physical discharge/isolation procedure must verify it.",
+      "Resistor pulse energy, switching ratings, failure modes and supply behavior are not established by the ideal RC equation."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "voltage": 24.0,
+      "resistance": 10.0,
+      "capacitance": 0.002
+    },
+    "metrics": {
+      "initial_current_A": 2.4,
+      "time_constant_s": 0.02,
+      "charge_95_percent_time_s": 0.059914645471079817,
+      "stored_energy_J": 0.5760000000000001,
+      "initial_resistor_power_W": 57.6
+    },
+    "derivation": [
+      "Use illustrative source V=24 V, R=10 ohm and C=0.002 F.",
+      "Initial ideal charging current is 2.400000 A.",
+      "The RC time constant is 0.020000 s and 95% charge time is 0.059915 s.",
+      "Capacitor stored energy at full voltage is 0.576000 J.",
+      "Initial resistor power is 57.600000 W and decays with charging."
+    ],
+    "notes": [
+      "Stored energy can remain after source disconnection; a physical discharge/isolation procedure must verify it.",
+      "Resistor pulse energy, switching ratings, failure modes and supply behavior are not established by the ideal RC equation."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "voltage": 24.0,
+      "resistance": 20.0,
+      "capacitance": 0.002
+    },
+    "metrics": {
+      "initial_current_A": 1.2,
+      "time_constant_s": 0.04,
+      "charge_95_percent_time_s": 0.11982929094215963,
+      "stored_energy_J": 0.5760000000000001,
+      "initial_resistor_power_W": 28.8
+    },
+    "derivation": [
+      "Use illustrative source V=24 V, R=20 ohm and C=0.002 F.",
+      "Initial ideal charging current is 1.200000 A.",
+      "The RC time constant is 0.040000 s and 95% charge time is 0.119829 s.",
+      "Capacitor stored energy at full voltage is 0.576000 J.",
+      "Initial resistor power is 28.800000 W and decays with charging."
+    ],
+    "notes": [
+      "Stored energy can remain after source disconnection; a physical discharge/isolation procedure must verify it.",
+      "Resistor pulse energy, switching ratings, failure modes and supply behavior are not established by the ideal RC equation."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "voltage": 24.0,
+      "resistance": 50.0,
+      "capacitance": 0.002
+    },
+    "metrics": {
+      "initial_current_A": 0.48,
+      "time_constant_s": 0.1,
+      "charge_95_percent_time_s": 0.2995732273553991,
+      "stored_energy_J": 0.5760000000000001,
+      "initial_resistor_power_W": 11.52
+    },
+    "derivation": [
+      "Use illustrative source V=24 V, R=50 ohm and C=0.002 F.",
+      "Initial ideal charging current is 0.480000 A.",
+      "The RC time constant is 0.100000 s and 95% charge time is 0.299573 s.",
+      "Capacitor stored energy at full voltage is 0.576000 J.",
+      "Initial resistor power is 11.520000 W and decays with charging."
+    ],
+    "notes": [
+      "Stored energy can remain after source disconnection; a physical discharge/isolation procedure must verify it.",
+      "Resistor pulse energy, switching ratings, failure modes and supply behavior are not established by the ideal RC equation."
+    ]
+  }
+]

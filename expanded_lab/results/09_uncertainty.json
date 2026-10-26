@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "seed": 17,
+      "samples": 5000,
+      "angle_noise": 0.001
+    },
+    "metrics": {
+      "mean_torque_Nm": 4.050033626325903,
+      "std_torque_Nm": 0.08737753015514085,
+      "lower_quantile_Nm": 3.880508778225411,
+      "upper_quantile_Nm": 4.221877798439428,
+      "nominal_torque_Nm": 4.048271191131972
+    },
+    "derivation": [
+      "Draw 5000 samples with generator seed 17.",
+      "Mass sigma is 0.04 kg, lever sigma is 0.002 m, angle sigma is 0.001 rad.",
+      "Evaluate gravity torque for each sample; nominal value is 4.048271 Nm.",
+      "Sample mean is 4.050034 Nm and sample standard deviation is 0.087378 Nm.",
+      "Central empirical 95% interval is [3.880509,4.221878] Nm."
+    ],
+    "notes": [
+      "These quantiles describe the assumed population, not a confidence interval for the sample mean.",
+      "Independent Gaussian inputs are a declared teaching assumption; shared calibration errors can create correlations."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "seed": 17,
+      "samples": 5000,
+      "angle_noise": 0.005
+    },
+    "metrics": {
+      "mean_torque_Nm": 4.050052630594864,
+      "std_torque_Nm": 0.0884432873293736,
+      "lower_quantile_Nm": 3.8772380659311985,
+      "upper_quantile_Nm": 4.224939271967221,
+      "nominal_torque_Nm": 4.048271191131972
+    },
+    "derivation": [
+      "Draw 5000 samples with generator seed 17.",
+      "Mass sigma is 0.04 kg, lever sigma is 0.002 m, angle sigma is 0.005 rad.",
+      "Evaluate gravity torque for each sample; nominal value is 4.048271 Nm.",
+      "Sample mean is 4.050053 Nm and sample standard deviation is 0.088443 Nm.",
+      "Central empirical 95% interval is [3.877238,4.224939] Nm."
+    ],
+    "notes": [
+      "These quantiles describe the assumed population, not a confidence interval for the sample mean.",
+      "Independent Gaussian inputs are a declared teaching assumption; shared calibration errors can create correlations."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "seed": 17,
+      "samples": 5000,
+      "angle_noise": 0.01
+    },
+    "metrics": {
+      "mean_torque_Nm": 4.0499842453873685,
+      "std_torque_Nm": 0.09168126255323276,
+      "lower_quantile_Nm": 3.871427317490719,
+      "upper_quantile_Nm": 4.229961624873989,
+      "nominal_torque_Nm": 4.048271191131972
+    },
+    "derivation": [
+      "Draw 5000 samples with generator seed 17.",
+      "Mass sigma is 0.04 kg, lever sigma is 0.002 m, angle sigma is 0.01 rad.",
+      "Evaluate gravity torque for each sample; nominal value is 4.048271 Nm.",
+      "Sample mean is 4.049984 Nm and sample standard deviation is 0.091681 Nm.",
+      "Central empirical 95% interval is [3.871427,4.229962] Nm."
+    ],
+    "notes": [
+      "These quantiles describe the assumed population, not a confidence interval for the sample mean.",
+      "Independent Gaussian inputs are a declared teaching assumption; shared calibration errors can create correlations."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "seed": 17,
+      "samples": 5000,
+      "angle_noise": 0.02
+    },
+    "metrics": {
+      "mean_torque_Nm": 4.049540357415922,
+      "std_torque_Nm": 0.1036082145843123,
+      "lower_quantile_Nm": 3.8431941525632842,
+      "upper_quantile_Nm": 4.249036577701595,
+      "nominal_torque_Nm": 4.048271191131972
+    },
+    "derivation": [
+      "Draw 5000 samples with generator seed 17.",
+      "Mass sigma is 0.04 kg, lever sigma is 0.002 m, angle sigma is 0.02 rad.",
+      "Evaluate gravity torque for each sample; nominal value is 4.048271 Nm.",
+      "Sample mean is 4.049540 Nm and sample standard deviation is 0.103608 Nm.",
+      "Central empirical 95% interval is [3.843194,4.249037] Nm."
+    ],
+    "notes": [
+      "These quantiles describe the assumed population, not a confidence interval for the sample mean.",
+      "Independent Gaussian inputs are a declared teaching assumption; shared calibration errors can create correlations."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "seed": 17,
+      "samples": 5000,
+      "angle_noise": 0.05
+    },
+    "metrics": {
+      "mean_torque_Nm": 4.0457534255933085,
+      "std_torque_Nm": 0.1643570589365945,
+      "lower_quantile_Nm": 3.708175613144142,
+      "upper_quantile_Nm": 4.3622541559546795,
+      "nominal_torque_Nm": 4.048271191131972
+    },
+    "derivation": [
+      "Draw 5000 samples with generator seed 17.",
+      "Mass sigma is 0.04 kg, lever sigma is 0.002 m, angle sigma is 0.05 rad.",
+      "Evaluate gravity torque for each sample; nominal value is 4.048271 Nm.",
+      "Sample mean is 4.045753 Nm and sample standard deviation is 0.164357 Nm.",
+      "Central empirical 95% interval is [3.708176,4.362254] Nm."
+    ],
+    "notes": [
+      "These quantiles describe the assumed population, not a confidence interval for the sample mean.",
+      "Independent Gaussian inputs are a declared teaching assumption; shared calibration errors can create correlations."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "seed": 17,
+      "samples": 5000,
+      "angle_noise": 0.1
+    },
+    "metrics": {
+      "mean_torque_Nm": 4.031286073216703,
+      "std_torque_Nm": 0.2916459146993315,
+      "lower_quantile_Nm": 3.4033639117239374,
+      "upper_quantile_Nm": 4.554478844780337,
+      "nominal_torque_Nm": 4.048271191131972
+    },
+    "derivation": [
+      "Draw 5000 samples with generator seed 17.",
+      "Mass sigma is 0.04 kg, lever sigma is 0.002 m, angle sigma is 0.1 rad.",
+      "Evaluate gravity torque for each sample; nominal value is 4.048271 Nm.",
+      "Sample mean is 4.031286 Nm and sample standard deviation is 0.291646 Nm.",
+      "Central empirical 95% interval is [3.403364,4.554479] Nm."
+    ],
+    "notes": [
+      "These quantiles describe the assumed population, not a confidence interval for the sample mean.",
+      "Independent Gaussian inputs are a declared teaching assumption; shared calibration errors can create correlations."
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "gyro_offset": -0.2
+    },
+    "metrics": {
+      "reference_action": 0.4,
+      "correct_action": 0.30000000000000004,
+      "reordered_action": 0.33,
+      "reordering_action_error": 0.02999999999999997,
+      "normalized_gyro": 0.9999999999999999
+    },
+    "derivation": [
+      "Ordered fields are ['elbow_rad', 'knee_rad', 'gyro_rad_s'].",
+      "Means are [0.0, 0.0, 0.1] and standard deviations are [0.5, 0.5, 0.2].",
+      "Apply gyro offset -0.2 rad/s and normalize in the declared order.",
+      "Correct action is 0.300000; a silent field swap produces 0.330000.",
+      "Canonical schema SHA256 is 170b1c90844d3b85720078bbb063de561268d6bed4cf43601e2269735f9c48f8."
+    ],
+    "notes": [
+      "A schema hash detects version mismatch only when both producer and consumer actually enforce it.",
+      "Include clipping, frame conventions, history stacking and action scaling in a real deployment contract."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "gyro_offset": -0.1
+    },
+    "metrics": {
+      "reference_action": 0.4,
+      "correct_action": 0.3500000000000001,
+      "reordered_action": 0.4100000000000001,
+      "reordering_action_error": 0.06,
+      "normalized_gyro": 1.5000000000000002
+    },
+    "derivation": [
+      "Ordered fields are ['elbow_rad', 'knee_rad', 'gyro_rad_s'].",
+      "Means are [0.0, 0.0, 0.1] and standard deviations are [0.5, 0.5, 0.2].",
+      "Apply gyro offset -0.1 rad/s and normalize in the declared order.",
+      "Correct action is 0.350000; a silent field swap produces 0.410000.",
+      "Canonical schema SHA256 is 170b1c90844d3b85720078bbb063de561268d6bed4cf43601e2269735f9c48f8."
+    ],
+    "notes": [
+      "A schema hash detects version mismatch only when both producer and consumer actually enforce it.",
+      "Include clipping, frame conventions, history stacking and action scaling in a real deployment contract."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "gyro_offset": 0.0
+    },
+    "metrics": {
+      "reference_action": 0.4,
+      "correct_action": 0.4,
+      "reordered_action": 0.49000000000000005,
+      "reordering_action_error": 0.09000000000000002,
+      "normalized_gyro": 2.0
+    },
+    "derivation": [
+      "Ordered fields are ['elbow_rad', 'knee_rad', 'gyro_rad_s'].",
+      "Means are [0.0, 0.0, 0.1] and standard deviations are [0.5, 0.5, 0.2].",
+      "Apply gyro offset 0 rad/s and normalize in the declared order.",
+      "Correct action is 0.400000; a silent field swap produces 0.490000.",
+      "Canonical schema SHA256 is 170b1c90844d3b85720078bbb063de561268d6bed4cf43601e2269735f9c48f8."
+    ],
+    "notes": [
+      "A schema hash detects version mismatch only when both producer and consumer actually enforce it.",
+      "Include clipping, frame conventions, history stacking and action scaling in a real deployment contract."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "gyro_offset": 0.1
+    },
+    "metrics": {
+      "reference_action": 0.4,
+      "correct_action": 0.45000000000000007,
+      "reordered_action": 0.5700000000000001,
+      "reordering_action_error": 0.12,
+      "normalized_gyro": 2.5
+    },
+    "derivation": [
+      "Ordered fields are ['elbow_rad', 'knee_rad', 'gyro_rad_s'].",
+      "Means are [0.0, 0.0, 0.1] and standard deviations are [0.5, 0.5, 0.2].",
+      "Apply gyro offset 0.1 rad/s and normalize in the declared order.",
+      "Correct action is 0.450000; a silent field swap produces 0.570000.",
+      "Canonical schema SHA256 is 170b1c90844d3b85720078bbb063de561268d6bed4cf43601e2269735f9c48f8."
+    ],
+    "notes": [
+      "A schema hash detects version mismatch only when both producer and consumer actually enforce it.",
+      "Include clipping, frame conventions, history stacking and action scaling in a real deployment contract."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "gyro_offset": 0.2
+    },
+    "metrics": {
+      "reference_action": 0.4,
+      "correct_action": 0.5,
+      "reordered_action": 0.65,
+      "reordering_action_error": 0.15000000000000002,
+      "normalized_gyro": 2.9999999999999996
+    },
+    "derivation": [
+      "Ordered fields are ['elbow_rad', 'knee_rad', 'gyro_rad_s'].",
+      "Means are [0.0, 0.0, 0.1] and standard deviations are [0.5, 0.5, 0.2].",
+      "Apply gyro offset 0.2 rad/s and normalize in the declared order.",
+      "Correct action is 0.500000; a silent field swap produces 0.650000.",
+      "Canonical schema SHA256 is 170b1c90844d3b85720078bbb063de561268d6bed4cf43601e2269735f9c48f8."
+    ],
+    "notes": [
+      "A schema hash detects version mismatch only when both producer and consumer actually enforce it.",
+      "Include clipping, frame conventions, history stacking and action scaling in a real deployment contract."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "gyro_offset": 0.5
+    },
+    "metrics": {
+      "reference_action": 0.4,
+      "correct_action": 0.65,
+      "reordered_action": 0.8900000000000001,
+      "reordering_action_error": 0.2400000000000001,
+      "normalized_gyro": 4.5
+    },
+    "derivation": [
+      "Ordered fields are ['elbow_rad', 'knee_rad', 'gyro_rad_s'].",
+      "Means are [0.0, 0.0, 0.1] and standard deviations are [0.5, 0.5, 0.2].",
+      "Apply gyro offset 0.5 rad/s and normalize in the declared order.",
+      "Correct action is 0.650000; a silent field swap produces 0.890000.",
+      "Canonical schema SHA256 is 170b1c90844d3b85720078bbb063de561268d6bed4cf43601e2269735f9c48f8."
+    ],
+    "notes": [
+      "A schema hash detects version mismatch only when both producer and consumer actually enforce it.",
+      "Include clipping, frame conventions, history stacking and action scaling in a real deployment contract."
+    ]
+  }
+]

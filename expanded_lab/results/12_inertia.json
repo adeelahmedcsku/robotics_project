@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "mass": 2.0,
+      "offset": 0.0,
+      "acceleration": 3.0
+    },
+    "metrics": {
+      "Izz_kg_m2": 0.009133333333333335,
+      "minimum_principal_kg_m2": 0.003533333333333333,
+      "torque_z_Nm": 0.027400000000000008,
+      "offset_contribution_kg_m2": 0.0008
+    },
+    "derivation": [
+      "A uniform 2 kg box has COM Izz=0.00833333 kg*m^2.",
+      "Shift the reference by [0.0, 0.02, 0.0] m.",
+      "The parallel-axis contribution to Izz is 0.00080000 kg*m^2.",
+      "Total Izz is 0.00913333; requested z acceleration is 3 rad/s^2.",
+      "Ignoring other dynamics, required z torque is 0.02740000 Nm."
+    ],
+    "notes": [
+      "This acceleration-only torque excludes gravity, Coriolis terms, friction and transmission effects.",
+      "An inertia tensor attached to the wrong origin can make a controller consistently wrong even when total mass is correct."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "mass": 2.0,
+      "offset": 0.02,
+      "acceleration": 3.0
+    },
+    "metrics": {
+      "Izz_kg_m2": 0.009933333333333336,
+      "minimum_principal_kg_m2": 0.0034084523836519958,
+      "torque_z_Nm": 0.029800000000000007,
+      "offset_contribution_kg_m2": 0.0016
+    },
+    "derivation": [
+      "A uniform 2 kg box has COM Izz=0.00833333 kg*m^2.",
+      "Shift the reference by [0.02, 0.02, 0.0] m.",
+      "The parallel-axis contribution to Izz is 0.00160000 kg*m^2.",
+      "Total Izz is 0.00993333; requested z acceleration is 3 rad/s^2.",
+      "Ignoring other dynamics, required z torque is 0.02980000 Nm."
+    ],
+    "notes": [
+      "This acceleration-only torque excludes gravity, Coriolis terms, friction and transmission effects.",
+      "An inertia tensor attached to the wrong origin can make a controller consistently wrong even when total mass is correct."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "mass": 2.0,
+      "offset": 0.05,
+      "acceleration": 3.0
+    },
+    "metrics": {
+      "Izz_kg_m2": 0.014133333333333336,
+      "minimum_principal_kg_m2": 0.0031173588517395523,
+      "torque_z_Nm": 0.04240000000000001,
+      "offset_contribution_kg_m2": 0.005800000000000001
+    },
+    "derivation": [
+      "A uniform 2 kg box has COM Izz=0.00833333 kg*m^2.",
+      "Shift the reference by [0.05, 0.02, 0.0] m.",
+      "The parallel-axis contribution to Izz is 0.00580000 kg*m^2.",
+      "Total Izz is 0.01413333; requested z acceleration is 3 rad/s^2.",
+      "Ignoring other dynamics, required z torque is 0.04240000 Nm."
+    ],
+    "notes": [
+      "This acceleration-only torque excludes gravity, Coriolis terms, friction and transmission effects.",
+      "An inertia tensor attached to the wrong origin can make a controller consistently wrong even when total mass is correct."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "mass": 2.0,
+      "offset": 0.1,
+      "acceleration": 3.0
+    },
+    "metrics": {
+      "Izz_kg_m2": 0.029133333333333337,
+      "minimum_principal_kg_m2": 0.002889315128701011,
+      "torque_z_Nm": 0.0874,
+      "offset_contribution_kg_m2": 0.020800000000000003
+    },
+    "derivation": [
+      "A uniform 2 kg box has COM Izz=0.00833333 kg*m^2.",
+      "Shift the reference by [0.1, 0.02, 0.0] m.",
+      "The parallel-axis contribution to Izz is 0.02080000 kg*m^2.",
+      "Total Izz is 0.02913333; requested z acceleration is 3 rad/s^2.",
+      "Ignoring other dynamics, required z torque is 0.08740000 Nm."
+    ],
+    "notes": [
+      "This acceleration-only torque excludes gravity, Coriolis terms, friction and transmission effects.",
+      "An inertia tensor attached to the wrong origin can make a controller consistently wrong even when total mass is correct."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "mass": 2.0,
+      "offset": 0.2,
+      "acceleration": 3.0
+    },
+    "metrics": {
+      "Izz_kg_m2": 0.08913333333333334,
+      "minimum_principal_kg_m2": 0.0027799787388561306,
+      "torque_z_Nm": 0.2674,
+      "offset_contribution_kg_m2": 0.08080000000000001
+    },
+    "derivation": [
+      "A uniform 2 kg box has COM Izz=0.00833333 kg*m^2.",
+      "Shift the reference by [0.2, 0.02, 0.0] m.",
+      "The parallel-axis contribution to Izz is 0.08080000 kg*m^2.",
+      "Total Izz is 0.08913333; requested z acceleration is 3 rad/s^2.",
+      "Ignoring other dynamics, required z torque is 0.26740000 Nm."
+    ],
+    "notes": [
+      "This acceleration-only torque excludes gravity, Coriolis terms, friction and transmission effects.",
+      "An inertia tensor attached to the wrong origin can make a controller consistently wrong even when total mass is correct."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "mass": 2.0,
+      "offset": 0.3,
+      "acceleration": 3.0
+    },
+    "metrics": {
+      "Izz_kg_m2": 0.18913333333333332,
+      "minimum_principal_kg_m2": 0.002754864353703825,
+      "torque_z_Nm": 0.5673999999999999,
+      "offset_contribution_kg_m2": 0.1808
+    },
+    "derivation": [
+      "A uniform 2 kg box has COM Izz=0.00833333 kg*m^2.",
+      "Shift the reference by [0.3, 0.02, 0.0] m.",
+      "The parallel-axis contribution to Izz is 0.18080000 kg*m^2.",
+      "Total Izz is 0.18913333; requested z acceleration is 3 rad/s^2.",
+      "Ignoring other dynamics, required z torque is 0.56740000 Nm."
+    ],
+    "notes": [
+      "This acceleration-only torque excludes gravity, Coriolis terms, friction and transmission effects.",
+      "An inertia tensor attached to the wrong origin can make a controller consistently wrong even when total mass is correct."
+    ]
+  }
+]

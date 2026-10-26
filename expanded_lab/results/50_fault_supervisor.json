@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "debounce_seconds": 0.01
+    },
+    "metrics": {
+      "required_bad_samples": 1.0,
+      "first_latch_time_s": 0.5,
+      "detection_latency_from_sustained_fault_s": -2.5,
+      "false_latch_before_fault": 1.0,
+      "latched_final": 1.0
+    },
+    "derivation": [
+      "At 100 Hz, debounce duration 0.01 s becomes 1 consecutive samples.",
+      "Inject a one-sample spike at 0.5 s and a two-sample spike at 1 s.",
+      "At 3 s, begin a sustained threshold violation.",
+      "First latched fault occurs at 0.5 s; early false-latch count is 1.",
+      "Relative to sustained-fault onset, reported latency is -2.500000 s; a negative value means an earlier spike already latched."
+    ],
+    "notes": [
+      "The temperature values and threshold are synthetic and do not specify a physical motor limit.",
+      "Detection delay must be included in the reviewed response envelope; debouncing every fault category identically is inappropriate."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "debounce_seconds": 0.02
+    },
+    "metrics": {
+      "required_bad_samples": 2.0,
+      "first_latch_time_s": 1.01,
+      "detection_latency_from_sustained_fault_s": -1.99,
+      "false_latch_before_fault": 1.0,
+      "latched_final": 1.0
+    },
+    "derivation": [
+      "At 100 Hz, debounce duration 0.02 s becomes 2 consecutive samples.",
+      "Inject a one-sample spike at 0.5 s and a two-sample spike at 1 s.",
+      "At 3 s, begin a sustained threshold violation.",
+      "First latched fault occurs at 1.01 s; early false-latch count is 1.",
+      "Relative to sustained-fault onset, reported latency is -1.990000 s; a negative value means an earlier spike already latched."
+    ],
+    "notes": [
+      "The temperature values and threshold are synthetic and do not specify a physical motor limit.",
+      "Detection delay must be included in the reviewed response envelope; debouncing every fault category identically is inappropriate."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "debounce_seconds": 0.03
+    },
+    "metrics": {
+      "required_bad_samples": 3.0,
+      "first_latch_time_s": 3.02,
+      "detection_latency_from_sustained_fault_s": 0.020000000000000018,
+      "false_latch_before_fault": 0.0,
+      "latched_final": 1.0
+    },
+    "derivation": [
+      "At 100 Hz, debounce duration 0.03 s becomes 3 consecutive samples.",
+      "Inject a one-sample spike at 0.5 s and a two-sample spike at 1 s.",
+      "At 3 s, begin a sustained threshold violation.",
+      "First latched fault occurs at 3.02 s; early false-latch count is 0.",
+      "Relative to sustained-fault onset, reported latency is 0.020000 s; a negative value means an earlier spike already latched."
+    ],
+    "notes": [
+      "The temperature values and threshold are synthetic and do not specify a physical motor limit.",
+      "Detection delay must be included in the reviewed response envelope; debouncing every fault category identically is inappropriate."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "debounce_seconds": 0.05
+    },
+    "metrics": {
+      "required_bad_samples": 5.0,
+      "first_latch_time_s": 3.04,
+      "detection_latency_from_sustained_fault_s": 0.040000000000000036,
+      "false_latch_before_fault": 0.0,
+      "latched_final": 1.0
+    },
+    "derivation": [
+      "At 100 Hz, debounce duration 0.05 s becomes 5 consecutive samples.",
+      "Inject a one-sample spike at 0.5 s and a two-sample spike at 1 s.",
+      "At 3 s, begin a sustained threshold violation.",
+      "First latched fault occurs at 3.04 s; early false-latch count is 0.",
+      "Relative to sustained-fault onset, reported latency is 0.040000 s; a negative value means an earlier spike already latched."
+    ],
+    "notes": [
+      "The temperature values and threshold are synthetic and do not specify a physical motor limit.",
+      "Detection delay must be included in the reviewed response envelope; debouncing every fault category identically is inappropriate."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "debounce_seconds": 0.1
+    },
+    "metrics": {
+      "required_bad_samples": 10.0,
+      "first_latch_time_s": 3.09,
+      "detection_latency_from_sustained_fault_s": 0.08999999999999986,
+      "false_latch_before_fault": 0.0,
+      "latched_final": 1.0
+    },
+    "derivation": [
+      "At 100 Hz, debounce duration 0.1 s becomes 10 consecutive samples.",
+      "Inject a one-sample spike at 0.5 s and a two-sample spike at 1 s.",
+      "At 3 s, begin a sustained threshold violation.",
+      "First latched fault occurs at 3.09 s; early false-latch count is 0.",
+      "Relative to sustained-fault onset, reported latency is 0.090000 s; a negative value means an earlier spike already latched."
+    ],
+    "notes": [
+      "The temperature values and threshold are synthetic and do not specify a physical motor limit.",
+      "Detection delay must be included in the reviewed response envelope; debouncing every fault category identically is inappropriate."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "debounce_seconds": 0.2
+    },
+    "metrics": {
+      "required_bad_samples": 20.0,
+      "first_latch_time_s": 3.19,
+      "detection_latency_from_sustained_fault_s": 0.18999999999999995,
+      "false_latch_before_fault": 0.0,
+      "latched_final": 1.0
+    },
+    "derivation": [
+      "At 100 Hz, debounce duration 0.2 s becomes 20 consecutive samples.",
+      "Inject a one-sample spike at 0.5 s and a two-sample spike at 1 s.",
+      "At 3 s, begin a sustained threshold violation.",
+      "First latched fault occurs at 3.19 s; early false-latch count is 0.",
+      "Relative to sustained-fault onset, reported latency is 0.190000 s; a negative value means an earlier spike already latched."
+    ],
+    "notes": [
+      "The temperature values and threshold are synthetic and do not specify a physical motor limit.",
+      "Detection delay must be included in the reviewed response envelope; debouncing every fault category identically is inappropriate."
+    ]
+  }
+]

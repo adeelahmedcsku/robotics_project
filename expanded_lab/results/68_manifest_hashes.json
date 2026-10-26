@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "action_scale": 0.05
+    },
+    "metrics": {
+      "content_identity_changed": 1.0,
+      "changed_field_count": 1.0,
+      "action_scale": 0.05,
+      "scale_ratio_to_baseline": 0.33333333333333337
+    },
+    "derivation": [
+      "Baseline fields are {'model': 'sha256:model_example', 'policy': 'sha256:policy_example', 'calibration': 'calibration_r1', 'seed': 7, 'control_period': 0.02, 'action_scale': 0.15}.",
+      "Change action_scale to 0.05; changed fields are ['action_scale'].",
+      "Baseline canonical manifest hash is b3ffecbc531968289a1458991e696fb02a5890cfcec06fe38f7b3c688db3d93d.",
+      "Candidate canonical manifest hash is d92cea4610c05499c458db26ae8e692d0c46c79f06d10c2530d1698ff1414c35.",
+      "Reordering dictionary insertion order preserves the canonical hash, verified by assertion."
+    ],
+    "notes": [
+      "The model/policy hash strings are explicit fictional labels in this unit exercise; a real manifest must hash actual file bytes.",
+      "A hash detects content changes but does not prove provenance, authenticity, compatibility or safety."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "action_scale": 0.1
+    },
+    "metrics": {
+      "content_identity_changed": 1.0,
+      "changed_field_count": 1.0,
+      "action_scale": 0.1,
+      "scale_ratio_to_baseline": 0.6666666666666667
+    },
+    "derivation": [
+      "Baseline fields are {'model': 'sha256:model_example', 'policy': 'sha256:policy_example', 'calibration': 'calibration_r1', 'seed': 7, 'control_period': 0.02, 'action_scale': 0.15}.",
+      "Change action_scale to 0.1; changed fields are ['action_scale'].",
+      "Baseline canonical manifest hash is b3ffecbc531968289a1458991e696fb02a5890cfcec06fe38f7b3c688db3d93d.",
+      "Candidate canonical manifest hash is e7250d2ab441055d5893d940a042266adda063850cc944a393a2d74dd54abf8c.",
+      "Reordering dictionary insertion order preserves the canonical hash, verified by assertion."
+    ],
+    "notes": [
+      "The model/policy hash strings are explicit fictional labels in this unit exercise; a real manifest must hash actual file bytes.",
+      "A hash detects content changes but does not prove provenance, authenticity, compatibility or safety."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "action_scale": 0.15
+    },
+    "metrics": {
+      "content_identity_changed": 0.0,
+      "changed_field_count": 0.0,
+      "action_scale": 0.15,
+      "scale_ratio_to_baseline": 1.0
+    },
+    "derivation": [
+      "Baseline fields are {'model': 'sha256:model_example', 'policy': 'sha256:policy_example', 'calibration': 'calibration_r1', 'seed': 7, 'control_period': 0.02, 'action_scale': 0.15}.",
+      "Change action_scale to 0.15; changed fields are [].",
+      "Baseline canonical manifest hash is b3ffecbc531968289a1458991e696fb02a5890cfcec06fe38f7b3c688db3d93d.",
+      "Candidate canonical manifest hash is b3ffecbc531968289a1458991e696fb02a5890cfcec06fe38f7b3c688db3d93d.",
+      "Reordering dictionary insertion order preserves the canonical hash, verified by assertion."
+    ],
+    "notes": [
+      "The model/policy hash strings are explicit fictional labels in this unit exercise; a real manifest must hash actual file bytes.",
+      "A hash detects content changes but does not prove provenance, authenticity, compatibility or safety."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "action_scale": 0.2
+    },
+    "metrics": {
+      "content_identity_changed": 1.0,
+      "changed_field_count": 1.0,
+      "action_scale": 0.2,
+      "scale_ratio_to_baseline": 1.3333333333333335
+    },
+    "derivation": [
+      "Baseline fields are {'model': 'sha256:model_example', 'policy': 'sha256:policy_example', 'calibration': 'calibration_r1', 'seed': 7, 'control_period': 0.02, 'action_scale': 0.15}.",
+      "Change action_scale to 0.2; changed fields are ['action_scale'].",
+      "Baseline canonical manifest hash is b3ffecbc531968289a1458991e696fb02a5890cfcec06fe38f7b3c688db3d93d.",
+      "Candidate canonical manifest hash is 0a5cd509dcf3fae033998f9f3586297bf17339f56f376b1905b93239ee9f1de0.",
+      "Reordering dictionary insertion order preserves the canonical hash, verified by assertion."
+    ],
+    "notes": [
+      "The model/policy hash strings are explicit fictional labels in this unit exercise; a real manifest must hash actual file bytes.",
+      "A hash detects content changes but does not prove provenance, authenticity, compatibility or safety."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "action_scale": 0.25
+    },
+    "metrics": {
+      "content_identity_changed": 1.0,
+      "changed_field_count": 1.0,
+      "action_scale": 0.25,
+      "scale_ratio_to_baseline": 1.6666666666666667
+    },
+    "derivation": [
+      "Baseline fields are {'model': 'sha256:model_example', 'policy': 'sha256:policy_example', 'calibration': 'calibration_r1', 'seed': 7, 'control_period': 0.02, 'action_scale': 0.15}.",
+      "Change action_scale to 0.25; changed fields are ['action_scale'].",
+      "Baseline canonical manifest hash is b3ffecbc531968289a1458991e696fb02a5890cfcec06fe38f7b3c688db3d93d.",
+      "Candidate canonical manifest hash is db7d39a86bf237b483c39e3f66dae19308764904e79becb4947b4ed888db5f38.",
+      "Reordering dictionary insertion order preserves the canonical hash, verified by assertion."
+    ],
+    "notes": [
+      "The model/policy hash strings are explicit fictional labels in this unit exercise; a real manifest must hash actual file bytes.",
+      "A hash detects content changes but does not prove provenance, authenticity, compatibility or safety."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "action_scale": 0.3
+    },
+    "metrics": {
+      "content_identity_changed": 1.0,
+      "changed_field_count": 1.0,
+      "action_scale": 0.3,
+      "scale_ratio_to_baseline": 2.0
+    },
+    "derivation": [
+      "Baseline fields are {'model': 'sha256:model_example', 'policy': 'sha256:policy_example', 'calibration': 'calibration_r1', 'seed': 7, 'control_period': 0.02, 'action_scale': 0.15}.",
+      "Change action_scale to 0.3; changed fields are ['action_scale'].",
+      "Baseline canonical manifest hash is b3ffecbc531968289a1458991e696fb02a5890cfcec06fe38f7b3c688db3d93d.",
+      "Candidate canonical manifest hash is 1ed29eb5869766785dd5c359085a7b513fea7defddeda163fcaf5c090e8516a4.",
+      "Reordering dictionary insertion order preserves the canonical hash, verified by assertion."
+    ],
+    "notes": [
+      "The model/policy hash strings are explicit fictional labels in this unit exercise; a real manifest must hash actual file bytes.",
+      "A hash detects content changes but does not prove provenance, authenticity, compatibility or safety."
+    ]
+  }
+]

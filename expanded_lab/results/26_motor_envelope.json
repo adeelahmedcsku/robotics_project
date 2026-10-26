@@ -1,0 +1,164 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "speed": 0.0,
+      "stall_torque": 10.0,
+      "no_load_speed": 8.0,
+      "required_torque": 4.0
+    },
+    "metrics": {
+      "available_torque_Nm": 10.0,
+      "reserve_Nm": 6.0,
+      "required_mechanical_power_W": 0.0,
+      "envelope_power_W": 0.0,
+      "feasible": 1.0
+    },
+    "derivation": [
+      "The teaching envelope has zero-speed torque 10 Nm and no-load speed 8 rad/s.",
+      "At speed 0 rad/s the linear speed factor is 1.000000.",
+      "Available torque is 10.000000 Nm while demand is 4 Nm.",
+      "Reserve is 6.000000 Nm; feasibility flag is True.",
+      "Demanded mechanical power is 0.000000 W."
+    ],
+    "notes": [
+      "The illustrative envelope is instantaneous and excludes continuous thermal derating and regenerative quadrants.",
+      "A positive reserve is only one constraint; position, load path, current and thermal checks remain separate."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "speed": 1.0,
+      "stall_torque": 10.0,
+      "no_load_speed": 8.0,
+      "required_torque": 4.0
+    },
+    "metrics": {
+      "available_torque_Nm": 8.75,
+      "reserve_Nm": 4.75,
+      "required_mechanical_power_W": 4.0,
+      "envelope_power_W": 8.75,
+      "feasible": 1.0
+    },
+    "derivation": [
+      "The teaching envelope has zero-speed torque 10 Nm and no-load speed 8 rad/s.",
+      "At speed 1 rad/s the linear speed factor is 0.875000.",
+      "Available torque is 8.750000 Nm while demand is 4 Nm.",
+      "Reserve is 4.750000 Nm; feasibility flag is True.",
+      "Demanded mechanical power is 4.000000 W."
+    ],
+    "notes": [
+      "The illustrative envelope is instantaneous and excludes continuous thermal derating and regenerative quadrants.",
+      "A positive reserve is only one constraint; position, load path, current and thermal checks remain separate."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "speed": 2.0,
+      "stall_torque": 10.0,
+      "no_load_speed": 8.0,
+      "required_torque": 4.0
+    },
+    "metrics": {
+      "available_torque_Nm": 7.5,
+      "reserve_Nm": 3.5,
+      "required_mechanical_power_W": 8.0,
+      "envelope_power_W": 15.0,
+      "feasible": 1.0
+    },
+    "derivation": [
+      "The teaching envelope has zero-speed torque 10 Nm and no-load speed 8 rad/s.",
+      "At speed 2 rad/s the linear speed factor is 0.750000.",
+      "Available torque is 7.500000 Nm while demand is 4 Nm.",
+      "Reserve is 3.500000 Nm; feasibility flag is True.",
+      "Demanded mechanical power is 8.000000 W."
+    ],
+    "notes": [
+      "The illustrative envelope is instantaneous and excludes continuous thermal derating and regenerative quadrants.",
+      "A positive reserve is only one constraint; position, load path, current and thermal checks remain separate."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "speed": 4.0,
+      "stall_torque": 10.0,
+      "no_load_speed": 8.0,
+      "required_torque": 4.0
+    },
+    "metrics": {
+      "available_torque_Nm": 5.0,
+      "reserve_Nm": 1.0,
+      "required_mechanical_power_W": 16.0,
+      "envelope_power_W": 20.0,
+      "feasible": 1.0
+    },
+    "derivation": [
+      "The teaching envelope has zero-speed torque 10 Nm and no-load speed 8 rad/s.",
+      "At speed 4 rad/s the linear speed factor is 0.500000.",
+      "Available torque is 5.000000 Nm while demand is 4 Nm.",
+      "Reserve is 1.000000 Nm; feasibility flag is True.",
+      "Demanded mechanical power is 16.000000 W."
+    ],
+    "notes": [
+      "The illustrative envelope is instantaneous and excludes continuous thermal derating and regenerative quadrants.",
+      "A positive reserve is only one constraint; position, load path, current and thermal checks remain separate."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "speed": 6.0,
+      "stall_torque": 10.0,
+      "no_load_speed": 8.0,
+      "required_torque": 4.0
+    },
+    "metrics": {
+      "available_torque_Nm": 2.5,
+      "reserve_Nm": -1.5,
+      "required_mechanical_power_W": 24.0,
+      "envelope_power_W": 15.0,
+      "feasible": 0.0
+    },
+    "derivation": [
+      "The teaching envelope has zero-speed torque 10 Nm and no-load speed 8 rad/s.",
+      "At speed 6 rad/s the linear speed factor is 0.250000.",
+      "Available torque is 2.500000 Nm while demand is 4 Nm.",
+      "Reserve is -1.500000 Nm; feasibility flag is False.",
+      "Demanded mechanical power is 24.000000 W."
+    ],
+    "notes": [
+      "The illustrative envelope is instantaneous and excludes continuous thermal derating and regenerative quadrants.",
+      "A positive reserve is only one constraint; position, load path, current and thermal checks remain separate."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "speed": 8.0,
+      "stall_torque": 10.0,
+      "no_load_speed": 8.0,
+      "required_torque": 4.0
+    },
+    "metrics": {
+      "available_torque_Nm": 0.0,
+      "reserve_Nm": -4.0,
+      "required_mechanical_power_W": 32.0,
+      "envelope_power_W": 0.0,
+      "feasible": 0.0
+    },
+    "derivation": [
+      "The teaching envelope has zero-speed torque 10 Nm and no-load speed 8 rad/s.",
+      "At speed 8 rad/s the linear speed factor is 0.000000.",
+      "Available torque is 0.000000 Nm while demand is 4 Nm.",
+      "Reserve is -4.000000 Nm; feasibility flag is False.",
+      "Demanded mechanical power is 32.000000 W."
+    ],
+    "notes": [
+      "The illustrative envelope is instantaneous and excludes continuous thermal derating and regenerative quadrants.",
+      "A positive reserve is only one constraint; position, load path, current and thermal checks remain separate."
+    ]
+  }
+]

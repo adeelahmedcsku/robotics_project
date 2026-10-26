@@ -1,0 +1,170 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "joints": 6,
+      "cycle_rate": 50.0,
+      "frame_bits": 135.0,
+      "bitrate": 1000000.0,
+      "frames_per_joint": 2.0
+    },
+    "metrics": {
+      "frames_per_second": 600.0,
+      "required_bits_per_second": 81000.0,
+      "utilization_fraction": 0.081,
+      "one_frame_wire_time_us": 135.0,
+      "minimum_cycle_wire_time_ms": 1.6199999999999999
+    },
+    "derivation": [
+      "Plan 6 joints at 50 cycles/s with 2 frames per joint per cycle.",
+      "Frame demand is 600.000000 per second.",
+      "Assume 135 total wire bits per frame at 1e+06 bit/s.",
+      "Required wire throughput is 81000.000000 bit/s and utilization is 0.081000.",
+      "The minimum cycle wire time is 1.620000 ms before additional contention or error handling."
+    ],
+    "notes": [
+      "Nominal capacity is not exceeded, but margin and worst-case latency still need analysis.",
+      "The assumed frame length is a teaching budget input; confirm the actual bus generation, protocol and traffic pattern."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "joints": 6,
+      "cycle_rate": 100.0,
+      "frame_bits": 135.0,
+      "bitrate": 1000000.0,
+      "frames_per_joint": 2.0
+    },
+    "metrics": {
+      "frames_per_second": 1200.0,
+      "required_bits_per_second": 162000.0,
+      "utilization_fraction": 0.162,
+      "one_frame_wire_time_us": 135.0,
+      "minimum_cycle_wire_time_ms": 1.6199999999999999
+    },
+    "derivation": [
+      "Plan 6 joints at 100 cycles/s with 2 frames per joint per cycle.",
+      "Frame demand is 1200.000000 per second.",
+      "Assume 135 total wire bits per frame at 1e+06 bit/s.",
+      "Required wire throughput is 162000.000000 bit/s and utilization is 0.162000.",
+      "The minimum cycle wire time is 1.620000 ms before additional contention or error handling."
+    ],
+    "notes": [
+      "Nominal capacity is not exceeded, but margin and worst-case latency still need analysis.",
+      "The assumed frame length is a teaching budget input; confirm the actual bus generation, protocol and traffic pattern."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "joints": 6,
+      "cycle_rate": 200.0,
+      "frame_bits": 135.0,
+      "bitrate": 1000000.0,
+      "frames_per_joint": 2.0
+    },
+    "metrics": {
+      "frames_per_second": 2400.0,
+      "required_bits_per_second": 324000.0,
+      "utilization_fraction": 0.324,
+      "one_frame_wire_time_us": 135.0,
+      "minimum_cycle_wire_time_ms": 1.6199999999999999
+    },
+    "derivation": [
+      "Plan 6 joints at 200 cycles/s with 2 frames per joint per cycle.",
+      "Frame demand is 2400.000000 per second.",
+      "Assume 135 total wire bits per frame at 1e+06 bit/s.",
+      "Required wire throughput is 324000.000000 bit/s and utilization is 0.324000.",
+      "The minimum cycle wire time is 1.620000 ms before additional contention or error handling."
+    ],
+    "notes": [
+      "Nominal capacity is not exceeded, but margin and worst-case latency still need analysis.",
+      "The assumed frame length is a teaching budget input; confirm the actual bus generation, protocol and traffic pattern."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "joints": 6,
+      "cycle_rate": 300.0,
+      "frame_bits": 135.0,
+      "bitrate": 1000000.0,
+      "frames_per_joint": 2.0
+    },
+    "metrics": {
+      "frames_per_second": 3600.0,
+      "required_bits_per_second": 486000.0,
+      "utilization_fraction": 0.486,
+      "one_frame_wire_time_us": 135.0,
+      "minimum_cycle_wire_time_ms": 1.6199999999999999
+    },
+    "derivation": [
+      "Plan 6 joints at 300 cycles/s with 2 frames per joint per cycle.",
+      "Frame demand is 3600.000000 per second.",
+      "Assume 135 total wire bits per frame at 1e+06 bit/s.",
+      "Required wire throughput is 486000.000000 bit/s and utilization is 0.486000.",
+      "The minimum cycle wire time is 1.620000 ms before additional contention or error handling."
+    ],
+    "notes": [
+      "Nominal capacity is not exceeded, but margin and worst-case latency still need analysis.",
+      "The assumed frame length is a teaching budget input; confirm the actual bus generation, protocol and traffic pattern."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "joints": 6,
+      "cycle_rate": 500.0,
+      "frame_bits": 135.0,
+      "bitrate": 1000000.0,
+      "frames_per_joint": 2.0
+    },
+    "metrics": {
+      "frames_per_second": 6000.0,
+      "required_bits_per_second": 810000.0,
+      "utilization_fraction": 0.81,
+      "one_frame_wire_time_us": 135.0,
+      "minimum_cycle_wire_time_ms": 1.6199999999999999
+    },
+    "derivation": [
+      "Plan 6 joints at 500 cycles/s with 2 frames per joint per cycle.",
+      "Frame demand is 6000.000000 per second.",
+      "Assume 135 total wire bits per frame at 1e+06 bit/s.",
+      "Required wire throughput is 810000.000000 bit/s and utilization is 0.810000.",
+      "The minimum cycle wire time is 1.620000 ms before additional contention or error handling."
+    ],
+    "notes": [
+      "Nominal capacity is not exceeded, but margin and worst-case latency still need analysis.",
+      "The assumed frame length is a teaching budget input; confirm the actual bus generation, protocol and traffic pattern."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "joints": 6,
+      "cycle_rate": 1000.0,
+      "frame_bits": 135.0,
+      "bitrate": 1000000.0,
+      "frames_per_joint": 2.0
+    },
+    "metrics": {
+      "frames_per_second": 12000.0,
+      "required_bits_per_second": 1620000.0,
+      "utilization_fraction": 1.62,
+      "one_frame_wire_time_us": 135.0,
+      "minimum_cycle_wire_time_ms": 1.6199999999999999
+    },
+    "derivation": [
+      "Plan 6 joints at 1000 cycles/s with 2 frames per joint per cycle.",
+      "Frame demand is 12000.000000 per second.",
+      "Assume 135 total wire bits per frame at 1e+06 bit/s.",
+      "Required wire throughput is 1620000.000000 bit/s and utilization is 1.620000.",
+      "The minimum cycle wire time is 1.620000 ms before additional contention or error handling."
+    ],
+    "notes": [
+      "The budget exceeds nominal bus capacity and is infeasible under these assumptions.",
+      "The assumed frame length is a teaching budget input; confirm the actual bus generation, protocol and traffic pattern."
+    ]
+  }
+]

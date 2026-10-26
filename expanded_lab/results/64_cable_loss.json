@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "one_way_length": 1.0,
+      "area_mm2": 1.5,
+      "current": 1.0
+    },
+    "metrics": {
+      "loop_resistance_ohm": 0.02293333333333333,
+      "voltage_drop_V": 0.02293333333333333,
+      "conductor_heat_W": 0.02293333333333333,
+      "drop_fraction_of_48V": 0.0004777777777777777,
+      "heat_per_one_way_meter_W_m": 0.02293333333333333
+    },
+    "derivation": [
+      "Assume rho=1.720e-08 ohm*m, one-way length 1 m and area 1.5 mm^2.",
+      "Include outgoing and return conductors: loop resistance is 0.02293333 ohm.",
+      "At current 1 A, voltage drop is 0.022933 V.",
+      "Joule heating is I^2*R=0.022933 W across the loop.",
+      "Drop is 0.047778% of an illustrative 48 V bus."
+    ],
+    "notes": [
+      "The 48 V reference and resistivity are declared arithmetic assumptions, not an approved operating voltage or wire rating.",
+      "Connector contact resistance, flex life, thermal environment and protective-device coordination are excluded."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "one_way_length": 1.0,
+      "area_mm2": 1.5,
+      "current": 2.0
+    },
+    "metrics": {
+      "loop_resistance_ohm": 0.02293333333333333,
+      "voltage_drop_V": 0.04586666666666666,
+      "conductor_heat_W": 0.09173333333333332,
+      "drop_fraction_of_48V": 0.0009555555555555554,
+      "heat_per_one_way_meter_W_m": 0.09173333333333332
+    },
+    "derivation": [
+      "Assume rho=1.720e-08 ohm*m, one-way length 1 m and area 1.5 mm^2.",
+      "Include outgoing and return conductors: loop resistance is 0.02293333 ohm.",
+      "At current 2 A, voltage drop is 0.045867 V.",
+      "Joule heating is I^2*R=0.091733 W across the loop.",
+      "Drop is 0.095556% of an illustrative 48 V bus."
+    ],
+    "notes": [
+      "The 48 V reference and resistivity are declared arithmetic assumptions, not an approved operating voltage or wire rating.",
+      "Connector contact resistance, flex life, thermal environment and protective-device coordination are excluded."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "one_way_length": 1.0,
+      "area_mm2": 1.5,
+      "current": 5.0
+    },
+    "metrics": {
+      "loop_resistance_ohm": 0.02293333333333333,
+      "voltage_drop_V": 0.11466666666666665,
+      "conductor_heat_W": 0.5733333333333333,
+      "drop_fraction_of_48V": 0.0023888888888888887,
+      "heat_per_one_way_meter_W_m": 0.5733333333333333
+    },
+    "derivation": [
+      "Assume rho=1.720e-08 ohm*m, one-way length 1 m and area 1.5 mm^2.",
+      "Include outgoing and return conductors: loop resistance is 0.02293333 ohm.",
+      "At current 5 A, voltage drop is 0.114667 V.",
+      "Joule heating is I^2*R=0.573333 W across the loop.",
+      "Drop is 0.238889% of an illustrative 48 V bus."
+    ],
+    "notes": [
+      "The 48 V reference and resistivity are declared arithmetic assumptions, not an approved operating voltage or wire rating.",
+      "Connector contact resistance, flex life, thermal environment and protective-device coordination are excluded."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "one_way_length": 1.0,
+      "area_mm2": 1.5,
+      "current": 10.0
+    },
+    "metrics": {
+      "loop_resistance_ohm": 0.02293333333333333,
+      "voltage_drop_V": 0.2293333333333333,
+      "conductor_heat_W": 2.293333333333333,
+      "drop_fraction_of_48V": 0.0047777777777777775,
+      "heat_per_one_way_meter_W_m": 2.293333333333333
+    },
+    "derivation": [
+      "Assume rho=1.720e-08 ohm*m, one-way length 1 m and area 1.5 mm^2.",
+      "Include outgoing and return conductors: loop resistance is 0.02293333 ohm.",
+      "At current 10 A, voltage drop is 0.229333 V.",
+      "Joule heating is I^2*R=2.293333 W across the loop.",
+      "Drop is 0.477778% of an illustrative 48 V bus."
+    ],
+    "notes": [
+      "The 48 V reference and resistivity are declared arithmetic assumptions, not an approved operating voltage or wire rating.",
+      "Connector contact resistance, flex life, thermal environment and protective-device coordination are excluded."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "one_way_length": 1.0,
+      "area_mm2": 1.5,
+      "current": 15.0
+    },
+    "metrics": {
+      "loop_resistance_ohm": 0.02293333333333333,
+      "voltage_drop_V": 0.344,
+      "conductor_heat_W": 5.159999999999999,
+      "drop_fraction_of_48V": 0.007166666666666666,
+      "heat_per_one_way_meter_W_m": 5.159999999999999
+    },
+    "derivation": [
+      "Assume rho=1.720e-08 ohm*m, one-way length 1 m and area 1.5 mm^2.",
+      "Include outgoing and return conductors: loop resistance is 0.02293333 ohm.",
+      "At current 15 A, voltage drop is 0.344000 V.",
+      "Joule heating is I^2*R=5.160000 W across the loop.",
+      "Drop is 0.716667% of an illustrative 48 V bus."
+    ],
+    "notes": [
+      "The 48 V reference and resistivity are declared arithmetic assumptions, not an approved operating voltage or wire rating.",
+      "Connector contact resistance, flex life, thermal environment and protective-device coordination are excluded."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "one_way_length": 1.0,
+      "area_mm2": 1.5,
+      "current": 20.0
+    },
+    "metrics": {
+      "loop_resistance_ohm": 0.02293333333333333,
+      "voltage_drop_V": 0.4586666666666666,
+      "conductor_heat_W": 9.173333333333332,
+      "drop_fraction_of_48V": 0.009555555555555555,
+      "heat_per_one_way_meter_W_m": 9.173333333333332
+    },
+    "derivation": [
+      "Assume rho=1.720e-08 ohm*m, one-way length 1 m and area 1.5 mm^2.",
+      "Include outgoing and return conductors: loop resistance is 0.02293333 ohm.",
+      "At current 20 A, voltage drop is 0.458667 V.",
+      "Joule heating is I^2*R=9.173333 W across the loop.",
+      "Drop is 0.955556% of an illustrative 48 V bus."
+    ],
+    "notes": [
+      "The 48 V reference and resistivity are declared arithmetic assumptions, not an approved operating voltage or wire rating.",
+      "Connector contact resistance, flex life, thermal environment and protective-device coordination are excluded."
+    ]
+  }
+]

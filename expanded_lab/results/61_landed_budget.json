@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "motor_count": 1,
+      "motor_allowance": 400.0
+    },
+    "metrics": {
+      "import_landed_EUR": 618.8,
+      "subtotal_EUR": 2268.8,
+      "reserve_EUR": 340.32,
+      "total_stage_EUR": 2609.1200000000003,
+      "budget_margin_EUR": 3390.8799999999997
+    },
+    "derivation": [
+      "This hypothetical stage contains 1 motors at an internal allowance of EUR 400 each.",
+      "Net import allowance EUR 400 plus EUR 120 shipping is taxed at an assumed 19%.",
+      "Import landed cost is EUR 618.80; EU gross, fabrication and protection give subtotal EUR 2268.80.",
+      "Reserve 15% contingency: EUR 340.32.",
+      "Total is EUR 2609.12; margin against EUR 6,000 is EUR 3390.88."
+    ],
+    "notes": [
+      "Every amount here is a teaching allowance. Actual VAT jurisdiction, customs treatment, supplier terms and compatibility must be checked.",
+      "A negative margin means reduce scope or increase funding; essential protection is not the balancing item."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "motor_count": 2,
+      "motor_allowance": 400.0
+    },
+    "metrics": {
+      "import_landed_EUR": 1094.8,
+      "subtotal_EUR": 2744.8,
+      "reserve_EUR": 411.72,
+      "total_stage_EUR": 3156.5200000000004,
+      "budget_margin_EUR": 2843.4799999999996
+    },
+    "derivation": [
+      "This hypothetical stage contains 2 motors at an internal allowance of EUR 400 each.",
+      "Net import allowance EUR 800 plus EUR 120 shipping is taxed at an assumed 19%.",
+      "Import landed cost is EUR 1094.80; EU gross, fabrication and protection give subtotal EUR 2744.80.",
+      "Reserve 15% contingency: EUR 411.72.",
+      "Total is EUR 3156.52; margin against EUR 6,000 is EUR 2843.48."
+    ],
+    "notes": [
+      "Every amount here is a teaching allowance. Actual VAT jurisdiction, customs treatment, supplier terms and compatibility must be checked.",
+      "A negative margin means reduce scope or increase funding; essential protection is not the balancing item."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "motor_count": 3,
+      "motor_allowance": 400.0
+    },
+    "metrics": {
+      "import_landed_EUR": 1570.8,
+      "subtotal_EUR": 3220.8,
+      "reserve_EUR": 483.12,
+      "total_stage_EUR": 3703.92,
+      "budget_margin_EUR": 2296.08
+    },
+    "derivation": [
+      "This hypothetical stage contains 3 motors at an internal allowance of EUR 400 each.",
+      "Net import allowance EUR 1200 plus EUR 120 shipping is taxed at an assumed 19%.",
+      "Import landed cost is EUR 1570.80; EU gross, fabrication and protection give subtotal EUR 3220.80.",
+      "Reserve 15% contingency: EUR 483.12.",
+      "Total is EUR 3703.92; margin against EUR 6,000 is EUR 2296.08."
+    ],
+    "notes": [
+      "Every amount here is a teaching allowance. Actual VAT jurisdiction, customs treatment, supplier terms and compatibility must be checked.",
+      "A negative margin means reduce scope or increase funding; essential protection is not the balancing item."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "motor_count": 4,
+      "motor_allowance": 400.0
+    },
+    "metrics": {
+      "import_landed_EUR": 2046.8,
+      "subtotal_EUR": 3696.8,
+      "reserve_EUR": 554.52,
+      "total_stage_EUR": 4251.32,
+      "budget_margin_EUR": 1748.6800000000003
+    },
+    "derivation": [
+      "This hypothetical stage contains 4 motors at an internal allowance of EUR 400 each.",
+      "Net import allowance EUR 1600 plus EUR 120 shipping is taxed at an assumed 19%.",
+      "Import landed cost is EUR 2046.80; EU gross, fabrication and protection give subtotal EUR 3696.80.",
+      "Reserve 15% contingency: EUR 554.52.",
+      "Total is EUR 4251.32; margin against EUR 6,000 is EUR 1748.68."
+    ],
+    "notes": [
+      "Every amount here is a teaching allowance. Actual VAT jurisdiction, customs treatment, supplier terms and compatibility must be checked.",
+      "A negative margin means reduce scope or increase funding; essential protection is not the balancing item."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "motor_count": 6,
+      "motor_allowance": 400.0
+    },
+    "metrics": {
+      "import_landed_EUR": 2998.7999999999997,
+      "subtotal_EUR": 4648.799999999999,
+      "reserve_EUR": 697.3199999999998,
+      "total_stage_EUR": 5346.119999999999,
+      "budget_margin_EUR": 653.880000000001
+    },
+    "derivation": [
+      "This hypothetical stage contains 6 motors at an internal allowance of EUR 400 each.",
+      "Net import allowance EUR 2400 plus EUR 120 shipping is taxed at an assumed 19%.",
+      "Import landed cost is EUR 2998.80; EU gross, fabrication and protection give subtotal EUR 4648.80.",
+      "Reserve 15% contingency: EUR 697.32.",
+      "Total is EUR 5346.12; margin against EUR 6,000 is EUR 653.88."
+    ],
+    "notes": [
+      "Every amount here is a teaching allowance. Actual VAT jurisdiction, customs treatment, supplier terms and compatibility must be checked.",
+      "A negative margin means reduce scope or increase funding; essential protection is not the balancing item."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "motor_count": 12,
+      "motor_allowance": 400.0
+    },
+    "metrics": {
+      "import_landed_EUR": 5854.8,
+      "subtotal_EUR": 7504.8,
+      "reserve_EUR": 1125.72,
+      "total_stage_EUR": 8630.52,
+      "budget_margin_EUR": -2630.5200000000004
+    },
+    "derivation": [
+      "This hypothetical stage contains 12 motors at an internal allowance of EUR 400 each.",
+      "Net import allowance EUR 4800 plus EUR 120 shipping is taxed at an assumed 19%.",
+      "Import landed cost is EUR 5854.80; EU gross, fabrication and protection give subtotal EUR 7504.80.",
+      "Reserve 15% contingency: EUR 1125.72.",
+      "Total is EUR 8630.52; margin against EUR 6,000 is EUR -2630.52."
+    ],
+    "notes": [
+      "Every amount here is a teaching allowance. Actual VAT jurisdiction, customs treatment, supplier terms and compatibility must be checked.",
+      "A negative margin means reduce scope or increase funding; essential protection is not the balancing item."
+    ]
+  }
+]

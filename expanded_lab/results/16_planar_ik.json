@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "target_x": 0.05,
+      "target_y": 0.1
+    },
+    "metrics": {
+      "reachable": 1.0,
+      "q1_rad": 0.7354039465869114,
+      "q2_rad": 2.937112454621259,
+      "residual_m": 4.3885418357208765e-17,
+      "cosine_raw": -0.9791666666666667
+    },
+    "derivation": [
+      "Target is (0.05,0.1) m with link lengths 0.3,0.2 m.",
+      "Compute the raw elbow cosine -0.97916667; reachability is True.",
+      "The positive-elbow candidate is q2=2.93711245 rad.",
+      "Compute shoulder correction to obtain q1=0.73540395 rad.",
+      "Forward kinematics returns [0.04999999999999999, 0.09999999999999996] m, with residual 0.00000000 m."
+    ],
+    "notes": [
+      "The target is geometrically reachable; joint limits and collisions still require separate checks.",
+      "Negating q2 and recomputing q1 gives the other elbow branch when the target is not singular."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "target_x": 0.1,
+      "target_y": 0.1
+    },
+    "metrics": {
+      "reachable": 1.0,
+      "q1_rad": 0.18472956494988502,
+      "q2_rad": 2.7304547912674457,
+      "residual_m": 6.206335383118183e-17,
+      "cosine_raw": -0.9166666666666667
+    },
+    "derivation": [
+      "Target is (0.1,0.1) m with link lengths 0.3,0.2 m.",
+      "Compute the raw elbow cosine -0.91666667; reachability is True.",
+      "The positive-elbow candidate is q2=2.73045479 rad.",
+      "Compute shoulder correction to obtain q1=0.18472956 rad.",
+      "Forward kinematics returns [0.09999999999999995, 0.09999999999999998] m, with residual 0.00000000 m."
+    ],
+    "notes": [
+      "The target is geometrically reachable; joint limits and collisions still require separate checks.",
+      "Negating q2 and recomputing q1 gives the other elbow branch when the target is not singular."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "target_x": 0.2,
+      "target_y": 0.1
+    },
+    "metrics": {
+      "reachable": 1.0,
+      "q1_rad": -0.26608004722616035,
+      "q2_rad": 2.300523983021863,
+      "residual_m": 6.206335383118183e-17,
+      "cosine_raw": -0.6666666666666666
+    },
+    "derivation": [
+      "Target is (0.2,0.1) m with link lengths 0.3,0.2 m.",
+      "Compute the raw elbow cosine -0.66666667; reachability is True.",
+      "The positive-elbow candidate is q2=2.30052398 rad.",
+      "Compute shoulder correction to obtain q1=-0.26608005 rad.",
+      "Forward kinematics returns [0.19999999999999996, 0.09999999999999998] m, with residual 0.00000000 m."
+    ],
+    "notes": [
+      "The target is geometrically reachable; joint limits and collisions still require separate checks.",
+      "Negating q2 and recomputing q1 gives the other elbow branch when the target is not singular."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "target_x": 0.35,
+      "target_y": 0.1
+    },
+    "metrics": {
+      "reachable": 1.0,
+      "q1_rad": -0.3032541839149057,
+      "q2_rad": 1.5499614861262485,
+      "residual_m": 5.721958498152797e-17,
+      "cosine_raw": 0.02083333333333312
+    },
+    "derivation": [
+      "Target is (0.35,0.1) m with link lengths 0.3,0.2 m.",
+      "Compute the raw elbow cosine 0.02083333; reachability is True.",
+      "The positive-elbow candidate is q2=1.54996149 rad.",
+      "Compute shoulder correction to obtain q1=-0.30325418 rad.",
+      "Forward kinematics returns [0.3499999999999999, 0.09999999999999999] m, with residual 0.00000000 m."
+    ],
+    "notes": [
+      "The target is geometrically reachable; joint limits and collisions still require separate checks.",
+      "Negating q2 and recomputing q1 gives the other elbow branch when the target is not singular."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "target_x": 0.48,
+      "target_y": 0.1
+    },
+    "metrics": {
+      "reachable": 1.0,
+      "q1_rad": 0.04483963963873658,
+      "q2_rad": 0.4027158415806615,
+      "residual_m": 5.721958498152797e-17,
+      "cosine_raw": 0.92
+    },
+    "derivation": [
+      "Target is (0.48,0.1) m with link lengths 0.3,0.2 m.",
+      "Compute the raw elbow cosine 0.92000000; reachability is True.",
+      "The positive-elbow candidate is q2=0.40271584 rad.",
+      "Compute shoulder correction to obtain q1=0.04483964 rad.",
+      "Forward kinematics returns [0.48000000000000004, 0.09999999999999999] m, with residual 0.00000000 m."
+    ],
+    "notes": [
+      "The target is geometrically reachable; joint limits and collisions still require separate checks.",
+      "Negating q2 and recomputing q1 gives the other elbow branch when the target is not singular."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "target_x": 0.6,
+      "target_y": 0.1
+    },
+    "metrics": {
+      "reachable": 0.0,
+      "q1_rad": 0.16514867741462685,
+      "q2_rad": 0.0,
+      "residual_m": 0.10827625302982194,
+      "cosine_raw": 2.0000000000000004
+    },
+    "derivation": [
+      "Target is (0.6,0.1) m with link lengths 0.3,0.2 m.",
+      "Compute the raw elbow cosine 2.00000000; reachability is False.",
+      "The positive-elbow candidate is q2=0.00000000 rad.",
+      "Compute shoulder correction to obtain q1=0.16514868 rad.",
+      "Forward kinematics returns [0.4931969619160719, 0.08219949365267865] m, with residual 0.10827625 m."
+    ],
+    "notes": [
+      "The clipped candidate is only a nearest-boundary diagnostic. It must not be returned as a successful IK solution.",
+      "Negating q2 and recomputing q1 gives the other elbow branch when the target is not singular."
+    ]
+  }
+]

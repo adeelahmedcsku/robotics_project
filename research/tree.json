@@ -1,0 +1,3456 @@
+{
+  "sha": "96a6807c163e4e6cabdc124eefcc45b0ae2cb57a",
+  "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/96a6807c163e4e6cabdc124eefcc45b0ae2cb57a",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fff63f0a41c977dbb60f1630352fe063e68d9ca1",
+      "size": 43,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/fff63f0a41c977dbb60f1630352fe063e68d9ca1"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "743682071b2230a5e41db66f01d4affb770c57f6",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/743682071b2230a5e41db66f01d4affb770c57f6"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "86ff16eba2bc8355a017e6d84a7c66ac310387f2",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/86ff16eba2bc8355a017e6d84a7c66ac310387f2"
+    },
+    {
+      "path": ".github/workflows/fabrication-manifest.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "603a448dc623fa2117d8112db1f169b2123ae3b2",
+      "size": 522,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/603a448dc623fa2117d8112db1f169b2123ae3b2"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6464073fced05d0a3163c22524381c373fad47ad",
+      "size": 653,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6464073fced05d0a3163c22524381c373fad47ad"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "HARDWARE-LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f1092207caa645ff426e0cc40b7eaad69caecb1",
+      "size": 13419,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0f1092207caa645ff426e0cc40b7eaad69caecb1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3107b1521ae687683d7a6b8405f3a63285a259",
+      "size": 3877,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/eb3107b1521ae687683d7a6b8405f3a63285a259"
+    },
+    {
+      "path": "SOFTWARE-LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "227b449d57e7ebb96308d2378522355f3380d321",
+      "size": 17985,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/227b449d57e7ebb96308d2378522355f3380d321"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d023a4ca5bbd1325f71a84a8015ac9fa4fddff2",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/4d023a4ca5bbd1325f71a84a8015ac9fa4fddff2"
+    },
+    {
+      "path": "assets/asimov-v1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388168184deeb967c7216679b0e07004dc5ad448",
+      "size": 48238,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388168184deeb967c7216679b0e07004dc5ad448"
+    },
+    {
+      "path": "electrical",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7dbdebde3d2263c599e0b324e14be8b21414e258",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/7dbdebde3d2263c599e0b324e14be8b21414e258"
+    },
+    {
+      "path": "electrical/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ddf02b632f60b81be7735942a5c0a53c00914b4",
+      "size": 2146,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9ddf02b632f60b81be7735942a5c0a53c00914b4"
+    },
+    {
+      "path": "electrical/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7516526fae2237208f90d5a3de99db33663f3ac",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/f7516526fae2237208f90d5a3de99db33663f3ac"
+    },
+    {
+      "path": "electrical/media/hat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a38c4f96d8ebb1bec347633bd1cab42535d7488",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/1a38c4f96d8ebb1bec347633bd1cab42535d7488"
+    },
+    {
+      "path": "electrical/media/hat/board",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7636b9878191b02cb84a9e855c4a84f58f1f38b",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/a7636b9878191b02cb84a9e855c4a84f58f1f38b"
+    },
+    {
+      "path": "electrical/media/hat/board/board.kicad_dru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c42eb3c41e311ef8d41bba80710107bf6b5786f1",
+      "size": 4547,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c42eb3c41e311ef8d41bba80710107bf6b5786f1"
+    },
+    {
+      "path": "electrical/media/hat/board/board.kicad_pcb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc29300f0d46f9fe3bfb3f17aaf5a804aff0c11",
+      "size": 105851,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/cbc29300f0d46f9fe3bfb3f17aaf5a804aff0c11"
+    },
+    {
+      "path": "electrical/media/hat/board/board.kicad_pro",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22ac44949bcf3cedb9d1ab5b6a5152eea2603e77",
+      "size": 17021,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/22ac44949bcf3cedb9d1ab5b6a5152eea2603e77"
+    },
+    {
+      "path": "electrical/media/hat/board/board.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39650f3dc73cfd790f81811ce1e0a101bfcc86b3",
+      "size": 60543,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/39650f3dc73cfd790f81811ce1e0a101bfcc86b3"
+    },
+    {
+      "path": "electrical/media/hat/board/fabrication-toolkit-options.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aef0f121bfd29780dc61e0feba7e865ae037d086",
+      "size": 236,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/aef0f121bfd29780dc61e0feba7e865ae037d086"
+    },
+    {
+      "path": "electrical/media/hat/board/fp-lib-table",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecbcf5ff324f5e526733d54f981a6af89e1e494f",
+      "size": 129,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ecbcf5ff324f5e526733d54f981a6af89e1e494f"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.3dshapes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bdf1474f2771a0c739344f4988093da838983232",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/bdf1474f2771a0c739344f4988093da838983232"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.3dshapes/BUZ-SMD_L9.6-W9.6-H5.0.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857e726d5c332105865e66a090b54c1ecd8fdb2c",
+      "size": 1276907,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/857e726d5c332105865e66a090b54c1ecd8fdb2c"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.3dshapes/BUZ-SMD_L9.6-W9.6-H5.0.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a6b364bb97362e569f90c6511d7613b5a5920d9",
+      "size": 30030,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7a6b364bb97362e569f90c6511d7613b5a5920d9"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.3dshapes/HDR-TH_40P-P2.54-V-F-R2-C20-S2.54-2.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "295980c0ef2e46f9015086b6926981491764f9db",
+      "size": 4978434,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/295980c0ef2e46f9015086b6926981491764f9db"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.3dshapes/HDR-TH_40P-P2.54-V-F-R2-C20-S2.54-2.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf3da62d426f6e075c6126252e32c37b29e55ef8",
+      "size": 140392,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/bf3da62d426f6e075c6126252e32c37b29e55ef8"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.3dshapes/SW-SMD_L6.2-W3.7-LS8.0.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4047d16f6a5b5e13bd45112bdee3e4c05d5987db",
+      "size": 1454253,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4047d16f6a5b5e13bd45112bdee3e4c05d5987db"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.3dshapes/SW-SMD_L6.2-W3.7-LS8.0.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9648e9c57296b5e075fffe8d910b78e12662554d",
+      "size": 46511,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9648e9c57296b5e075fffe8d910b78e12662554d"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.kicad_sym",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d523366fc541df70587ab6d9a7c614db00f4228",
+      "size": 13586,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1d523366fc541df70587ab6d9a7c614db00f4228"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.pretty",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a53e643cf14f7b5a6a1a5172814a0c99503e72a5",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/a53e643cf14f7b5a6a1a5172814a0c99503e72a5"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.pretty/BUZ-SMD_GSD9605YB-3V2800.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e4f5f81fa40dfa753c2c31218de6496fb0c4f1",
+      "size": 2078,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/45e4f5f81fa40dfa753c2c31218de6496fb0c4f1"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.pretty/HDR-TH_40P-P2.54-V-F-R2-C20-S2.54-2.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "850e1041678415f479902e46043813d7c6d64c49",
+      "size": 5662,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/850e1041678415f479902e46043813d7c6d64c49"
+    },
+    {
+      "path": "electrical/media/hat/board/lcsc_lib.pretty/SW-SMD_L6.2-W3.7-LS8.0.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebc986a0082f5df3e7a6f08c7d45ed10b14067b6",
+      "size": 1908,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ebc986a0082f5df3e7a6f08c7d45ed10b14067b6"
+    },
+    {
+      "path": "electrical/media/hat/board/sym-lib-table",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37cb31e622742d63d721bc07a74ac044ae73d501",
+      "size": 133,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/37cb31e622742d63d721bc07a74ac044ae73d501"
+    },
+    {
+      "path": "electrical/media/head",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20b483061a76918a6c8a388347f7d12b12dae0a4",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/20b483061a76918a6c8a388347f7d12b12dae0a4"
+    },
+    {
+      "path": "electrical/media/head/board",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f5c020d8c8d094ab2914ec96076746e205be94e",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/9f5c020d8c8d094ab2914ec96076746e205be94e"
+    },
+    {
+      "path": "electrical/media/head/board/board.epro",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f455e14f6876cf47429cc9a069dc203dad1149de",
+      "size": 146940,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f455e14f6876cf47429cc9a069dc203dad1149de"
+    },
+    {
+      "path": "electrical/rpu",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee01de30b6149b1f974eed906e3d1926c7a52eef",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/ee01de30b6149b1f974eed906e3d1926c7a52eef"
+    },
+    {
+      "path": "electrical/rpu/motion_control",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6361edad4a94b5a98366580ecfdb70cff10a911d",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/6361edad4a94b5a98366580ecfdb70cff10a911d"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ef83148e11226ca804d0207086066e8e682549f",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/1ef83148e11226ca804d0207086066e8e682549f"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/TTL_SHIFT.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c16630421a9bcd987ef710a11485c86ed1847ff3",
+      "size": 112015,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c16630421a9bcd987ef710a11485c86ed1847ff3"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/board.kicad_dru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c42eb3c41e311ef8d41bba80710107bf6b5786f1",
+      "size": 4547,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c42eb3c41e311ef8d41bba80710107bf6b5786f1"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/board.kicad_pcb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb787a6842a9b66df1f4aeb66d86e0f898980b88",
+      "size": 1591310,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/bb787a6842a9b66df1f4aeb66d86e0f898980b88"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/board.kicad_pro",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39540c99e0761c2e8f7443abd68b1edb8dfa3ea7",
+      "size": 19150,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/39540c99e0761c2e8f7443abd68b1edb8dfa3ea7"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/board.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04872624c95185f9e4da8b0368245605e28303b8",
+      "size": 3814031,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/04872624c95185f9e4da8b0368245605e28303b8"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/can.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5280bc820336340d961644c71154b6b5a6a6cb",
+      "size": 161,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/cf5280bc820336340d961644c71154b6b5a6a6cb"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/cm5-j1.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f3681ff72be1a8cf911d9a139db2854fb9580db",
+      "size": 64139,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0f3681ff72be1a8cf911d9a139db2854fb9580db"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/cm5-u13a.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e64f7342dfd43c9ac871ba78a7e7e5780d489732",
+      "size": 141728,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e64f7342dfd43c9ac871ba78a7e7e5780d489732"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/cm5-u13b.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44d8077783380cda8cee55091e66168a45c6d235",
+      "size": 79837,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/44d8077783380cda8cee55091e66168a45c6d235"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/fabrication-toolkit-options.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b18f9c150ab6fcb60d81d0c4a8c4a2433cbd230a",
+      "size": 236,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b18f9c150ab6fcb60d81d0c4a8c4a2433cbd230a"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/fp-lib-table",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfd4b3ce466443d6b7ed757bd80be268f2dd1474",
+      "size": 522,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/cfd4b3ce466443d6b7ed757bd80be268f2dd1474"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d583804ae0bfe0bc463c25e21e0b1e5b14b05e67",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/d583804ae0bfe0bc463c25e21e0b1e5b14b05e67"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/DFN-8_L3.0-W3.0-H1.0-P0.50.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91056f388220e91d67d8e29ef781372789b24186",
+      "size": 1383407,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/91056f388220e91d67d8e29ef781372789b24186"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/DFN-8_L3.0-W3.0-H1.0-P0.50.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "807606bcaaa4e375ec4db9c2ea2568573b6cad96",
+      "size": 58517,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/807606bcaaa4e375ec4db9c2ea2568573b6cad96"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/LGA-14_L2.5-W3.0-H0.9-P0.50.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b45c34987e58ebf57cb8f3dffde296ce0d2ec0b8",
+      "size": 1759277,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b45c34987e58ebf57cb8f3dffde296ce0d2ec0b8"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/LGA-14_L2.5-W3.0-H0.9-P0.50.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77fb62545cdb6cc462b07c5e2399be0482b35d7c",
+      "size": 38536,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/77fb62545cdb6cc462b07c5e2399be0482b35d7c"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/MICRO-USB-SMD_HMT-MICRO-USB-B.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c862ceeee112cd9189086493792753fb442c5db6",
+      "size": 2143854,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c862ceeee112cd9189086493792753fb442c5db6"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/MICRO-USB-SMD_HMT-MICRO-USB-B.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaf999470418526b3451049d15bfc4e838f840b8",
+      "size": 170306,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/aaf999470418526b3451049d15bfc4e838f840b8"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/RJ45-SMD_HR963380AE.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42dc1acbce5e29bf0fc5b960ff1d6b2a448f7145",
+      "size": 2211189,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/42dc1acbce5e29bf0fc5b960ff1d6b2a448f7145"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/RJ45-SMD_HR963380AE.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b5a3d0757757e50f3233c4c1927f6c047e1307a",
+      "size": 165396,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7b5a3d0757757e50f3233c4c1927f6c047e1307a"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b63d9ce7169d4e7ea24e9780120754deeb46167a",
+      "size": 559091,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b63d9ce7169d4e7ea24e9780120754deeb46167a"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1082616d81e8940d21f3977321c109f0885d2a47",
+      "size": 59634,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1082616d81e8940d21f3977321c109f0885d2a47"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/SW-SMD_L6.2-W3.7-LS8.0.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0261e82c7e1e027066dce3145e2a93ba71d0ce6",
+      "size": 508738,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e0261e82c7e1e027066dce3145e2a93ba71d0ce6"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/SW-SMD_L6.2-W3.7-LS8.0.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9648e9c57296b5e075fffe8d910b78e12662554d",
+      "size": 46511,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9648e9c57296b5e075fffe8d910b78e12662554d"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6552ebb9f4a712d70d462ecec9b03fc419bb57f8",
+      "size": 4412556,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6552ebb9f4a712d70d462ecec9b03fc419bb57f8"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a300abf17a4e13d814edca9c6f753cb29aa9498",
+      "size": 955689,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4a300abf17a4e13d814edca9c6f753cb29aa9498"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0f2a3e07fcd43d92d02ccea8f25ead17dd17dc7",
+      "size": 1148336,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a0f2a3e07fcd43d92d02ccea8f25ead17dd17dc7"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "038014b148ab08c06505a8342ab5b2787378659d",
+      "size": 91826,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/038014b148ab08c06505a8342ab5b2787378659d"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.kicad_sym",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c3b060a7d73c453ecb06c4ccb38ea32b74292b",
+      "size": 30378,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/90c3b060a7d73c453ecb06c4ccb38ea32b74292b"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e7c4fd01e046d46181d8e4a1da0afb84eac1238",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/4e7c4fd01e046d46181d8e4a1da0afb84eac1238"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty/DFN-8_L3.0-W3.0-P0.50-BL-EP.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98069380328eb12079fb04b044b15e1e52b22c01",
+      "size": 3010,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/98069380328eb12079fb04b044b15e1e52b22c01"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty/LGA-14_L3.0-W2.5-P0.50-TL.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a52a104320c80ff99f12cc1ae4ba163e4a7c69a",
+      "size": 2598,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2a52a104320c80ff99f12cc1ae4ba163e4a7c69a"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty/MICRO-USB-SMD_HMT-MICRO-USB-B.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b9c5ffb281b04730b002064d59adf913b5f348c",
+      "size": 7176,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2b9c5ffb281b04730b002064d59adf913b5f348c"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty/RJ45-SMD_HR963380AE.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a5629a975c3c9deacfb9368e969b6ff2c42506",
+      "size": 4355,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/79a5629a975c3c9deacfb9368e969b6ff2c42506"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty/SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5047ccace84067d9a1031daba886e0f7679836",
+      "size": 2232,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5e5047ccace84067d9a1031daba886e0f7679836"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty/SW-SMD_L6.2-W3.7-LS8.0.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebc986a0082f5df3e7a6f08c7d45ed10b14067b6",
+      "size": 1908,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ebc986a0082f5df3e7a6f08c7d45ed10b14067b6"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty/TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7155ab32e5b36f887ce7af5e3ce74a470f8fcd5c",
+      "size": 2479,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7155ab32e5b36f887ce7af5e3ce74a470f8fcd5c"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/lcsc_lib.pretty/USB-C-SMD_TYPE-C-16PIN-2MD-073.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b02fdd9c638b727d461a101c9e3945b527032dd",
+      "size": 3256,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4b02fdd9c638b727d461a101c9e3945b527032dd"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/radxa.pretty",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a547d42f93214e7152f2399b708e4fc04afc09cc",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/a547d42f93214e7152f2399b708e4fc04afc09cc"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/radxa.pretty/Radxa_CM5.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e5475a1bbbb4f992ac40e6268fcfa2cf17eaf91",
+      "size": 161008,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/3e5475a1bbbb4f992ac40e6268fcfa2cf17eaf91"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/radxa.pretty/radxa_cm5_1.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b0380483c716d24a0eea91abc395b99f3dcd95a",
+      "size": 55510,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6b0380483c716d24a0eea91abc395b99f3dcd95a"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/radxa.pretty/radxa_cm5_2.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0d969d6910eafca39a8a908c30b8d5597e97e73",
+      "size": 55202,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b0d969d6910eafca39a8a908c30b8d5597e97e73"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/radxa.pretty/radxa_cm5_3.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3247a7013f805c4e2af4c5bd5d5d683e38c2e806",
+      "size": 54195,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/3247a7013f805c4e2af4c5bd5d5d683e38c2e806"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/radxa_cm5.kicad_sym",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb15cd3d9a2ae13ffb9c7b91809ea40f0ed6022",
+      "size": 80011,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5cb15cd3d9a2ae13ffb9c7b91809ea40f0ed6022"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/rs485.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c99c8455f5696397324562808d8440a6fc026e33",
+      "size": 25025,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c99c8455f5696397324562808d8440a6fc026e33"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/spi-can.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc6b8431ad64b2aab883f7edab60cda06f241e1d",
+      "size": 200252,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/dc6b8431ad64b2aab883f7edab60cda06f241e1d"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/sym-lib-table",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c17f9deb94851a6bd050978875cefb3b392776a",
+      "size": 647,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0c17f9deb94851a6bd050978875cefb3b392776a"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/u13a.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff24da3a2ba102e799fe8f035d46e3cc5f3b6566",
+      "size": 146614,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ff24da3a2ba102e799fe8f035d46e3cc5f3b6566"
+    },
+    {
+      "path": "electrical/rpu/motion_control/board/u13b.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a93f00796d3e2d3b044a483f9170d53f6f976d",
+      "size": 146614,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/76a93f00796d3e2d3b044a483f9170d53f6f976d"
+    },
+    {
+      "path": "electrical/rpu/motion_control/mcb-io.dts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c7228c2648ebc0e547e96b5ff1d0f4ad6752009",
+      "size": 6619,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/3c7228c2648ebc0e547e96b5ff1d0f4ad6752009"
+    },
+    {
+      "path": "electrical/rpu/motion_control/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "151df8533b18ddf3c7b446df571a4f43c75568be",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/151df8533b18ddf3c7b446df571a4f43c75568be"
+    },
+    {
+      "path": "electrical/rpu/motion_control/scripts/serial.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "422022f5d52f71cc2650a505dc042bb4a5bc720f",
+      "size": 69,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/422022f5d52f71cc2650a505dc042bb4a5bc720f"
+    },
+    {
+      "path": "electrical/rpu/power_distribution",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "638ddca4316f8fb7e4db4243adffbe5072a25271",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/638ddca4316f8fb7e4db4243adffbe5072a25271"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe67db772a0747ae8cd70839c8fee78349736a06",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/fe67db772a0747ae8cd70839c8fee78349736a06"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/board.kicad_dru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c42eb3c41e311ef8d41bba80710107bf6b5786f1",
+      "size": 4547,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c42eb3c41e311ef8d41bba80710107bf6b5786f1"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/board.kicad_pcb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd52b334cfa5cd7bed6d1d3232b7ea9710faf05",
+      "size": 446934,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ecd52b334cfa5cd7bed6d1d3232b7ea9710faf05"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/board.kicad_pro",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68fc7ae2d99afccda792b1df5d6f3a4fe4f6e96b",
+      "size": 17143,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/68fc7ae2d99afccda792b1df5d6f3a4fe4f6e96b"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/board.kicad_sch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518b556a0dd78847ec09365cafcd05b8b1f5b33b",
+      "size": 154688,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/518b556a0dd78847ec09365cafcd05b8b1f5b33b"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/fabrication-toolkit-options.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b18f9c150ab6fcb60d81d0c4a8c4a2433cbd230a",
+      "size": 236,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b18f9c150ab6fcb60d81d0c4a8c4a2433cbd230a"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/fp-lib-table",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecbcf5ff324f5e526733d54f981a6af89e1e494f",
+      "size": 129,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ecbcf5ff324f5e526733d54f981a6af89e1e494f"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.3dshapes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8a7d5b25fb2ceb3e2fe46dad6a5d351c4823978",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/b8a7d5b25fb2ceb3e2fe46dad6a5d351c4823978"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.3dshapes/CONN-SMD_XT90-2-2-PB-MGY.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb1bb6db822092c3f5f143c95b201179070cbcb0",
+      "size": 1269590,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/fb1bb6db822092c3f5f143c95b201179070cbcb0"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.3dshapes/CONN-SMD_XT90-2-2-PB-MGY.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "698d1c8b9038b3b91e77ddce20673a54a0b6361d",
+      "size": 194406,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/698d1c8b9038b3b91e77ddce20673a54a0b6361d"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.3dshapes/CONN-TH_XT30PB-M.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1e3877d831d490996c11d8b80e23c0bd7abbac1",
+      "size": 1334674,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a1e3877d831d490996c11d8b80e23c0bd7abbac1"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.3dshapes/CONN-TH_XT30PB-M.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "789f5d845b8909b6baef2a7910f79a14dcea496d",
+      "size": 132586,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/789f5d845b8909b6baef2a7910f79a14dcea496d"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.3dshapes/PWRM-TH_TURBXXXXLD-30WR3.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c28989f57ea311d99166eb9f8d91c8981badc9a",
+      "size": 1133900,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1c28989f57ea311d99166eb9f8d91c8981badc9a"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.3dshapes/PWRM-TH_TURBXXXXLD-30WR3.wrl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f34270a1435c9ebb94085ef7b6caa3e321465e17",
+      "size": 177689,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f34270a1435c9ebb94085ef7b6caa3e321465e17"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.kicad_sym",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c3f4b0b24f6ed186cb961c18920b2f50924209",
+      "size": 7287,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/68c3f4b0b24f6ed186cb961c18920b2f50924209"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.pretty",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a07103ed4ea294330f6e380489dc5e6c3cc5e15",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/5a07103ed4ea294330f6e380489dc5e6c3cc5e15"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.pretty/CONN-SMD_XT90-2-2-PB-MGY.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2f6e4275aa084d889bb3b4b86799bd3afc99716",
+      "size": 3689,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a2f6e4275aa084d889bb3b4b86799bd3afc99716"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.pretty/CONN-TH_XT30PB-M.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36ec612163302ccc1801a7a68f21653353a4c385",
+      "size": 2891,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/36ec612163302ccc1801a7a68f21653353a4c385"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/lcsc_lib.pretty/PWRM-TH_TURBXXXXLD-30WR3.kicad_mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64fc8bcbc2c92ca41437209458b0db69228afd27",
+      "size": 2422,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/64fc8bcbc2c92ca41437209458b0db69228afd27"
+    },
+    {
+      "path": "electrical/rpu/power_distribution/board/sym-lib-table",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37cb31e622742d63d721bc07a74ac044ae73d501",
+      "size": 133,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/37cb31e622742d63d721bc07a74ac044ae73d501"
+    },
+    {
+      "path": "electrical/wiring",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef10ade157289cdf9772970008fe98244fe09c61",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/ef10ade157289cdf9772970008fe98244fe09c61"
+    },
+    {
+      "path": "electrical/wiring/misc-wires.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07f9565700144e03f0870e416da76a50e2096614",
+      "size": 312,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/07f9565700144e03f0870e416da76a50e2096614"
+    },
+    {
+      "path": "electrical/wiring/motor-wires.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7864c851b3c2dd68117cf8746406d64034e72e00",
+      "size": 1653,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7864c851b3c2dd68117cf8746406d64034e72e00"
+    },
+    {
+      "path": "mechanical",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66435b5fbb427d162d54047390d6fabfa9ce9468",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/66435b5fbb427d162d54047390d6fabfa9ce9468"
+    },
+    {
+      "path": "mechanical/ASV1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41a262cf78f7a64051a17589f086011aa1e387f0",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/41a262cf78f7a64051a17589f086011aa1e387f0"
+    },
+    {
+      "path": "mechanical/ASV1/100",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3329019d172572d7aa054c94627b0f700a3371d6",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/3329019d172572d7aa054c94627b0f700a3371d6"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01a31ff7b9307ef8204f9b555af307a99959a2c3",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/01a31ff7b9307ef8204f9b555af307a99959a2c3"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/ALU_7075",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eee66721832420e99f7c6d3f7979917e4071fd9b",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/eee66721832420e99f7c6d3f7979917e4071fd9b"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/ALU_7075/ASV1_100_02A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628e7943b662c90be073ea43ab294707825537ec",
+      "size": 258210,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/628e7943b662c90be073ea43ab294707825537ec"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/ALU_7075/ASV1_100_03A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b611fb4ebb0f968ce0389ef6b87a35da81fe7b8",
+      "size": 216414,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5b611fb4ebb0f968ce0389ef6b87a35da81fe7b8"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/ALU_7075/ASV1_100_05A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ce241cb2c53f03696a933cf905fb9eedeada9ee",
+      "size": 39259,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7ce241cb2c53f03696a933cf905fb9eedeada9ee"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/ALU_7075/ASV1_100_08A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ce241cb2c53f03696a933cf905fb9eedeada9ee",
+      "size": 39259,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7ce241cb2c53f03696a933cf905fb9eedeada9ee"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/MJF_PA12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fa75a3eba8feb92095163543f5ed824c485b839",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/8fa75a3eba8feb92095163543f5ed824c485b839"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/MJF_PA12/ASV1_100_01C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "381663a6eb0ba6a49927c734ac8acee5b94d961a",
+      "size": 37420341,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/381663a6eb0ba6a49927c734ac8acee5b94d961a"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/MJF_PA12/ASV1_100_04C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf74946891190015fa45f580611859f336a07700",
+      "size": 12890812,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/cf74946891190015fa45f580611859f336a07700"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/MJF_PA12/ASV1_100_06C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f15dfac34c778221760badbdc65f36c408459bf",
+      "size": 27544839,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0f15dfac34c778221760badbdc65f36c408459bf"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/MJF_PA12/ASV1_100_10C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47fa48d221ce6e31ebd2af271310f8d43b50bd6d",
+      "size": 27050896,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/47fa48d221ce6e31ebd2af271310f8d43b50bd6d"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/MJF_PA12/ASV1_100_12C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972912a9d2d8b5a7a52f0409b7981e438d94b3b6",
+      "size": 3980641,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/972912a9d2d8b5a7a52f0409b7981e438d94b3b6"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/MJF_PA12/ASV1_100_16C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90b7e4f2b026982611195cf0a8b0e010e3629a7a",
+      "size": 87403,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/90b7e4f2b026982611195cf0a8b0e010e3629a7a"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/OFF_THE_SHELF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14d0d06596a6a0805d308968fca0032cffa9b0f3",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/14d0d06596a6a0805d308968fca0032cffa9b0f3"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/OFF_THE_SHELF/ASV1_100_07X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc659708a649fb15636d5e82907688e222d68b28",
+      "size": 927187,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/dc659708a649fb15636d5e82907688e222d68b28"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/OFF_THE_SHELF/ASV1_100_09X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbf827785c6388afdace2a70eddfc8af3443c475",
+      "size": 11900,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/dbf827785c6388afdace2a70eddfc8af3443c475"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/OFF_THE_SHELF/ASV1_100_11X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e0c39cd2e840a3512920657deba029c17361ae2",
+      "size": 46998,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0e0c39cd2e840a3512920657deba029c17361ae2"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/OFF_THE_SHELF/ASV1_100_13X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792ea7e15d0f1dca10df8493736d2d01fca30b4c",
+      "size": 189765,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/792ea7e15d0f1dca10df8493736d2d01fca30b4c"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/OFF_THE_SHELF/ASV1_100_14X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94b011265f9b3ee8ac73f7d3a9384a4c349007c2",
+      "size": 30255,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/94b011265f9b3ee8ac73f7d3a9384a4c349007c2"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/OFF_THE_SHELF/ASV1_100_15X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1735e42c885e04861b7111ee1ca2301a5b82b0ba",
+      "size": 2525830,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1735e42c885e04861b7111ee1ca2301a5b82b0ba"
+    },
+    {
+      "path": "mechanical/ASV1/100/FABRICATION/OFF_THE_SHELF/ASV1_100_16X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4af84441cc1a5c037bddaea8463a61f710ba6f22",
+      "size": 1915505,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4af84441cc1a5c037bddaea8463a61f710ba6f22"
+    },
+    {
+      "path": "mechanical/ASV1/200",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6fae65955813751df3ce653990aae457c7a071b",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/e6fae65955813751df3ce653990aae457c7a071b"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac5dd7aa7c1e3d8105ac8c350fcccde3cc9aad52",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/ac5dd7aa7c1e3d8105ac8c350fcccde3cc9aad52"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/ALU_7075",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2e569e00cf3fca3a566ca7cc18be92532b39733",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/d2e569e00cf3fca3a566ca7cc18be92532b39733"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/ALU_7075/ASV1_200_02A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d27031c372602a76b4ed9449515a43c4381bc25f",
+      "size": 330632,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d27031c372602a76b4ed9449515a43c4381bc25f"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/ALU_7075/ASV1_200_03A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628cdcd11a597cf2eb2fc0b354338b55c26c4053",
+      "size": 317521,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/628cdcd11a597cf2eb2fc0b354338b55c26c4053"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/ALU_7075/ASV1_200_16A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2175ffeca2400800d915bc5067d31ed8fcfddeba",
+      "size": 381960,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2175ffeca2400800d915bc5067d31ed8fcfddeba"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/MJF_PA12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54fbc60e20f2a55f6f00b74f228e766d781f13f9",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/54fbc60e20f2a55f6f00b74f228e766d781f13f9"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/MJF_PA12/ASV1_200_01C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f94abd6e0338ebe836fce33e16a597039c5cac5",
+      "size": 34076258,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0f94abd6e0338ebe836fce33e16a597039c5cac5"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/MJF_PA12/ASV1_200_06C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e1eea5dae89d1bc609180f6eb23a4659260314",
+      "size": 1502931,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f4e1eea5dae89d1bc609180f6eb23a4659260314"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/MJF_PA12/ASV1_200_07C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e80a444f37292ec7f1c38735f242f4ddb281e9",
+      "size": 691936,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e8e80a444f37292ec7f1c38735f242f4ddb281e9"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/MJF_PA12/ASV1_200_08C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39dbc9112935dd79c79140b44a4916f48ac6acb1",
+      "size": 1376654,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/39dbc9112935dd79c79140b44a4916f48ac6acb1"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/MJF_PA12/ASV1_200_09C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd861ee6db37c76debc4041e051d6e5355c8f1c5",
+      "size": 544336,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/cd861ee6db37c76debc4041e051d6e5355c8f1c5"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/MJF_PA12/ASV1_200_15C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bcb7a6f576c687b9b3533c8a85b5845be9d5774",
+      "size": 356728,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1bcb7a6f576c687b9b3533c8a85b5845be9d5774"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/OFF_THE_SHELF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e66c0d6d221b40cd0a3f94236ace6aa9a369ee5c",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/e66c0d6d221b40cd0a3f94236ace6aa9a369ee5c"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/OFF_THE_SHELF/ASV1_200_10X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f5f6ae580df5135a30dd104c1f299bd4c99f480",
+      "size": 3098267,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2f5f6ae580df5135a30dd104c1f299bd4c99f480"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/OFF_THE_SHELF/ASV1_200_11X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f5f6ae580df5135a30dd104c1f299bd4c99f480",
+      "size": 3098267,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2f5f6ae580df5135a30dd104c1f299bd4c99f480"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/OFF_THE_SHELF/ASV1_200_12X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f5f6ae580df5135a30dd104c1f299bd4c99f480",
+      "size": 3098267,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2f5f6ae580df5135a30dd104c1f299bd4c99f480"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/OFF_THE_SHELF/ASV1_200_13X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdad06b21cfc3ec4ce2c07c1d3eb55d46c4be72e",
+      "size": 102784,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/bdad06b21cfc3ec4ce2c07c1d3eb55d46c4be72e"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/OFF_THE_SHELF/ASV1_200_14X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdad06b21cfc3ec4ce2c07c1d3eb55d46c4be72e",
+      "size": 102784,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/bdad06b21cfc3ec4ce2c07c1d3eb55d46c4be72e"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/SML_316L",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6643ed986952678e351ccc6af3a4f829c553fd7e",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/6643ed986952678e351ccc6af3a4f829c553fd7e"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/SML_316L/ASV1_200_04B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "499dab5fa305f842c2a139f99446eef21c83f15f",
+      "size": 1948846,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/499dab5fa305f842c2a139f99446eef21c83f15f"
+    },
+    {
+      "path": "mechanical/ASV1/200/FABRICATION/SML_316L/ASV1_200_05B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "499dab5fa305f842c2a139f99446eef21c83f15f",
+      "size": 1948846,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/499dab5fa305f842c2a139f99446eef21c83f15f"
+    },
+    {
+      "path": "mechanical/ASV1/300",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddad617348eeb3b7ca81c277f220eadf923a3d8a",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/ddad617348eeb3b7ca81c277f220eadf923a3d8a"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "158e94359a3cdb71386eadf9eecaa682d57a21bf",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/158e94359a3cdb71386eadf9eecaa682d57a21bf"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe85a0a04c4b1ac4c9581841e16150593cc1acc1",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/fe85a0a04c4b1ac4c9581841e16150593cc1acc1"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_01A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b659d733534d13ca7924e31a131460860b5b71d",
+      "size": 380888,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7b659d733534d13ca7924e31a131460860b5b71d"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_02A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d09aa4cc308f15eeb1374568fa009961ce42b99",
+      "size": 592335,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2d09aa4cc308f15eeb1374568fa009961ce42b99"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_03A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "672c1f215c5d46104db33f8454854ff29d197296",
+      "size": 223943,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/672c1f215c5d46104db33f8454854ff29d197296"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_05A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02b3e03bdb489b3c152519cb061edf9ae0c30ac7",
+      "size": 100942,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/02b3e03bdb489b3c152519cb061edf9ae0c30ac7"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_07A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ab461e6190d2f28b2db18887bc4b765befac9dd",
+      "size": 198427,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4ab461e6190d2f28b2db18887bc4b765befac9dd"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_08A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aaf9d14c20c218ab923cc8e67391d9becc7bb3b",
+      "size": 141635,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7aaf9d14c20c218ab923cc8e67391d9becc7bb3b"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_09A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70f92cc75740ce15bf2e863a4175ba12aa8e6af6",
+      "size": 154664,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/70f92cc75740ce15bf2e863a4175ba12aa8e6af6"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_10A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0fff46599476af0d308d407b8f783e5e08339f4",
+      "size": 104605,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b0fff46599476af0d308d407b8f783e5e08339f4"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/ALU_7075/ASV1_300_11A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d34588533a8c7137667113fed3b44c79c8f6e95",
+      "size": 199430,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5d34588533a8c7137667113fed3b44c79c8f6e95"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/MJF_PA12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38f2151e311f9c713d840a9af0c0b480d10206f0",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/38f2151e311f9c713d840a9af0c0b480d10206f0"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/MJF_PA12/ASV1_300_13C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16515a792f536fb1d0dea32be6e02d709c31de9b",
+      "size": 2379109,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/16515a792f536fb1d0dea32be6e02d709c31de9b"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/MJF_PA12/ASV1_300_14C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "646d7883f0bf91765b404d227ab3c89b09ae7efa",
+      "size": 1641732,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/646d7883f0bf91765b404d227ab3c89b09ae7efa"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/MJF_PA12/ASV1_300_15C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f882efa34362bad055aae136fd08ea3f25b62354",
+      "size": 1431417,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f882efa34362bad055aae136fd08ea3f25b62354"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/MJF_PA12/ASV1_300_16C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9b2101e24ad594356059525637ba8239a326287",
+      "size": 556858,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b9b2101e24ad594356059525637ba8239a326287"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/OFF_THE_SHELF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fe005416609d4daf7afaf07d91ec909185bba16",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/1fe005416609d4daf7afaf07d91ec909185bba16"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/OFF_THE_SHELF/ASV1_300_17X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb62642e37003630362af41fc57e322e52cd71e",
+      "size": 96735,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5fb62642e37003630362af41fc57e322e52cd71e"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/OFF_THE_SHELF/ASV1_300_18X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d4c1fe3a6279f7b5ab148bf7a324c59b095cf0",
+      "size": 20682,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f6d4c1fe3a6279f7b5ab148bf7a324c59b095cf0"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/OFF_THE_SHELF/ASV1_300_19X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05d7264479c80b8b4b12c140fbf3793e32ee6d3f",
+      "size": 197883,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/05d7264479c80b8b4b12c140fbf3793e32ee6d3f"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/OFF_THE_SHELF/ASV1_300_20X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f772eb526a6f79f4df9e13dafcea9b073c886edd",
+      "size": 58952,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f772eb526a6f79f4df9e13dafcea9b073c886edd"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/OFF_THE_SHELF/ASV1_300_21X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfe3f709acb682215dc7fb5db0c616141fb60e73",
+      "size": 197923,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/cfe3f709acb682215dc7fb5db0c616141fb60e73"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/OFF_THE_SHELF/ASV1_300_22X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cf1bba7914cd86af0bcb6f169c9506cc6c5a6d3",
+      "size": 20626,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9cf1bba7914cd86af0bcb6f169c9506cc6c5a6d3"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/OFF_THE_SHELF/ASV1_300_23X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa9a29ebfe92090ab684c17f781364bb44566053",
+      "size": 20629,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/fa9a29ebfe92090ab684c17f781364bb44566053"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/SML_316L",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "451489bd1003521f18865bdc045895bb5cefbb35",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/451489bd1003521f18865bdc045895bb5cefbb35"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/SML_316L/ASV1_300_04B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "747b83d726138cbd1a0c4243535bb746bcf24b19",
+      "size": 2197176,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/747b83d726138cbd1a0c4243535bb746bcf24b19"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/SML_316L/ASV1_300_06B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d70cf16c0c6930ec5fc716fab7e70d218481929",
+      "size": 207050,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4d70cf16c0c6930ec5fc716fab7e70d218481929"
+    },
+    {
+      "path": "mechanical/ASV1/300/FABRICATION/SML_316L/ASV1_300_12B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae3bd7a6483eeb3aaf26c0a5559d1a116947080",
+      "size": 1106871,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9ae3bd7a6483eeb3aaf26c0a5559d1a116947080"
+    },
+    {
+      "path": "mechanical/ASV1/400",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c42e703d5037324b965f9465d6c7b97b9586cee",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/7c42e703d5037324b965f9465d6c7b97b9586cee"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76a51a4553dd624360c3f4aa05f1fa6cf594294a",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/76a51a4553dd624360c3f4aa05f1fa6cf594294a"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee73ba86234925f56b3a4de81ad0a6fd66490959",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/ee73ba86234925f56b3a4de81ad0a6fd66490959"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_01A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55dbc6d39f75d000b03aa6439ae6d334e3fdecad",
+      "size": 448481,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/55dbc6d39f75d000b03aa6439ae6d334e3fdecad"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_02A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a4e4d9070ed70ce36b4d98e4aa12df1c06565f",
+      "size": 646186,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/44a4e4d9070ed70ce36b4d98e4aa12df1c06565f"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_03A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fabdd7419f5b9219c30e6d49b2d4311f04df510",
+      "size": 227782,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/8fabdd7419f5b9219c30e6d49b2d4311f04df510"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_05A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c31d635de662afdba00074709a5b19475e0aecba",
+      "size": 100745,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c31d635de662afdba00074709a5b19475e0aecba"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_07A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01853aeca6eef622c4d6676efb2fb46ce4d416a9",
+      "size": 198801,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/01853aeca6eef622c4d6676efb2fb46ce4d416a9"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_08A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ee80dbf990fcf1067b22e4f55fb1bd6029ed0e",
+      "size": 141991,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/54ee80dbf990fcf1067b22e4f55fb1bd6029ed0e"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_09A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bb660ef46d068069afd3f8071177120657207ac",
+      "size": 154521,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9bb660ef46d068069afd3f8071177120657207ac"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_10A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4070f62ac881a4a7ddd49016241e0d167a8af026",
+      "size": 104600,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4070f62ac881a4a7ddd49016241e0d167a8af026"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/ALU_7075/ASV1_400_11A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d18324ecaa7b0b9f709b662ef05ecd7a0ef4b84",
+      "size": 199954,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/8d18324ecaa7b0b9f709b662ef05ecd7a0ef4b84"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/MJF_PA12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "caf2b8b269c615918afc6aa9f9a07a4d8ce5e86e",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/caf2b8b269c615918afc6aa9f9a07a4d8ce5e86e"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/MJF_PA12/ASV1_400_13C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44206f9f2e800641b7a32fb0a8bcaa9202042afd",
+      "size": 2392962,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/44206f9f2e800641b7a32fb0a8bcaa9202042afd"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/MJF_PA12/ASV1_400_14C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f531d80076e7caf3aea468bc1edecb89cd68db90",
+      "size": 1558361,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f531d80076e7caf3aea468bc1edecb89cd68db90"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/MJF_PA12/ASV1_400_15C.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "275c8e22e3e8d695ec692348490c731bc3600e56",
+      "size": 1450025,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/275c8e22e3e8d695ec692348490c731bc3600e56"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/MJF_PA12/ASV1_400_16C.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d55b43321dedc0002ed496cabec91f8d41641162",
+      "size": 625554,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d55b43321dedc0002ed496cabec91f8d41641162"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/OFF_THE_SHELF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b5738d658816a6fce69a6625cde3f766dfce619",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/2b5738d658816a6fce69a6625cde3f766dfce619"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/OFF_THE_SHELF/ASV1_400_17X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d08c21dfb0fe138a0ac5f2afd591ff3a04b9b018",
+      "size": 92674,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d08c21dfb0fe138a0ac5f2afd591ff3a04b9b018"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/OFF_THE_SHELF/ASV1_400_18X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1774a77732f43ed7389fcfa47bf64e7d8b7d82a8",
+      "size": 20664,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1774a77732f43ed7389fcfa47bf64e7d8b7d82a8"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/OFF_THE_SHELF/ASV1_400_19X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3518dca04a1c7ef35a29a49b8a02ad2225742f97",
+      "size": 197865,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/3518dca04a1c7ef35a29a49b8a02ad2225742f97"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/OFF_THE_SHELF/ASV1_400_20X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf39743a346f6b3cb32a285031fcaa73a8690cd0",
+      "size": 53885,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/bf39743a346f6b3cb32a285031fcaa73a8690cd0"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/OFF_THE_SHELF/ASV1_400_21X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54c3d2ca936cea4fe709ecb90224ca147fdb81e2",
+      "size": 197892,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/54c3d2ca936cea4fe709ecb90224ca147fdb81e2"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/OFF_THE_SHELF/ASV1_400_22X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb47e832b6ea9fc2b9e14dcde81014d574e4638",
+      "size": 20665,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2bb47e832b6ea9fc2b9e14dcde81014d574e4638"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/OFF_THE_SHELF/ASV1_400_23X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ef7d238baeb6aa7bcad33cd4af9277ae69b263",
+      "size": 20660,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e2ef7d238baeb6aa7bcad33cd4af9277ae69b263"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/SML_316L",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82b22abf36ea6a5fa50a3c505a664188729ea646",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/82b22abf36ea6a5fa50a3c505a664188729ea646"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/SML_316L/ASV1_400_04B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f357e04a9d369340bcdc6b18f8374ecaeb4397fb",
+      "size": 1956858,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f357e04a9d369340bcdc6b18f8374ecaeb4397fb"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/SML_316L/ASV1_400_06B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89cc0d8d5562f7d3df75a9fdd3eedf0ebea12b6f",
+      "size": 341453,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/89cc0d8d5562f7d3df75a9fdd3eedf0ebea12b6f"
+    },
+    {
+      "path": "mechanical/ASV1/400/FABRICATION/SML_316L/ASV1_400_12B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b1d2fe20525b9ede861b56ea4fb25baa28d3294",
+      "size": 1147891,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5b1d2fe20525b9ede861b56ea4fb25baa28d3294"
+    },
+    {
+      "path": "mechanical/ASV1/500",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79b6c0da17ca8a008bbad620a0defdbfbcc8fbe8",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/79b6c0da17ca8a008bbad620a0defdbfbcc8fbe8"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54782639a599b5f010bb7aa8eee2433a9a1fbbee",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/54782639a599b5f010bb7aa8eee2433a9a1fbbee"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "413675c77988532928412419245223888d6d8944",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/413675c77988532928412419245223888d6d8944"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_05A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7cef39a03de4f306050d121d9b4143aa04d0c3",
+      "size": 157223,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2a7cef39a03de4f306050d121d9b4143aa04d0c3"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_06A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3e46cba31a41aa7310b028fe6c7f0195c62fc8a",
+      "size": 205823,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f3e46cba31a41aa7310b028fe6c7f0195c62fc8a"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_08A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b96c73352bb0292ef1e45b4d6d620492d4aa240",
+      "size": 158306,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6b96c73352bb0292ef1e45b4d6d620492d4aa240"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_09A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "453f48f72081ec9d4112bfb33c9e08b4ac8732cf",
+      "size": 216576,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/453f48f72081ec9d4112bfb33c9e08b4ac8732cf"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_12A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "192a94ae263eee9e457b1dfed28c30b1d9e42689",
+      "size": 38902,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/192a94ae263eee9e457b1dfed28c30b1d9e42689"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_23A_SS.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d995eef88cbf16c031f5e59f248de15d46e5a6dd",
+      "size": 1467105,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d995eef88cbf16c031f5e59f248de15d46e5a6dd"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_24A_SS.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c6220cf941f7c10b26fd2ef188c8fcce4d558b6",
+      "size": 1467107,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4c6220cf941f7c10b26fd2ef188c8fcce4d558b6"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_25A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb8c6e6e75b4653e34132bdb6dc23f0a59b7b8b2",
+      "size": 228916,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/fb8c6e6e75b4653e34132bdb6dc23f0a59b7b8b2"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/ALU_7075/ASV1_500_36A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea7b159f59f27d293e4cb117dcd9c0e5579f0a18",
+      "size": 274409,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ea7b159f59f27d293e4cb117dcd9c0e5579f0a18"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/MJF_PA12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fcd238ca20f43591afc32139837b2cb16fdc57a7",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/fcd238ca20f43591afc32139837b2cb16fdc57a7"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/MJF_PA12/ASV1_500_03C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d83f251104a8b0b74d38c24e61ee1cc0eaae74",
+      "size": 5034347,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c9d83f251104a8b0b74d38c24e61ee1cc0eaae74"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/MJF_PA12/ASV1_500_04C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b589f96d8defb858d334a69717c125dd15532647",
+      "size": 132,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b589f96d8defb858d334a69717c125dd15532647"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/MJF_PA12/ASV1_500_10C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d190798563e73f2e7ea1927630047b2d5c99c50",
+      "size": 5575496,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0d190798563e73f2e7ea1927630047b2d5c99c50"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/MJF_PA12/ASV1_500_13C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ef5906e7d2c90701cda474d69ce7c5c91caf05",
+      "size": 2237564,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e2ef5906e7d2c90701cda474d69ce7c5c91caf05"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/MJF_PA12/ASV1_500_14C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acb2b5eb3c89f2b9a3814c9fdd7e66f21b802a54",
+      "size": 132,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/acb2b5eb3c89f2b9a3814c9fdd7e66f21b802a54"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/MJF_PA12/ASV1_500_37C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d5f9877b3bd977e4d27962683ad2c46b1405108",
+      "size": 2249951,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4d5f9877b3bd977e4d27962683ad2c46b1405108"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/MJF_PA12/ASV1_500_39C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff9abe4a8214097f3c5ea576cf393dfd69180945",
+      "size": 808209,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ff9abe4a8214097f3c5ea576cf393dfd69180945"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f71a95d01177e784cb04d6edb3ed18a54fff4b6a",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/f71a95d01177e784cb04d6edb3ed18a54fff4b6a"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_02X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99670dee5b2fb746b4c899350c1aafa3b5894091",
+      "size": 66256,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/99670dee5b2fb746b4c899350c1aafa3b5894091"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_07X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2c50fa72e18ca9098555e9d8d76a0e31e6246fa",
+      "size": 23112,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e2c50fa72e18ca9098555e9d8d76a0e31e6246fa"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_11X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d26043a0e8e54d17037917c47c18df8c4125258",
+      "size": 149546,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9d26043a0e8e54d17037917c47c18df8c4125258"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_15X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cfd1acd536eb31b93bd270b8bb44e250af08a1d",
+      "size": 23056,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0cfd1acd536eb31b93bd270b8bb44e250af08a1d"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_16X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cfd1acd536eb31b93bd270b8bb44e250af08a1d",
+      "size": 23056,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0cfd1acd536eb31b93bd270b8bb44e250af08a1d"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_19X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6cb6c3ff79bdc4c8243087601097294a453f",
+      "size": 647542,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388b6cb6c3ff79bdc4c8243087601097294a453f"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_20X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6cb6c3ff79bdc4c8243087601097294a453f",
+      "size": 647542,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388b6cb6c3ff79bdc4c8243087601097294a453f"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_21X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6cb6c3ff79bdc4c8243087601097294a453f",
+      "size": 647542,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388b6cb6c3ff79bdc4c8243087601097294a453f"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_22X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6cb6c3ff79bdc4c8243087601097294a453f",
+      "size": 647542,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388b6cb6c3ff79bdc4c8243087601097294a453f"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_27X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e68c5ca0896ce73b78ebf0c6877a278c252d47",
+      "size": 1449793,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/57e68c5ca0896ce73b78ebf0c6877a278c252d47"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_28X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e68c5ca0896ce73b78ebf0c6877a278c252d47",
+      "size": 1449793,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/57e68c5ca0896ce73b78ebf0c6877a278c252d47"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_29X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e68c5ca0896ce73b78ebf0c6877a278c252d47",
+      "size": 1449793,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/57e68c5ca0896ce73b78ebf0c6877a278c252d47"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_30X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e68c5ca0896ce73b78ebf0c6877a278c252d47",
+      "size": 1449793,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/57e68c5ca0896ce73b78ebf0c6877a278c252d47"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_31X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "491b62f889d9f0cf7cb6f714cd0c2ec1dcf2db2e",
+      "size": 17625,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/491b62f889d9f0cf7cb6f714cd0c2ec1dcf2db2e"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_32X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83bca7a3b9b76e3422017f1c7a1c925a732b289e",
+      "size": 898603,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/83bca7a3b9b76e3422017f1c7a1c925a732b289e"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_33X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83bca7a3b9b76e3422017f1c7a1c925a732b289e",
+      "size": 898603,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/83bca7a3b9b76e3422017f1c7a1c925a732b289e"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_34X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "536ac1e113b5afd7b2e4ba168bea6dac8658d898",
+      "size": 1334445,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/536ac1e113b5afd7b2e4ba168bea6dac8658d898"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/OFF_THE_SHELF/ASV1_500_35X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "536ac1e113b5afd7b2e4ba168bea6dac8658d898",
+      "size": 1334445,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/536ac1e113b5afd7b2e4ba168bea6dac8658d898"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/SML_316L",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e70d57442a8ec15c2ee665a57ca18ad02319b4bd",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/e70d57442a8ec15c2ee665a57ca18ad02319b4bd"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/SML_316L/ASV1_500_01B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6a28fe2a7ce0ed630a03334ec9d15e56ca2964d",
+      "size": 1054742,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a6a28fe2a7ce0ed630a03334ec9d15e56ca2964d"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/SML_316L/ASV1_500_17B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a03ca2a3e506aa809f1c970daa1681c96538a0",
+      "size": 109372,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/72a03ca2a3e506aa809f1c970daa1681c96538a0"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/SML_316L/ASV1_500_18B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a03ca2a3e506aa809f1c970daa1681c96538a0",
+      "size": 109372,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/72a03ca2a3e506aa809f1c970daa1681c96538a0"
+    },
+    {
+      "path": "mechanical/ASV1/500/FABRICATION/SML_316L/ASV1_500_26B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "153a6697ec111b0cb3f73d003d8f8a6ee40903c4",
+      "size": 648967,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/153a6697ec111b0cb3f73d003d8f8a6ee40903c4"
+    },
+    {
+      "path": "mechanical/ASV1/600",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3200bfd89770d6a7ef1a991f9bda9ce4e31ea9ed",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/3200bfd89770d6a7ef1a991f9bda9ce4e31ea9ed"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40332cbf0b5044f340f5d78120008db486044b7b",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/40332cbf0b5044f340f5d78120008db486044b7b"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f6731af9dc4d4f35a57203b4602d32c63f862f0",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/9f6731af9dc4d4f35a57203b4602d32c63f862f0"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_05A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "739f53e5d7927a3596dfada12cbfc0044e74bf4d",
+      "size": 153208,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/739f53e5d7927a3596dfada12cbfc0044e74bf4d"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_06A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21614ca9ce19ad130b941cb4145723dfac1f5b09",
+      "size": 201362,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/21614ca9ce19ad130b941cb4145723dfac1f5b09"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_08A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72420e3f4e46e22967521a6cb169156748f8521c",
+      "size": 156116,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/72420e3f4e46e22967521a6cb169156748f8521c"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_09A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d77ada5b2e674093f0477bf5e7d1230b977a93fb",
+      "size": 214730,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d77ada5b2e674093f0477bf5e7d1230b977a93fb"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_12A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "827bc2c4d01a930773ecb6a8e31df060ed797ff1",
+      "size": 36393,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/827bc2c4d01a930773ecb6a8e31df060ed797ff1"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_23A_SS.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efb23653eb12c664d5ac2ccab5c1f7ee68271d28",
+      "size": 1467118,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/efb23653eb12c664d5ac2ccab5c1f7ee68271d28"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_24A_SS.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a25ce1aa98ce156dfe7d13b8341aff415a88a521",
+      "size": 1467122,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a25ce1aa98ce156dfe7d13b8341aff415a88a521"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_25A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e84ebd7d462ffae49400f4690c8d8566a4e0eb4",
+      "size": 239860,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5e84ebd7d462ffae49400f4690c8d8566a4e0eb4"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/ALU_7075/ASV1_600_36A.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c5f2a8ac0254b1453b7f25188bd1a9f959701b3",
+      "size": 281282,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7c5f2a8ac0254b1453b7f25188bd1a9f959701b3"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/MJF_PA12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e31324bac060ad334613c841a2e2d2b949c7e27e",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/e31324bac060ad334613c841a2e2d2b949c7e27e"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/MJF_PA12/ASV1_600_03C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f407d2eeabb40268b7c58f456f64247953b8c118",
+      "size": 5410043,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f407d2eeabb40268b7c58f456f64247953b8c118"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/MJF_PA12/ASV1_600_04C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f82e780c5d410b2d93014026258667f2cb534f37",
+      "size": 132,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f82e780c5d410b2d93014026258667f2cb534f37"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/MJF_PA12/ASV1_600_10C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b7f1efa11824f320926a7ccd486d78f392eb75c",
+      "size": 5328172,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5b7f1efa11824f320926a7ccd486d78f392eb75c"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/MJF_PA12/ASV1_600_13C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70bcf6452ab73891f9e66d1b97ca96d00c0a46e6",
+      "size": 2114862,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/70bcf6452ab73891f9e66d1b97ca96d00c0a46e6"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/MJF_PA12/ASV1_600_14C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d20ca85fcf060b828c1f573003ffe37df2484e7",
+      "size": 132,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9d20ca85fcf060b828c1f573003ffe37df2484e7"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/MJF_PA12/ASV1_600_37C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01adc381cc908da2aa0639e6af59a35db9ddaee2",
+      "size": 2494566,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/01adc381cc908da2aa0639e6af59a35db9ddaee2"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/MJF_PA12/ASV1_600_39C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9158c3f7a396ce864c44fd86326ad61d875bd6",
+      "size": 837395,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/8a9158c3f7a396ce864c44fd86326ad61d875bd6"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7e2487b0c9180fdda2dd9f53b96436483137ba7",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/f7e2487b0c9180fdda2dd9f53b96436483137ba7"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_02X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99670dee5b2fb746b4c899350c1aafa3b5894091",
+      "size": 66256,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/99670dee5b2fb746b4c899350c1aafa3b5894091"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_07X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2c50fa72e18ca9098555e9d8d76a0e31e6246fa",
+      "size": 23112,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e2c50fa72e18ca9098555e9d8d76a0e31e6246fa"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_11X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d26043a0e8e54d17037917c47c18df8c4125258",
+      "size": 149546,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9d26043a0e8e54d17037917c47c18df8c4125258"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_15X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cfd1acd536eb31b93bd270b8bb44e250af08a1d",
+      "size": 23056,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0cfd1acd536eb31b93bd270b8bb44e250af08a1d"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_16X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cfd1acd536eb31b93bd270b8bb44e250af08a1d",
+      "size": 23056,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0cfd1acd536eb31b93bd270b8bb44e250af08a1d"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_19X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6cb6c3ff79bdc4c8243087601097294a453f",
+      "size": 647542,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388b6cb6c3ff79bdc4c8243087601097294a453f"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_20X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6cb6c3ff79bdc4c8243087601097294a453f",
+      "size": 647542,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388b6cb6c3ff79bdc4c8243087601097294a453f"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_21X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6cb6c3ff79bdc4c8243087601097294a453f",
+      "size": 647542,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388b6cb6c3ff79bdc4c8243087601097294a453f"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_22X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388b6cb6c3ff79bdc4c8243087601097294a453f",
+      "size": 647542,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/388b6cb6c3ff79bdc4c8243087601097294a453f"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_27X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e68c5ca0896ce73b78ebf0c6877a278c252d47",
+      "size": 1449793,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/57e68c5ca0896ce73b78ebf0c6877a278c252d47"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_28X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e68c5ca0896ce73b78ebf0c6877a278c252d47",
+      "size": 1449793,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/57e68c5ca0896ce73b78ebf0c6877a278c252d47"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_29X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e68c5ca0896ce73b78ebf0c6877a278c252d47",
+      "size": 1449793,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/57e68c5ca0896ce73b78ebf0c6877a278c252d47"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_30X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e68c5ca0896ce73b78ebf0c6877a278c252d47",
+      "size": 1449793,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/57e68c5ca0896ce73b78ebf0c6877a278c252d47"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_31X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "491b62f889d9f0cf7cb6f714cd0c2ec1dcf2db2e",
+      "size": 17625,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/491b62f889d9f0cf7cb6f714cd0c2ec1dcf2db2e"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_32X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83bca7a3b9b76e3422017f1c7a1c925a732b289e",
+      "size": 898603,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/83bca7a3b9b76e3422017f1c7a1c925a732b289e"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_33X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83bca7a3b9b76e3422017f1c7a1c925a732b289e",
+      "size": 898603,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/83bca7a3b9b76e3422017f1c7a1c925a732b289e"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_34X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "536ac1e113b5afd7b2e4ba168bea6dac8658d898",
+      "size": 1334445,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/536ac1e113b5afd7b2e4ba168bea6dac8658d898"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/OFF_THE_SHELF/ASV1_600_35X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "536ac1e113b5afd7b2e4ba168bea6dac8658d898",
+      "size": 1334445,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/536ac1e113b5afd7b2e4ba168bea6dac8658d898"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/SML_316L",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4050197cfbfe0685465a34d08437f40f97d98469",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/4050197cfbfe0685465a34d08437f40f97d98469"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/SML_316L/ASV1_600_01B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96a6d5855526024653b9affcd2de02ad8b257a6b",
+      "size": 946968,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/96a6d5855526024653b9affcd2de02ad8b257a6b"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/SML_316L/ASV1_600_17B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df0f993df358782995fc5f1da3d834df5384464",
+      "size": 108670,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0df0f993df358782995fc5f1da3d834df5384464"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/SML_316L/ASV1_600_18B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce50b28d93c6e09cae0be8c460d58c02f9540ee2",
+      "size": 108691,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ce50b28d93c6e09cae0be8c460d58c02f9540ee2"
+    },
+    {
+      "path": "mechanical/ASV1/600/FABRICATION/SML_316L/ASV1_600_26B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04444281e9fd248c9c4b5675f5230c4a6cd303f6",
+      "size": 614082,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/04444281e9fd248c9c4b5675f5230c4a6cd303f6"
+    },
+    {
+      "path": "mechanical/ASV1/700",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05b50ad3caf2ae675b9d24264dc850c6a8cf77df",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/05b50ad3caf2ae675b9d24264dc850c6a8cf77df"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee1b7aac2b5b9d90f214c0eb38820e2d8f99c828",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/ee1b7aac2b5b9d90f214c0eb38820e2d8f99c828"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/MJF_PA12",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37ea920f195309133c01abae8560ac58b97bd8a0",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/37ea920f195309133c01abae8560ac58b97bd8a0"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/MJF_PA12/ASV1_700_03C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ff6392b7b4dfede1ec03c0046627cfb50af27aa",
+      "size": 7950945,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2ff6392b7b4dfede1ec03c0046627cfb50af27aa"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/MJF_PA12/ASV1_700_04C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4f44cbe70445b39928bd49023089cd509068b49",
+      "size": 6339584,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b4f44cbe70445b39928bd49023089cd509068b49"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/MJF_PA12/ASV1_700_05C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8da0a959905522fdbcced5d9eed1047c3b23020",
+      "size": 469571,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e8da0a959905522fdbcced5d9eed1047c3b23020"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/MJF_PA12/ASV1_700_06C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d511b6e3944eb227165c16d3c5feb1560b35aef",
+      "size": 1886188,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/8d511b6e3944eb227165c16d3c5feb1560b35aef"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/MJF_PA12/ASV1_700_07C.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c21ebceaee5cb625177080b331709538d19dd68c",
+      "size": 1928609,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c21ebceaee5cb625177080b331709538d19dd68c"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/OFF_THE_SHELF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee925b1f720cf27c518cbc37fe6a2c26a36e7565",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/ee925b1f720cf27c518cbc37fe6a2c26a36e7565"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/OFF_THE_SHELF/ASV1_700_08X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d486fb7ae2ae125c209090c6e99e7683f376eead",
+      "size": 1139378,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d486fb7ae2ae125c209090c6e99e7683f376eead"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/OFF_THE_SHELF/ASV1_700_09X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "681ecab5e5a67ac24d3497798ccc744602846456",
+      "size": 40626678,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/681ecab5e5a67ac24d3497798ccc744602846456"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/OFF_THE_SHELF/ASV1_700_10X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "814587deee81f5f8af08c6781f823afca570bea8",
+      "size": 3984287,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/814587deee81f5f8af08c6781f823afca570bea8"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/OFF_THE_SHELF/ASV1_700_12X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6766fca57335de4793b36a0e6fa648ffb350d7",
+      "size": 561735,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/cf6766fca57335de4793b36a0e6fa648ffb350d7"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/OFF_THE_SHELF/ASV1_700_13X.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cfd1acd536eb31b93bd270b8bb44e250af08a1d",
+      "size": 23056,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0cfd1acd536eb31b93bd270b8bb44e250af08a1d"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/SML_316L",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd88c37be15ddafe1ca5651827035ed6306b2cf1",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/dd88c37be15ddafe1ca5651827035ed6306b2cf1"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/SML_316L/ASV1_700_01B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19f529430f8d8cdf5f3238779850fa8de4ef6421",
+      "size": 251378,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/19f529430f8d8cdf5f3238779850fa8de4ef6421"
+    },
+    {
+      "path": "mechanical/ASV1/700/FABRICATION/SML_316L/ASV1_700_02B.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f39e295e067baa880c3b25747b9bbfbd715ce7e",
+      "size": 120258,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1f39e295e067baa880c3b25747b9bbfbd715ce7e"
+    },
+    {
+      "path": "mechanical/ASV1/Docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f11f6cd97f84250490464311cf9274764524f0f1",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/f11f6cd97f84250490464311cf9274764524f0f1"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/ASV1_Bearings_Assembly.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "becbda011ddd23ff48930c8fef187205ed1869ee",
+      "size": 1980926,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/becbda011ddd23ff48930c8fef187205ed1869ee"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb6609b65e1f3a45680032bfcd4328812743979b",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/bb6609b65e1f3a45680032bfcd4328812743979b"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_100_05A.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b409e03baa3dd1b1074198c7ba85693fb2dc85d6",
+      "size": 171724,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b409e03baa3dd1b1074198c7ba85693fb2dc85d6"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_100_08A.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b409e03baa3dd1b1074198c7ba85693fb2dc85d6",
+      "size": 171724,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b409e03baa3dd1b1074198c7ba85693fb2dc85d6"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_300_06B.PDF",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0dfef16f5b4e0c5d752c809460d4a522455048",
+      "size": 191928,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/df0dfef16f5b4e0c5d752c809460d4a522455048"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_300_12B.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e72a4bd675960757c0ffd9c6394ef8e2f6be300",
+      "size": 220558,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7e72a4bd675960757c0ffd9c6394ef8e2f6be300"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_300_2A.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2081447fb5bb459835b512b2480796168d464bd8",
+      "size": 107782,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2081447fb5bb459835b512b2480796168d464bd8"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_400_06B.PDF",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0dfef16f5b4e0c5d752c809460d4a522455048",
+      "size": 191928,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/df0dfef16f5b4e0c5d752c809460d4a522455048"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_400_12B.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e72a4bd675960757c0ffd9c6394ef8e2f6be300",
+      "size": 220558,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7e72a4bd675960757c0ffd9c6394ef8e2f6be300"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_400_2A.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2081447fb5bb459835b512b2480796168d464bd8",
+      "size": 107782,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/2081447fb5bb459835b512b2480796168d464bd8"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_500_17B.PDF",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3dfb370d08c70f5ed1153600af94a1b00c17302",
+      "size": 83218,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a3dfb370d08c70f5ed1153600af94a1b00c17302"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_500_18B.PDF",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3dfb370d08c70f5ed1153600af94a1b00c17302",
+      "size": 83218,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a3dfb370d08c70f5ed1153600af94a1b00c17302"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_500_23A_SS.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97251c7f0979df36b35b65aa551e6b62628f370d",
+      "size": 86838,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/97251c7f0979df36b35b65aa551e6b62628f370d"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_500_24A_SS.PDF",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1cf000ff292e44b60264ea64aa9f861353d4fe5",
+      "size": 107042,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f1cf000ff292e44b60264ea64aa9f861353d4fe5"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_600_17B.PDF",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3dfb370d08c70f5ed1153600af94a1b00c17302",
+      "size": 83218,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a3dfb370d08c70f5ed1153600af94a1b00c17302"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_600_18B.PDF",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3dfb370d08c70f5ed1153600af94a1b00c17302",
+      "size": 83218,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a3dfb370d08c70f5ed1153600af94a1b00c17302"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_600_23A_SS.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97251c7f0979df36b35b65aa551e6b62628f370d",
+      "size": 86838,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/97251c7f0979df36b35b65aa551e6b62628f370d"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_600_24A_SS.PDF",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1cf000ff292e44b60264ea64aa9f861353d4fe5",
+      "size": 107042,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/f1cf000ff292e44b60264ea64aa9f861353d4fe5"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Drawing_thread_parts/ASV1_700_02B.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1cb1567380187a994059d151f131794acaef97c",
+      "size": 127314,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a1cb1567380187a994059d151f131794acaef97c"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Heat_Insert_parts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ea68bfc29661f760112fcc6c714b25ff5258f4b",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/8ea68bfc29661f760112fcc6c714b25ff5258f4b"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Heat_Insert_parts/Heat_Insert_ASV1_100.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "030ad7ce64d68b82f122f8b6f1d47881a4e8c256",
+      "size": 1264235,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/030ad7ce64d68b82f122f8b6f1d47881a4e8c256"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Heat_Insert_parts/Heat_Insert_ASV1_200.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b18f4aba1aa5bb2ec891a89b579b95605a0d865e",
+      "size": 1407747,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b18f4aba1aa5bb2ec891a89b579b95605a0d865e"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Heat_Insert_parts/Heat_Inserts_ASV1_300.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ed3a52ea1250bae9135acd86d6663ec934a093",
+      "size": 400025,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/23ed3a52ea1250bae9135acd86d6663ec934a093"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Heat_Insert_parts/Heat_Inserts_ASV1_500.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a8f50f7f4cdc84d6558bf18387f00d045205d43",
+      "size": 1967380,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/9a8f50f7f4cdc84d6558bf18387f00d045205d43"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Heat_Insert_parts/Heat_Inserts_ASV1_700.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7edef6af44f1d7ca6d4295b35e220e2733778bd3",
+      "size": 1751730,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7edef6af44f1d7ca6d4295b35e220e2733778bd3"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Heat_Insert_parts/Heat_inserts_ASV1_400.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b517d8d4b6b050ec83c53a1f82a9533f2c2fb784",
+      "size": 358691,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b517d8d4b6b050ec83c53a1f82a9533f2c2fb784"
+    },
+    {
+      "path": "mechanical/ASV1/Docs/Heat_Insert_parts/Heat_inserts_ASV1_600.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16391d01044639d2044d41f2ff313f8029d947b9",
+      "size": 1938594,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/16391d01044639d2044d41f2ff313f8029d947b9"
+    },
+    {
+      "path": "mechanical/ASV1/FullBodyAssembly",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b084f94e017bf4877c74764121248cbedba1c544",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/b084f94e017bf4877c74764121248cbedba1c544"
+    },
+    {
+      "path": "mechanical/ASV1/FullBodyAssembly/Asimov_1.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bccd02b3602bbd1d8274c13755e7f9002d17922",
+      "size": 134,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1bccd02b3602bbd1d8274c13755e7f9002d17922"
+    },
+    {
+      "path": "mechanical/naming_convention.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83cdf06e2d019dbe5341b3d647311044a449162b",
+      "size": 64807,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/83cdf06e2d019dbe5341b3d647311044a449162b"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c2c132e14a46bd6522eb3d8b68c1eeb4a615d80",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/3c2c132e14a46bd6522eb3d8b68c1eeb4a615d80"
+    },
+    {
+      "path": "scripts/generate_fabrication_manifest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bced22b2314e7b3a26894db42004c1d93ad3874",
+      "size": 4744,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6bced22b2314e7b3a26894db42004c1d93ad3874"
+    },
+    {
+      "path": "sim-model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5cbb21ec4b17702540226af67776f96e19eb2791",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/5cbb21ec4b17702540226af67776f96e19eb2791"
+    },
+    {
+      "path": "sim-model/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "870d71a45492415e017aa84b3b3afed6f21028b8",
+      "size": 2115,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/870d71a45492415e017aa84b3b3afed6f21028b8"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8fa9d1499f96989087fe8f1fb545aa77966fd5e",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/e8fa9d1499f96989087fe8f1fb545aa77966fd5e"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09fc3914cdf24dd9a8ef865d9b9d2b2cdbff9675",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/09fc3914cdf24dd9a8ef865d9b9d2b2cdbff9675"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_ankle_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e08e712312cde07c404acbaf484c742933b5a51",
+      "size": 221284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4e08e712312cde07c404acbaf484c742933b5a51"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_ankle_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87b8405c42d9bdf19e50563e66669cbab2c49242",
+      "size": 4088434,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/87b8405c42d9bdf19e50563e66669cbab2c49242"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_elbow_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76691da35433a844e4e78ee5694842301cd25cd3",
+      "size": 390984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/76691da35433a844e4e78ee5694842301cd25cd3"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_hip_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7b55c8da0b0d0d9953952093952bef061f401f",
+      "size": 1220134,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7e7b55c8da0b0d0d9953952093952bef061f401f"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_hip_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073a27b8adc0fb5db69340810630441d041cde78",
+      "size": 370284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/073a27b8adc0fb5db69340810630441d041cde78"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_hip_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09eb5884fa130c7b0edfc62aa7b8166c0032c023",
+      "size": 1861384,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/09eb5884fa130c7b0edfc62aa7b8166c0032c023"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_knee_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41f5b7a00622e25f80018c7454f5d697ddcdfc11",
+      "size": 3449384,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/41f5b7a00622e25f80018c7454f5d697ddcdfc11"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_shoulder_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d210e822583d9a7d27453774e64b9d6f9387cf6a",
+      "size": 239934,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d210e822583d9a7d27453774e64b9d6f9387cf6a"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_shoulder_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "735e56c046492e39932706373645bef9f6018112",
+      "size": 868084,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/735e56c046492e39932706373645bef9f6018112"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_shoulder_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8d5fa29b8edc6ac2aa5d320edb150298b80beb",
+      "size": 711384,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4e8d5fa29b8edc6ac2aa5d320edb150298b80beb"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/left_wrist_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dbc95f70afbc8aa862e511f6cbddb83e1cc1a4d",
+      "size": 882784,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/8dbc95f70afbc8aa862e511f6cbddb83e1cc1a4d"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/neck_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38871ce8026a2139ae427f203da25920be57d44c",
+      "size": 2454684,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/38871ce8026a2139ae427f203da25920be57d44c"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/neck_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a9a98ed864a50dd7406ca2c2436bac7264d6818",
+      "size": 344984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7a9a98ed864a50dd7406ca2c2436bac7264d6818"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/pelvis_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f2bdc7e2e37c8bedacf967ec1773fcdc96ffa3e",
+      "size": 9165984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0f2bdc7e2e37c8bedacf967ec1773fcdc96ffa3e"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_ankle_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3801cf50dfd096d34bbd086f7bf1cdfd9fb1a369",
+      "size": 220984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/3801cf50dfd096d34bbd086f7bf1cdfd9fb1a369"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_ankle_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1911c65839301686a2688c3a11aac7767bf520b8",
+      "size": 4091734,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1911c65839301686a2688c3a11aac7767bf520b8"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_elbow_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a71a4ebc463d1cfc8dfb8271431d211d04645c",
+      "size": 401284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/51a71a4ebc463d1cfc8dfb8271431d211d04645c"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_hip_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "136a0edf9cc3f0128c9ce3a9dd96753876ed7b96",
+      "size": 1236034,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/136a0edf9cc3f0128c9ce3a9dd96753876ed7b96"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_hip_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b24a7d8218cec5bd8fe8496a0deaf8af6987c58",
+      "size": 368284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6b24a7d8218cec5bd8fe8496a0deaf8af6987c58"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_hip_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2115b8761eb6f77e404aa7dcd225aea1c4e4a8c",
+      "size": 1864784,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a2115b8761eb6f77e404aa7dcd225aea1c4e4a8c"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_knee_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3057b99dc6bae9c97384c7ab1a3d18beba93399a",
+      "size": 3447184,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/3057b99dc6bae9c97384c7ab1a3d18beba93399a"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_shoulder_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1c93aae843d6e562afbcf2c81f9b36d7705c71",
+      "size": 239734,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6e1c93aae843d6e562afbcf2c81f9b36d7705c71"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_shoulder_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ec5886a2acd596d85c6cd42d90dcd6a2615876",
+      "size": 881284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/90ec5886a2acd596d85c6cd42d90dcd6a2615876"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_shoulder_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "525810ed984dceec3594581984ed0d0aae3f27f1",
+      "size": 700984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/525810ed984dceec3594581984ed0d0aae3f27f1"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/right_wrist_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30c4ae8e5c7160661e4a852e7f54779e651ff606",
+      "size": 882184,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/30c4ae8e5c7160661e4a852e7f54779e651ff606"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/meshes/waist_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "704fefafdeb5e3a27be6cb5411f309b14a326f94",
+      "size": 9750034,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/704fefafdeb5e3a27be6cb5411f309b14a326f94"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/urdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a3185757b4814941170ac18194dd61a724f8110",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/0a3185757b4814941170ac18194dd61a724f8110"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/urdf/asimov_1_25dof.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ced075df4292afc5aaaca84b5af9ea1b2226e1",
+      "size": 33001,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/21ced075df4292afc5aaaca84b5af9ea1b2226e1"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/xml",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2f19ac444ade1fd5bd550cff0a72ae05661d659",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/f2f19ac444ade1fd5bd550cff0a72ae05661d659"
+    },
+    {
+      "path": "sim-model/asimov_1_25dof/xml/asimov_1_25dof.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e2932b44b40184f997a0bbd192da8022c93a4ff",
+      "size": 29675,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0e2932b44b40184f997a0bbd192da8022c93a4ff"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f25aab2e46b9788cf06c9a344247df32e6b8987",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/9f25aab2e46b9788cf06c9a344247df32e6b8987"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b43d5313e13283cbac86934d9223c9e41ef8aac1",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/b43d5313e13283cbac86934d9223c9e41ef8aac1"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_6dof_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e463260e1663735e29a17a471f21588cbf88038",
+      "size": 215484,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1e463260e1663735e29a17a471f21588cbf88038"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_ankle_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e08e712312cde07c404acbaf484c742933b5a51",
+      "size": 221284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4e08e712312cde07c404acbaf484c742933b5a51"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_ankle_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87b8405c42d9bdf19e50563e66669cbab2c49242",
+      "size": 4088434,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/87b8405c42d9bdf19e50563e66669cbab2c49242"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_elbow_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76691da35433a844e4e78ee5694842301cd25cd3",
+      "size": 390984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/76691da35433a844e4e78ee5694842301cd25cd3"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_gripper_base_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "780e256e6b81cb7ed708daee09d12d4f31344f48",
+      "size": 9750084,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/780e256e6b81cb7ed708daee09d12d4f31344f48"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_gripper_driver_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c8b28f7cfc3875a804db29f6748f101e8adbe1",
+      "size": 370834,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/62c8b28f7cfc3875a804db29f6748f101e8adbe1"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_gripper_driver_parallel_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d281ba52e7b12f0ef7250a581d108e151648c3",
+      "size": 351584,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/e6d281ba52e7b12f0ef7250a581d108e151648c3"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_gripper_finger_follower_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab24b12f111c93e1b29f63c1da3dc281c47cb8fa",
+      "size": 254934,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ab24b12f111c93e1b29f63c1da3dc281c47cb8fa"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_gripper_finger_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d78cce9d6138e1100d2be1a5bb5639a2200d93db",
+      "size": 255534,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d78cce9d6138e1100d2be1a5bb5639a2200d93db"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_gripper_follower_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfbe98bcacfde60c4ab386bb7317a5f8931a00b8",
+      "size": 351134,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/dfbe98bcacfde60c4ab386bb7317a5f8931a00b8"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_gripper_follower_parallel_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc8e6b591f35b4d641b0222ff84cb147044b32b4",
+      "size": 348484,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/fc8e6b591f35b4d641b0222ff84cb147044b32b4"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_hip_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7b55c8da0b0d0d9953952093952bef061f401f",
+      "size": 1220134,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7e7b55c8da0b0d0d9953952093952bef061f401f"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_hip_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073a27b8adc0fb5db69340810630441d041cde78",
+      "size": 370284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/073a27b8adc0fb5db69340810630441d041cde78"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_hip_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09eb5884fa130c7b0edfc62aa7b8166c0032c023",
+      "size": 1861384,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/09eb5884fa130c7b0edfc62aa7b8166c0032c023"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_knee_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41f5b7a00622e25f80018c7454f5d697ddcdfc11",
+      "size": 3449384,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/41f5b7a00622e25f80018c7454f5d697ddcdfc11"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_shoulder_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d210e822583d9a7d27453774e64b9d6f9387cf6a",
+      "size": 239934,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/d210e822583d9a7d27453774e64b9d6f9387cf6a"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_shoulder_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "735e56c046492e39932706373645bef9f6018112",
+      "size": 868084,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/735e56c046492e39932706373645bef9f6018112"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_shoulder_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8d5fa29b8edc6ac2aa5d320edb150298b80beb",
+      "size": 711384,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/4e8d5fa29b8edc6ac2aa5d320edb150298b80beb"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/left_wrist_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dbc95f70afbc8aa862e511f6cbddb83e1cc1a4d",
+      "size": 882784,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/8dbc95f70afbc8aa862e511f6cbddb83e1cc1a4d"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/neck_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38871ce8026a2139ae427f203da25920be57d44c",
+      "size": 2454684,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/38871ce8026a2139ae427f203da25920be57d44c"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/neck_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a9a98ed864a50dd7406ca2c2436bac7264d6818",
+      "size": 344984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/7a9a98ed864a50dd7406ca2c2436bac7264d6818"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/pelvis_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f2bdc7e2e37c8bedacf967ec1773fcdc96ffa3e",
+      "size": 9165984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/0f2bdc7e2e37c8bedacf967ec1773fcdc96ffa3e"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_6dof_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "987a0e9d7af7552b798272609673d8152cc636f9",
+      "size": 215584,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/987a0e9d7af7552b798272609673d8152cc636f9"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_ankle_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3801cf50dfd096d34bbd086f7bf1cdfd9fb1a369",
+      "size": 220984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/3801cf50dfd096d34bbd086f7bf1cdfd9fb1a369"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_ankle_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1911c65839301686a2688c3a11aac7767bf520b8",
+      "size": 4091734,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/1911c65839301686a2688c3a11aac7767bf520b8"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_elbow_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a71a4ebc463d1cfc8dfb8271431d211d04645c",
+      "size": 401284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/51a71a4ebc463d1cfc8dfb8271431d211d04645c"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_gripper_base_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c150c378aa0778c4422d227ed2823a3995aa0499",
+      "size": 9750034,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/c150c378aa0778c4422d227ed2823a3995aa0499"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_gripper_driver_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a3ed9dec153623771d0566fd6bf18f18ac61f98",
+      "size": 370834,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/5a3ed9dec153623771d0566fd6bf18f18ac61f98"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_gripper_driver_parallel_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa6cdc8296484795a2a6ab4c55df773c85e7a7d4",
+      "size": 351584,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/aa6cdc8296484795a2a6ab4c55df773c85e7a7d4"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_gripper_finger_follower_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba695140488a594ebf62360163a4e181e165e1ea",
+      "size": 254934,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/ba695140488a594ebf62360163a4e181e165e1ea"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_gripper_finger_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b935f6a76f0f3856e0dfaeb67b85dc2509638b32",
+      "size": 255534,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/b935f6a76f0f3856e0dfaeb67b85dc2509638b32"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_gripper_follower_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "949ae6b199b7870e672ab1bd59578ef7747d25c7",
+      "size": 351134,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/949ae6b199b7870e672ab1bd59578ef7747d25c7"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_gripper_follower_parallel_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fecc73c7ffdffbf0f72b79b5d3c95c104ad7c559",
+      "size": 348484,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/fecc73c7ffdffbf0f72b79b5d3c95c104ad7c559"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_hip_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "136a0edf9cc3f0128c9ce3a9dd96753876ed7b96",
+      "size": 1236034,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/136a0edf9cc3f0128c9ce3a9dd96753876ed7b96"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_hip_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b24a7d8218cec5bd8fe8496a0deaf8af6987c58",
+      "size": 368284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6b24a7d8218cec5bd8fe8496a0deaf8af6987c58"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_hip_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2115b8761eb6f77e404aa7dcd225aea1c4e4a8c",
+      "size": 1864784,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/a2115b8761eb6f77e404aa7dcd225aea1c4e4a8c"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_knee_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3057b99dc6bae9c97384c7ab1a3d18beba93399a",
+      "size": 3447184,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/3057b99dc6bae9c97384c7ab1a3d18beba93399a"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_shoulder_pitch_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1c93aae843d6e562afbcf2c81f9b36d7705c71",
+      "size": 239734,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/6e1c93aae843d6e562afbcf2c81f9b36d7705c71"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_shoulder_roll_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ec5886a2acd596d85c6cd42d90dcd6a2615876",
+      "size": 881284,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/90ec5886a2acd596d85c6cd42d90dcd6a2615876"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_shoulder_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "525810ed984dceec3594581984ed0d0aae3f27f1",
+      "size": 700984,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/525810ed984dceec3594581984ed0d0aae3f27f1"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/right_wrist_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30c4ae8e5c7160661e4a852e7f54779e651ff606",
+      "size": 882184,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/30c4ae8e5c7160661e4a852e7f54779e651ff606"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/meshes/waist_yaw_link.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "704fefafdeb5e3a27be6cb5411f309b14a326f94",
+      "size": 9750034,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/704fefafdeb5e3a27be6cb5411f309b14a326f94"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/urdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "faf1945eabfea0dd1c704ba8e81dfed348b1aa75",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/faf1945eabfea0dd1c704ba8e81dfed348b1aa75"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/urdf/asimov_1_27dof.urdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a60fde62441f0915e449cdaeff734a8ed327f5",
+      "size": 54601,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/09a60fde62441f0915e449cdaeff734a8ed327f5"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/xml",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0524a29d3cb1d07813ec6a7ffd522de38cc7f9b8",
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/trees/0524a29d3cb1d07813ec6a7ffd522de38cc7f9b8"
+    },
+    {
+      "path": "sim-model/asimov_1_27dof/xml/asimov_1_27dof.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52022679e154911cf14b031a5e89f834ad35ce21",
+      "size": 38499,
+      "url": "https://api.github.com/repos/menloresearch/asimov-1/git/blobs/52022679e154911cf14b031a5e89f834ad35ce21"
+    }
+  ],
+  "truncated": false
+}

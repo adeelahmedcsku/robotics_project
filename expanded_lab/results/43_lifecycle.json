@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "failed_readiness_probability": 0.0
+    },
+    "metrics": {
+      "activation_count": 200.0,
+      "blocked_count": 0.0,
+      "fault_count": 200.0,
+      "automatic_resume_count": 0.0,
+      "activation_fraction": 1.0
+    },
+    "derivation": [
+      "Run 200 readiness trials with per-flag failure probability 0.",
+      "Configuration moves the supervisor to inactive; activation checks all four readiness flags.",
+      "Activate 200 trials and block 0.",
+      "Inject a fault into every active trial, then deliver a healthy packet.",
+      "Automatic active resumption count is 0; the assertion requires zero."
+    ],
+    "notes": [
+      "Readiness flags represent evidence that must exist outside this synthetic state machine.",
+      "A reset returns to inactive; a new reviewed activation is required before motion can resume."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "failed_readiness_probability": 0.01
+    },
+    "metrics": {
+      "activation_count": 188.0,
+      "blocked_count": 12.0,
+      "fault_count": 188.0,
+      "automatic_resume_count": 0.0,
+      "activation_fraction": 0.94
+    },
+    "derivation": [
+      "Run 200 readiness trials with per-flag failure probability 0.01.",
+      "Configuration moves the supervisor to inactive; activation checks all four readiness flags.",
+      "Activate 188 trials and block 12.",
+      "Inject a fault into every active trial, then deliver a healthy packet.",
+      "Automatic active resumption count is 0; the assertion requires zero."
+    ],
+    "notes": [
+      "Readiness flags represent evidence that must exist outside this synthetic state machine.",
+      "A reset returns to inactive; a new reviewed activation is required before motion can resume."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "failed_readiness_probability": 0.05
+    },
+    "metrics": {
+      "activation_count": 161.0,
+      "blocked_count": 39.0,
+      "fault_count": 161.0,
+      "automatic_resume_count": 0.0,
+      "activation_fraction": 0.805
+    },
+    "derivation": [
+      "Run 200 readiness trials with per-flag failure probability 0.05.",
+      "Configuration moves the supervisor to inactive; activation checks all four readiness flags.",
+      "Activate 161 trials and block 39.",
+      "Inject a fault into every active trial, then deliver a healthy packet.",
+      "Automatic active resumption count is 0; the assertion requires zero."
+    ],
+    "notes": [
+      "Readiness flags represent evidence that must exist outside this synthetic state machine.",
+      "A reset returns to inactive; a new reviewed activation is required before motion can resume."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "failed_readiness_probability": 0.1
+    },
+    "metrics": {
+      "activation_count": 121.0,
+      "blocked_count": 79.0,
+      "fault_count": 121.0,
+      "automatic_resume_count": 0.0,
+      "activation_fraction": 0.605
+    },
+    "derivation": [
+      "Run 200 readiness trials with per-flag failure probability 0.1.",
+      "Configuration moves the supervisor to inactive; activation checks all four readiness flags.",
+      "Activate 121 trials and block 79.",
+      "Inject a fault into every active trial, then deliver a healthy packet.",
+      "Automatic active resumption count is 0; the assertion requires zero."
+    ],
+    "notes": [
+      "Readiness flags represent evidence that must exist outside this synthetic state machine.",
+      "A reset returns to inactive; a new reviewed activation is required before motion can resume."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "failed_readiness_probability": 0.2
+    },
+    "metrics": {
+      "activation_count": 75.0,
+      "blocked_count": 125.0,
+      "fault_count": 75.0,
+      "automatic_resume_count": 0.0,
+      "activation_fraction": 0.375
+    },
+    "derivation": [
+      "Run 200 readiness trials with per-flag failure probability 0.2.",
+      "Configuration moves the supervisor to inactive; activation checks all four readiness flags.",
+      "Activate 75 trials and block 125.",
+      "Inject a fault into every active trial, then deliver a healthy packet.",
+      "Automatic active resumption count is 0; the assertion requires zero."
+    ],
+    "notes": [
+      "Readiness flags represent evidence that must exist outside this synthetic state machine.",
+      "A reset returns to inactive; a new reviewed activation is required before motion can resume."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "failed_readiness_probability": 0.5
+    },
+    "metrics": {
+      "activation_count": 17.0,
+      "blocked_count": 183.0,
+      "fault_count": 17.0,
+      "automatic_resume_count": 0.0,
+      "activation_fraction": 0.085
+    },
+    "derivation": [
+      "Run 200 readiness trials with per-flag failure probability 0.5.",
+      "Configuration moves the supervisor to inactive; activation checks all four readiness flags.",
+      "Activate 17 trials and block 183.",
+      "Inject a fault into every active trial, then deliver a healthy packet.",
+      "Automatic active resumption count is 0; the assertion requires zero."
+    ],
+    "notes": [
+      "Readiness flags represent evidence that must exist outside this synthetic state machine.",
+      "A reset returns to inactive; a new reviewed activation is required before motion can resume."
+    ]
+  }
+]

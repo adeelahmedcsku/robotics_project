@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "gamma": 0.9
+    },
+    "metrics": {
+      "immediate_return": 1.0,
+      "delayed_return": 0.01546132562196036,
+      "delayed_preference_margin": -0.9845386743780397,
+      "effective_horizon_steps": 10.000000000000002,
+      "continuous_time_scale_s": 0.1898244316205981
+    },
+    "derivation": [
+      "Choose gamma=0.9 at control period 0.02 s.",
+      "One candidate receives reward 1 now; the other receives reward 3 after 50 steps.",
+      "Immediate return is 1.000000; delayed return is 3*gamma^50=0.015461.",
+      "The geometric horizon scale is 10.000000 steps.",
+      "The matching exponential time constant is 0.189824 s."
+    ],
+    "notes": [
+      "The immediate outcome is preferred despite the larger undiscounted delayed reward.",
+      "Episode termination, reward scaling and physical-time interpretation remain part of the task specification."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "gamma": 0.95
+    },
+    "metrics": {
+      "immediate_return": 1.0,
+      "delayed_return": 0.23083492583013945,
+      "delayed_preference_margin": -0.7691650741698606,
+      "effective_horizon_steps": 19.999999999999982,
+      "continuous_time_scale_s": 0.38991451492447343
+    },
+    "derivation": [
+      "Choose gamma=0.95 at control period 0.02 s.",
+      "One candidate receives reward 1 now; the other receives reward 3 after 50 steps.",
+      "Immediate return is 1.000000; delayed return is 3*gamma^50=0.230835.",
+      "The geometric horizon scale is 20.000000 steps.",
+      "The matching exponential time constant is 0.389915 s."
+    ],
+    "notes": [
+      "The immediate outcome is preferred despite the larger undiscounted delayed reward.",
+      "Episode termination, reward scaling and physical-time interpretation remain part of the task specification."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "gamma": 0.97
+    },
+    "metrics": {
+      "immediate_return": 1.0,
+      "delayed_return": 0.6541961260422219,
+      "delayed_preference_margin": -0.3458038739577781,
+      "effective_horizon_steps": 33.33333333333331,
+      "continuous_time_scale_s": 0.6566159021058113
+    },
+    "derivation": [
+      "Choose gamma=0.97 at control period 0.02 s.",
+      "One candidate receives reward 1 now; the other receives reward 3 after 50 steps.",
+      "Immediate return is 1.000000; delayed return is 3*gamma^50=0.654196.",
+      "The geometric horizon scale is 33.333333 steps.",
+      "The matching exponential time constant is 0.656616 s."
+    ],
+    "notes": [
+      "The immediate outcome is preferred despite the larger undiscounted delayed reward.",
+      "Episode termination, reward scaling and physical-time interpretation remain part of the task specification."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "gamma": 0.98
+    },
+    "metrics": {
+      "immediate_return": 1.0,
+      "delayed_return": 1.0925090402613502,
+      "delayed_preference_margin": 0.0925090402613502,
+      "effective_horizon_steps": 49.99999999999996,
+      "continuous_time_scale_s": 0.9899663290501822
+    },
+    "derivation": [
+      "Choose gamma=0.98 at control period 0.02 s.",
+      "One candidate receives reward 1 now; the other receives reward 3 after 50 steps.",
+      "Immediate return is 1.000000; delayed return is 3*gamma^50=1.092509.",
+      "The geometric horizon scale is 50.000000 steps.",
+      "The matching exponential time constant is 0.989966 s."
+    ],
+    "notes": [
+      "The delayed outcome is preferred under this discount.",
+      "Episode termination, reward scaling and physical-time interpretation remain part of the task specification."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "gamma": 0.99
+    },
+    "metrics": {
+      "immediate_return": 1.0,
+      "delayed_return": 1.815018201412609,
+      "delayed_preference_margin": 0.8150182014126091,
+      "effective_horizon_steps": 99.99999999999991,
+      "continuous_time_scale_s": 1.9899832494684417
+    },
+    "derivation": [
+      "Choose gamma=0.99 at control period 0.02 s.",
+      "One candidate receives reward 1 now; the other receives reward 3 after 50 steps.",
+      "Immediate return is 1.000000; delayed return is 3*gamma^50=1.815018.",
+      "The geometric horizon scale is 100.000000 steps.",
+      "The matching exponential time constant is 1.989983 s."
+    ],
+    "notes": [
+      "The delayed outcome is preferred under this discount.",
+      "Episode termination, reward scaling and physical-time interpretation remain part of the task specification."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "gamma": 0.995
+    },
+    "metrics": {
+      "immediate_return": 1.0,
+      "delayed_return": 2.3349376712059255,
+      "delayed_preference_margin": 1.3349376712059255,
+      "effective_horizon_steps": 199.99999999999983,
+      "continuous_time_scale_s": 3.9899916457671227
+    },
+    "derivation": [
+      "Choose gamma=0.995 at control period 0.02 s.",
+      "One candidate receives reward 1 now; the other receives reward 3 after 50 steps.",
+      "Immediate return is 1.000000; delayed return is 3*gamma^50=2.334938.",
+      "The geometric horizon scale is 200.000000 steps.",
+      "The matching exponential time constant is 3.989992 s."
+    ],
+    "notes": [
+      "The delayed outcome is preferred under this discount.",
+      "Episode termination, reward scaling and physical-time interpretation remain part of the task specification."
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "efficiency": 0.8,
+      "regen_efficiency": 0.0
+    },
+    "metrics": {
+      "energy_drawn_J": 2.652577968726954,
+      "energy_returned_J": -0.0,
+      "net_energy_J": 2.652577968726954,
+      "peak_draw_W": 2.8054556086491416,
+      "peak_return_W": -0.0
+    },
+    "derivation": [
+      "Generate a four-second signed torque and speed cycle.",
+      "Motoring efficiency is 0.8; regenerative efficiency is 0.",
+      "Convert positive and negative mechanical power using their respective efficiencies.",
+      "Integrate positive electrical power: 2.652578 J drawn.",
+      "Integrate negative electrical power: -0.000000 J returned; net is 2.652578 J."
+    ],
+    "notes": [
+      "Negative mechanical power represents energy leaving the mechanical system; the electrical destination depends on the actual drive and power topology.",
+      "A low net-energy cycle can still impose large instantaneous source and sink requirements."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "efficiency": 0.8,
+      "regen_efficiency": 0.2
+    },
+    "metrics": {
+      "energy_drawn_J": 2.652577968726954,
+      "energy_returned_J": 0.4244124749963127,
+      "net_energy_J": 2.2281654937306414,
+      "peak_draw_W": 2.8054556086491416,
+      "peak_return_W": 0.4488728973838627
+    },
+    "derivation": [
+      "Generate a four-second signed torque and speed cycle.",
+      "Motoring efficiency is 0.8; regenerative efficiency is 0.2.",
+      "Convert positive and negative mechanical power using their respective efficiencies.",
+      "Integrate positive electrical power: 2.652578 J drawn.",
+      "Integrate negative electrical power: 0.424412 J returned; net is 2.228165 J."
+    ],
+    "notes": [
+      "Negative mechanical power represents energy leaving the mechanical system; the electrical destination depends on the actual drive and power topology.",
+      "A low net-energy cycle can still impose large instantaneous source and sink requirements."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "efficiency": 0.8,
+      "regen_efficiency": 0.4
+    },
+    "metrics": {
+      "energy_drawn_J": 2.652577968726954,
+      "energy_returned_J": 0.8488249499926254,
+      "net_energy_J": 1.8037530187343287,
+      "peak_draw_W": 2.8054556086491416,
+      "peak_return_W": 0.8977457947677254
+    },
+    "derivation": [
+      "Generate a four-second signed torque and speed cycle.",
+      "Motoring efficiency is 0.8; regenerative efficiency is 0.4.",
+      "Convert positive and negative mechanical power using their respective efficiencies.",
+      "Integrate positive electrical power: 2.652578 J drawn.",
+      "Integrate negative electrical power: 0.848825 J returned; net is 1.803753 J."
+    ],
+    "notes": [
+      "Negative mechanical power represents energy leaving the mechanical system; the electrical destination depends on the actual drive and power topology.",
+      "A low net-energy cycle can still impose large instantaneous source and sink requirements."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "efficiency": 0.8,
+      "regen_efficiency": 0.6
+    },
+    "metrics": {
+      "energy_drawn_J": 2.652577968726954,
+      "energy_returned_J": 1.273237424988938,
+      "net_energy_J": 1.3793405437380162,
+      "peak_draw_W": 2.8054556086491416,
+      "peak_return_W": 1.346618692151588
+    },
+    "derivation": [
+      "Generate a four-second signed torque and speed cycle.",
+      "Motoring efficiency is 0.8; regenerative efficiency is 0.6.",
+      "Convert positive and negative mechanical power using their respective efficiencies.",
+      "Integrate positive electrical power: 2.652578 J drawn.",
+      "Integrate negative electrical power: 1.273237 J returned; net is 1.379341 J."
+    ],
+    "notes": [
+      "Negative mechanical power represents energy leaving the mechanical system; the electrical destination depends on the actual drive and power topology.",
+      "A low net-energy cycle can still impose large instantaneous source and sink requirements."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "efficiency": 0.8,
+      "regen_efficiency": 0.8
+    },
+    "metrics": {
+      "energy_drawn_J": 2.652577968726954,
+      "energy_returned_J": 1.6976498999852507,
+      "net_energy_J": 0.9549280687417034,
+      "peak_draw_W": 2.8054556086491416,
+      "peak_return_W": 1.7954915895354508
+    },
+    "derivation": [
+      "Generate a four-second signed torque and speed cycle.",
+      "Motoring efficiency is 0.8; regenerative efficiency is 0.8.",
+      "Convert positive and negative mechanical power using their respective efficiencies.",
+      "Integrate positive electrical power: 2.652578 J drawn.",
+      "Integrate negative electrical power: 1.697650 J returned; net is 0.954928 J."
+    ],
+    "notes": [
+      "Negative mechanical power represents energy leaving the mechanical system; the electrical destination depends on the actual drive and power topology.",
+      "A low net-energy cycle can still impose large instantaneous source and sink requirements."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "efficiency": 0.8,
+      "regen_efficiency": 1.0
+    },
+    "metrics": {
+      "energy_drawn_J": 2.652577968726954,
+      "energy_returned_J": 2.1220623749815632,
+      "net_energy_J": 0.5305155937453909,
+      "peak_draw_W": 2.8054556086491416,
+      "peak_return_W": 2.2443644869193133
+    },
+    "derivation": [
+      "Generate a four-second signed torque and speed cycle.",
+      "Motoring efficiency is 0.8; regenerative efficiency is 1.",
+      "Convert positive and negative mechanical power using their respective efficiencies.",
+      "Integrate positive electrical power: 2.652578 J drawn.",
+      "Integrate negative electrical power: 2.122062 J returned; net is 0.530516 J."
+    ],
+    "notes": [
+      "Negative mechanical power represents energy leaving the mechanical system; the electrical destination depends on the actual drive and power topology.",
+      "A low net-energy cycle can still impose large instantaneous source and sink requirements."
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "mechanical_inspection": "NOT_TESTED",
+  "polarity": "NOT_TESTED",
+  "protective_devices": "NOT_TESTED",
+  "support_rig": "NOT_TESTED",
+  "emergency_isolation": "NOT_TESTED",
+  "watchdog": "NOT_TESTED",
+  "encoder_direction": "NOT_TESTED",
+  "limits": "NOT_TESTED",
+  "thermal": "NOT_TESTED",
+  "rollback": "NOT_TESTED"
+}

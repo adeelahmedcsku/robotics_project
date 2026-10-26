@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "angle_deg": 0.0,
+      "offset": 0.15
+    },
+    "metrics": {
+      "point_x_m": 0.47061931849125516,
+      "point_y_m": 0.23642960758029272,
+      "point_z_m": 0.35,
+      "roundtrip_error_m": 6.206335383118183e-17,
+      "translation_norm_m": 0.4743416490252569
+    },
+    "derivation": [
+      "T_BC translation is (0.150000,0,0.05) m.",
+      "T_AB rotates by 0.000000 rad before adding its translation.",
+      "Compose T_AC; the resulting translation is [0.25, 0.2, 0.35] m.",
+      "Point (0.2,0.1,0) in C becomes [0.47061931849125516, 0.23642960758029272, 0.35] in A.",
+      "Apply the analytic inverse; recovery error is 6.206e-17 m."
+    ],
+    "notes": [
+      "The point result includes both translations in the correct rotated directions.",
+      "A direction encoded with homogeneous last element zero would ignore translation."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "angle_deg": 15.0,
+      "offset": 0.15
+    },
+    "metrics": {
+      "point_x_m": 0.44856209520496615,
+      "point_y_m": 0.3311116369118344,
+      "point_z_m": 0.35,
+      "roundtrip_error_m": 7.850462293418876e-17,
+      "translation_norm_m": 0.48939443958306605
+    },
+    "derivation": [
+      "T_BC translation is (0.150000,0,0.05) m.",
+      "T_AB rotates by 0.261799 rad before adding its translation.",
+      "Compose T_AC; the resulting translation is [0.24488887394336026, 0.23882285676537812, 0.35] m.",
+      "Point (0.2,0.1,0) in C becomes [0.44856209520496615, 0.3311116369118344, 0.35] in A.",
+      "Apply the analytic inverse; recovery error is 7.850e-17 m."
+    ],
+    "notes": [
+      "The point result includes both translations in the correct rotated directions.",
+      "A direction encoded with homogeneous last element zero would ignore translation."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "angle_deg": 30.0,
+      "offset": 0.15
+    },
+    "metrics": {
+      "point_x_m": 0.4027509411565564,
+      "point_y_m": 0.4168586248600592,
+      "point_z_m": 0.35,
+      "roundtrip_error_m": 6.206335383118183e-17,
+      "translation_norm_m": 0.5009798021013753
+    },
+    "derivation": [
+      "T_BC translation is (0.150000,0,0.05) m.",
+      "T_AB rotates by 0.523599 rad before adding its translation.",
+      "Compose T_AC; the resulting translation is [0.22990381056766582, 0.275, 0.35] m.",
+      "Point (0.2,0.1,0) in C becomes [0.4027509411565564, 0.4168586248600592, 0.35] in A.",
+      "Apply the analytic inverse; recovery error is 6.206e-17 m."
+    ],
+    "notes": [
+      "The point result includes both translations in the correct rotated directions.",
+      "A direction encoded with homogeneous last element zero would ignore translation."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "angle_deg": 45.0,
+      "offset": 0.15
+    },
+    "metrics": {
+      "point_x_m": 0.3363078107879135,
+      "point_y_m": 0.48782705589989317,
+      "point_z_m": 0.35,
+      "roundtrip_error_m": 2.7755575615628914e-17,
+      "translation_norm_m": 0.5085662300102015
+    },
+    "derivation": [
+      "T_BC translation is (0.150000,0,0.05) m.",
+      "T_AB rotates by 0.785398 rad before adding its translation.",
+      "Compose T_AC; the resulting translation is [0.20606601717798212, 0.3060660171779821, 0.35] m.",
+      "Point (0.2,0.1,0) in C becomes [0.3363078107879135, 0.48782705589989317, 0.35] in A.",
+      "Apply the analytic inverse; recovery error is 2.776e-17 m."
+    ],
+    "notes": [
+      "The point result includes both translations in the correct rotated directions.",
+      "A direction encoded with homogeneous last element zero would ignore translation."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "angle_deg": 60.0,
+      "offset": 0.15
+    },
+    "metrics": {
+      "point_x_m": 0.25376069363119597,
+      "point_y_m": 0.5391805487368491,
+      "point_z_m": 0.35,
+      "roundtrip_error_m": 3.925231146709438e-17,
+      "translation_norm_m": 0.5118217699815691
+    },
+    "derivation": [
+      "T_BC translation is (0.150000,0,0.05) m.",
+      "T_AB rotates by 1.047198 rad before adding its translation.",
+      "Compose T_AC; the resulting translation is [0.17500000000000002, 0.3299038105676658, 0.35] m.",
+      "Point (0.2,0.1,0) in C becomes [0.25376069363119597, 0.5391805487368491, 0.35] in A.",
+      "Apply the analytic inverse; recovery error is 3.925e-17 m."
+    ],
+    "notes": [
+      "The point result includes both translations in the correct rotated directions.",
+      "A direction encoded with homogeneous last element zero would ignore translation."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "angle_deg": 90.0,
+      "offset": 0.15
+    },
+    "metrics": {
+      "point_x_m": 0.06357039241970733,
+      "point_y_m": 0.5706193184912551,
+      "point_z_m": 0.35,
+      "roundtrip_error_m": 2.7755575615628914e-17,
+      "translation_norm_m": 0.5049752469181038
+    },
+    "derivation": [
+      "T_BC translation is (0.150000,0,0.05) m.",
+      "T_AB rotates by 1.570796 rad before adding its translation.",
+      "Compose T_AC; the resulting translation is [0.10000000000000002, 0.35, 0.35] m.",
+      "Point (0.2,0.1,0) in C becomes [0.06357039241970733, 0.5706193184912551, 0.35] in A.",
+      "Apply the analytic inverse; recovery error is 2.776e-17 m."
+    ],
+    "notes": [
+      "The point result includes both translations in the correct rotated directions.",
+      "A direction encoded with homogeneous last element zero would ignore translation."
+    ]
+  }
+]

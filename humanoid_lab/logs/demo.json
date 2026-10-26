@@ -1,0 +1,12 @@
+{
+  "state": "COMPLETE_SIMULATION",
+  "motion": true,
+  "object": {
+    "u": 209.5,
+    "v": 109.5,
+    "depth_m": null,
+    "area_px": 1600
+  },
+  "steps": 1500,
+  "max_elbow_rad": 0.8842810401134715
+}

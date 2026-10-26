@@ -1,0 +1,170 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "mass": 10.0,
+      "mu": 0.1,
+      "acceleration": 2.0,
+      "supported_fraction": 1.0
+    },
+    "metrics": {
+      "normal_force_N": 98.10000000000001,
+      "tangential_required_N": 20.0,
+      "friction_capacity_N": 9.810000000000002,
+      "force_margin_N": -10.189999999999998,
+      "utilization": 2.0387359836901116,
+      "cone_half_angle_rad": 0.09966865249116204
+    },
+    "derivation": [
+      "The modeled normal force is 98.100000 N.",
+      "Acceleration 2 m/s^2 requires horizontal force 20.000000 N.",
+      "At mu=0.1, Coulomb capacity is 9.810000 N.",
+      "Margin is -10.190000 N and utilization is 2.038736.",
+      "The friction-cone half angle is atan(mu)=0.099669 rad."
+    ],
+    "notes": [
+      "The requested force exceeds the modeled friction capacity; a controller must reduce demand or change support.",
+      "This static feasibility check excludes torsional friction, impact, compliance and changing normal force."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "mass": 10.0,
+      "mu": 0.2,
+      "acceleration": 2.0,
+      "supported_fraction": 1.0
+    },
+    "metrics": {
+      "normal_force_N": 98.10000000000001,
+      "tangential_required_N": 20.0,
+      "friction_capacity_N": 19.620000000000005,
+      "force_margin_N": -0.37999999999999545,
+      "utilization": 1.0193679918450558,
+      "cone_half_angle_rad": 0.19739555984988078
+    },
+    "derivation": [
+      "The modeled normal force is 98.100000 N.",
+      "Acceleration 2 m/s^2 requires horizontal force 20.000000 N.",
+      "At mu=0.2, Coulomb capacity is 19.620000 N.",
+      "Margin is -0.380000 N and utilization is 1.019368.",
+      "The friction-cone half angle is atan(mu)=0.197396 rad."
+    ],
+    "notes": [
+      "The requested force exceeds the modeled friction capacity; a controller must reduce demand or change support.",
+      "This static feasibility check excludes torsional friction, impact, compliance and changing normal force."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "mass": 10.0,
+      "mu": 0.3,
+      "acceleration": 2.0,
+      "supported_fraction": 1.0
+    },
+    "metrics": {
+      "normal_force_N": 98.10000000000001,
+      "tangential_required_N": 20.0,
+      "friction_capacity_N": 29.43,
+      "force_margin_N": 9.43,
+      "utilization": 0.6795786612300374,
+      "cone_half_angle_rad": 0.2914567944778671
+    },
+    "derivation": [
+      "The modeled normal force is 98.100000 N.",
+      "Acceleration 2 m/s^2 requires horizontal force 20.000000 N.",
+      "At mu=0.3, Coulomb capacity is 29.430000 N.",
+      "Margin is 9.430000 N and utilization is 0.679579.",
+      "The friction-cone half angle is atan(mu)=0.291457 rad."
+    ],
+    "notes": [
+      "The requested force is inside the modeled friction bound.",
+      "This static feasibility check excludes torsional friction, impact, compliance and changing normal force."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "mass": 10.0,
+      "mu": 0.4,
+      "acceleration": 2.0,
+      "supported_fraction": 1.0
+    },
+    "metrics": {
+      "normal_force_N": 98.10000000000001,
+      "tangential_required_N": 20.0,
+      "friction_capacity_N": 39.24000000000001,
+      "force_margin_N": 19.24000000000001,
+      "utilization": 0.5096839959225279,
+      "cone_half_angle_rad": 0.3805063771123649
+    },
+    "derivation": [
+      "The modeled normal force is 98.100000 N.",
+      "Acceleration 2 m/s^2 requires horizontal force 20.000000 N.",
+      "At mu=0.4, Coulomb capacity is 39.240000 N.",
+      "Margin is 19.240000 N and utilization is 0.509684.",
+      "The friction-cone half angle is atan(mu)=0.380506 rad."
+    ],
+    "notes": [
+      "The requested force is inside the modeled friction bound.",
+      "This static feasibility check excludes torsional friction, impact, compliance and changing normal force."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "mass": 10.0,
+      "mu": 0.6,
+      "acceleration": 2.0,
+      "supported_fraction": 1.0
+    },
+    "metrics": {
+      "normal_force_N": 98.10000000000001,
+      "tangential_required_N": 20.0,
+      "friction_capacity_N": 58.86,
+      "force_margin_N": 38.86,
+      "utilization": 0.3397893306150187,
+      "cone_half_angle_rad": 0.5404195002705842
+    },
+    "derivation": [
+      "The modeled normal force is 98.100000 N.",
+      "Acceleration 2 m/s^2 requires horizontal force 20.000000 N.",
+      "At mu=0.6, Coulomb capacity is 58.860000 N.",
+      "Margin is 38.860000 N and utilization is 0.339789.",
+      "The friction-cone half angle is atan(mu)=0.540420 rad."
+    ],
+    "notes": [
+      "The requested force is inside the modeled friction bound.",
+      "This static feasibility check excludes torsional friction, impact, compliance and changing normal force."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "mass": 10.0,
+      "mu": 0.8,
+      "acceleration": 2.0,
+      "supported_fraction": 1.0
+    },
+    "metrics": {
+      "normal_force_N": 98.10000000000001,
+      "tangential_required_N": 20.0,
+      "friction_capacity_N": 78.48000000000002,
+      "force_margin_N": 58.48000000000002,
+      "utilization": 0.25484199796126394,
+      "cone_half_angle_rad": 0.6747409422235527
+    },
+    "derivation": [
+      "The modeled normal force is 98.100000 N.",
+      "Acceleration 2 m/s^2 requires horizontal force 20.000000 N.",
+      "At mu=0.8, Coulomb capacity is 78.480000 N.",
+      "Margin is 58.480000 N and utilization is 0.254842.",
+      "The friction-cone half angle is atan(mu)=0.674741 rad."
+    ],
+    "notes": [
+      "The requested force is inside the modeled friction bound.",
+      "This static feasibility check excludes torsional friction, impact, compliance and changing normal force."
+    ]
+  }
+]

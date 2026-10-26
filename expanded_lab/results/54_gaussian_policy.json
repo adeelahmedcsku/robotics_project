@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "mean": 0.2,
+      "std": 0.05
+    },
+    "metrics": {
+      "clipped_fraction": 0.0,
+      "raw_mean": 0.20010350010459377,
+      "bounded_mean": 0.20010350010459377,
+      "raw_std": 0.049738280246271416,
+      "bounded_std": 0.049738280246271416,
+      "gaussian_entropy_nats": -1.5767937403493182
+    },
+    "derivation": [
+      "Sample 20,000 actions from mean 0.2 and standard deviation 0.05.",
+      "Unbounded Gaussian entropy is -1.576794 nats.",
+      "Clip to [-1,1]; clipped fraction is 0.000000.",
+      "Raw sample standard deviation is 0.049738; bounded standard deviation is 0.049738.",
+      "Bounded mean is 0.200104, which can shift when clipping is asymmetric around the policy mean."
+    ],
+    "notes": [
+      "The entropy formula describes the unbounded Gaussian, not the clipped mixed distribution.",
+      "A tanh-squashed policy requires a change-of-variables correction when computing log probabilities."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "mean": 0.2,
+      "std": 0.1
+    },
+    "metrics": {
+      "clipped_fraction": 0.0,
+      "raw_mean": 0.2002070002091875,
+      "bounded_mean": 0.2002070002091875,
+      "raw_std": 0.09947656049254283,
+      "bounded_std": 0.09947656049254283,
+      "gaussian_entropy_nats": -0.8836465597893729
+    },
+    "derivation": [
+      "Sample 20,000 actions from mean 0.2 and standard deviation 0.1.",
+      "Unbounded Gaussian entropy is -0.883647 nats.",
+      "Clip to [-1,1]; clipped fraction is 0.000000.",
+      "Raw sample standard deviation is 0.099477; bounded standard deviation is 0.099477.",
+      "Bounded mean is 0.200207, which can shift when clipping is asymmetric around the policy mean."
+    ],
+    "notes": [
+      "The entropy formula describes the unbounded Gaussian, not the clipped mixed distribution.",
+      "A tanh-squashed policy requires a change-of-variables correction when computing log probabilities."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "mean": 0.2,
+      "std": 0.2
+    },
+    "metrics": {
+      "clipped_fraction": 5e-05,
+      "raw_mean": 0.200414000418375,
+      "bounded_mean": 0.2004127159151729,
+      "raw_std": 0.19895312098508566,
+      "bounded_std": 0.19894787560447338,
+      "gaussian_entropy_nats": -0.1904993792294276
+    },
+    "derivation": [
+      "Sample 20,000 actions from mean 0.2 and standard deviation 0.2.",
+      "Unbounded Gaussian entropy is -0.190499 nats.",
+      "Clip to [-1,1]; clipped fraction is 0.000050.",
+      "Raw sample standard deviation is 0.198953; bounded standard deviation is 0.198948.",
+      "Bounded mean is 0.200413, which can shift when clipping is asymmetric around the policy mean."
+    ],
+    "notes": [
+      "The entropy formula describes the unbounded Gaussian, not the clipped mixed distribution.",
+      "A tanh-squashed policy requires a change-of-variables correction when computing log probabilities."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "mean": 0.2,
+      "std": 0.5
+    },
+    "metrics": {
+      "clipped_fraction": 0.0623,
+      "raw_mean": 0.20103500104593752,
+      "bounded_mean": 0.19079611948022443,
+      "raw_std": 0.4973828024627141,
+      "bounded_std": 0.4712293238936394,
+      "gaussian_entropy_nats": 0.7257913526447274
+    },
+    "derivation": [
+      "Sample 20,000 actions from mean 0.2 and standard deviation 0.5.",
+      "Unbounded Gaussian entropy is 0.725791 nats.",
+      "Clip to [-1,1]; clipped fraction is 0.062300.",
+      "Raw sample standard deviation is 0.497383; bounded standard deviation is 0.471229.",
+      "Bounded mean is 0.190796, which can shift when clipping is asymmetric around the policy mean."
+    ],
+    "notes": [
+      "The entropy formula describes the unbounded Gaussian, not the clipped mixed distribution.",
+      "A tanh-squashed policy requires a change-of-variables correction when computing log probabilities."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "mean": 0.2,
+      "std": 1.0
+    },
+    "metrics": {
+      "clipped_fraction": 0.3254,
+      "raw_mean": 0.20207000209187506,
+      "bounded_mean": 0.13974087378158043,
+      "raw_std": 0.9947656049254284,
+      "bounded_std": 0.7084893393659324,
+      "gaussian_entropy_nats": 1.4189385332046727
+    },
+    "derivation": [
+      "Sample 20,000 actions from mean 0.2 and standard deviation 1.",
+      "Unbounded Gaussian entropy is 1.418939 nats.",
+      "Clip to [-1,1]; clipped fraction is 0.325400.",
+      "Raw sample standard deviation is 0.994766; bounded standard deviation is 0.708489.",
+      "Bounded mean is 0.139741, which can shift when clipping is asymmetric around the policy mean."
+    ],
+    "notes": [
+      "The entropy formula describes the unbounded Gaussian, not the clipped mixed distribution.",
+      "A tanh-squashed policy requires a change-of-variables correction when computing log probabilities."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "mean": 0.2,
+      "std": 2.0
+    },
+    "metrics": {
+      "clipped_fraction": 0.61905,
+      "raw_mean": 0.2041400041837501,
+      "bounded_mean": 0.07928490071641987,
+      "raw_std": 1.9895312098508569,
+      "bounded_std": 0.8573677837780813,
+      "gaussian_entropy_nats": 2.112085713764618
+    },
+    "derivation": [
+      "Sample 20,000 actions from mean 0.2 and standard deviation 2.",
+      "Unbounded Gaussian entropy is 2.112086 nats.",
+      "Clip to [-1,1]; clipped fraction is 0.619050.",
+      "Raw sample standard deviation is 1.989531; bounded standard deviation is 0.857368.",
+      "Bounded mean is 0.079285, which can shift when clipping is asymmetric around the policy mean."
+    ],
+    "notes": [
+      "The entropy formula describes the unbounded Gaussian, not the clipped mixed distribution.",
+      "A tanh-squashed policy requires a change-of-variables correction when computing log probabilities."
+    ]
+  }
+]

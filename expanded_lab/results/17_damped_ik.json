@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "elbow": 0.03,
+      "damping": 0.0001
+    },
+    "metrics": {
+      "min_singular_value": 0.0033423902970501785,
+      "joint_step_norm_rad": 2.9207052406115834,
+      "predicted_residual_m": 8.738364781001207e-06,
+      "max_joint_step_rad": 2.713275765484518
+    },
+    "derivation": [
+      "Use pose q1=0.2, q2=0.03 rad and Cartesian request [0.01, 0.0] m.",
+      "The Jacobian singular values are [0.5384559707877523, 0.0033423902970501785].",
+      "Choose damping lambda=0.0001 and solve the regularized 2x2 system.",
+      "The joint update is [1.0810428867396382, -2.713275765484518] rad.",
+      "Linearized achieved displacement is [0.009991461844996323, -1.8598193941951011e-06] m; residual is 0.00000874 m."
+    ],
+    "notes": [
+      "The linearized prediction is only valid for sufficiently small joint updates; recompute nonlinear FK after each iteration.",
+      "A larger damping value can improve numerical behavior while deliberately leaving more task error."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "elbow": 0.03,
+      "damping": 0.001
+    },
+    "metrics": {
+      "min_singular_value": 0.0033423902970501785,
+      "joint_step_norm_rad": 2.6831441068047988,
+      "predicted_residual_m": 0.0008027611849033371,
+      "max_joint_step_rad": 2.492705281898182
+    },
+    "derivation": [
+      "Use pose q1=0.2, q2=0.03 rad and Cartesian request [0.01, 0.0] m.",
+      "The Jacobian singular values are [0.5384559707877523, 0.0033423902970501785].",
+      "Choose damping lambda=0.001 and solve the regularized 2x2 system.",
+      "The joint update is [0.9928155294304304, -2.492705281898182] rad.",
+      "Linearized achieved displacement is [0.00921563121821457, -0.00017085413119924766] m; residual is 0.00080276 m."
+    ],
+    "notes": [
+      "The linearized prediction is only valid for sufficiently small joint updates; recompute nonlinear FK after each iteration.",
+      "A larger damping value can improve numerical behavior while deliberately leaving more task error."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "elbow": 0.03,
+      "damping": 0.005
+    },
+    "metrics": {
+      "min_singular_value": 0.0033423902970501785,
+      "joint_step_norm_rad": 0.9028736924912342,
+      "predicted_residual_m": 0.006753138930685433,
+      "max_joint_step_rad": 0.8397581249487018
+    },
+    "derivation": [
+      "Use pose q1=0.2, q2=0.03 rad and Cartesian request [0.01, 0.0] m.",
+      "The Jacobian singular values are [0.5384559707877523, 0.0033423902970501785].",
+      "Choose damping lambda=0.005 and solve the regularized 2x2 system.",
+      "The joint update is [0.33164317598195225, -0.8397581249487018] rad.",
+      "Linearized achieved displacement is [0.0034015591968046942, -0.0014371723570492413] m; residual is 0.00675314 m."
+    ],
+    "notes": [
+      "The linearized prediction is only valid for sufficiently small joint updates; recompute nonlinear FK after each iteration.",
+      "A larger damping value can improve numerical behavior while deliberately leaving more task error."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "elbow": 0.03,
+      "damping": 0.01
+    },
+    "metrics": {
+      "min_singular_value": 0.0033423902970501785,
+      "joint_step_norm_rad": 0.29378915988947757,
+      "predicted_residual_m": 0.008788997097529259,
+      "max_joint_step_rad": 0.2742195862584573
+    },
+    "derivation": [
+      "Use pose q1=0.2, q2=0.03 rad and Cartesian request [0.01, 0.0] m.",
+      "The Jacobian singular values are [0.5384559707877523, 0.0033423902970501785].",
+      "Choose damping lambda=0.01 and solve the regularized 2x2 system.",
+      "The joint update is [0.10543096784534178, -0.2742195862584573] rad.",
+      "Linearized achieved displacement is [0.0014122322972766987, -0.001869950765244978] m; residual is 0.00878900 m."
+    ],
+    "notes": [
+      "The linearized prediction is only valid for sufficiently small joint updates; recompute nonlinear FK after each iteration.",
+      "A larger damping value can improve numerical behavior while deliberately leaving more task error."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "elbow": 0.03,
+      "damping": 0.03
+    },
+    "metrics": {
+      "min_singular_value": 0.0033423902970501785,
+      "joint_step_norm_rad": 0.03605779238912936,
+      "predicted_residual_m": 0.009651071173111316,
+      "max_joint_step_rad": 0.03474182456657826
+    },
+    "derivation": [
+      "Use pose q1=0.2, q2=0.03 rad and Cartesian request [0.01, 0.0] m.",
+      "The Jacobian singular values are [0.5384559707877523, 0.0033423902970501785].",
+      "Choose damping lambda=0.03 and solve the regularized 2x2 system.",
+      "The joint update is [0.009652461746241459, -0.03474182456657826] rad.",
+      "Linearized achieved displacement is [0.0005686677258760275, -0.002047717344637136] m; residual is 0.00965107 m."
+    ],
+    "notes": [
+      "The linearized prediction is only valid for sufficiently small joint updates; recompute nonlinear FK after each iteration.",
+      "A larger damping value can improve numerical behavior while deliberately leaving more task error."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "elbow": 0.03,
+      "damping": 0.1
+    },
+    "metrics": {
+      "min_singular_value": 0.0033423902970501785,
+      "joint_step_norm_rad": 0.005024139199137165,
+      "predicted_residual_m": 0.009760220842168052,
+      "max_joint_step_rad": 0.0044479280585467615
+    },
+    "derivation": [
+      "Use pose q1=0.2, q2=0.03 rad and Cartesian request [0.01, 0.0] m.",
+      "The Jacobian singular values are [0.5384559707877523, 0.0033423902970501785].",
+      "Choose damping lambda=0.1 and solve the regularized 2x2 system.",
+      "The joint update is [-0.0023362171727600717, -0.0044479280585467615] rad.",
+      "Linearized achieved displacement is [0.00044856693651852995, -0.002007993356992157] m; residual is 0.00976022 m."
+    ],
+    "notes": [
+      "The linearized prediction is only valid for sufficiently small joint updates; recompute nonlinear FK after each iteration.",
+      "A larger damping value can improve numerical behavior while deliberately leaving more task error."
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "offset": 0.0,
+      "sample_rate": 100.0
+    },
+    "metrics": {
+      "naive_alignment_rmse": 0.0009721314573566666,
+      "corrected_alignment_rmse": 0.0009721314573566666,
+      "nominal_phase_error_rad": 0.0,
+      "sensor_interval_s": 0.01
+    },
+    "derivation": [
+      "The signal is a 2 Hz sinusoid sampled at 100 Hz.",
+      "Sensor timestamp offset is 0 s, equivalent to phase 0.000000 rad.",
+      "Naive interpolation treats nominal sensor times as correct.",
+      "Naive RMSE is 0.000972.",
+      "Adding the known offset before interpolation reduces RMSE to 0.000972."
+    ],
+    "notes": [
+      "Residual after offset correction includes interpolation error from finite sampling.",
+      "An unknown or drifting clock offset requires estimation and validity limits; arrival time is not a substitute for sample time."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "offset": 0.001,
+      "sample_rate": 100.0
+    },
+    "metrics": {
+      "naive_alignment_rmse": 0.009061624253705708,
+      "corrected_alignment_rmse": 0.0009967309395105225,
+      "nominal_phase_error_rad": 0.012566370614359173,
+      "sensor_interval_s": 0.01
+    },
+    "derivation": [
+      "The signal is a 2 Hz sinusoid sampled at 100 Hz.",
+      "Sensor timestamp offset is 0.001 s, equivalent to phase 0.012566 rad.",
+      "Naive interpolation treats nominal sensor times as correct.",
+      "Naive RMSE is 0.009062.",
+      "Adding the known offset before interpolation reduces RMSE to 0.000997."
+    ],
+    "notes": [
+      "Residual after offset correction includes interpolation error from finite sampling.",
+      "An unknown or drifting clock offset requires estimation and validity limits; arrival time is not a substitute for sample time."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "offset": 0.005,
+      "sample_rate": 100.0
+    },
+    "metrics": {
+      "naive_alignment_rmse": 0.04505082592978193,
+      "corrected_alignment_rmse": 0.0009722466747061771,
+      "nominal_phase_error_rad": 0.06283185307179587,
+      "sensor_interval_s": 0.01
+    },
+    "derivation": [
+      "The signal is a 2 Hz sinusoid sampled at 100 Hz.",
+      "Sensor timestamp offset is 0.005 s, equivalent to phase 0.062832 rad.",
+      "Naive interpolation treats nominal sensor times as correct.",
+      "Naive RMSE is 0.045051.",
+      "Adding the known offset before interpolation reduces RMSE to 0.000972."
+    ],
+    "notes": [
+      "Residual after offset correction includes interpolation error from finite sampling.",
+      "An unknown or drifting clock offset requires estimation and validity limits; arrival time is not a substitute for sample time."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "offset": 0.01,
+      "sample_rate": 100.0
+    },
+    "metrics": {
+      "naive_alignment_rmse": 0.09003896891321282,
+      "corrected_alignment_rmse": 0.0009721314573566786,
+      "nominal_phase_error_rad": 0.12566370614359174,
+      "sensor_interval_s": 0.01
+    },
+    "derivation": [
+      "The signal is a 2 Hz sinusoid sampled at 100 Hz.",
+      "Sensor timestamp offset is 0.01 s, equivalent to phase 0.125664 rad.",
+      "Naive interpolation treats nominal sensor times as correct.",
+      "Naive RMSE is 0.090039.",
+      "Adding the known offset before interpolation reduces RMSE to 0.000972."
+    ],
+    "notes": [
+      "Residual after offset correction includes interpolation error from finite sampling.",
+      "An unknown or drifting clock offset requires estimation and validity limits; arrival time is not a substitute for sample time."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "offset": 0.02,
+      "sample_rate": 100.0
+    },
+    "metrics": {
+      "naive_alignment_rmse": 0.17967479021007277,
+      "corrected_alignment_rmse": 0.0009721314573566752,
+      "nominal_phase_error_rad": 0.25132741228718347,
+      "sensor_interval_s": 0.01
+    },
+    "derivation": [
+      "The signal is a 2 Hz sinusoid sampled at 100 Hz.",
+      "Sensor timestamp offset is 0.02 s, equivalent to phase 0.251327 rad.",
+      "Naive interpolation treats nominal sensor times as correct.",
+      "Naive RMSE is 0.179675.",
+      "Adding the known offset before interpolation reduces RMSE to 0.000972."
+    ],
+    "notes": [
+      "Residual after offset correction includes interpolation error from finite sampling.",
+      "An unknown or drifting clock offset requires estimation and validity limits; arrival time is not a substitute for sample time."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "offset": 0.05,
+      "sample_rate": 100.0
+    },
+    "metrics": {
+      "naive_alignment_rmse": 0.4421290302938158,
+      "corrected_alignment_rmse": 0.0009721314573566647,
+      "nominal_phase_error_rad": 0.6283185307179586,
+      "sensor_interval_s": 0.01
+    },
+    "derivation": [
+      "The signal is a 2 Hz sinusoid sampled at 100 Hz.",
+      "Sensor timestamp offset is 0.05 s, equivalent to phase 0.628319 rad.",
+      "Naive interpolation treats nominal sensor times as correct.",
+      "Naive RMSE is 0.442129.",
+      "Adding the known offset before interpolation reduces RMSE to 0.000972."
+    ],
+    "notes": [
+      "Residual after offset correction includes interpolation error from finite sampling.",
+      "An unknown or drifting clock offset requires estimation and validity limits; arrival time is not a substitute for sample time."
+    ]
+  }
+]

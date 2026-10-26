@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "stale_gate_index": -1
+    },
+    "metrics": {
+      "passing_gate_count": 7.0,
+      "blocked_gate_count": 0.0,
+      "supported_limb_ready": 1.0,
+      "physical_skill_ready": 1.0,
+      "walking_ready": 1.0
+    },
+    "derivation": [
+      "The synthetic gate order is ['inspection', 'isolation', 'single_joint', 'calibration', 'supported_limb', 'physical_skill', 'walking'].",
+      "Stale gate index is -1; records must match revision r1.",
+      "Evaluate each gate recursively, requiring all prerequisite evidence.",
+      "Results are {'inspection': True, 'isolation': True, 'single_joint': True, 'calibration': True, 'supported_limb': True, 'physical_skill': True, 'walking': True}.",
+      "Total passing count is 7; blocked count is 0."
+    ],
+    "notes": [
+      "All PASS records here are artificial test fixtures, not physical commissioning evidence.",
+      "A real record should include procedure, threshold rationale, instrument, raw artifact, date, reviewer and exact configuration."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "stale_gate_index": 0
+    },
+    "metrics": {
+      "passing_gate_count": 0.0,
+      "blocked_gate_count": 7.0,
+      "supported_limb_ready": 0.0,
+      "physical_skill_ready": 0.0,
+      "walking_ready": 0.0
+    },
+    "derivation": [
+      "The synthetic gate order is ['inspection', 'isolation', 'single_joint', 'calibration', 'supported_limb', 'physical_skill', 'walking'].",
+      "Stale gate index is 0; records must match revision r1.",
+      "Evaluate each gate recursively, requiring all prerequisite evidence.",
+      "Results are {'inspection': False, 'isolation': False, 'single_joint': False, 'calibration': False, 'supported_limb': False, 'physical_skill': False, 'walking': False}.",
+      "Total passing count is 0; blocked count is 7."
+    ],
+    "notes": [
+      "All PASS records here are artificial test fixtures, not physical commissioning evidence.",
+      "A real record should include procedure, threshold rationale, instrument, raw artifact, date, reviewer and exact configuration."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "stale_gate_index": 1
+    },
+    "metrics": {
+      "passing_gate_count": 1.0,
+      "blocked_gate_count": 6.0,
+      "supported_limb_ready": 0.0,
+      "physical_skill_ready": 0.0,
+      "walking_ready": 0.0
+    },
+    "derivation": [
+      "The synthetic gate order is ['inspection', 'isolation', 'single_joint', 'calibration', 'supported_limb', 'physical_skill', 'walking'].",
+      "Stale gate index is 1; records must match revision r1.",
+      "Evaluate each gate recursively, requiring all prerequisite evidence.",
+      "Results are {'inspection': True, 'isolation': False, 'single_joint': False, 'calibration': False, 'supported_limb': False, 'physical_skill': False, 'walking': False}.",
+      "Total passing count is 1; blocked count is 6."
+    ],
+    "notes": [
+      "All PASS records here are artificial test fixtures, not physical commissioning evidence.",
+      "A real record should include procedure, threshold rationale, instrument, raw artifact, date, reviewer and exact configuration."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "stale_gate_index": 2
+    },
+    "metrics": {
+      "passing_gate_count": 2.0,
+      "blocked_gate_count": 5.0,
+      "supported_limb_ready": 0.0,
+      "physical_skill_ready": 0.0,
+      "walking_ready": 0.0
+    },
+    "derivation": [
+      "The synthetic gate order is ['inspection', 'isolation', 'single_joint', 'calibration', 'supported_limb', 'physical_skill', 'walking'].",
+      "Stale gate index is 2; records must match revision r1.",
+      "Evaluate each gate recursively, requiring all prerequisite evidence.",
+      "Results are {'inspection': True, 'isolation': True, 'single_joint': False, 'calibration': False, 'supported_limb': False, 'physical_skill': False, 'walking': False}.",
+      "Total passing count is 2; blocked count is 5."
+    ],
+    "notes": [
+      "All PASS records here are artificial test fixtures, not physical commissioning evidence.",
+      "A real record should include procedure, threshold rationale, instrument, raw artifact, date, reviewer and exact configuration."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "stale_gate_index": 4
+    },
+    "metrics": {
+      "passing_gate_count": 4.0,
+      "blocked_gate_count": 3.0,
+      "supported_limb_ready": 0.0,
+      "physical_skill_ready": 0.0,
+      "walking_ready": 0.0
+    },
+    "derivation": [
+      "The synthetic gate order is ['inspection', 'isolation', 'single_joint', 'calibration', 'supported_limb', 'physical_skill', 'walking'].",
+      "Stale gate index is 4; records must match revision r1.",
+      "Evaluate each gate recursively, requiring all prerequisite evidence.",
+      "Results are {'inspection': True, 'isolation': True, 'single_joint': True, 'calibration': True, 'supported_limb': False, 'physical_skill': False, 'walking': False}.",
+      "Total passing count is 4; blocked count is 3."
+    ],
+    "notes": [
+      "All PASS records here are artificial test fixtures, not physical commissioning evidence.",
+      "A real record should include procedure, threshold rationale, instrument, raw artifact, date, reviewer and exact configuration."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "stale_gate_index": 6
+    },
+    "metrics": {
+      "passing_gate_count": 6.0,
+      "blocked_gate_count": 1.0,
+      "supported_limb_ready": 1.0,
+      "physical_skill_ready": 1.0,
+      "walking_ready": 0.0
+    },
+    "derivation": [
+      "The synthetic gate order is ['inspection', 'isolation', 'single_joint', 'calibration', 'supported_limb', 'physical_skill', 'walking'].",
+      "Stale gate index is 6; records must match revision r1.",
+      "Evaluate each gate recursively, requiring all prerequisite evidence.",
+      "Results are {'inspection': True, 'isolation': True, 'single_joint': True, 'calibration': True, 'supported_limb': True, 'physical_skill': True, 'walking': False}.",
+      "Total passing count is 6; blocked count is 1."
+    ],
+    "notes": [
+      "All PASS records here are artificial test fixtures, not physical commissioning evidence.",
+      "A real record should include procedure, threshold rationale, instrument, raw artifact, date, reviewer and exact configuration."
+    ]
+  }
+]

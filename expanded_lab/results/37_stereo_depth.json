@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "true_depth": 0.3,
+      "disparity_noise": 0.5
+    },
+    "metrics": {
+      "disparity_px": 80.0,
+      "depth_std_m": 0.001875,
+      "relative_depth_std": 0.00625,
+      "one_sigma_positive_disparity_depth_m": 0.2981366459627329,
+      "linearization_error_m": 1.1645962732953485e-05
+    },
+    "derivation": [
+      "Use focal length 400 px and calibrated baseline 0.06 m.",
+      "At true depth 0.3 m, expected disparity is 80.000000 px.",
+      "Disparity sigma=0.5 px propagates to sigma_Z=0.001875 m.",
+      "A +1 sigma disparity perturbation gives exact depth 0.298137 m.",
+      "Compare the first-order prediction Z-sigma_Z; linearization discrepancy is 0.000012 m."
+    ],
+    "notes": [
+      "Depth uncertainty grows quadratically with range in this fixed-camera approximation.",
+      "When disparity approaches its uncertainty scale, Gaussian linearization and naive depth estimates become unreliable."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "true_depth": 0.5,
+      "disparity_noise": 0.5
+    },
+    "metrics": {
+      "disparity_px": 48.0,
+      "depth_std_m": 0.005208333333333333,
+      "relative_depth_std": 0.010416666666666666,
+      "one_sigma_positive_disparity_depth_m": 0.4948453608247423,
+      "linearization_error_m": 5.3694158075601184e-05
+    },
+    "derivation": [
+      "Use focal length 400 px and calibrated baseline 0.06 m.",
+      "At true depth 0.5 m, expected disparity is 48.000000 px.",
+      "Disparity sigma=0.5 px propagates to sigma_Z=0.005208 m.",
+      "A +1 sigma disparity perturbation gives exact depth 0.494845 m.",
+      "Compare the first-order prediction Z-sigma_Z; linearization discrepancy is 0.000054 m."
+    ],
+    "notes": [
+      "Depth uncertainty grows quadratically with range in this fixed-camera approximation.",
+      "When disparity approaches its uncertainty scale, Gaussian linearization and naive depth estimates become unreliable."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "true_depth": 1.0,
+      "disparity_noise": 0.5
+    },
+    "metrics": {
+      "disparity_px": 24.0,
+      "depth_std_m": 0.020833333333333332,
+      "relative_depth_std": 0.020833333333333332,
+      "one_sigma_positive_disparity_depth_m": 0.9795918367346939,
+      "linearization_error_m": 0.00042517006802722523
+    },
+    "derivation": [
+      "Use focal length 400 px and calibrated baseline 0.06 m.",
+      "At true depth 1 m, expected disparity is 24.000000 px.",
+      "Disparity sigma=0.5 px propagates to sigma_Z=0.020833 m.",
+      "A +1 sigma disparity perturbation gives exact depth 0.979592 m.",
+      "Compare the first-order prediction Z-sigma_Z; linearization discrepancy is 0.000425 m."
+    ],
+    "notes": [
+      "Depth uncertainty grows quadratically with range in this fixed-camera approximation.",
+      "When disparity approaches its uncertainty scale, Gaussian linearization and naive depth estimates become unreliable."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "true_depth": 2.0,
+      "disparity_noise": 0.5
+    },
+    "metrics": {
+      "disparity_px": 12.0,
+      "depth_std_m": 0.08333333333333333,
+      "relative_depth_std": 0.041666666666666664,
+      "one_sigma_positive_disparity_depth_m": 1.92,
+      "linearization_error_m": 0.0033333333333331883
+    },
+    "derivation": [
+      "Use focal length 400 px and calibrated baseline 0.06 m.",
+      "At true depth 2 m, expected disparity is 12.000000 px.",
+      "Disparity sigma=0.5 px propagates to sigma_Z=0.083333 m.",
+      "A +1 sigma disparity perturbation gives exact depth 1.920000 m.",
+      "Compare the first-order prediction Z-sigma_Z; linearization discrepancy is 0.003333 m."
+    ],
+    "notes": [
+      "Depth uncertainty grows quadratically with range in this fixed-camera approximation.",
+      "When disparity approaches its uncertainty scale, Gaussian linearization and naive depth estimates become unreliable."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "true_depth": 3.0,
+      "disparity_noise": 0.5
+    },
+    "metrics": {
+      "disparity_px": 8.0,
+      "depth_std_m": 0.1875,
+      "relative_depth_std": 0.0625,
+      "one_sigma_positive_disparity_depth_m": 2.823529411764706,
+      "linearization_error_m": 0.011029411764706065
+    },
+    "derivation": [
+      "Use focal length 400 px and calibrated baseline 0.06 m.",
+      "At true depth 3 m, expected disparity is 8.000000 px.",
+      "Disparity sigma=0.5 px propagates to sigma_Z=0.187500 m.",
+      "A +1 sigma disparity perturbation gives exact depth 2.823529 m.",
+      "Compare the first-order prediction Z-sigma_Z; linearization discrepancy is 0.011029 m."
+    ],
+    "notes": [
+      "Depth uncertainty grows quadratically with range in this fixed-camera approximation.",
+      "When disparity approaches its uncertainty scale, Gaussian linearization and naive depth estimates become unreliable."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "true_depth": 5.0,
+      "disparity_noise": 0.5
+    },
+    "metrics": {
+      "disparity_px": 4.8,
+      "depth_std_m": 0.5208333333333334,
+      "relative_depth_std": 0.10416666666666667,
+      "one_sigma_positive_disparity_depth_m": 4.528301886792453,
+      "linearization_error_m": 0.04913522012578575
+    },
+    "derivation": [
+      "Use focal length 400 px and calibrated baseline 0.06 m.",
+      "At true depth 5 m, expected disparity is 4.800000 px.",
+      "Disparity sigma=0.5 px propagates to sigma_Z=0.520833 m.",
+      "A +1 sigma disparity perturbation gives exact depth 4.528302 m.",
+      "Compare the first-order prediction Z-sigma_Z; linearization discrepancy is 0.049135 m."
+    ],
+    "notes": [
+      "Depth uncertainty grows quadratically with range in this fixed-camera approximation.",
+      "When disparity approaches its uncertainty scale, Gaussian linearization and naive depth estimates become unreliable."
+    ]
+  }
+]

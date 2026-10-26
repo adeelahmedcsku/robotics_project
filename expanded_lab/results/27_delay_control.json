@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "delay": 0.0
+    },
+    "metrics": {
+      "actual_delay_s": 0.0,
+      "tracking_rmse_rad": 0.022162522047945072,
+      "peak_error_rad": 0.032383306747100014,
+      "saturation_fraction": 0.0
+    },
+    "derivation": [
+      "Request delay 0 s; rounding to 1 ms samples gives 0 delayed samples.",
+      "The reference is a 0.1 rad, 0.5 Hz sinusoid; gains remain Kp=20 and Kd=2.",
+      "Use delayed position and velocity but the current reference to calculate torque.",
+      "After three seconds, RMSE is 0.022163 rad.",
+      "Peak error is 0.032383 rad and saturation fraction is 0.000000."
+    ],
+    "notes": [
+      "The chosen delay is deterministic; real transport also has jitter, dropouts and timestamp uncertainty.",
+      "A simulator with immediate state access can substantially overestimate the usable gain margin."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "delay": 0.002
+    },
+    "metrics": {
+      "actual_delay_s": 0.002,
+      "tracking_rmse_rad": 0.021738760328856622,
+      "peak_error_rad": 0.03175124205797261,
+      "saturation_fraction": 0.0
+    },
+    "derivation": [
+      "Request delay 0.002 s; rounding to 1 ms samples gives 2 delayed samples.",
+      "The reference is a 0.1 rad, 0.5 Hz sinusoid; gains remain Kp=20 and Kd=2.",
+      "Use delayed position and velocity but the current reference to calculate torque.",
+      "After three seconds, RMSE is 0.021739 rad.",
+      "Peak error is 0.031751 rad and saturation fraction is 0.000000."
+    ],
+    "notes": [
+      "The chosen delay is deterministic; real transport also has jitter, dropouts and timestamp uncertainty.",
+      "A simulator with immediate state access can substantially overestimate the usable gain margin."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "delay": 0.005
+    },
+    "metrics": {
+      "actual_delay_s": 0.005,
+      "tracking_rmse_rad": 0.02110144335640467,
+      "peak_error_rad": 0.030802101405877136,
+      "saturation_fraction": 0.0
+    },
+    "derivation": [
+      "Request delay 0.005 s; rounding to 1 ms samples gives 5 delayed samples.",
+      "The reference is a 0.1 rad, 0.5 Hz sinusoid; gains remain Kp=20 and Kd=2.",
+      "Use delayed position and velocity but the current reference to calculate torque.",
+      "After three seconds, RMSE is 0.021101 rad.",
+      "Peak error is 0.030802 rad and saturation fraction is 0.000000."
+    ],
+    "notes": [
+      "The chosen delay is deterministic; real transport also has jitter, dropouts and timestamp uncertainty.",
+      "A simulator with immediate state access can substantially overestimate the usable gain margin."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "delay": 0.01
+    },
+    "metrics": {
+      "actual_delay_s": 0.01,
+      "tracking_rmse_rad": 0.020034806861423896,
+      "peak_error_rad": 0.029217472476502727,
+      "saturation_fraction": 0.0
+    },
+    "derivation": [
+      "Request delay 0.01 s; rounding to 1 ms samples gives 10 delayed samples.",
+      "The reference is a 0.1 rad, 0.5 Hz sinusoid; gains remain Kp=20 and Kd=2.",
+      "Use delayed position and velocity but the current reference to calculate torque.",
+      "After three seconds, RMSE is 0.020035 rad.",
+      "Peak error is 0.029217 rad and saturation fraction is 0.000000."
+    ],
+    "notes": [
+      "The chosen delay is deterministic; real transport also has jitter, dropouts and timestamp uncertainty.",
+      "A simulator with immediate state access can substantially overestimate the usable gain margin."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "delay": 0.02
+    },
+    "metrics": {
+      "actual_delay_s": 0.02,
+      "tracking_rmse_rad": 0.017885157600280543,
+      "peak_error_rad": 0.026038547728264923,
+      "saturation_fraction": 0.0
+    },
+    "derivation": [
+      "Request delay 0.02 s; rounding to 1 ms samples gives 20 delayed samples.",
+      "The reference is a 0.1 rad, 0.5 Hz sinusoid; gains remain Kp=20 and Kd=2.",
+      "Use delayed position and velocity but the current reference to calculate torque.",
+      "After three seconds, RMSE is 0.017885 rad.",
+      "Peak error is 0.026039 rad and saturation fraction is 0.000000."
+    ],
+    "notes": [
+      "The chosen delay is deterministic; real transport also has jitter, dropouts and timestamp uncertainty.",
+      "A simulator with immediate state access can substantially overestimate the usable gain margin."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "delay": 0.05
+    },
+    "metrics": {
+      "actual_delay_s": 0.05,
+      "tracking_rmse_rad": 0.033991816557738856,
+      "peak_error_rad": 0.08598412353867749,
+      "saturation_fraction": 0.12
+    },
+    "derivation": [
+      "Request delay 0.05 s; rounding to 1 ms samples gives 50 delayed samples.",
+      "The reference is a 0.1 rad, 0.5 Hz sinusoid; gains remain Kp=20 and Kd=2.",
+      "Use delayed position and velocity but the current reference to calculate torque.",
+      "After three seconds, RMSE is 0.033992 rad.",
+      "Peak error is 0.085984 rad and saturation fraction is 0.120000."
+    ],
+    "notes": [
+      "The chosen delay is deterministic; real transport also has jitter, dropouts and timestamp uncertainty.",
+      "A simulator with immediate state access can substantially overestimate the usable gain margin."
+    ]
+  }
+]

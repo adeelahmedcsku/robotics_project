@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "policy_decimation": 2
+    },
+    "metrics": {
+      "policy_rate_Hz": 500.0,
+      "maximum_held_action_age_s": 0.001,
+      "mean_held_action_age_s": 0.0005000000000000001,
+      "control_updates": 2500.0,
+      "policy_updates": 2500.0,
+      "telemetry_updates": 50.0
+    },
+    "derivation": [
+      "Use 5000 base ticks at 0.001 s per tick.",
+      "Control runs every two ticks; policy runs every 2 ticks; telemetry every 100.",
+      "The policy rate is 500.000000 Hz.",
+      "The oldest held policy action reaches 0.001000 s before replacement.",
+      "Event counts are {'physics': 5000, 'control': 2500, 'policy': 2500, 'telemetry': 50}."
+    ],
+    "notes": [
+      "This schedule is logical simulation time and assumes every computation completes before its deadline.",
+      "Wall-time execution still needs measured compute/transport budgets and an overrun response."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "policy_decimation": 5
+    },
+    "metrics": {
+      "policy_rate_Hz": 200.0,
+      "maximum_held_action_age_s": 0.004,
+      "mean_held_action_age_s": 0.0020000000000000005,
+      "control_updates": 2500.0,
+      "policy_updates": 1000.0,
+      "telemetry_updates": 50.0
+    },
+    "derivation": [
+      "Use 5000 base ticks at 0.001 s per tick.",
+      "Control runs every two ticks; policy runs every 5 ticks; telemetry every 100.",
+      "The policy rate is 200.000000 Hz.",
+      "The oldest held policy action reaches 0.004000 s before replacement.",
+      "Event counts are {'physics': 5000, 'control': 2500, 'policy': 1000, 'telemetry': 50}."
+    ],
+    "notes": [
+      "This schedule is logical simulation time and assumes every computation completes before its deadline.",
+      "Wall-time execution still needs measured compute/transport budgets and an overrun response."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "policy_decimation": 10
+    },
+    "metrics": {
+      "policy_rate_Hz": 100.0,
+      "maximum_held_action_age_s": 0.009000000000000001,
+      "mean_held_action_age_s": 0.0045,
+      "control_updates": 2500.0,
+      "policy_updates": 500.0,
+      "telemetry_updates": 50.0
+    },
+    "derivation": [
+      "Use 5000 base ticks at 0.001 s per tick.",
+      "Control runs every two ticks; policy runs every 10 ticks; telemetry every 100.",
+      "The policy rate is 100.000000 Hz.",
+      "The oldest held policy action reaches 0.009000 s before replacement.",
+      "Event counts are {'physics': 5000, 'control': 2500, 'policy': 500, 'telemetry': 50}."
+    ],
+    "notes": [
+      "This schedule is logical simulation time and assumes every computation completes before its deadline.",
+      "Wall-time execution still needs measured compute/transport budgets and an overrun response."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "policy_decimation": 20
+    },
+    "metrics": {
+      "policy_rate_Hz": 50.0,
+      "maximum_held_action_age_s": 0.019,
+      "mean_held_action_age_s": 0.0095,
+      "control_updates": 2500.0,
+      "policy_updates": 250.0,
+      "telemetry_updates": 50.0
+    },
+    "derivation": [
+      "Use 5000 base ticks at 0.001 s per tick.",
+      "Control runs every two ticks; policy runs every 20 ticks; telemetry every 100.",
+      "The policy rate is 50.000000 Hz.",
+      "The oldest held policy action reaches 0.019000 s before replacement.",
+      "Event counts are {'physics': 5000, 'control': 2500, 'policy': 250, 'telemetry': 50}."
+    ],
+    "notes": [
+      "This schedule is logical simulation time and assumes every computation completes before its deadline.",
+      "Wall-time execution still needs measured compute/transport budgets and an overrun response."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "policy_decimation": 50
+    },
+    "metrics": {
+      "policy_rate_Hz": 20.0,
+      "maximum_held_action_age_s": 0.049,
+      "mean_held_action_age_s": 0.0245,
+      "control_updates": 2500.0,
+      "policy_updates": 100.0,
+      "telemetry_updates": 50.0
+    },
+    "derivation": [
+      "Use 5000 base ticks at 0.001 s per tick.",
+      "Control runs every two ticks; policy runs every 50 ticks; telemetry every 100.",
+      "The policy rate is 20.000000 Hz.",
+      "The oldest held policy action reaches 0.049000 s before replacement.",
+      "Event counts are {'physics': 5000, 'control': 2500, 'policy': 100, 'telemetry': 50}."
+    ],
+    "notes": [
+      "This schedule is logical simulation time and assumes every computation completes before its deadline.",
+      "Wall-time execution still needs measured compute/transport budgets and an overrun response."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "policy_decimation": 100
+    },
+    "metrics": {
+      "policy_rate_Hz": 10.0,
+      "maximum_held_action_age_s": 0.099,
+      "mean_held_action_age_s": 0.0495,
+      "control_updates": 2500.0,
+      "policy_updates": 50.0,
+      "telemetry_updates": 50.0
+    },
+    "derivation": [
+      "Use 5000 base ticks at 0.001 s per tick.",
+      "Control runs every two ticks; policy runs every 100 ticks; telemetry every 100.",
+      "The policy rate is 10.000000 Hz.",
+      "The oldest held policy action reaches 0.099000 s before replacement.",
+      "Event counts are {'physics': 5000, 'control': 2500, 'policy': 50, 'telemetry': 50}."
+    ],
+    "notes": [
+      "This schedule is logical simulation time and assumes every computation completes before its deadline.",
+      "Wall-time execution still needs measured compute/transport budgets and an overrun response."
+    ]
+  }
+]

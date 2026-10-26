@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "target": -0.4
+    },
+    "metrics": {
+      "packet_bytes": 13.0,
+      "target_roundtrip_error_rad": 5.960464455334602e-09,
+      "single_bit_faults_rejected": 500.0,
+      "rejection_fraction": 1.0
+    },
+    "derivation": [
+      "Encode sequence 7 and target -0.4 rad with explicit little-endian fields.",
+      "The complete fictional packet occupies 13 bytes.",
+      "Float32 round-trip error is 5.960464455e-09 rad.",
+      "Inject 500 random single-bit corruptions across payload and checksum.",
+      "Reject 500 corrupted packets; no physical transport exists."
+    ],
+    "notes": [
+      "CRC detects accidental corruption; it is not authentication or a defense against a deliberate sender.",
+      "This CRC and packet layout are teaching choices, not the CAN wire format or Asimov motor protocol."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "target": -0.1
+    },
+    "metrics": {
+      "packet_bytes": 13.0,
+      "target_roundtrip_error_rad": 1.4901161138336505e-09,
+      "single_bit_faults_rejected": 500.0,
+      "rejection_fraction": 1.0
+    },
+    "derivation": [
+      "Encode sequence 7 and target -0.1 rad with explicit little-endian fields.",
+      "The complete fictional packet occupies 13 bytes.",
+      "Float32 round-trip error is 1.490116114e-09 rad.",
+      "Inject 500 random single-bit corruptions across payload and checksum.",
+      "Reject 500 corrupted packets; no physical transport exists."
+    ],
+    "notes": [
+      "CRC detects accidental corruption; it is not authentication or a defense against a deliberate sender.",
+      "This CRC and packet layout are teaching choices, not the CAN wire format or Asimov motor protocol."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "target": 0.0
+    },
+    "metrics": {
+      "packet_bytes": 13.0,
+      "target_roundtrip_error_rad": 0.0,
+      "single_bit_faults_rejected": 500.0,
+      "rejection_fraction": 1.0
+    },
+    "derivation": [
+      "Encode sequence 7 and target 0 rad with explicit little-endian fields.",
+      "The complete fictional packet occupies 13 bytes.",
+      "Float32 round-trip error is 0.000000000e+00 rad.",
+      "Inject 500 random single-bit corruptions across payload and checksum.",
+      "Reject 500 corrupted packets; no physical transport exists."
+    ],
+    "notes": [
+      "CRC detects accidental corruption; it is not authentication or a defense against a deliberate sender.",
+      "This CRC and packet layout are teaching choices, not the CAN wire format or Asimov motor protocol."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "target": 0.1
+    },
+    "metrics": {
+      "packet_bytes": 13.0,
+      "target_roundtrip_error_rad": 1.4901161138336505e-09,
+      "single_bit_faults_rejected": 500.0,
+      "rejection_fraction": 1.0
+    },
+    "derivation": [
+      "Encode sequence 7 and target 0.1 rad with explicit little-endian fields.",
+      "The complete fictional packet occupies 13 bytes.",
+      "Float32 round-trip error is 1.490116114e-09 rad.",
+      "Inject 500 random single-bit corruptions across payload and checksum.",
+      "Reject 500 corrupted packets; no physical transport exists."
+    ],
+    "notes": [
+      "CRC detects accidental corruption; it is not authentication or a defense against a deliberate sender.",
+      "This CRC and packet layout are teaching choices, not the CAN wire format or Asimov motor protocol."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "target": 0.25
+    },
+    "metrics": {
+      "packet_bytes": 13.0,
+      "target_roundtrip_error_rad": 0.0,
+      "single_bit_faults_rejected": 500.0,
+      "rejection_fraction": 1.0
+    },
+    "derivation": [
+      "Encode sequence 7 and target 0.25 rad with explicit little-endian fields.",
+      "The complete fictional packet occupies 13 bytes.",
+      "Float32 round-trip error is 0.000000000e+00 rad.",
+      "Inject 500 random single-bit corruptions across payload and checksum.",
+      "Reject 500 corrupted packets; no physical transport exists."
+    ],
+    "notes": [
+      "CRC detects accidental corruption; it is not authentication or a defense against a deliberate sender.",
+      "This CRC and packet layout are teaching choices, not the CAN wire format or Asimov motor protocol."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "target": 0.4
+    },
+    "metrics": {
+      "packet_bytes": 13.0,
+      "target_roundtrip_error_rad": 5.960464455334602e-09,
+      "single_bit_faults_rejected": 500.0,
+      "rejection_fraction": 1.0
+    },
+    "derivation": [
+      "Encode sequence 7 and target 0.4 rad with explicit little-endian fields.",
+      "The complete fictional packet occupies 13 bytes.",
+      "Float32 round-trip error is 5.960464455e-09 rad.",
+      "Inject 500 random single-bit corruptions across payload and checksum.",
+      "Reject 500 corrupted packets; no physical transport exists."
+    ],
+    "notes": [
+      "CRC detects accidental corruption; it is not authentication or a defense against a deliberate sender.",
+      "This CRC and packet layout are teaching choices, not the CAN wire format or Asimov motor protocol."
+    ]
+  }
+]

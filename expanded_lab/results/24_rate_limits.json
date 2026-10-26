@@ -1,0 +1,164 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "speed": 0.1,
+      "dt": 0.01,
+      "delay": 0.05,
+      "deceleration": 2.0
+    },
+    "metrics": {
+      "final_target_rad": 0.5,
+      "ideal_stopping_distance_rad": 0.0075000000000000015,
+      "remaining_travel_margin_rad": 0.11249999999999999,
+      "per_update_step_rad": 0.001,
+      "time_to_target_s": 5.0
+    },
+    "derivation": [
+      "At vmax=0.1 rad/s and dt=0.01 s, each target increment is capped at 0.001000 rad.",
+      "Reaction delay contributes 0.005000 rad of travel.",
+      "Ideal constant deceleration 2 rad/s^2 contributes 0.002500 rad.",
+      "Total screened stopping distance is 0.007500 rad.",
+      "With 0.12 rad assumed remaining travel, margin is 0.112500 rad."
+    ],
+    "notes": [
+      "The ideal calculation leaves positive travel margin.",
+      "Load, control delay, brake authority and power-loss behavior must be measured for a physical stopping claim."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "speed": 0.2,
+      "dt": 0.01,
+      "delay": 0.05,
+      "deceleration": 2.0
+    },
+    "metrics": {
+      "final_target_rad": 0.5,
+      "ideal_stopping_distance_rad": 0.020000000000000004,
+      "remaining_travel_margin_rad": 0.09999999999999999,
+      "per_update_step_rad": 0.002,
+      "time_to_target_s": 2.5
+    },
+    "derivation": [
+      "At vmax=0.2 rad/s and dt=0.01 s, each target increment is capped at 0.002000 rad.",
+      "Reaction delay contributes 0.010000 rad of travel.",
+      "Ideal constant deceleration 2 rad/s^2 contributes 0.010000 rad.",
+      "Total screened stopping distance is 0.020000 rad.",
+      "With 0.12 rad assumed remaining travel, margin is 0.100000 rad."
+    ],
+    "notes": [
+      "The ideal calculation leaves positive travel margin.",
+      "Load, control delay, brake authority and power-loss behavior must be measured for a physical stopping claim."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "speed": 0.4,
+      "dt": 0.01,
+      "delay": 0.05,
+      "deceleration": 2.0
+    },
+    "metrics": {
+      "final_target_rad": 0.5,
+      "ideal_stopping_distance_rad": 0.06000000000000001,
+      "remaining_travel_margin_rad": 0.059999999999999984,
+      "per_update_step_rad": 0.004,
+      "time_to_target_s": 1.25
+    },
+    "derivation": [
+      "At vmax=0.4 rad/s and dt=0.01 s, each target increment is capped at 0.004000 rad.",
+      "Reaction delay contributes 0.020000 rad of travel.",
+      "Ideal constant deceleration 2 rad/s^2 contributes 0.040000 rad.",
+      "Total screened stopping distance is 0.060000 rad.",
+      "With 0.12 rad assumed remaining travel, margin is 0.060000 rad."
+    ],
+    "notes": [
+      "The ideal calculation leaves positive travel margin.",
+      "Load, control delay, brake authority and power-loss behavior must be measured for a physical stopping claim."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "speed": 0.6,
+      "dt": 0.01,
+      "delay": 0.05,
+      "deceleration": 2.0
+    },
+    "metrics": {
+      "final_target_rad": 0.5,
+      "ideal_stopping_distance_rad": 0.12,
+      "remaining_travel_margin_rad": 0.0,
+      "per_update_step_rad": 0.006,
+      "time_to_target_s": 0.8333333333333334
+    },
+    "derivation": [
+      "At vmax=0.6 rad/s and dt=0.01 s, each target increment is capped at 0.006000 rad.",
+      "Reaction delay contributes 0.030000 rad of travel.",
+      "Ideal constant deceleration 2 rad/s^2 contributes 0.090000 rad.",
+      "Total screened stopping distance is 0.120000 rad.",
+      "With 0.12 rad assumed remaining travel, margin is 0.000000 rad."
+    ],
+    "notes": [
+      "The ideal calculation leaves positive travel margin.",
+      "Load, control delay, brake authority and power-loss behavior must be measured for a physical stopping claim."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "speed": 0.8,
+      "dt": 0.01,
+      "delay": 0.05,
+      "deceleration": 2.0
+    },
+    "metrics": {
+      "final_target_rad": 0.5,
+      "ideal_stopping_distance_rad": 0.20000000000000004,
+      "remaining_travel_margin_rad": -0.08000000000000004,
+      "per_update_step_rad": 0.008,
+      "time_to_target_s": 0.625
+    },
+    "derivation": [
+      "At vmax=0.8 rad/s and dt=0.01 s, each target increment is capped at 0.008000 rad.",
+      "Reaction delay contributes 0.040000 rad of travel.",
+      "Ideal constant deceleration 2 rad/s^2 contributes 0.160000 rad.",
+      "Total screened stopping distance is 0.200000 rad.",
+      "With 0.12 rad assumed remaining travel, margin is -0.080000 rad."
+    ],
+    "notes": [
+      "The ideal calculation already exceeds available travel; reduce speed or increase clearance before considering uncertainty.",
+      "Load, control delay, brake authority and power-loss behavior must be measured for a physical stopping claim."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "speed": 1.0,
+      "dt": 0.01,
+      "delay": 0.05,
+      "deceleration": 2.0
+    },
+    "metrics": {
+      "final_target_rad": 0.5,
+      "ideal_stopping_distance_rad": 0.3,
+      "remaining_travel_margin_rad": -0.18,
+      "per_update_step_rad": 0.01,
+      "time_to_target_s": 0.5
+    },
+    "derivation": [
+      "At vmax=1 rad/s and dt=0.01 s, each target increment is capped at 0.010000 rad.",
+      "Reaction delay contributes 0.050000 rad of travel.",
+      "Ideal constant deceleration 2 rad/s^2 contributes 0.250000 rad.",
+      "Total screened stopping distance is 0.300000 rad.",
+      "With 0.12 rad assumed remaining travel, margin is -0.180000 rad."
+    ],
+    "notes": [
+      "The ideal calculation already exceeds available travel; reduce speed or increase clearance before considering uncertainty.",
+      "Load, control delay, brake authority and power-loss behavior must be measured for a physical stopping claim."
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "test_shift": 0.0
+    },
+    "metrics": {
+      "training_mean": -0.010855549384841534,
+      "training_variance": 0.9415438711926316,
+      "frozen_test_mean": 0.013372227461125992,
+      "leaked_test_mean": 0.011080651149160488,
+      "mean_normalized_disagreement": 0.005015171545844915
+    },
+    "derivation": [
+      "Estimate training statistics with 5,000 seeded samples using Welford updates.",
+      "The held-out distribution has mean shift 0.",
+      "Frozen normalizer produces test mean 0.013372.",
+      "Updating statistics with evaluation data changes the test mean to 0.011081.",
+      "Mean per-sample normalized disagreement is 0.005015."
+    ],
+    "notes": [
+      "A shifted test mean can be useful evidence of distribution shift; normalizing it away may hide the problem.",
+      "Explicit online adaptation can be legitimate, but it is a different deployed algorithm requiring separate validation."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "test_shift": 0.2
+    },
+    "metrics": {
+      "training_mean": -0.010855549384841534,
+      "training_variance": 0.9415438711926316,
+      "frozen_test_mean": 0.21948728171242085,
+      "leaked_test_mean": 0.1812775865505069,
+      "mean_normalized_disagreement": 0.03820969516191394
+    },
+    "derivation": [
+      "Estimate training statistics with 5,000 seeded samples using Welford updates.",
+      "The held-out distribution has mean shift 0.2.",
+      "Frozen normalizer produces test mean 0.219487.",
+      "Updating statistics with evaluation data changes the test mean to 0.181278.",
+      "Mean per-sample normalized disagreement is 0.038210."
+    ],
+    "notes": [
+      "A shifted test mean can be useful evidence of distribution shift; normalizing it away may hide the problem.",
+      "Explicit online adaptation can be legitimate, but it is a different deployed algorithm requiring separate validation."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "test_shift": 0.5
+    },
+    "metrics": {
+      "training_mean": -0.010855549384841534,
+      "training_variance": 0.9415438711926316,
+      "frozen_test_mean": 0.5286598630893632,
+      "leaked_test_mean": 0.4298960878340687,
+      "mean_normalized_disagreement": 0.09876377525529446
+    },
+    "derivation": [
+      "Estimate training statistics with 5,000 seeded samples using Welford updates.",
+      "The held-out distribution has mean shift 0.5.",
+      "Frozen normalizer produces test mean 0.528660.",
+      "Updating statistics with evaluation data changes the test mean to 0.429896.",
+      "Mean per-sample normalized disagreement is 0.098764."
+    ],
+    "notes": [
+      "A shifted test mean can be useful evidence of distribution shift; normalizing it away may hide the problem.",
+      "Explicit online adaptation can be legitimate, but it is a different deployed algorithm requiring separate validation."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "test_shift": 1.0
+    },
+    "metrics": {
+      "training_mean": -0.010855549384841534,
+      "training_variance": 0.9415438711926316,
+      "frozen_test_mean": 1.0439474987176003,
+      "leaked_test_mean": 0.8067799565240994,
+      "mean_normalized_disagreement": 0.23716754219350078
+    },
+    "derivation": [
+      "Estimate training statistics with 5,000 seeded samples using Welford updates.",
+      "The held-out distribution has mean shift 1.",
+      "Frozen normalizer produces test mean 1.043947.",
+      "Updating statistics with evaluation data changes the test mean to 0.806780.",
+      "Mean per-sample normalized disagreement is 0.237168."
+    ],
+    "notes": [
+      "A shifted test mean can be useful evidence of distribution shift; normalizing it away may hide the problem.",
+      "Explicit online adaptation can be legitimate, but it is a different deployed algorithm requiring separate validation."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "test_shift": 2.0
+    },
+    "metrics": {
+      "training_mean": -0.010855549384841534,
+      "training_variance": 0.9415438711926316,
+      "frozen_test_mean": 2.074522769974074,
+      "leaked_test_mean": 1.3628064537097149,
+      "mean_normalized_disagreement": 0.7117163162643597
+    },
+    "derivation": [
+      "Estimate training statistics with 5,000 seeded samples using Welford updates.",
+      "The held-out distribution has mean shift 2.",
+      "Frozen normalizer produces test mean 2.074523.",
+      "Updating statistics with evaluation data changes the test mean to 1.362806.",
+      "Mean per-sample normalized disagreement is 0.711716."
+    ],
+    "notes": [
+      "A shifted test mean can be useful evidence of distribution shift; normalizing it away may hide the problem.",
+      "Explicit online adaptation can be legitimate, but it is a different deployed algorithm requiring separate validation."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "test_shift": 4.0
+    },
+    "metrics": {
+      "training_mean": -0.010855549384841534,
+      "training_variance": 0.9415438711926316,
+      "frozen_test_mean": 4.1356733124870235,
+      "leaked_test_mean": 1.8725763803685835,
+      "mean_normalized_disagreement": 2.2630969321184393
+    },
+    "derivation": [
+      "Estimate training statistics with 5,000 seeded samples using Welford updates.",
+      "The held-out distribution has mean shift 4.",
+      "Frozen normalizer produces test mean 4.135673.",
+      "Updating statistics with evaluation data changes the test mean to 1.872576.",
+      "Mean per-sample normalized disagreement is 2.263097."
+    ],
+    "notes": [
+      "A shifted test mean can be useful evidence of distribution shift; normalizing it away may hide the problem.",
+      "Explicit online adaptation can be legitimate, but it is a different deployed algorithm requiring separate validation."
+    ]
+  }
+]

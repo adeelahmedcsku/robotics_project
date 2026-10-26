@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "ratio": 36.0,
+      "rotor_inertia": 2e-05,
+      "backlash": 0.0
+    },
+    "metrics": {
+      "reflected_inertia_kg_m2": 0.025920000000000002,
+      "tracking_rmse_rad": 0.0,
+      "peak_lost_motion_rad": 0.0,
+      "transmitted_range_rad": 0.2
+    },
+    "derivation": [
+      "Rotor inertia 2.000e-05 kg*m^2 is reflected through ratio 36.",
+      "Output-equivalent inertia is 0.02592000 kg*m^2.",
+      "The commanded output trajectory has 0.1 rad amplitude and 0.5 Hz frequency.",
+      "Apply a total backlash gap of 0.000000 rad with a stateful play operator.",
+      "The resulting RMSE is 0.000000 rad; peak error is 0.000000 rad."
+    ],
+    "notes": [
+      "A stateful dead zone creates hysteresis; adding independent Gaussian noise would model a different phenomenon.",
+      "The play model excludes stiffness, friction and load-dependent tooth contact."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "ratio": 36.0,
+      "rotor_inertia": 2e-05,
+      "backlash": 0.002
+    },
+    "metrics": {
+      "reflected_inertia_kg_m2": 0.025920000000000002,
+      "tracking_rmse_rad": 0.0009824069091656606,
+      "peak_lost_motion_rad": 0.0010000000000000009,
+      "transmitted_range_rad": 0.198
+    },
+    "derivation": [
+      "Rotor inertia 2.000e-05 kg*m^2 is reflected through ratio 36.",
+      "Output-equivalent inertia is 0.02592000 kg*m^2.",
+      "The commanded output trajectory has 0.1 rad amplitude and 0.5 Hz frequency.",
+      "Apply a total backlash gap of 0.002000 rad with a stateful play operator.",
+      "The resulting RMSE is 0.000982 rad; peak error is 0.001000 rad."
+    ],
+    "notes": [
+      "A stateful dead zone creates hysteresis; adding independent Gaussian noise would model a different phenomenon.",
+      "The play model excludes stiffness, friction and load-dependent tooth contact."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "ratio": 36.0,
+      "rotor_inertia": 2e-05,
+      "backlash": 0.005
+    },
+    "metrics": {
+      "reflected_inertia_kg_m2": 0.025920000000000002,
+      "tracking_rmse_rad": 0.002429393021433112,
+      "peak_lost_motion_rad": 0.0025000000000000022,
+      "transmitted_range_rad": 0.195
+    },
+    "derivation": [
+      "Rotor inertia 2.000e-05 kg*m^2 is reflected through ratio 36.",
+      "Output-equivalent inertia is 0.02592000 kg*m^2.",
+      "The commanded output trajectory has 0.1 rad amplitude and 0.5 Hz frequency.",
+      "Apply a total backlash gap of 0.005000 rad with a stateful play operator.",
+      "The resulting RMSE is 0.002429 rad; peak error is 0.002500 rad."
+    ],
+    "notes": [
+      "A stateful dead zone creates hysteresis; adding independent Gaussian noise would model a different phenomenon.",
+      "The play model excludes stiffness, friction and load-dependent tooth contact."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "ratio": 36.0,
+      "rotor_inertia": 2e-05,
+      "backlash": 0.01
+    },
+    "metrics": {
+      "reflected_inertia_kg_m2": 0.025920000000000002,
+      "tracking_rmse_rad": 0.004796464769243001,
+      "peak_lost_motion_rad": 0.0050000000000000044,
+      "transmitted_range_rad": 0.19
+    },
+    "derivation": [
+      "Rotor inertia 2.000e-05 kg*m^2 is reflected through ratio 36.",
+      "Output-equivalent inertia is 0.02592000 kg*m^2.",
+      "The commanded output trajectory has 0.1 rad amplitude and 0.5 Hz frequency.",
+      "Apply a total backlash gap of 0.010000 rad with a stateful play operator.",
+      "The resulting RMSE is 0.004796 rad; peak error is 0.005000 rad."
+    ],
+    "notes": [
+      "A stateful dead zone creates hysteresis; adding independent Gaussian noise would model a different phenomenon.",
+      "The play model excludes stiffness, friction and load-dependent tooth contact."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "ratio": 36.0,
+      "rotor_inertia": 2e-05,
+      "backlash": 0.02
+    },
+    "metrics": {
+      "reflected_inertia_kg_m2": 0.025920000000000002,
+      "tracking_rmse_rad": 0.009405059437552245,
+      "peak_lost_motion_rad": 0.010000000000000002,
+      "transmitted_range_rad": 0.18000000000000002
+    },
+    "derivation": [
+      "Rotor inertia 2.000e-05 kg*m^2 is reflected through ratio 36.",
+      "Output-equivalent inertia is 0.02592000 kg*m^2.",
+      "The commanded output trajectory has 0.1 rad amplitude and 0.5 Hz frequency.",
+      "Apply a total backlash gap of 0.020000 rad with a stateful play operator.",
+      "The resulting RMSE is 0.009405 rad; peak error is 0.010000 rad."
+    ],
+    "notes": [
+      "A stateful dead zone creates hysteresis; adding independent Gaussian noise would model a different phenomenon.",
+      "The play model excludes stiffness, friction and load-dependent tooth contact."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "ratio": 36.0,
+      "rotor_inertia": 2e-05,
+      "backlash": 0.04
+    },
+    "metrics": {
+      "reflected_inertia_kg_m2": 0.025920000000000002,
+      "tracking_rmse_rad": 0.018221612712336663,
+      "peak_lost_motion_rad": 0.020000000000000004,
+      "transmitted_range_rad": 0.16
+    },
+    "derivation": [
+      "Rotor inertia 2.000e-05 kg*m^2 is reflected through ratio 36.",
+      "Output-equivalent inertia is 0.02592000 kg*m^2.",
+      "The commanded output trajectory has 0.1 rad amplitude and 0.5 Hz frequency.",
+      "Apply a total backlash gap of 0.040000 rad with a stateful play operator.",
+      "The resulting RMSE is 0.018222 rad; peak error is 0.020000 rad."
+    ],
+    "notes": [
+      "A stateful dead zone creates hysteresis; adding independent Gaussian noise would model a different phenomenon.",
+      "The play model excludes stiffness, friction and load-dependent tooth contact."
+    ]
+  }
+]

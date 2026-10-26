@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "inertia": 0.08,
+      "kp": 20.0,
+      "kd": 0.1
+    },
+    "metrics": {
+      "natural_frequency_rad_s": 15.811388300841896,
+      "damping_ratio": 0.07905694150420949,
+      "overshoot_fraction": 0.779362059543276,
+      "final_error_rad": -0.0023297280322969044,
+      "trajectory_rmse_rad": 0.02605469683295414
+    },
+    "derivation": [
+      "Joint inertia is 0.08 kg*m^2; Kp=20 Nm/rad; Kd=0.1 Nm*s/rad.",
+      "The implied natural frequency is 15.811388 rad/s and damping ratio is 0.079057.",
+      "Apply a 0.1 rad target and integrate semi-implicitly at 1 ms for three seconds.",
+      "Peak position is 0.177936 rad, producing overshoot fraction 0.779362.",
+      "Final tracking error is -0.00232973 rad; trajectory RMSE is 0.026055 rad."
+    ],
+    "notes": [
+      "This model is underdamped.",
+      "There is no torque saturation, delay, gravity or contact in this identification-friendly reference."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "inertia": 0.08,
+      "kp": 20.0,
+      "kd": 0.5
+    },
+    "metrics": {
+      "natural_frequency_rad_s": 15.811388300841896,
+      "damping_ratio": 0.23717082451262844,
+      "overshoot_fraction": 0.4637163861216531,
+      "final_error_rad": -4.7227296830210097e-07,
+      "trajectory_rmse_rad": 0.016372826429033878
+    },
+    "derivation": [
+      "Joint inertia is 0.08 kg*m^2; Kp=20 Nm/rad; Kd=0.5 Nm*s/rad.",
+      "The implied natural frequency is 15.811388 rad/s and damping ratio is 0.237171.",
+      "Apply a 0.1 rad target and integrate semi-implicitly at 1 ms for three seconds.",
+      "Peak position is 0.146372 rad, producing overshoot fraction 0.463716.",
+      "Final tracking error is -0.00000047 rad; trajectory RMSE is 0.016373 rad."
+    ],
+    "notes": [
+      "This model is underdamped.",
+      "There is no torque saturation, delay, gravity or contact in this identification-friendly reference."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "inertia": 0.08,
+      "kp": 20.0,
+      "kd": 1.0
+    },
+    "metrics": {
+      "natural_frequency_rad_s": 15.811388300841896,
+      "damping_ratio": 0.4348131782731522,
+      "overshoot_fraction": 0.21797677551080807,
+      "final_error_rad": -2.816261113203211e-12,
+      "trajectory_rmse_rad": 0.014447134575634353
+    },
+    "derivation": [
+      "Joint inertia is 0.08 kg*m^2; Kp=20 Nm/rad; Kd=1 Nm*s/rad.",
+      "The implied natural frequency is 15.811388 rad/s and damping ratio is 0.434813.",
+      "Apply a 0.1 rad target and integrate semi-implicitly at 1 ms for three seconds.",
+      "Peak position is 0.121798 rad, producing overshoot fraction 0.217977.",
+      "Final tracking error is -0.00000000 rad; trajectory RMSE is 0.014447 rad."
+    ],
+    "notes": [
+      "This model is underdamped.",
+      "There is no torque saturation, delay, gravity or contact in this identification-friendly reference."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "inertia": 0.08,
+      "kp": 20.0,
+      "kd": 2.0
+    },
+    "metrics": {
+      "natural_frequency_rad_s": 15.811388300841896,
+      "damping_ratio": 0.8300978857941996,
+      "overshoot_fraction": 0.00840481917396843,
+      "final_error_rad": -2.220446049250313e-16,
+      "trajectory_rmse_rad": 0.015307820397780196
+    },
+    "derivation": [
+      "Joint inertia is 0.08 kg*m^2; Kp=20 Nm/rad; Kd=2 Nm*s/rad.",
+      "The implied natural frequency is 15.811388 rad/s and damping ratio is 0.830098.",
+      "Apply a 0.1 rad target and integrate semi-implicitly at 1 ms for three seconds.",
+      "Peak position is 0.100840 rad, producing overshoot fraction 0.008405.",
+      "Final tracking error is -0.00000000 rad; trajectory RMSE is 0.015308 rad."
+    ],
+    "notes": [
+      "This model is underdamped.",
+      "There is no torque saturation, delay, gravity or contact in this identification-friendly reference."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "inertia": 0.08,
+      "kp": 20.0,
+      "kd": 4.0
+    },
+    "metrics": {
+      "natural_frequency_rad_s": 15.811388300841896,
+      "damping_ratio": 1.6206673008362942,
+      "overshoot_fraction": 0.0,
+      "final_error_rad": 9.18925070758636e-09,
+      "trajectory_rmse_rad": 0.019235965217632215
+    },
+    "derivation": [
+      "Joint inertia is 0.08 kg*m^2; Kp=20 Nm/rad; Kd=4 Nm*s/rad.",
+      "The implied natural frequency is 15.811388 rad/s and damping ratio is 1.620667.",
+      "Apply a 0.1 rad target and integrate semi-implicitly at 1 ms for three seconds.",
+      "Peak position is 0.100000 rad, producing overshoot fraction 0.000000.",
+      "Final tracking error is 0.00000001 rad; trajectory RMSE is 0.019236 rad."
+    ],
+    "notes": [
+      "This model is critically damped or overdamped.",
+      "There is no torque saturation, delay, gravity or contact in this identification-friendly reference."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "inertia": 0.08,
+      "kp": 20.0,
+      "kd": 8.0
+    },
+    "metrics": {
+      "natural_frequency_rad_s": 15.811388300841896,
+      "damping_ratio": 3.2018061309204837,
+      "overshoot_fraction": 0.0,
+      "final_error_rad": 5.1879360582790524e-05,
+      "trajectory_rmse_rad": 0.026216313444869296
+    },
+    "derivation": [
+      "Joint inertia is 0.08 kg*m^2; Kp=20 Nm/rad; Kd=8 Nm*s/rad.",
+      "The implied natural frequency is 15.811388 rad/s and damping ratio is 3.201806.",
+      "Apply a 0.1 rad target and integrate semi-implicitly at 1 ms for three seconds.",
+      "Peak position is 0.099948 rad, producing overshoot fraction 0.000000.",
+      "Final tracking error is 0.00005188 rad; trajectory RMSE is 0.026216 rad."
+    ],
+    "notes": [
+      "This model is critically damped or overdamped.",
+      "There is no torque saturation, delay, gravity or contact in this identification-friendly reference."
+    ]
+  }
+]

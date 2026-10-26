@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "model_commit": "96a6807c163e4e6cabdc124eefcc45b0ae2cb57a",
+  "regression_tests": "7 passed",
+  "stand_and_walk_env_contracts": "passed",
+  "jacobian_column_error": 1.5333257725921412e-07,
+  "export_parity_max_abs": 0.0,
+  "ros_runtime": "not tested",
+  "hardware": "not tested",
+  "walking_policy": "not demonstrated",
+  "rendered_model": "successful offscreen EGL render",
+  "live_dashboard": "not interactively tested",
+  "pdf_pages": 76,
+  "pdf_sha256": "3e3790cbf1ca9692c844e9dc27c6bf18ad0972aa2497dd7ea79dc1deaeac8107",
+  "visual_review": "All final pages rendered and visually inspected; no clipping or overlap found",
+  "lesson_sections": "17 lessons, each A through O"
+}

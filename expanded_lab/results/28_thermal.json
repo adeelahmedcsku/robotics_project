@@ -1,0 +1,164 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "loss_power": 5.0,
+      "thermal_resistance": 2.0,
+      "thermal_capacity": 100.0,
+      "duration": 300.0
+    },
+    "metrics": {
+      "final_temperature_C": 32.7686983985157,
+      "steady_temperature_C": 35.0,
+      "time_constant_s": 200.0,
+      "screening_margin_C": 37.2313016014843,
+      "threshold_crossing_s": -1.0
+    },
+    "derivation": [
+      "Assume loss power 5 W, Rth=2 K/W and Cth=100 J/K.",
+      "The thermal time constant is 200.000000 s.",
+      "After 300 s, temperature rise is 7.768698 K above 25 C ambient.",
+      "Predicted final temperature is 32.768698 C and steady temperature is 35.000000 C.",
+      "The 70 C teaching threshold crossing time is -1.000000 s; -1 means no crossing in the ideal constant-loss model."
+    ],
+    "notes": [
+      "The 70 C threshold is an exercise parameter, not a motor or material rating.",
+      "Actual winding, housing, drive and gearbox temperatures have different dynamics and measurement locations."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "loss_power": 10.0,
+      "thermal_resistance": 2.0,
+      "thermal_capacity": 100.0,
+      "duration": 300.0
+    },
+    "metrics": {
+      "final_temperature_C": 40.537396797031406,
+      "steady_temperature_C": 45.0,
+      "time_constant_s": 200.0,
+      "screening_margin_C": 29.462603202968594,
+      "threshold_crossing_s": -1.0
+    },
+    "derivation": [
+      "Assume loss power 10 W, Rth=2 K/W and Cth=100 J/K.",
+      "The thermal time constant is 200.000000 s.",
+      "After 300 s, temperature rise is 15.537397 K above 25 C ambient.",
+      "Predicted final temperature is 40.537397 C and steady temperature is 45.000000 C.",
+      "The 70 C teaching threshold crossing time is -1.000000 s; -1 means no crossing in the ideal constant-loss model."
+    ],
+    "notes": [
+      "The 70 C threshold is an exercise parameter, not a motor or material rating.",
+      "Actual winding, housing, drive and gearbox temperatures have different dynamics and measurement locations."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "loss_power": 15.0,
+      "thermal_resistance": 2.0,
+      "thermal_capacity": 100.0,
+      "duration": 300.0
+    },
+    "metrics": {
+      "final_temperature_C": 48.3060951955471,
+      "steady_temperature_C": 55.0,
+      "time_constant_s": 200.0,
+      "screening_margin_C": 21.6939048044529,
+      "threshold_crossing_s": -1.0
+    },
+    "derivation": [
+      "Assume loss power 15 W, Rth=2 K/W and Cth=100 J/K.",
+      "The thermal time constant is 200.000000 s.",
+      "After 300 s, temperature rise is 23.306095 K above 25 C ambient.",
+      "Predicted final temperature is 48.306095 C and steady temperature is 55.000000 C.",
+      "The 70 C teaching threshold crossing time is -1.000000 s; -1 means no crossing in the ideal constant-loss model."
+    ],
+    "notes": [
+      "The 70 C threshold is an exercise parameter, not a motor or material rating.",
+      "Actual winding, housing, drive and gearbox temperatures have different dynamics and measurement locations."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "loss_power": 20.0,
+      "thermal_resistance": 2.0,
+      "thermal_capacity": 100.0,
+      "duration": 300.0
+    },
+    "metrics": {
+      "final_temperature_C": 56.07479359406281,
+      "steady_temperature_C": 65.0,
+      "time_constant_s": 200.0,
+      "screening_margin_C": 13.925206405937189,
+      "threshold_crossing_s": -1.0
+    },
+    "derivation": [
+      "Assume loss power 20 W, Rth=2 K/W and Cth=100 J/K.",
+      "The thermal time constant is 200.000000 s.",
+      "After 300 s, temperature rise is 31.074794 K above 25 C ambient.",
+      "Predicted final temperature is 56.074794 C and steady temperature is 65.000000 C.",
+      "The 70 C teaching threshold crossing time is -1.000000 s; -1 means no crossing in the ideal constant-loss model."
+    ],
+    "notes": [
+      "The 70 C threshold is an exercise parameter, not a motor or material rating.",
+      "Actual winding, housing, drive and gearbox temperatures have different dynamics and measurement locations."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "loss_power": 30.0,
+      "thermal_resistance": 2.0,
+      "thermal_capacity": 100.0,
+      "duration": 300.0
+    },
+    "metrics": {
+      "final_temperature_C": 71.6121903910942,
+      "steady_temperature_C": 85.0,
+      "time_constant_s": 200.0,
+      "screening_margin_C": -1.6121903910942024,
+      "threshold_crossing_s": 277.25887222397813
+    },
+    "derivation": [
+      "Assume loss power 30 W, Rth=2 K/W and Cth=100 J/K.",
+      "The thermal time constant is 200.000000 s.",
+      "After 300 s, temperature rise is 46.612190 K above 25 C ambient.",
+      "Predicted final temperature is 71.612190 C and steady temperature is 85.000000 C.",
+      "The 70 C teaching threshold crossing time is 277.258872 s; -1 means no crossing in the ideal constant-loss model."
+    ],
+    "notes": [
+      "The 70 C threshold is an exercise parameter, not a motor or material rating.",
+      "Actual winding, housing, drive and gearbox temperatures have different dynamics and measurement locations."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "loss_power": 40.0,
+      "thermal_resistance": 2.0,
+      "thermal_capacity": 100.0,
+      "duration": 300.0
+    },
+    "metrics": {
+      "final_temperature_C": 87.14958718812562,
+      "steady_temperature_C": 105.0,
+      "time_constant_s": 200.0,
+      "screening_margin_C": -17.149587188125622,
+      "threshold_crossing_s": 165.33571463689358
+    },
+    "derivation": [
+      "Assume loss power 40 W, Rth=2 K/W and Cth=100 J/K.",
+      "The thermal time constant is 200.000000 s.",
+      "After 300 s, temperature rise is 62.149587 K above 25 C ambient.",
+      "Predicted final temperature is 87.149587 C and steady temperature is 105.000000 C.",
+      "The 70 C teaching threshold crossing time is 165.335715 s; -1 means no crossing in the ideal constant-loss model."
+    ],
+    "notes": [
+      "The 70 C threshold is an exercise parameter, not a motor or material rating.",
+      "Actual winding, housing, drive and gearbox temperatures have different dynamics and measurement locations."
+    ]
+  }
+]

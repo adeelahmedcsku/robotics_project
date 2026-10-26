@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "stance_slip": 0.0
+    },
+    "metrics": {
+      "distance_m": 1.998000000000001,
+      "velocity_rmse_m_s": 0.01414213562373095,
+      "stance_slip_rms_m_s": 0.0,
+      "all_phase_foot_speed_rms_m_s": 0.14661009534272426,
+      "positive_mechanical_work_J": 119.88251162078117,
+      "stance_fraction": 0.602
+    },
+    "derivation": [
+      "Create a ten-second synthetic trajectory commanded at 0.2 m/s.",
+      "Loaded-stance foot speed is 0 m/s; swing motion is excluded from the slip metric.",
+      "Distance is 1.998000 m and velocity RMSE is 0.014142 m/s.",
+      "Stance-only slip RMS is 0.000000 m/s while all-phase RMS is 0.146610 m/s.",
+      "Positive mechanical work is 119.882512 J."
+    ],
+    "notes": [
+      "These traces are synthetic metric fixtures, not walking results from the Asimov model.",
+      "Mechanical work is not battery energy; physical electrical measurements require voltage/current timing and regeneration accounting."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "stance_slip": 0.002
+    },
+    "metrics": {
+      "distance_m": 1.998000000000001,
+      "velocity_rmse_m_s": 0.01414213562373095,
+      "stance_slip_rms_m_s": 0.002,
+      "all_phase_foot_speed_rms_m_s": 0.14661830737122394,
+      "positive_mechanical_work_J": 119.88251162078117,
+      "stance_fraction": 0.602
+    },
+    "derivation": [
+      "Create a ten-second synthetic trajectory commanded at 0.2 m/s.",
+      "Loaded-stance foot speed is 0.002 m/s; swing motion is excluded from the slip metric.",
+      "Distance is 1.998000 m and velocity RMSE is 0.014142 m/s.",
+      "Stance-only slip RMS is 0.002000 m/s while all-phase RMS is 0.146618 m/s.",
+      "Positive mechanical work is 119.882512 J."
+    ],
+    "notes": [
+      "These traces are synthetic metric fixtures, not walking results from the Asimov model.",
+      "Mechanical work is not battery energy; physical electrical measurements require voltage/current timing and regeneration accounting."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "stance_slip": 0.005
+    },
+    "metrics": {
+      "distance_m": 1.998000000000001,
+      "velocity_rmse_m_s": 0.01414213562373095,
+      "stance_slip_rms_m_s": 0.005000000000000001,
+      "all_phase_foot_speed_rms_m_s": 0.14666141297697463,
+      "positive_mechanical_work_J": 119.88251162078117,
+      "stance_fraction": 0.602
+    },
+    "derivation": [
+      "Create a ten-second synthetic trajectory commanded at 0.2 m/s.",
+      "Loaded-stance foot speed is 0.005 m/s; swing motion is excluded from the slip metric.",
+      "Distance is 1.998000 m and velocity RMSE is 0.014142 m/s.",
+      "Stance-only slip RMS is 0.005000 m/s while all-phase RMS is 0.146661 m/s.",
+      "Positive mechanical work is 119.882512 J."
+    ],
+    "notes": [
+      "These traces are synthetic metric fixtures, not walking results from the Asimov model.",
+      "Mechanical work is not battery energy; physical electrical measurements require voltage/current timing and regeneration accounting."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "stance_slip": 0.01
+    },
+    "metrics": {
+      "distance_m": 1.998000000000001,
+      "velocity_rmse_m_s": 0.01414213562373095,
+      "stance_slip_rms_m_s": 0.010000000000000002,
+      "all_phase_foot_speed_rms_m_s": 0.14681525825472877,
+      "positive_mechanical_work_J": 119.88251162078117,
+      "stance_fraction": 0.602
+    },
+    "derivation": [
+      "Create a ten-second synthetic trajectory commanded at 0.2 m/s.",
+      "Loaded-stance foot speed is 0.01 m/s; swing motion is excluded from the slip metric.",
+      "Distance is 1.998000 m and velocity RMSE is 0.014142 m/s.",
+      "Stance-only slip RMS is 0.010000 m/s while all-phase RMS is 0.146815 m/s.",
+      "Positive mechanical work is 119.882512 J."
+    ],
+    "notes": [
+      "These traces are synthetic metric fixtures, not walking results from the Asimov model.",
+      "Mechanical work is not battery energy; physical electrical measurements require voltage/current timing and regeneration accounting."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "stance_slip": 0.03
+    },
+    "metrics": {
+      "distance_m": 1.998000000000001,
+      "velocity_rmse_m_s": 0.01414213562373095,
+      "stance_slip_rms_m_s": 0.03,
+      "all_phase_foot_speed_rms_m_s": 0.14844635413644452,
+      "positive_mechanical_work_J": 119.88251162078117,
+      "stance_fraction": 0.602
+    },
+    "derivation": [
+      "Create a ten-second synthetic trajectory commanded at 0.2 m/s.",
+      "Loaded-stance foot speed is 0.03 m/s; swing motion is excluded from the slip metric.",
+      "Distance is 1.998000 m and velocity RMSE is 0.014142 m/s.",
+      "Stance-only slip RMS is 0.030000 m/s while all-phase RMS is 0.148446 m/s.",
+      "Positive mechanical work is 119.882512 J."
+    ],
+    "notes": [
+      "These traces are synthetic metric fixtures, not walking results from the Asimov model.",
+      "Mechanical work is not battery energy; physical electrical measurements require voltage/current timing and regeneration accounting."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "stance_slip": 0.1
+    },
+    "metrics": {
+      "distance_m": 1.998000000000001,
+      "velocity_rmse_m_s": 0.01414213562373095,
+      "stance_slip_rms_m_s": 0.1,
+      "all_phase_foot_speed_rms_m_s": 0.16587501335765645,
+      "positive_mechanical_work_J": 119.88251162078117,
+      "stance_fraction": 0.602
+    },
+    "derivation": [
+      "Create a ten-second synthetic trajectory commanded at 0.2 m/s.",
+      "Loaded-stance foot speed is 0.1 m/s; swing motion is excluded from the slip metric.",
+      "Distance is 1.998000 m and velocity RMSE is 0.014142 m/s.",
+      "Stance-only slip RMS is 0.100000 m/s while all-phase RMS is 0.165875 m/s.",
+      "Positive mechanical work is 119.882512 J."
+    ],
+    "notes": [
+      "These traces are synthetic metric fixtures, not walking results from the Asimov model.",
+      "Mechanical work is not battery energy; physical electrical measurements require voltage/current timing and regeneration accounting."
+    ]
+  }
+]

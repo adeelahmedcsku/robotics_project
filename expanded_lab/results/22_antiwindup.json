@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "torque_cap": 0.1
+    },
+    "metrics": {
+      "plain_final_error_rad": 0.12410345041780897,
+      "protected_final_error_rad": 0.0014655110002198784,
+      "plain_integral": -0.036094859498894905,
+      "protected_integral": -0.0016958815610209291,
+      "plain_saturation_fraction": 0.98,
+      "protected_saturation_fraction": 0.77
+    },
+    "derivation": [
+      "Use symmetric actuator limit +/-0.1 Nm.",
+      "Request 0.5 rad for one second, then return the target to zero.",
+      "Without anti-windup, saturation fraction is 0.980000 and final integral is -0.036095.",
+      "Conditional integration gives saturation fraction 0.770000 and integral -0.001696.",
+      "Final absolute errors are 0.124103 and 0.001466 rad respectively."
+    ],
+    "notes": [
+      "Anti-windup improves consistency with actuator authority but does not guarantee every transient metric improves.",
+      "Integral state must also be handled explicitly when changing modes, resetting faults or switching controllers."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "torque_cap": 0.25
+    },
+    "metrics": {
+      "plain_final_error_rad": 0.29555288920282846,
+      "protected_final_error_rad": 0.0001112604161793736,
+      "plain_integral": -0.014745043144009578,
+      "protected_integral": 0.00015195505569646215,
+      "plain_saturation_fraction": 0.989,
+      "protected_saturation_fraction": 0.669
+    },
+    "derivation": [
+      "Use symmetric actuator limit +/-0.25 Nm.",
+      "Request 0.5 rad for one second, then return the target to zero.",
+      "Without anti-windup, saturation fraction is 0.989000 and final integral is -0.014745.",
+      "Conditional integration gives saturation fraction 0.669000 and integral 0.000152.",
+      "Final absolute errors are 0.295553 and 0.000111 rad respectively."
+    ],
+    "notes": [
+      "Anti-windup improves consistency with actuator authority but does not guarantee every transient metric improves.",
+      "Integral state must also be handled explicitly when changing modes, resetting faults or switching controllers."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "torque_cap": 0.5
+    },
+    "metrics": {
+      "plain_final_error_rad": 0.026494891718506074,
+      "protected_final_error_rad": 0.0005230867398673801,
+      "plain_integral": -0.02626605179077281,
+      "protected_integral": -0.000523653754273414,
+      "plain_saturation_fraction": 0.645,
+      "protected_saturation_fraction": 0.345
+    },
+    "derivation": [
+      "Use symmetric actuator limit +/-0.5 Nm.",
+      "Request 0.5 rad for one second, then return the target to zero.",
+      "Without anti-windup, saturation fraction is 0.645000 and final integral is -0.026266.",
+      "Conditional integration gives saturation fraction 0.345000 and integral -0.000524.",
+      "Final absolute errors are 0.026495 and 0.000523 rad respectively."
+    ],
+    "notes": [
+      "Anti-windup improves consistency with actuator authority but does not guarantee every transient metric improves.",
+      "Integral state must also be handled explicitly when changing modes, resetting faults or switching controllers."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "torque_cap": 1.0
+    },
+    "metrics": {
+      "plain_final_error_rad": 0.00841962736624548,
+      "protected_final_error_rad": 0.0013278477966387318,
+      "plain_integral": -0.008416033794868136,
+      "protected_integral": -0.0013274793116689943,
+      "plain_saturation_fraction": 0.177,
+      "protected_saturation_fraction": 0.147
+    },
+    "derivation": [
+      "Use symmetric actuator limit +/-1 Nm.",
+      "Request 0.5 rad for one second, then return the target to zero.",
+      "Without anti-windup, saturation fraction is 0.177000 and final integral is -0.008416.",
+      "Conditional integration gives saturation fraction 0.147000 and integral -0.001327.",
+      "Final absolute errors are 0.008420 and 0.001328 rad respectively."
+    ],
+    "notes": [
+      "Anti-windup improves consistency with actuator authority but does not guarantee every transient metric improves.",
+      "Integral state must also be handled explicitly when changing modes, resetting faults or switching controllers."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "torque_cap": 2.0
+    },
+    "metrics": {
+      "plain_final_error_rad": 0.0053097242914117776,
+      "protected_final_error_rad": 0.002087452929919145,
+      "plain_integral": -0.005307247041990958,
+      "protected_integral": -0.0020865152097872134,
+      "plain_saturation_fraction": 0.084,
+      "protected_saturation_fraction": 0.073
+    },
+    "derivation": [
+      "Use symmetric actuator limit +/-2 Nm.",
+      "Request 0.5 rad for one second, then return the target to zero.",
+      "Without anti-windup, saturation fraction is 0.084000 and final integral is -0.005307.",
+      "Conditional integration gives saturation fraction 0.073000 and integral -0.002087.",
+      "Final absolute errors are 0.005310 and 0.002087 rad respectively."
+    ],
+    "notes": [
+      "Anti-windup improves consistency with actuator authority but does not guarantee every transient metric improves.",
+      "Integral state must also be handled explicitly when changing modes, resetting faults or switching controllers."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "torque_cap": 5.0
+    },
+    "metrics": {
+      "plain_final_error_rad": 0.003878630463125431,
+      "protected_final_error_rad": 0.0035029312744815446,
+      "plain_integral": -0.0038767439051966657,
+      "protected_integral": -0.0035012283254477715,
+      "plain_saturation_fraction": 0.0105,
+      "protected_saturation_fraction": 0.0095
+    },
+    "derivation": [
+      "Use symmetric actuator limit +/-5 Nm.",
+      "Request 0.5 rad for one second, then return the target to zero.",
+      "Without anti-windup, saturation fraction is 0.010500 and final integral is -0.003877.",
+      "Conditional integration gives saturation fraction 0.009500 and integral -0.003501.",
+      "Final absolute errors are 0.003879 and 0.003503 rad respectively."
+    ],
+    "notes": [
+      "Anti-windup improves consistency with actuator authority but does not guarantee every transient metric improves.",
+      "Integral state must also be handled explicitly when changing modes, resetting faults or switching controllers."
+    ]
+  }
+]

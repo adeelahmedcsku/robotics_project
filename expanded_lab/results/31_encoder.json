@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "counts": 256
+    },
+    "metrics": {
+      "quantization_step_rad": 0.02454369260617026,
+      "position_rmse_rad": 0.010189159841393057,
+      "velocity_rmse_rad_s": 2.043986901022146,
+      "raw_wrap_jump_rad": 6.283185307179586
+    },
+    "derivation": [
+      "Encoder resolution is 256 counts per revolution.",
+      "One count represents 0.02454369 rad.",
+      "Generate a trajectory crossing the +/-pi wrapping boundary and quantize it.",
+      "After unwrap and initial alignment, position RMSE is 0.01018916 rad.",
+      "Differentiating at 2 ms gives velocity RMSE 2.043987 rad/s."
+    ],
+    "notes": [
+      "The initial alignment removes an arbitrary integer-turn offset but is not an absolute-zero calibration.",
+      "Higher numerical differentiation rate does not create additional encoder position information."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "counts": 512
+    },
+    "metrics": {
+      "quantization_step_rad": 0.01227184630308513,
+      "position_rmse_rad": 0.005957050501644114,
+      "velocity_rmse_rad_s": 1.2860064460417224,
+      "raw_wrap_jump_rad": 6.283185307179586
+    },
+    "derivation": [
+      "Encoder resolution is 512 counts per revolution.",
+      "One count represents 0.01227185 rad.",
+      "Generate a trajectory crossing the +/-pi wrapping boundary and quantize it.",
+      "After unwrap and initial alignment, position RMSE is 0.00595705 rad.",
+      "Differentiating at 2 ms gives velocity RMSE 1.286006 rad/s."
+    ],
+    "notes": [
+      "The initial alignment removes an arbitrary integer-turn offset but is not an absolute-zero calibration.",
+      "Higher numerical differentiation rate does not create additional encoder position information."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "counts": 1024
+    },
+    "metrics": {
+      "quantization_step_rad": 0.006135923151542565,
+      "position_rmse_rad": 0.0021522308833273438,
+      "velocity_rmse_rad_s": 0.6639525300065651,
+      "raw_wrap_jump_rad": 6.283185307179586
+    },
+    "derivation": [
+      "Encoder resolution is 1024 counts per revolution.",
+      "One count represents 0.00613592 rad.",
+      "Generate a trajectory crossing the +/-pi wrapping boundary and quantize it.",
+      "After unwrap and initial alignment, position RMSE is 0.00215223 rad.",
+      "Differentiating at 2 ms gives velocity RMSE 0.663953 rad/s."
+    ],
+    "notes": [
+      "The initial alignment removes an arbitrary integer-turn offset but is not an absolute-zero calibration.",
+      "Higher numerical differentiation rate does not create additional encoder position information."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "counts": 4096
+    },
+    "metrics": {
+      "quantization_step_rad": 0.0015339807878856412,
+      "position_rmse_rad": 0.0004760381005096022,
+      "velocity_rmse_rad_s": 0.15363803021673464,
+      "raw_wrap_jump_rad": 6.280117345603815
+    },
+    "derivation": [
+      "Encoder resolution is 4096 counts per revolution.",
+      "One count represents 0.00153398 rad.",
+      "Generate a trajectory crossing the +/-pi wrapping boundary and quantize it.",
+      "After unwrap and initial alignment, position RMSE is 0.00047604 rad.",
+      "Differentiating at 2 ms gives velocity RMSE 0.153638 rad/s."
+    ],
+    "notes": [
+      "The initial alignment removes an arbitrary integer-turn offset but is not an absolute-zero calibration.",
+      "Higher numerical differentiation rate does not create additional encoder position information."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "counts": 16384
+    },
+    "metrics": {
+      "quantization_step_rad": 0.0003834951969714103,
+      "position_rmse_rad": 0.0002066527625884691,
+      "velocity_rmse_rad_s": 0.039057319601742066,
+      "raw_wrap_jump_rad": 6.280500840800786
+    },
+    "derivation": [
+      "Encoder resolution is 16384 counts per revolution.",
+      "One count represents 0.00038350 rad.",
+      "Generate a trajectory crossing the +/-pi wrapping boundary and quantize it.",
+      "After unwrap and initial alignment, position RMSE is 0.00020665 rad.",
+      "Differentiating at 2 ms gives velocity RMSE 0.039057 rad/s."
+    ],
+    "notes": [
+      "The initial alignment removes an arbitrary integer-turn offset but is not an absolute-zero calibration.",
+      "Higher numerical differentiation rate does not create additional encoder position information."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "counts": 65536
+    },
+    "metrics": {
+      "quantization_step_rad": 9.587379924285257e-05,
+      "position_rmse_rad": 3.23674328093894e-05,
+      "velocity_rmse_rad_s": 0.009665490219275805,
+      "raw_wrap_jump_rad": 6.280692588399273
+    },
+    "derivation": [
+      "Encoder resolution is 65536 counts per revolution.",
+      "One count represents 0.00009587 rad.",
+      "Generate a trajectory crossing the +/-pi wrapping boundary and quantize it.",
+      "After unwrap and initial alignment, position RMSE is 0.00003237 rad.",
+      "Differentiating at 2 ms gives velocity RMSE 0.009665 rad/s."
+    ],
+    "notes": [
+      "The initial alignment removes an arbitrary integer-turn offset but is not an absolute-zero calibration.",
+      "Higher numerical differentiation rate does not create additional encoder position information."
+    ]
+  }
+]

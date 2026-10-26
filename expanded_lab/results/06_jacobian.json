@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "epsilon": 0.1
+    },
+    "metrics": {
+      "derivative_error": 0.0008523161403982193,
+      "velocity_x_m_s": -0.017592954402486306,
+      "velocity_y_m_s": 0.008525100037574427,
+      "jacobian_condition": 6.621561136290436
+    },
+    "derivation": [
+      "At joint pose [0.4, -0.7] rad, endpoint is [0.4673855960259867, 0.05772146136032724] m.",
+      "Use symmetric perturbations of 1.000e-01 rad for each joint.",
+      "The analytic first column is [-0.05772146136032724, 0.4673855960259867] m/rad.",
+      "The estimated first column is [-0.05762530701449331, 0.46660700942788436] m/rad.",
+      "Full matrix residual norm is 8.523e-04; predicted endpoint velocity is [-0.017592954402486306, 0.008525100037574427] m/s."
+    ],
+    "notes": [
+      "Reducing epsilon eventually makes floating-point cancellation important.",
+      "Compare columns in the same frame and at the same configuration; otherwise the residual is not a derivative test."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "epsilon": 0.01
+    },
+    "metrics": {
+      "derivative_error": 8.527381462802633e-06,
+      "velocity_x_m_s": -0.017592954402486306,
+      "velocity_y_m_s": 0.008525100037574427,
+      "jacobian_condition": 6.621561136290436
+    },
+    "derivation": [
+      "At joint pose [0.4, -0.7] rad, endpoint is [0.4673855960259867, 0.05772146136032724] m.",
+      "Use symmetric perturbations of 1.000e-02 rad for each joint.",
+      "The analytic first column is [-0.05772146136032724, 0.4673855960259867] m/rad.",
+      "The estimated first column is [-0.05772049934078538, 0.46737780630500236] m/rad.",
+      "Full matrix residual norm is 8.527e-06; predicted endpoint velocity is [-0.017592954402486306, 0.008525100037574427] m/s."
+    ],
+    "notes": [
+      "Reducing epsilon eventually makes floating-point cancellation important.",
+      "Compare columns in the same frame and at the same configuration; otherwise the residual is not a derivative test."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "epsilon": 0.001
+    },
+    "metrics": {
+      "derivative_error": 8.527423817541084e-08,
+      "velocity_x_m_s": -0.017592954402486306,
+      "velocity_y_m_s": 0.008525100037574427,
+      "jacobian_condition": 6.621561136290436
+    },
+    "derivation": [
+      "At joint pose [0.4, -0.7] rad, endpoint is [0.4673855960259867, 0.05772146136032724] m.",
+      "Use symmetric perturbations of 1.000e-03 rad for each joint.",
+      "The analytic first column is [-0.05772146136032724, 0.4673855960259867] m/rad.",
+      "The estimated first column is [-0.05772145174004484, 0.4673855181283916] m/rad.",
+      "Full matrix residual norm is 8.527e-08; predicted endpoint velocity is [-0.017592954402486306, 0.008525100037574427] m/s."
+    ],
+    "notes": [
+      "Reducing epsilon eventually makes floating-point cancellation important.",
+      "Compare columns in the same frame and at the same configuration; otherwise the residual is not a derivative test."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "epsilon": 1e-05
+    },
+    "metrics": {
+      "derivative_error": 1.0136601807720199e-11,
+      "velocity_x_m_s": -0.017592954402486306,
+      "velocity_y_m_s": 0.008525100037574427,
+      "jacobian_condition": 6.621561136290436
+    },
+    "derivation": [
+      "At joint pose [0.4, -0.7] rad, endpoint is [0.4673855960259867, 0.05772146136032724] m.",
+      "Use symmetric perturbations of 1.000e-05 rad for each joint.",
+      "The analytic first column is [-0.05772146136032724, 0.4673855960259867] m/rad.",
+      "The estimated first column is [-0.05772146136062694, 0.4673855960181383] m/rad.",
+      "Full matrix residual norm is 1.014e-11; predicted endpoint velocity is [-0.017592954402486306, 0.008525100037574427] m/s."
+    ],
+    "notes": [
+      "Reducing epsilon eventually makes floating-point cancellation important.",
+      "Compare columns in the same frame and at the same configuration; otherwise the residual is not a derivative test."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "epsilon": 1e-07
+    },
+    "metrics": {
+      "derivative_error": 4.885074031135465e-10,
+      "velocity_x_m_s": -0.017592954402486306,
+      "velocity_y_m_s": 0.008525100037574427,
+      "jacobian_condition": 6.621561136290436
+    },
+    "derivation": [
+      "At joint pose [0.4, -0.7] rad, endpoint is [0.4673855960259867, 0.05772146136032724] m.",
+      "Use symmetric perturbations of 1.000e-07 rad for each joint.",
+      "The analytic first column is [-0.05772146136032724, 0.4673855960259867] m/rad.",
+      "The estimated first column is [-0.05772146177696058, 0.4673855960590778] m/rad.",
+      "Full matrix residual norm is 4.885e-10; predicted endpoint velocity is [-0.017592954402486306, 0.008525100037574427] m/s."
+    ],
+    "notes": [
+      "Reducing epsilon eventually makes floating-point cancellation important.",
+      "Compare columns in the same frame and at the same configuration; otherwise the residual is not a derivative test."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "epsilon": 1e-09
+    },
+    "metrics": {
+      "derivative_error": 2.8168134104182214e-08,
+      "velocity_x_m_s": -0.017592954402486306,
+      "velocity_y_m_s": 0.008525100037574427,
+      "jacobian_condition": 6.621561136290436
+    },
+    "derivation": [
+      "At joint pose [0.4, -0.7] rad, endpoint is [0.4673855960259867, 0.05772146136032724] m.",
+      "Use symmetric perturbations of 1.000e-09 rad for each joint.",
+      "The analytic first column is [-0.05772146136032724, 0.4673855960259867] m/rad.",
+      "The estimated first column is [-0.05772143873983281, 0.46738560244286015] m/rad.",
+      "Full matrix residual norm is 2.817e-08; predicted endpoint velocity is [-0.017592954402486306, 0.008525100037574427] m/s."
+    ],
+    "notes": [
+      "Reducing epsilon eventually makes floating-point cancellation important.",
+      "Compare columns in the same frame and at the same configuration; otherwise the residual is not a derivative test."
+    ]
+  }
+]

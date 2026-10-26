@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "noise_std": 0.5
+    },
+    "metrics": {
+      "false_positive_fraction": 0.0,
+      "false_negative_fraction": 0.0,
+      "transition_count": 2.0,
+      "accuracy": 1.0,
+      "signal_noise_std_N": 0.5
+    },
+    "derivation": [
+      "The labeled contact interval is one to three seconds with mean load 30 N.",
+      "Add Gaussian noise with sigma=0.5 N.",
+      "Enter contact at 15 N and leave at 5 N using a stateful threshold.",
+      "False-positive fraction is 0.000000; false-negative fraction is 0.000000.",
+      "The detector made 2 state transitions instead of the ideal two."
+    ],
+    "notes": [
+      "Thresholds are teaching values; a real detector must be calibrated for sensor range, preload, bias and contact dynamics.",
+      "A stable contact flag does not prove no slip or a known contact wrench."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "noise_std": 2.0
+    },
+    "metrics": {
+      "false_positive_fraction": 0.0,
+      "false_negative_fraction": 0.0,
+      "transition_count": 2.0,
+      "accuracy": 1.0,
+      "signal_noise_std_N": 2.0
+    },
+    "derivation": [
+      "The labeled contact interval is one to three seconds with mean load 30 N.",
+      "Add Gaussian noise with sigma=2 N.",
+      "Enter contact at 15 N and leave at 5 N using a stateful threshold.",
+      "False-positive fraction is 0.000000; false-negative fraction is 0.000000.",
+      "The detector made 2 state transitions instead of the ideal two."
+    ],
+    "notes": [
+      "Thresholds are teaching values; a real detector must be calibrated for sensor range, preload, bias and contact dynamics.",
+      "A stable contact flag does not prove no slip or a known contact wrench."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "noise_std": 5.0
+    },
+    "metrics": {
+      "false_positive_fraction": 0.0,
+      "false_negative_fraction": 0.0,
+      "transition_count": 2.0,
+      "accuracy": 1.0,
+      "signal_noise_std_N": 5.0
+    },
+    "derivation": [
+      "The labeled contact interval is one to three seconds with mean load 30 N.",
+      "Add Gaussian noise with sigma=5 N.",
+      "Enter contact at 15 N and leave at 5 N using a stateful threshold.",
+      "False-positive fraction is 0.000000; false-negative fraction is 0.000000.",
+      "The detector made 2 state transitions instead of the ideal two."
+    ],
+    "notes": [
+      "Thresholds are teaching values; a real detector must be calibrated for sensor range, preload, bias and contact dynamics.",
+      "A stable contact flag does not prove no slip or a known contact wrench."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "noise_std": 8.0
+    },
+    "metrics": {
+      "false_positive_fraction": 0.04,
+      "false_negative_fraction": 0.005,
+      "transition_count": 16.0,
+      "accuracy": 0.9775,
+      "signal_noise_std_N": 8.0
+    },
+    "derivation": [
+      "The labeled contact interval is one to three seconds with mean load 30 N.",
+      "Add Gaussian noise with sigma=8 N.",
+      "Enter contact at 15 N and leave at 5 N using a stateful threshold.",
+      "False-positive fraction is 0.040000; false-negative fraction is 0.005000.",
+      "The detector made 16 state transitions instead of the ideal two."
+    ],
+    "notes": [
+      "Thresholds are teaching values; a real detector must be calibrated for sensor range, preload, bias and contact dynamics.",
+      "A stable contact flag does not prove no slip or a known contact wrench."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "noise_std": 12.0
+    },
+    "metrics": {
+      "false_positive_fraction": 0.115,
+      "false_negative_fraction": 0.03,
+      "transition_count": 46.0,
+      "accuracy": 0.9275,
+      "signal_noise_std_N": 12.0
+    },
+    "derivation": [
+      "The labeled contact interval is one to three seconds with mean load 30 N.",
+      "Add Gaussian noise with sigma=12 N.",
+      "Enter contact at 15 N and leave at 5 N using a stateful threshold.",
+      "False-positive fraction is 0.115000; false-negative fraction is 0.030000.",
+      "The detector made 46 state transitions instead of the ideal two."
+    ],
+    "notes": [
+      "Thresholds are teaching values; a real detector must be calibrated for sensor range, preload, bias and contact dynamics.",
+      "A stable contact flag does not prove no slip or a known contact wrench."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "noise_std": 20.0
+    },
+    "metrics": {
+      "false_positive_fraction": 0.26,
+      "false_negative_fraction": 0.11,
+      "transition_count": 92.0,
+      "accuracy": 0.815,
+      "signal_noise_std_N": 20.0
+    },
+    "derivation": [
+      "The labeled contact interval is one to three seconds with mean load 30 N.",
+      "Add Gaussian noise with sigma=20 N.",
+      "Enter contact at 15 N and leave at 5 N using a stateful threshold.",
+      "False-positive fraction is 0.260000; false-negative fraction is 0.110000.",
+      "The detector made 92 state transitions instead of the ideal two."
+    ],
+    "notes": [
+      "Thresholds are teaching values; a real detector must be calibrated for sensor range, preload, bias and contact dynamics.",
+      "A stable contact flag does not prove no slip or a known contact wrench."
+    ]
+  }
+]

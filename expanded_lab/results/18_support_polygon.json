@@ -1,0 +1,158 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "left_load": 0.0,
+      "mass": 10.0,
+      "com_x": 0.02
+    },
+    "metrics": {
+      "cop_x_m": 0.10000000000000002,
+      "com_margin_m": 0.12000000000000001,
+      "left_force_N": 0.0,
+      "right_force_N": 98.10000000000001,
+      "unbalanced_pitch_moment_Nm": -7.8480000000000025
+    },
+    "derivation": [
+      "Total vertical load is 98.100000 N.",
+      "Left fraction 0 gives forces [0.0, 98.10000000000001] N at x=-0.1,+0.1 m.",
+      "The weighted contact location is COP x=0.100000 m.",
+      "COM x=0.02 m has signed margin 0.120000 m inside the illustrative outer edges.",
+      "The gravity/COP moment difference is -7.848000 Nm."
+    ],
+    "notes": [
+      "One contact resultant has zero load; do not treat both point contacts as equally active support.",
+      "The .14 m outer edges are teaching geometry; real support requires measured foot patches and contact state."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "left_load": 0.1,
+      "mass": 10.0,
+      "com_x": 0.02
+    },
+    "metrics": {
+      "cop_x_m": 0.08,
+      "com_margin_m": 0.12000000000000001,
+      "left_force_N": 9.810000000000002,
+      "right_force_N": 88.29,
+      "unbalanced_pitch_moment_Nm": -5.886
+    },
+    "derivation": [
+      "Total vertical load is 98.100000 N.",
+      "Left fraction 0.1 gives forces [9.810000000000002, 88.29] N at x=-0.1,+0.1 m.",
+      "The weighted contact location is COP x=0.080000 m.",
+      "COM x=0.02 m has signed margin 0.120000 m inside the illustrative outer edges.",
+      "The gravity/COP moment difference is -5.886000 Nm."
+    ],
+    "notes": [
+      "Both contact resultants are compressive in this static illustration.",
+      "The .14 m outer edges are teaching geometry; real support requires measured foot patches and contact state."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "left_load": 0.25,
+      "mass": 10.0,
+      "com_x": 0.02
+    },
+    "metrics": {
+      "cop_x_m": 0.049999999999999996,
+      "com_margin_m": 0.12000000000000001,
+      "left_force_N": 24.525000000000002,
+      "right_force_N": 73.575,
+      "unbalanced_pitch_moment_Nm": -2.9429999999999996
+    },
+    "derivation": [
+      "Total vertical load is 98.100000 N.",
+      "Left fraction 0.25 gives forces [24.525000000000002, 73.575] N at x=-0.1,+0.1 m.",
+      "The weighted contact location is COP x=0.050000 m.",
+      "COM x=0.02 m has signed margin 0.120000 m inside the illustrative outer edges.",
+      "The gravity/COP moment difference is -2.943000 Nm."
+    ],
+    "notes": [
+      "Both contact resultants are compressive in this static illustration.",
+      "The .14 m outer edges are teaching geometry; real support requires measured foot patches and contact state."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "left_load": 0.5,
+      "mass": 10.0,
+      "com_x": 0.02
+    },
+    "metrics": {
+      "cop_x_m": 0.0,
+      "com_margin_m": 0.12000000000000001,
+      "left_force_N": 49.050000000000004,
+      "right_force_N": 49.050000000000004,
+      "unbalanced_pitch_moment_Nm": 1.9620000000000002
+    },
+    "derivation": [
+      "Total vertical load is 98.100000 N.",
+      "Left fraction 0.5 gives forces [49.050000000000004, 49.050000000000004] N at x=-0.1,+0.1 m.",
+      "The weighted contact location is COP x=0.000000 m.",
+      "COM x=0.02 m has signed margin 0.120000 m inside the illustrative outer edges.",
+      "The gravity/COP moment difference is 1.962000 Nm."
+    ],
+    "notes": [
+      "Both contact resultants are compressive in this static illustration.",
+      "The .14 m outer edges are teaching geometry; real support requires measured foot patches and contact state."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "left_load": 0.75,
+      "mass": 10.0,
+      "com_x": 0.02
+    },
+    "metrics": {
+      "cop_x_m": -0.049999999999999996,
+      "com_margin_m": 0.12000000000000001,
+      "left_force_N": 73.575,
+      "right_force_N": 24.525000000000002,
+      "unbalanced_pitch_moment_Nm": 6.867
+    },
+    "derivation": [
+      "Total vertical load is 98.100000 N.",
+      "Left fraction 0.75 gives forces [73.575, 24.525000000000002] N at x=-0.1,+0.1 m.",
+      "The weighted contact location is COP x=-0.050000 m.",
+      "COM x=0.02 m has signed margin 0.120000 m inside the illustrative outer edges.",
+      "The gravity/COP moment difference is 6.867000 Nm."
+    ],
+    "notes": [
+      "Both contact resultants are compressive in this static illustration.",
+      "The .14 m outer edges are teaching geometry; real support requires measured foot patches and contact state."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "left_load": 1.0,
+      "mass": 10.0,
+      "com_x": 0.02
+    },
+    "metrics": {
+      "cop_x_m": -0.10000000000000002,
+      "com_margin_m": 0.12000000000000001,
+      "left_force_N": 98.10000000000001,
+      "right_force_N": 0.0,
+      "unbalanced_pitch_moment_Nm": 11.772000000000004
+    },
+    "derivation": [
+      "Total vertical load is 98.100000 N.",
+      "Left fraction 1 gives forces [98.10000000000001, 0.0] N at x=-0.1,+0.1 m.",
+      "The weighted contact location is COP x=-0.100000 m.",
+      "COM x=0.02 m has signed margin 0.120000 m inside the illustrative outer edges.",
+      "The gravity/COP moment difference is 11.772000 Nm."
+    ],
+    "notes": [
+      "One contact resultant has zero load; do not treat both point contacts as equally active support.",
+      "The .14 m outer edges are teaching geometry; real support requires measured foot patches and contact state."
+    ]
+  }
+]

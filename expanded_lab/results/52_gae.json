@@ -1,0 +1,146 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "gae_lambda": 0.0
+    },
+    "metrics": {
+      "initial_advantage": 0.24549999999999994,
+      "final_advantage": 0.4,
+      "advantage_std": 0.17516380904741707,
+      "initial_value_target": 0.6455,
+      "mean_advantage": 0.2163
+    },
+    "derivation": [
+      "Use rewards [0.2, 0.1, -0.1, 0.3, 1.0] and value predictions [0.4, 0.45, 0.3, 0.5, 0.6, 0.0].",
+      "The last transition is truly terminal; gamma=0.99, lambda=0.",
+      "Backward TD residuals in chronological order are [np.float64(0.24549999999999994), np.float64(-0.05299999999999999), np.float64(0.09500000000000003), np.float64(0.3939999999999999), np.float64(0.4)].",
+      "The resulting advantage vector is [0.24549999999999994, -0.05299999999999999, 0.09500000000000003, 0.3939999999999999, 0.4].",
+      "Value targets A+V are [0.6455, 0.397, 0.395, 0.8939999999999999, 1.0]."
+    ],
+    "notes": [
+      "A time-limit truncation may retain a bootstrap value while still preventing recurrence into the next reset episode.",
+      "Correct masking needs separate termination and rollout-boundary semantics; one generic done flag can hide a bug."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "gae_lambda": 0.25
+    },
+    "metrics": {
+      "initial_advantage": 0.24567617823437493,
+      "final_advantage": 0.4,
+      "advantage_std": 0.1688405788487551,
+      "initial_value_target": 0.645676178234375,
+      "mean_advantage": 0.27128110189687493
+    },
+    "derivation": [
+      "Use rewards [0.2, 0.1, -0.1, 0.3, 1.0] and value predictions [0.4, 0.45, 0.3, 0.5, 0.6, 0.0].",
+      "The last transition is truly terminal; gamma=0.99, lambda=0.25.",
+      "Backward TD residuals in chronological order are [np.float64(0.24549999999999994), np.float64(-0.05299999999999999), np.float64(0.09500000000000003), np.float64(0.3939999999999999), np.float64(0.4)].",
+      "The resulting advantage vector is [0.24567617823437493, 0.0007118312500000099, 0.2170175, 0.4929999999999999, 0.4].",
+      "Value targets A+V are [0.645676178234375, 0.45071183125000003, 0.5170175, 0.9929999999999999, 1.0]."
+    ],
+    "notes": [
+      "A time-limit truncation may retain a bootstrap value while still preventing recurrence into the next reset episode.",
+      "Correct masking needs separate termination and rollout-boundary semantics; one generic done flag can hide a bug."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "gae_lambda": 0.5
+    },
+    "metrics": {
+      "initial_advantage": 0.31434450099999994,
+      "final_advantage": 0.4,
+      "advantage_std": 0.1462028926312303,
+      "initial_value_target": 0.714344501,
+      "mean_advantage": 0.36669286019999997
+    },
+    "derivation": [
+      "Use rewards [0.2, 0.1, -0.1, 0.3, 1.0] and value predictions [0.4, 0.45, 0.3, 0.5, 0.6, 0.0].",
+      "The last transition is truly terminal; gamma=0.99, lambda=0.5.",
+      "Backward TD residuals in chronological order are [np.float64(0.24549999999999994), np.float64(-0.05299999999999999), np.float64(0.09500000000000003), np.float64(0.3939999999999999), np.float64(0.4)].",
+      "The resulting advantage vector is [0.31434450099999994, 0.13907979999999998, 0.38803999999999994, 0.5919999999999999, 0.4].",
+      "Value targets A+V are [0.714344501, 0.5890797999999999, 0.68804, 1.0919999999999999, 1.0]."
+    ],
+    "notes": [
+      "A time-limit truncation may retain a bootstrap value while still preventing recurrence into the next reset episode.",
+      "Correct masking needs separate termination and rollout-boundary semantics; one generic done flag can hide a bug."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "gae_lambda": 0.75
+    },
+    "metrics": {
+      "initial_advantage": 0.5413789131718747,
+      "final_advantage": 0.4,
+      "advantage_std": 0.1151654314648532,
+      "initial_value_target": 0.9413789131718747,
+      "mean_advantage": 0.5277873063843749
+    },
+    "derivation": [
+      "Use rewards [0.2, 0.1, -0.1, 0.3, 1.0] and value predictions [0.4, 0.45, 0.3, 0.5, 0.6, 0.0].",
+      "The last transition is truly terminal; gamma=0.99, lambda=0.75.",
+      "Backward TD residuals in chronological order are [np.float64(0.24549999999999994), np.float64(-0.05299999999999999), np.float64(0.09500000000000003), np.float64(0.3939999999999999), np.float64(0.4)].",
+      "The resulting advantage vector is [0.5413789131718747, 0.3984901187499998, 0.6080674999999998, 0.6909999999999998, 0.4].",
+      "Value targets A+V are [0.9413789131718747, 0.8484901187499998, 0.9080674999999998, 1.1909999999999998, 1.0]."
+    ],
+    "notes": [
+      "A time-limit truncation may retain a bootstrap value while still preventing recurrence into the next reset episode.",
+      "Correct masking needs separate termination and rollout-boundary semantics; one generic done flag can hide a bug."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "gae_lambda": 0.95
+    },
+    "metrics": {
+      "initial_advantage": 0.9204219867172749,
+      "final_advantage": 0.4,
+      "advantage_std": 0.1759642948040597,
+      "initial_value_target": 1.320421986717275,
+      "mean_advantage": 0.7255230974534549
+    },
+    "derivation": [
+      "Use rewards [0.2, 0.1, -0.1, 0.3, 1.0] and value predictions [0.4, 0.45, 0.3, 0.5, 0.6, 0.0].",
+      "The last transition is truly terminal; gamma=0.99, lambda=0.95.",
+      "Backward TD residuals in chronological order are [np.float64(0.24549999999999994), np.float64(-0.05299999999999999), np.float64(0.09500000000000003), np.float64(0.3939999999999999), np.float64(0.4)].",
+      "The resulting advantage vector is [0.9204219867172749, 0.71762040055, 0.8193731, 0.7702, 0.4].",
+      "Value targets A+V are [1.320421986717275, 1.16762040055, 1.1193731, 1.2702, 1.0]."
+    ],
+    "notes": [
+      "A time-limit truncation may retain a bootstrap value while still preventing recurrence into the next reset episode.",
+      "Correct masking needs separate termination and rollout-boundary semantics; one generic done flag can hide a bug."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "gae_lambda": 1.0
+    },
+    "metrics": {
+      "initial_advantage": 1.05267571,
+      "final_advantage": 0.4,
+      "advantage_std": 0.21414113240205265,
+      "initial_value_target": 1.4526757099999998,
+      "mean_advantage": 0.787020942
+    },
+    "derivation": [
+      "Use rewards [0.2, 0.1, -0.1, 0.3, 1.0] and value predictions [0.4, 0.45, 0.3, 0.5, 0.6, 0.0].",
+      "The last transition is truly terminal; gamma=0.99, lambda=1.",
+      "Backward TD residuals in chronological order are [np.float64(0.24549999999999994), np.float64(-0.05299999999999999), np.float64(0.09500000000000003), np.float64(0.3939999999999999), np.float64(0.4)].",
+      "The resulting advantage vector is [1.05267571, 0.815329, 0.8771, 0.7899999999999999, 0.4].",
+      "Value targets A+V are [1.4526757099999998, 1.265329, 1.1771, 1.29, 1.0]."
+    ],
+    "notes": [
+      "A time-limit truncation may retain a bootstrap value while still preventing recurrence into the next reset episode.",
+      "Correct masking needs separate termination and rollout-boundary semantics; one generic done flag can hide a bug."
+    ]
+  }
+]

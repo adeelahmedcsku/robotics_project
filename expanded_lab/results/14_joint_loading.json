@@ -1,0 +1,170 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "length": 0.25,
+      "payload": 2.0,
+      "rod_mass": 1.0,
+      "angle_deg": 20.0,
+      "acceleration": 0.0
+    },
+    "metrics": {
+      "gravity_Nm": 5.761490381193601,
+      "inertia_kg_m2": 0.14583333333333334,
+      "acceleration_Nm": 0.0,
+      "total_required_Nm": 6.061490381193601,
+      "gravity_fraction": 0.9505072216346692
+    },
+    "derivation": [
+      "Payload mass 2 kg acts at 0.25 m; rod COM acts at 0.125 m.",
+      "At angle 20 degrees, gravity torque is 5.761490 Nm.",
+      "Total modeled rotational inertia is 0.145833 kg*m^2.",
+      "Acceleration 0 rad/s^2 adds 0.000000 Nm.",
+      "Add 0.3 Nm illustrative friction: total demand is 6.061490 Nm."
+    ],
+    "notes": [
+      "The load budget separates assumptions so the dominant contribution can be identified.",
+      "This one-axis model excludes impact, gear reflected inertia, cable forces and multi-link coupling."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "length": 0.25,
+      "payload": 2.0,
+      "rod_mass": 1.0,
+      "angle_deg": 20.0,
+      "acceleration": 1.0
+    },
+    "metrics": {
+      "gravity_Nm": 5.761490381193601,
+      "inertia_kg_m2": 0.14583333333333334,
+      "acceleration_Nm": 0.14583333333333334,
+      "total_required_Nm": 6.207323714526934,
+      "gravity_fraction": 0.9281762392559044
+    },
+    "derivation": [
+      "Payload mass 2 kg acts at 0.25 m; rod COM acts at 0.125 m.",
+      "At angle 20 degrees, gravity torque is 5.761490 Nm.",
+      "Total modeled rotational inertia is 0.145833 kg*m^2.",
+      "Acceleration 1 rad/s^2 adds 0.145833 Nm.",
+      "Add 0.3 Nm illustrative friction: total demand is 6.207324 Nm."
+    ],
+    "notes": [
+      "The load budget separates assumptions so the dominant contribution can be identified.",
+      "This one-axis model excludes impact, gear reflected inertia, cable forces and multi-link coupling."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "length": 0.25,
+      "payload": 2.0,
+      "rod_mass": 1.0,
+      "angle_deg": 20.0,
+      "acceleration": 2.0
+    },
+    "metrics": {
+      "gravity_Nm": 5.761490381193601,
+      "inertia_kg_m2": 0.14583333333333334,
+      "acceleration_Nm": 0.2916666666666667,
+      "total_required_Nm": 6.353157047860268,
+      "gravity_fraction": 0.9068704484700344
+    },
+    "derivation": [
+      "Payload mass 2 kg acts at 0.25 m; rod COM acts at 0.125 m.",
+      "At angle 20 degrees, gravity torque is 5.761490 Nm.",
+      "Total modeled rotational inertia is 0.145833 kg*m^2.",
+      "Acceleration 2 rad/s^2 adds 0.291667 Nm.",
+      "Add 0.3 Nm illustrative friction: total demand is 6.353157 Nm."
+    ],
+    "notes": [
+      "The load budget separates assumptions so the dominant contribution can be identified.",
+      "This one-axis model excludes impact, gear reflected inertia, cable forces and multi-link coupling."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "length": 0.25,
+      "payload": 2.0,
+      "rod_mass": 1.0,
+      "angle_deg": 20.0,
+      "acceleration": 3.0
+    },
+    "metrics": {
+      "gravity_Nm": 5.761490381193601,
+      "inertia_kg_m2": 0.14583333333333334,
+      "acceleration_Nm": 0.4375,
+      "total_required_Nm": 6.498990381193601,
+      "gravity_fraction": 0.8865208352771018
+    },
+    "derivation": [
+      "Payload mass 2 kg acts at 0.25 m; rod COM acts at 0.125 m.",
+      "At angle 20 degrees, gravity torque is 5.761490 Nm.",
+      "Total modeled rotational inertia is 0.145833 kg*m^2.",
+      "Acceleration 3 rad/s^2 adds 0.437500 Nm.",
+      "Add 0.3 Nm illustrative friction: total demand is 6.498990 Nm."
+    ],
+    "notes": [
+      "The load budget separates assumptions so the dominant contribution can be identified.",
+      "This one-axis model excludes impact, gear reflected inertia, cable forces and multi-link coupling."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "length": 0.25,
+      "payload": 2.0,
+      "rod_mass": 1.0,
+      "angle_deg": 20.0,
+      "acceleration": 6.0
+    },
+    "metrics": {
+      "gravity_Nm": 5.761490381193601,
+      "inertia_kg_m2": 0.14583333333333334,
+      "acceleration_Nm": 0.875,
+      "total_required_Nm": 6.936490381193601,
+      "gravity_fraction": 0.8306059786104957
+    },
+    "derivation": [
+      "Payload mass 2 kg acts at 0.25 m; rod COM acts at 0.125 m.",
+      "At angle 20 degrees, gravity torque is 5.761490 Nm.",
+      "Total modeled rotational inertia is 0.145833 kg*m^2.",
+      "Acceleration 6 rad/s^2 adds 0.875000 Nm.",
+      "Add 0.3 Nm illustrative friction: total demand is 6.936490 Nm."
+    ],
+    "notes": [
+      "The load budget separates assumptions so the dominant contribution can be identified.",
+      "This one-axis model excludes impact, gear reflected inertia, cable forces and multi-link coupling."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "length": 0.25,
+      "payload": 2.0,
+      "rod_mass": 1.0,
+      "angle_deg": 20.0,
+      "acceleration": 12.0
+    },
+    "metrics": {
+      "gravity_Nm": 5.761490381193601,
+      "inertia_kg_m2": 0.14583333333333334,
+      "acceleration_Nm": 1.75,
+      "total_required_Nm": 7.811490381193601,
+      "gravity_fraction": 0.7375660853483944
+    },
+    "derivation": [
+      "Payload mass 2 kg acts at 0.25 m; rod COM acts at 0.125 m.",
+      "At angle 20 degrees, gravity torque is 5.761490 Nm.",
+      "Total modeled rotational inertia is 0.145833 kg*m^2.",
+      "Acceleration 12 rad/s^2 adds 1.750000 Nm.",
+      "Add 0.3 Nm illustrative friction: total demand is 7.811490 Nm."
+    ],
+    "notes": [
+      "The load budget separates assumptions so the dominant contribution can be identified.",
+      "This one-axis model excludes impact, gear reflected inertia, cable forces and multi-link coupling."
+    ]
+  }
+]

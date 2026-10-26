@@ -1,0 +1,140 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "invalid_fraction": 0.0
+    },
+    "metrics": {
+      "accepted_count": 1000.0,
+      "rejected_count": 0.0,
+      "rejection_fraction": 0.0,
+      "last_accepted_sequence": 999.0
+    },
+    "derivation": [
+      "Generate 1000 commands at 50 Hz with corruption probability 0.",
+      "Corrupt name order, numeric finiteness, age or range in alternating injected cases.",
+      "Validate the entire candidate before updating last accepted sequence.",
+      "Accepted 1000 messages; rejected 0.",
+      "Rejection reasons are {'accepted': 1000}."
+    ],
+    "notes": [
+      "Rejected messages do not update the accepted sequence or active target in this contract example.",
+      "A production parser must also handle missing keys, malicious payload sizes, schema versions and transport authentication."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "invalid_fraction": 0.01
+    },
+    "metrics": {
+      "accepted_count": 988.0,
+      "rejected_count": 12.0,
+      "rejection_fraction": 0.012,
+      "last_accepted_sequence": 999.0
+    },
+    "derivation": [
+      "Generate 1000 commands at 50 Hz with corruption probability 0.01.",
+      "Corrupt name order, numeric finiteness, age or range in alternating injected cases.",
+      "Validate the entire candidate before updating last accepted sequence.",
+      "Accepted 988 messages; rejected 12.",
+      "Rejection reasons are {'accepted': 988, 'age': 4, 'names': 4, 'nonfinite': 2, 'range': 2}."
+    ],
+    "notes": [
+      "Rejected messages do not update the accepted sequence or active target in this contract example.",
+      "A production parser must also handle missing keys, malicious payload sizes, schema versions and transport authentication."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "invalid_fraction": 0.05
+    },
+    "metrics": {
+      "accepted_count": 957.0,
+      "rejected_count": 43.0,
+      "rejection_fraction": 0.043,
+      "last_accepted_sequence": 999.0
+    },
+    "derivation": [
+      "Generate 1000 commands at 50 Hz with corruption probability 0.05.",
+      "Corrupt name order, numeric finiteness, age or range in alternating injected cases.",
+      "Validate the entire candidate before updating last accepted sequence.",
+      "Accepted 957 messages; rejected 43.",
+      "Rejection reasons are {'accepted': 957, 'age': 12, 'nonfinite': 15, 'range': 8, 'names': 8}."
+    ],
+    "notes": [
+      "Rejected messages do not update the accepted sequence or active target in this contract example.",
+      "A production parser must also handle missing keys, malicious payload sizes, schema versions and transport authentication."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "invalid_fraction": 0.1
+    },
+    "metrics": {
+      "accepted_count": 908.0,
+      "rejected_count": 92.0,
+      "rejection_fraction": 0.092,
+      "last_accepted_sequence": 999.0
+    },
+    "derivation": [
+      "Generate 1000 commands at 50 Hz with corruption probability 0.1.",
+      "Corrupt name order, numeric finiteness, age or range in alternating injected cases.",
+      "Validate the entire candidate before updating last accepted sequence.",
+      "Accepted 908 messages; rejected 92.",
+      "Rejection reasons are {'accepted': 908, 'nonfinite': 26, 'age': 26, 'range': 18, 'names': 22}."
+    ],
+    "notes": [
+      "Rejected messages do not update the accepted sequence or active target in this contract example.",
+      "A production parser must also handle missing keys, malicious payload sizes, schema versions and transport authentication."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "invalid_fraction": 0.25
+    },
+    "metrics": {
+      "accepted_count": 774.0,
+      "rejected_count": 226.0,
+      "rejection_fraction": 0.226,
+      "last_accepted_sequence": 999.0
+    },
+    "derivation": [
+      "Generate 1000 commands at 50 Hz with corruption probability 0.25.",
+      "Corrupt name order, numeric finiteness, age or range in alternating injected cases.",
+      "Validate the entire candidate before updating last accepted sequence.",
+      "Accepted 774 messages; rejected 226.",
+      "Rejection reasons are {'accepted': 774, 'range': 57, 'age': 57, 'nonfinite': 59, 'names': 53}."
+    ],
+    "notes": [
+      "Rejected messages do not update the accepted sequence or active target in this contract example.",
+      "A production parser must also handle missing keys, malicious payload sizes, schema versions and transport authentication."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "invalid_fraction": 0.5
+    },
+    "metrics": {
+      "accepted_count": 518.0,
+      "rejected_count": 482.0,
+      "rejection_fraction": 0.482,
+      "last_accepted_sequence": 997.0
+    },
+    "derivation": [
+      "Generate 1000 commands at 50 Hz with corruption probability 0.5.",
+      "Corrupt name order, numeric finiteness, age or range in alternating injected cases.",
+      "Validate the entire candidate before updating last accepted sequence.",
+      "Accepted 518 messages; rejected 482.",
+      "Rejection reasons are {'accepted': 518, 'age': 115, 'range': 113, 'nonfinite': 126, 'names': 128}."
+    ],
+    "notes": [
+      "Rejected messages do not update the accepted sequence or active target in this contract example.",
+      "A production parser must also handle missing keys, malicious payload sizes, schema versions and transport authentication."
+    ]
+  }
+]

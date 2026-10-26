@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "hysteresis": 0.0
+    },
+    "metrics": {
+      "fitted_scale": 1.0197407959775369,
+      "fitted_offset_rad": 0.00998083550852672,
+      "pooled_residual_rmse_rad": 0.0009431161317991042,
+      "forward_bias_rad": -5.538750728326063e-05,
+      "reverse_bias_rad": 5.538750728325359e-05,
+      "directional_separation_rad": -0.00011077501456651422
+    },
+    "derivation": [
+      "True scale is 1.02 and offset 0.01 rad.",
+      "Add directional offset +/-0 rad and 0.001 rad noise.",
+      "Fit one shared scale/offset to both directions: [1.0197407959775369, 0.00998083550852672].",
+      "Forward residual mean is -0.000055 rad; reverse mean is 0.000055 rad.",
+      "Directional separation is -0.000111 rad, revealing structure hidden by a pooled fit."
+    ],
+    "notes": [
+      "A low aggregate fit error can still conceal a consistent direction-dependent error relevant to reaching or balance.",
+      "A calibration model should match the phenomenon and be validated on independent bidirectional trajectories."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "hysteresis": 0.001
+    },
+    "metrics": {
+      "fitted_scale": 1.0197407959775364,
+      "fitted_offset_rad": 0.009980835508526728,
+      "pooled_residual_rmse_rad": 0.0013336765063137268,
+      "forward_bias_rad": 0.0009446124927167364,
+      "reverse_bias_rad": -0.0009446124927167503,
+      "directional_separation_rad": 0.0018892249854334867
+    },
+    "derivation": [
+      "True scale is 1.02 and offset 0.01 rad.",
+      "Add directional offset +/-0.001 rad and 0.001 rad noise.",
+      "Fit one shared scale/offset to both directions: [1.0197407959775364, 0.009980835508526728].",
+      "Forward residual mean is 0.000945 rad; reverse mean is -0.000945 rad.",
+      "Directional separation is 0.001889 rad, revealing structure hidden by a pooled fit."
+    ],
+    "notes": [
+      "A low aggregate fit error can still conceal a consistent direction-dependent error relevant to reaching or balance.",
+      "A calibration model should match the phenomenon and be validated on independent bidirectional trajectories."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "hysteresis": 0.002
+    },
+    "metrics": {
+      "fitted_scale": 1.0197407959775364,
+      "fitted_offset_rad": 0.009980835508526721,
+      "pooled_residual_rmse_rad": 0.0021605365095102376,
+      "forward_bias_rad": 0.0019446124927167447,
+      "reverse_bias_rad": -0.001944612492716744,
+      "directional_separation_rad": 0.0038892249854334884
+    },
+    "derivation": [
+      "True scale is 1.02 and offset 0.01 rad.",
+      "Add directional offset +/-0.002 rad and 0.001 rad noise.",
+      "Fit one shared scale/offset to both directions: [1.0197407959775364, 0.009980835508526721].",
+      "Forward residual mean is 0.001945 rad; reverse mean is -0.001945 rad.",
+      "Directional separation is 0.003889 rad, revealing structure hidden by a pooled fit."
+    ],
+    "notes": [
+      "A low aggregate fit error can still conceal a consistent direction-dependent error relevant to reaching or balance.",
+      "A calibration model should match the phenomenon and be validated on independent bidirectional trajectories."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "hysteresis": 0.005
+    },
+    "metrics": {
+      "fitted_scale": 1.0197407959775364,
+      "fitted_offset_rad": 0.009980835508526726,
+      "pooled_residual_rmse_rad": 0.005033447423508779,
+      "forward_bias_rad": 0.004944612492716742,
+      "reverse_bias_rad": -0.004944612492716751,
+      "directional_separation_rad": 0.009889224985433494
+    },
+    "derivation": [
+      "True scale is 1.02 and offset 0.01 rad.",
+      "Add directional offset +/-0.005 rad and 0.001 rad noise.",
+      "Fit one shared scale/offset to both directions: [1.0197407959775364, 0.009980835508526726].",
+      "Forward residual mean is 0.004945 rad; reverse mean is -0.004945 rad.",
+      "Directional separation is 0.009889 rad, revealing structure hidden by a pooled fit."
+    ],
+    "notes": [
+      "A low aggregate fit error can still conceal a consistent direction-dependent error relevant to reaching or balance.",
+      "A calibration model should match the phenomenon and be validated on independent bidirectional trajectories."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "hysteresis": 0.01
+    },
+    "metrics": {
+      "fitted_scale": 1.0197407959775364,
+      "fitted_offset_rad": 0.009980835508526726,
+      "pooled_residual_rmse_rad": 0.009989079932225723,
+      "forward_bias_rad": 0.009944612492716743,
+      "reverse_bias_rad": -0.009944612492716753,
+      "directional_separation_rad": 0.019889224985433496
+    },
+    "derivation": [
+      "True scale is 1.02 and offset 0.01 rad.",
+      "Add directional offset +/-0.01 rad and 0.001 rad noise.",
+      "Fit one shared scale/offset to both directions: [1.0197407959775364, 0.009980835508526726].",
+      "Forward residual mean is 0.009945 rad; reverse mean is -0.009945 rad.",
+      "Directional separation is 0.019889 rad, revealing structure hidden by a pooled fit."
+    ],
+    "notes": [
+      "A low aggregate fit error can still conceal a consistent direction-dependent error relevant to reaching or balance.",
+      "A calibration model should match the phenomenon and be validated on independent bidirectional trajectories."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "hysteresis": 0.02
+    },
+    "metrics": {
+      "fitted_scale": 1.0197407959775366,
+      "fitted_offset_rad": 0.009980835508526723,
+      "pooled_residual_rmse_rad": 0.01996682167363473,
+      "forward_bias_rad": 0.01994461249271675,
+      "reverse_bias_rad": -0.01994461249271675,
+      "directional_separation_rad": 0.0398892249854335
+    },
+    "derivation": [
+      "True scale is 1.02 and offset 0.01 rad.",
+      "Add directional offset +/-0.02 rad and 0.001 rad noise.",
+      "Fit one shared scale/offset to both directions: [1.0197407959775366, 0.009980835508526723].",
+      "Forward residual mean is 0.019945 rad; reverse mean is -0.019945 rad.",
+      "Directional separation is 0.039889 rad, revealing structure hidden by a pooled fit."
+    ],
+    "notes": [
+      "A low aggregate fit error can still conceal a consistent direction-dependent error relevant to reaching or balance.",
+      "A calibration model should match the phenomenon and be validated on independent bidirectional trajectories."
+    ]
+  }
+]

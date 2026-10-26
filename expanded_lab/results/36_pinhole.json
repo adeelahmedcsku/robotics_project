@@ -1,0 +1,152 @@
+[
+  {
+    "case": 0,
+    "parameters": {
+      "depth": 0.2,
+      "pixel_noise": 1.0
+    },
+    "metrics": {
+      "pixel_u": 520.0,
+      "pixel_v": 137.5,
+      "lateral_uncertainty_m": 0.0005,
+      "roundtrip_error_m": 0.0,
+      "projection_scale_px_per_m": 2000.0
+    },
+    "derivation": [
+      "Use fx=400, fy=410, cx=320, cy=240 pixels.",
+      "Project point (0.1,-0.05,0.2) m.",
+      "Pixel result is u=520.000000, v=137.500000.",
+      "Assuming exact known depth, inverse projection returns [0.1, -0.05, 0.2] m.",
+      "Pixel noise sigma=1 px maps to lateral sigma approximately 0.000500 m."
+    ],
+    "notes": [
+      "The inverse result requires known depth; a monocular pixel alone does not identify a metric 3-D point.",
+      "Distortion, rolling shutter, calibration uncertainty and camera-to-body extrinsics are excluded here."
+    ]
+  },
+  {
+    "case": 1,
+    "parameters": {
+      "depth": 0.5,
+      "pixel_noise": 1.0
+    },
+    "metrics": {
+      "pixel_u": 400.0,
+      "pixel_v": 199.0,
+      "lateral_uncertainty_m": 0.00125,
+      "roundtrip_error_m": 0.0,
+      "projection_scale_px_per_m": 800.0
+    },
+    "derivation": [
+      "Use fx=400, fy=410, cx=320, cy=240 pixels.",
+      "Project point (0.1,-0.05,0.5) m.",
+      "Pixel result is u=400.000000, v=199.000000.",
+      "Assuming exact known depth, inverse projection returns [0.1, -0.05, 0.5] m.",
+      "Pixel noise sigma=1 px maps to lateral sigma approximately 0.001250 m."
+    ],
+    "notes": [
+      "The inverse result requires known depth; a monocular pixel alone does not identify a metric 3-D point.",
+      "Distortion, rolling shutter, calibration uncertainty and camera-to-body extrinsics are excluded here."
+    ]
+  },
+  {
+    "case": 2,
+    "parameters": {
+      "depth": 1.0,
+      "pixel_noise": 1.0
+    },
+    "metrics": {
+      "pixel_u": 360.0,
+      "pixel_v": 219.5,
+      "lateral_uncertainty_m": 0.0025,
+      "roundtrip_error_m": 0.0,
+      "projection_scale_px_per_m": 400.0
+    },
+    "derivation": [
+      "Use fx=400, fy=410, cx=320, cy=240 pixels.",
+      "Project point (0.1,-0.05,1) m.",
+      "Pixel result is u=360.000000, v=219.500000.",
+      "Assuming exact known depth, inverse projection returns [0.1, -0.05, 1.0] m.",
+      "Pixel noise sigma=1 px maps to lateral sigma approximately 0.002500 m."
+    ],
+    "notes": [
+      "The inverse result requires known depth; a monocular pixel alone does not identify a metric 3-D point.",
+      "Distortion, rolling shutter, calibration uncertainty and camera-to-body extrinsics are excluded here."
+    ]
+  },
+  {
+    "case": 3,
+    "parameters": {
+      "depth": 2.0,
+      "pixel_noise": 1.0
+    },
+    "metrics": {
+      "pixel_u": 340.0,
+      "pixel_v": 229.75,
+      "lateral_uncertainty_m": 0.005,
+      "roundtrip_error_m": 0.0,
+      "projection_scale_px_per_m": 200.0
+    },
+    "derivation": [
+      "Use fx=400, fy=410, cx=320, cy=240 pixels.",
+      "Project point (0.1,-0.05,2) m.",
+      "Pixel result is u=340.000000, v=229.750000.",
+      "Assuming exact known depth, inverse projection returns [0.1, -0.05, 2.0] m.",
+      "Pixel noise sigma=1 px maps to lateral sigma approximately 0.005000 m."
+    ],
+    "notes": [
+      "The inverse result requires known depth; a monocular pixel alone does not identify a metric 3-D point.",
+      "Distortion, rolling shutter, calibration uncertainty and camera-to-body extrinsics are excluded here."
+    ]
+  },
+  {
+    "case": 4,
+    "parameters": {
+      "depth": 3.0,
+      "pixel_noise": 1.0
+    },
+    "metrics": {
+      "pixel_u": 333.3333333333333,
+      "pixel_v": 233.16666666666666,
+      "lateral_uncertainty_m": 0.0075,
+      "roundtrip_error_m": 1.6768594809361232e-16,
+      "projection_scale_px_per_m": 133.33333333333334
+    },
+    "derivation": [
+      "Use fx=400, fy=410, cx=320, cy=240 pixels.",
+      "Project point (0.1,-0.05,3) m.",
+      "Pixel result is u=333.333333, v=233.166667.",
+      "Assuming exact known depth, inverse projection returns [0.09999999999999985, -0.05000000000000007, 3.0] m.",
+      "Pixel noise sigma=1 px maps to lateral sigma approximately 0.007500 m."
+    ],
+    "notes": [
+      "The inverse result requires known depth; a monocular pixel alone does not identify a metric 3-D point.",
+      "Distortion, rolling shutter, calibration uncertainty and camera-to-body extrinsics are excluded here."
+    ]
+  },
+  {
+    "case": 5,
+    "parameters": {
+      "depth": 5.0,
+      "pixel_noise": 1.0
+    },
+    "metrics": {
+      "pixel_u": 328.0,
+      "pixel_v": 235.9,
+      "lateral_uncertainty_m": 0.0125,
+      "roundtrip_error_m": 6.938893903907228e-17,
+      "projection_scale_px_per_m": 80.0
+    },
+    "derivation": [
+      "Use fx=400, fy=410, cx=320, cy=240 pixels.",
+      "Project point (0.1,-0.05,5) m.",
+      "Pixel result is u=328.000000, v=235.900000.",
+      "Assuming exact known depth, inverse projection returns [0.1, -0.04999999999999993, 5.0] m.",
+      "Pixel noise sigma=1 px maps to lateral sigma approximately 0.012500 m."
+    ],
+    "notes": [
+      "The inverse result requires known depth; a monocular pixel alone does not identify a metric 3-D point.",
+      "Distortion, rolling shutter, calibration uncertainty and camera-to-body extrinsics are excluded here."
+    ]
+  }
+]
